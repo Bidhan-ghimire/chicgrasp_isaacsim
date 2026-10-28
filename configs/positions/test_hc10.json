@@ -1,0 +1,211 @@
+{
+  "schema": "research-positions/v1",
+  "frame": "WORLD",
+  "units": "metres",
+  "origin": {
+    "source": "pipeline/runtime/data/HC_BINDINGS.json",
+    "sha256": "61846dfa29898cf0fbbcfddd4a807c7c0c827eaacd3d930f7bde1fa62bd7e845"
+  },
+  "positions": [
+    {
+      "id": "HC01",
+      "split": "test",
+      "authored_xyz_m": [
+        0.6694885857605405,
+        0.054859911649051615,
+        0.8155
+      ],
+      "authored_quaternion_wxyz": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "evaluation_seeds": [
+        15345,
+        16345,
+        17345
+      ]
+    },
+    {
+      "id": "HC02",
+      "split": "test",
+      "authored_xyz_m": [
+        0.6931872929281494,
+        -0.00767338821993384,
+        0.8155
+      ],
+      "authored_quaternion_wxyz": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "evaluation_seeds": [
+        15345,
+        16345,
+        17345
+      ]
+    },
+    {
+      "id": "HC03",
+      "split": "test",
+      "authored_xyz_m": [
+        0.6801895917302738,
+        0.19405871339582204,
+        0.8155
+      ],
+      "authored_quaternion_wxyz": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "evaluation_seeds": [
+        15345,
+        16345,
+        17345
+      ]
+    },
+    {
+      "id": "HC04",
+      "split": "test",
+      "authored_xyz_m": [
+        0.6872869716228535,
+        0.16741404819251376,
+        0.8155
+      ],
+      "authored_quaternion_wxyz": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "evaluation_seeds": [
+        15345,
+        16345,
+        17345
+      ]
+    },
+    {
+      "id": "HC05",
+      "split": "test",
+      "authored_xyz_m": [
+        0.6550067125612443,
+        0.009531440134910783,
+        0.8155
+      ],
+      "authored_quaternion_wxyz": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "evaluation_seeds": [
+        15345,
+        16345,
+        17345
+      ]
+    },
+    {
+      "id": "HC06",
+      "split": "test",
+      "authored_xyz_m": [
+        0.6608007853866696,
+        0.2914155397573648,
+        0.8155
+      ],
+      "authored_quaternion_wxyz": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "evaluation_seeds": [
+        15345,
+        16345,
+        17345
+      ]
+    },
+    {
+      "id": "HC07",
+      "split": "test",
+      "authored_xyz_m": [
+        0.6586981621724224,
+        0.00984905763558629,
+        0.8155
+      ],
+      "authored_quaternion_wxyz": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "evaluation_seeds": [
+        15345,
+        16345,
+        17345
+      ]
+    },
+    {
+      "id": "HC08",
+      "split": "test",
+      "authored_xyz_m": [
+        0.6732028231159473,
+        0.08678128744154463,
+        0.8155
+      ],
+      "authored_quaternion_wxyz": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "evaluation_seeds": [
+        15345,
+        16345,
+        17345
+      ]
+    },
+    {
+      "id": "HC09",
+      "split": "test",
+      "authored_xyz_m": [
+        0.6696524297800783,
+        0.09606626723803434,
+        0.8155
+      ],
+      "authored_quaternion_wxyz": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "evaluation_seeds": [
+        15345,
+        16345,
+        17345
+      ]
+    },
+    {
+      "id": "HC10",
+      "split": "test",
+      "authored_xyz_m": [
+        0.6664625241370362,
+        0.09921277183544311,
+        0.8155
+      ],
+      "authored_quaternion_wxyz": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "evaluation_seeds": [
+        15345,
+        16345,
+        17345
+      ]
+    }
+  ]
+}

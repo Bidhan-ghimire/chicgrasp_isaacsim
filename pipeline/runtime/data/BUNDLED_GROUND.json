@@ -1,0 +1,41 @@
+{
+  "schema": "hc-bundled-sdk-ground/v1",
+  "original_url": "https://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/5.1/Isaac/Environments/Grid/default_environment.usd",
+  "files": [
+    {
+      "path": "assets/portable_sdk_ground/default_environment.usd",
+      "url": "https://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/5.1/Isaac/Environments/Grid/default_environment.usd",
+      "bytes": 13622,
+      "sha256": "8a21c317d638d33a4e6c20c958a7ed8f4d8c5195efd7e20f1b85178b4a15638a",
+      "original_cache_sha256": "8a21c317d638d33a4e6c20c958a7ed8f4d8c5195efd7e20f1b85178b4a15638a",
+      "original_cache_basename": "a15b98b4861f1ad71bddacb298927f4b096c3f9bbddb03a1bea8db31ee8d7f51.usd"
+    },
+    {
+      "path": "assets/portable_sdk_ground/Materials/Textures/Wireframe_blue.png",
+      "url": "https://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/5.1/Isaac/Environments/Grid/Materials/Textures/Wireframe_blue.png",
+      "bytes": 111895,
+      "sha256": "940b96ee8c8e53bd1acbc770d4ca0ac98bed9c96439ab386d1b27dbc9790cc4e",
+      "original_cache_sha256": "940b96ee8c8e53bd1acbc770d4ca0ac98bed9c96439ab386d1b27dbc9790cc4e",
+      "original_cache_basename": "a63ae716ea1bdce15fb52a62d7b58426a46ff0489b1970545d225e1192008fde.png"
+    },
+    {
+      "path": "assets/portable_sdk_ground/Materials/Textures/WireframeBlur_basecolor.png",
+      "url": "https://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/5.1/Isaac/Environments/Grid/Materials/Textures/WireframeBlur_basecolor.png",
+      "bytes": 436257,
+      "sha256": "deab39088eaf39ed7be951966c5e6bd5e58b90ab64743b0cdc8e5579fd5a99d9",
+      "original_cache_sha256": "deab39088eaf39ed7be951966c5e6bd5e58b90ab64743b0cdc8e5579fd5a99d9",
+      "original_cache_basename": "23e5ca73cb1118896766785b7932beb1b03f3bbf0571bd79f9b84292b570429b.png"
+    },
+    {
+      "path": "assets/portable_sdk_ground/Materials/Textures/WireframeBlur_blue.png",
+      "url": "https://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/5.1/Isaac/Environments/Grid/Materials/Textures/WireframeBlur_blue.png",
+      "bytes": 1474958,
+      "sha256": "44fc0e82007bb0bd94631cd7ec45986a71ed74b9413899fbffac13efe151be4b",
+      "original_cache_sha256": "44fc0e82007bb0bd94631cd7ec45986a71ed74b9413899fbffac13efe151be4b",
+      "original_cache_basename": "3bab8b8a14ceaa24533eeb82080cae45138a8720f24e72f5276717cb3341a887.png"
+    }
+  ],
+  "proof": "Exact URL download bytes matched preexisting client cache SHA256 for all four files.",
+  "modifications": "NONE: copied USD and PNG bytes unchanged, preserving relative texture layout.",
+  "redistribution_status": "PENDING_LICENSE_REVIEW_NO_PUBLICATION"
+}

@@ -1,0 +1,2196 @@
+{
+  "asset_revision": "Part1_v2_Four_Jaw_Manifold",
+  "asset_root_prim_path": "/root",
+  "contact_offset_m": 5e-05,
+  "contract_only_change": true,
+  "gripper_station_spacing_m": 0.15080393664133185,
+  "gripper_station_spacing_mismatch_m": 2.7755575615628914e-17,
+  "guarded_swept_volume_validation": {
+    "clearance_evaluation_count": 119556,
+    "clearance_is_conservative_aabb_lower_bound": true,
+    "guarded_sweep_aabbs_by_jaw_m": {
+      "1": [
+        [
+          -0.11982189418873279,
+          -0.1482820142866737,
+          -0.015364274660832108
+        ],
+        [
+          -0.07826657246861832,
+          -0.10631964506863496,
+          0.05884714557328659
+        ]
+      ],
+      "2": [
+        [
+          -0.06878665214198114,
+          -0.1469787031393257,
+          -0.011649706793745294
+        ],
+        [
+          -0.0310365244318763,
+          -0.10820644352532031,
+          0.06023481959295715
+        ]
+      ],
+      "3": [
+        [
+          0.031004778391694486,
+          -0.14680464642586974,
+          -0.011616966403660424
+        ],
+        [
+          0.06884493519250669,
+          -0.10802131064182124,
+          0.06025863987444317
+        ]
+      ],
+      "4": [
+        [
+          0.07819604495500897,
+          -0.14850871937075247,
+          -0.015397580512271636
+        ],
+        [
+          0.11978980264388576,
+          -0.10651158970149863,
+          0.0588238350101934
+        ]
+      ]
+    },
+    "jaw_aabb_state_count": 972,
+    "limiting_case": {
+      "collider_aabb_m": [
+        [
+          -0.09206282,
+          -0.1059,
+          0.011555437
+        ],
+        [
+          -0.07144426,
+          -0.1008,
+          0.021359976
+        ]
+      ],
+      "forbidden_collider": "leg_negX_mid_00_rear",
+      "jaw_aabb_m": [
+        [
+          -0.11982189418873279,
+          -0.13661993131432965,
+          -0.008502957560280237
+        ],
+        [
+          -0.08921059887230003,
+          -0.10631964506863496,
+          0.05376432291601439
+        ]
+      ],
+      "jaw_id": 1,
+      "q_m": 0.0093,
+      "rotation_delta_deg_xyz": [
+        2.0,
+        2.0,
+        -2.0
+      ],
+      "translation_delta_m": [
+        -0.002,
+        0.002,
+        -0.002
+      ]
+    },
+    "method": "complete_open_mid_contact_samples_over_9_translation_states_x_9_rotation_states",
+    "minimum_forbidden_aabb_clearance_m": 0.000419645068634969,
+    "pass": true,
+    "pose_state_count_per_q": 81,
+    "q_samples_per_jaw": 3,
+    "required_minimum_clearance_m": 0.000102,
+    "rotation_envelope_deg": 2.0,
+    "translation_envelope_m": 0.002
+  },
+  "mass_center_of_mass_inertia_verification": {
+    "center_of_mass_m": [
+      -2.2952560768027137e-05,
+      0.0106111519353306,
+      -0.0015395633858151108
+    ],
+    "diagonal_inertia_kg_m2": [
+      0.0038950242071259665,
+      0.004695320095558173,
+      0.006458275182147272
+    ],
+    "inertia_tensor_kg_m2": [
+      [
+        0.004695266333008111,
+        -6.385987520155543e-06,
+        2.109598801127221e-06
+      ],
+      [
+        -6.385987520155543e-06,
+        0.003941356137282546,
+        0.0003412860870646812
+      ],
+      [
+        2.109598801127221e-06,
+        0.0003412860870646812,
+        0.006411997014540759
+      ]
+    ],
+    "mass_kg": 1.5,
+    "method": "source_134_convex_hulls_uniform_density_scaled_to_runtime_mass_contract",
+    "principal_axes_quaternion_wxyz": [
+      0.7025648217211952,
+      -0.047663910668242916,
+      -0.04756410966591783,
+      -0.7084267628847484
+    ],
+    "source_collision_piece_count": 134,
+    "source_unit_density_volume_m3": 0.0017944078085126206,
+    "uniform_density_scale_kg_per_m3": 835.9303793062212
+  },
+  "maximum_collision_to_render_inward_deficit_m": 0.00011541359543359712,
+  "maximum_collision_to_render_outward_protrusion_m": 0.00039452728388297815,
+  "minimum_forbidden_collider_clearance_m": 0.000419645068634969,
+  "physical_collision_changed": false,
+  "rest_offset_m": 0.0,
+  "rigid_body_frame_relative_path": "raw_chicken_visual/raw_chicken_visual_mesh",
+  "root_usd_relative_path": "chicken_rigid_wide_torso_spread_legs_protected_shank_grasp_v2.usda",
+  "root_usd_sha256": "0697C15631313B5E2FF2B74EB9717A52E9AB1530093B0F39FF1C872B08792589",
+  "runtime_semantics": {
+    "collision_prim_names_are_bound_by_usd_relationships": true,
+    "four_jaw_load_manifold_source": "all_108_cooked_pieces_plus_runtime_trace_plus_offline_closure",
+    "isaac_sim_physx_runtime_validation": "NOT_RUN_FOR_V2_STATIC_AUTHORING_TASK",
+    "station_ids_are_geometry_independent": true
+  },
+  "safety_thresholds_preserved": {
+    "minimum_static_clearance_m": 0.000102,
+    "normal_alignment_limit_deg": 30.0,
+    "open_jaw_position_m": 0.0093,
+    "raw_per_jaw_ceiling_n": 34.5,
+    "station_error_limit_m": 0.001
+  },
+  "schema": "chicgrasp-grasp-contract",
+  "station_selection": {
+    "candidate_count": 27,
+    "method": "joint four-jaw cooked load-manifold solve with station, patch, OBB, contributor, normal, and closure variables",
+    "selected_candidate_id": "dry_ik_qualified_nominal",
+    "selected_q_at_contact_m": [
+      0.006090146582282613,
+      0.0060454970570630396,
+      0.005951830942381641,
+      0.00606741831569234
+    ],
+    "selected_tcp_position_chicken_m": [
+      1.144869001504234e-05,
+      -0.11144560745023943,
+      0.034912836414421264
+    ],
+    "selected_tcp_quaternion_chicken_wxyz": [
+      0.7575648913025227,
+      -0.6527596722606701,
+      0.0003756575301500135,
+      -0.0003234460691291637
+    ],
+    "selection_basis": "exact prior dry-IK target and unchanged full open-jaw path; simultaneous contract-only cooked manifold passes all four jaws"
+  },
+  "stations": {
+    "negX_shank": {
+      "allowed_colliders": [
+        "tight_compound_collision/cg_grasp_negX_shank"
+      ],
+      "allowed_region": {
+        "center_rigid_body_m": [
+          -0.07552418325730992,
+          -0.12694403574521745,
+          0.022394590018345328
+        ],
+        "half_extents_m": [
+          0.013589567092338982,
+          0.010536989727391472,
+          0.0035868052889028953
+        ],
+        "prim_path": "GraspContract/negX_shank/allowed_region",
+        "quaternion_rigid_body_wxyz": [
+          5.551112476147821e-17,
+          -1.0,
+          1.0842021724855042e-19,
+          0.0
+        ]
+      },
+      "axes_rigid_body": {
+        "closure_plus_x": [
+          1.0,
+          -2.1684043449710084e-19,
+          -1.2037056412701709e-35
+        ],
+        "right_handed_plus_z": [
+          1.2037056412701709e-35,
+          1.1102224952295643e-16,
+          -1.0
+        ],
+        "toward_foot_plus_y": [
+          -2.1684043449710084e-19,
+          -1.0,
+          -1.1102224952295643e-16
+        ]
+      },
+      "center_rigid_body_m": [
+        -0.07540196643975769,
+        -0.1270088269505013,
+        0.023874748485290025
+      ],
+      "forbidden_colliders": [
+        "tight_compound_collision/body_x00_y00_front",
+        "tight_compound_collision/body_x00_y00_rear",
+        "tight_compound_collision/body_x00_y01_front",
+        "tight_compound_collision/body_x00_y01_rear",
+        "tight_compound_collision/body_x00_y02_front",
+        "tight_compound_collision/body_x00_y02_rear",
+        "tight_compound_collision/body_x00_y03_front",
+        "tight_compound_collision/body_x00_y03_rear",
+        "tight_compound_collision/body_x00_y04_front",
+        "tight_compound_collision/body_x00_y04_rear",
+        "tight_compound_collision/body_x00_y05",
+        "tight_compound_collision/body_x00_y06",
+        "tight_compound_collision/body_x00_y07",
+        "tight_compound_collision/body_x01_y00",
+        "tight_compound_collision/body_x01_y01",
+        "tight_compound_collision/body_x01_y02",
+        "tight_compound_collision/body_x01_y03",
+        "tight_compound_collision/body_x01_y04",
+        "tight_compound_collision/body_x01_y05",
+        "tight_compound_collision/body_x01_y06",
+        "tight_compound_collision/body_x01_y07",
+        "tight_compound_collision/body_x02_y00_front",
+        "tight_compound_collision/body_x02_y00_rear",
+        "tight_compound_collision/body_x02_y01_front",
+        "tight_compound_collision/body_x02_y01_rear",
+        "tight_compound_collision/body_x02_y02_front",
+        "tight_compound_collision/body_x02_y02_rear",
+        "tight_compound_collision/body_x02_y03_front",
+        "tight_compound_collision/body_x02_y03_rear",
+        "tight_compound_collision/body_x02_y04_front",
+        "tight_compound_collision/body_x02_y04_rear",
+        "tight_compound_collision/body_x02_y05",
+        "tight_compound_collision/body_x02_y06",
+        "tight_compound_collision/body_x02_y07",
+        "tight_compound_collision/cg_grasp_posX_shank",
+        "tight_compound_collision/cg_trimmed_negX_foot_01_distal",
+        "tight_compound_collision/cg_trimmed_posX_foot_01_distal",
+        "tight_compound_collision/leg_negX_foot_00",
+        "tight_compound_collision/leg_negX_mid_00_front",
+        "tight_compound_collision/leg_negX_mid_00_rear",
+        "tight_compound_collision/leg_negX_mid_01_front",
+        "tight_compound_collision/leg_negX_mid_01_rear",
+        "tight_compound_collision/leg_negX_mid_02_front",
+        "tight_compound_collision/leg_negX_mid_02_rear",
+        "tight_compound_collision/leg_negX_mid_03_front",
+        "tight_compound_collision/leg_negX_mid_03_rear",
+        "tight_compound_collision/leg_negX_mid_04_front",
+        "tight_compound_collision/leg_negX_mid_04_rear",
+        "tight_compound_collision/leg_negX_mid_05_front",
+        "tight_compound_collision/leg_negX_mid_05_rear",
+        "tight_compound_collision/leg_negX_mid_06_front",
+        "tight_compound_collision/leg_negX_mid_06_rear",
+        "tight_compound_collision/leg_negX_prox_00_front",
+        "tight_compound_collision/leg_negX_prox_00_rear",
+        "tight_compound_collision/leg_negX_prox_01_front",
+        "tight_compound_collision/leg_negX_prox_01_rear",
+        "tight_compound_collision/leg_negX_prox_02_front",
+        "tight_compound_collision/leg_negX_prox_02_rear",
+        "tight_compound_collision/leg_negX_prox_03_front",
+        "tight_compound_collision/leg_negX_prox_03_rear",
+        "tight_compound_collision/leg_negX_prox_04_front",
+        "tight_compound_collision/leg_negX_prox_04_rear",
+        "tight_compound_collision/leg_negX_prox_05_front",
+        "tight_compound_collision/leg_negX_prox_05_rear",
+        "tight_compound_collision/leg_negX_prox_06_front",
+        "tight_compound_collision/leg_negX_prox_06_rear",
+        "tight_compound_collision/leg_negX_prox_07_front",
+        "tight_compound_collision/leg_negX_prox_07_rear",
+        "tight_compound_collision/leg_negX_upper_00_front",
+        "tight_compound_collision/leg_negX_upper_00_rear",
+        "tight_compound_collision/leg_negX_upper_01_front",
+        "tight_compound_collision/leg_negX_upper_01_rear",
+        "tight_compound_collision/leg_negX_upper_02_front",
+        "tight_compound_collision/leg_negX_upper_02_rear",
+        "tight_compound_collision/leg_negX_upper_03_front",
+        "tight_compound_collision/leg_negX_upper_03_rear",
+        "tight_compound_collision/leg_negX_upper_04_front",
+        "tight_compound_collision/leg_negX_upper_04_rear",
+        "tight_compound_collision/leg_posX_foot_00",
+        "tight_compound_collision/leg_posX_mid_00_front",
+        "tight_compound_collision/leg_posX_mid_00_rear",
+        "tight_compound_collision/leg_posX_mid_01_front",
+        "tight_compound_collision/leg_posX_mid_01_rear",
+        "tight_compound_collision/leg_posX_mid_02_front",
+        "tight_compound_collision/leg_posX_mid_02_rear",
+        "tight_compound_collision/leg_posX_mid_03_front",
+        "tight_compound_collision/leg_posX_mid_03_rear",
+        "tight_compound_collision/leg_posX_mid_04_front",
+        "tight_compound_collision/leg_posX_mid_04_rear",
+        "tight_compound_collision/leg_posX_mid_05_front",
+        "tight_compound_collision/leg_posX_mid_05_rear",
+        "tight_compound_collision/leg_posX_mid_06_front",
+        "tight_compound_collision/leg_posX_mid_06_rear",
+        "tight_compound_collision/leg_posX_prox_00_front",
+        "tight_compound_collision/leg_posX_prox_00_rear",
+        "tight_compound_collision/leg_posX_prox_01_front",
+        "tight_compound_collision/leg_posX_prox_01_rear",
+        "tight_compound_collision/leg_posX_prox_02_front",
+        "tight_compound_collision/leg_posX_prox_02_rear",
+        "tight_compound_collision/leg_posX_prox_03_front",
+        "tight_compound_collision/leg_posX_prox_03_rear",
+        "tight_compound_collision/leg_posX_prox_04_front",
+        "tight_compound_collision/leg_posX_prox_04_rear",
+        "tight_compound_collision/leg_posX_prox_05_front",
+        "tight_compound_collision/leg_posX_prox_05_rear",
+        "tight_compound_collision/leg_posX_prox_06_front",
+        "tight_compound_collision/leg_posX_prox_06_rear",
+        "tight_compound_collision/leg_posX_prox_07_front",
+        "tight_compound_collision/leg_posX_prox_07_rear",
+        "tight_compound_collision/leg_posX_upper_00_front",
+        "tight_compound_collision/leg_posX_upper_00_rear",
+        "tight_compound_collision/leg_posX_upper_01_front",
+        "tight_compound_collision/leg_posX_upper_01_rear",
+        "tight_compound_collision/leg_posX_upper_02_front",
+        "tight_compound_collision/leg_posX_upper_02_rear",
+        "tight_compound_collision/leg_posX_upper_03_front",
+        "tight_compound_collision/leg_posX_upper_03_rear",
+        "tight_compound_collision/leg_posX_upper_04_front",
+        "tight_compound_collision/leg_posX_upper_04_rear",
+        "tight_compound_collision/wing_negX_00",
+        "tight_compound_collision/wing_negX_01",
+        "tight_compound_collision/wing_posX_00",
+        "tight_compound_collision/wing_posX_01"
+      ],
+      "jaw_ids": [
+        1,
+        2
+      ],
+      "patches": [
+        {
+          "center_rigid_body_m": [
+            -0.08830968945991899,
+            -0.11735547924891616,
+            0.022394590018345328
+          ],
+          "cooked_geometry_evidence": {
+            "closure_axis_rigid_body": [
+              0.9999995085281209,
+              -0.0009804909449300774,
+              -0.0001469048118326284
+            ],
+            "combined_contact_offset_plus_solver_tolerance_m": 0.000102,
+            "contact_offset_each_asset_side_m": 5e-05,
+            "contributing_pieces": [
+              "finger_collision_piece_20",
+              "finger_collision_piece_21",
+              "finger_collision_piece_19",
+              "finger_collision_piece_17",
+              "finger_collision_piece_18",
+              "finger_collision_piece_16"
+            ],
+            "cooked_mean_force_normal_rigid_body": [
+              0.9837858926014098,
+              0.1564086400664676,
+              0.08775907264212349
+            ],
+            "first_load_bearing_q_m": 0.006090146582282613,
+            "jaw_id": 1,
+            "manifold_sample_count": 31,
+            "manifold_samples": [
+              {
+                "force_normal": [
+                  0.9843322224908522,
+                  0.1077611562363936,
+                  -0.1395622046716631
+                ],
+                "piece": "finger_collision_piece_20",
+                "point": [
+                  -0.08834915807043175,
+                  -0.11783335841260344,
+                  0.025536212173314216
+                ],
+                "q_m": 0.006090146582282613,
+                "source": "offline_selected_closure",
+                "surface_distance_m": 0.00010199999938793315
+              },
+              {
+                "force_normal": [
+                  0.9843322224908522,
+                  0.1077611562363936,
+                  -0.1395622046716631
+                ],
+                "piece": "finger_collision_piece_20",
+                "point": [
+                  -0.08834526133508776,
+                  -0.11784673891768707,
+                  0.025553364263082495
+                ],
+                "q_m": 0.005965146582282613,
+                "source": "offline_selected_closure",
+                "surface_distance_m": 2.1030823392174088e-05
+              },
+              {
+                "force_normal": [
+                  0.9843322224908522,
+                  0.1077611562363936,
+                  -0.1395622046716631
+                ],
+                "piece": "finger_collision_piece_20",
+                "point": [
+                  -0.08833980478631405,
+                  -0.1178654754681992,
+                  0.02557738211549717
+                ],
+                "q_m": 0.005790110677480698,
+                "source": "offline_selected_closure",
+                "surface_distance_m": 0.00019330931446286272
+              },
+              {
+                "force_normal": [
+                  0.9843322224908522,
+                  0.1077611562363936,
+                  -0.1395622046716631
+                ],
+                "piece": "finger_collision_piece_20",
+                "point": [
+                  -0.08839935901347755,
+                  -0.11783885423153852,
+                  0.025543329845709763
+                ],
+                "q_m": 0.006090146582282613,
+                "source": "offline_selected_contact_midpoint",
+                "surface_distance_m": 0.00010199999938793315
+              },
+              {
+                "force_normal": [
+                  0.9843322224908522,
+                  0.1077611562363936,
+                  -0.1395622046716631
+                ],
+                "piece": "finger_collision_piece_20",
+                "point": [
+                  -0.0883958764653098,
+                  -0.1178337615308171,
+                  0.025571824520043477
+                ],
+                "q_m": 0.006123575906606857,
+                "source": "offline_recorded_final_pose_contact",
+                "surface_distance_m": 0.00010199999913878044
+              },
+              {
+                "force_normal": [
+                  0.9843322224908522,
+                  0.1077611562363936,
+                  -0.1395622046716631
+                ],
+                "piece": "finger_collision_piece_21",
+                "point": [
+                  -0.08834850767258821,
+                  -0.11783397363941649,
+                  0.025540324389823517
+                ],
+                "q_m": 0.0060895296682021574,
+                "source": "offline_selected_closure",
+                "surface_distance_m": 0.00010199999996028313
+              },
+              {
+                "force_normal": [
+                  0.9843322224908522,
+                  0.1077611562363936,
+                  -0.1395622046716631
+                ],
+                "piece": "finger_collision_piece_21",
+                "point": [
+                  -0.08834461093724419,
+                  -0.1178473541445001,
+                  0.025557476479591792
+                ],
+                "q_m": 0.005964529668202157,
+                "source": "offline_selected_closure",
+                "surface_distance_m": 2.1030822819781162e-05
+              },
+              {
+                "force_normal": [
+                  0.9843322224908522,
+                  0.1077611562363936,
+                  -0.1395622046716631
+                ],
+                "piece": "finger_collision_piece_21",
+                "point": [
+                  -0.08833917362007772,
+                  -0.11786602465803632,
+                  0.025581409681080972
+                ],
+                "q_m": 0.005790110677480698,
+                "source": "offline_selected_closure",
+                "surface_distance_m": 0.00019270211831527346
+              },
+              {
+                "force_normal": [
+                  0.9843322224908522,
+                  0.1077611562363936,
+                  -0.1395622046716631
+                ],
+                "piece": "finger_collision_piece_21",
+                "point": [
+                  -0.0883987086159157,
+                  -0.1178394694583824,
+                  0.025547442062259
+                ],
+                "q_m": 0.0060895296682021574,
+                "source": "offline_selected_contact_midpoint",
+                "surface_distance_m": 0.00010199999996028313
+              },
+              {
+                "force_normal": [
+                  0.9843322224908522,
+                  0.1077611562363936,
+                  -0.1395622046716631
+                ],
+                "piece": "finger_collision_piece_21",
+                "point": [
+                  -0.08839522605162539,
+                  -0.1178343768371059,
+                  0.025575936792729244
+                ],
+                "q_m": 0.006122958546469453,
+                "source": "offline_recorded_final_pose_contact",
+                "surface_distance_m": 0.00010200000076245593
+              },
+              {
+                "force_normal": [
+                  0.9742266700172574,
+                  0.1849397432043521,
+                  0.12914986182955943
+                ],
+                "piece": "finger_collision_piece_19",
+                "point": [
+                  -0.08857367218682714,
+                  -0.117487548131631,
+                  0.023303923274694847
+                ],
+                "q_m": 0.0060501910723862245,
+                "source": "offline_selected_closure",
+                "surface_distance_m": 0.00010200000053534495
+              },
+              {
+                "force_normal": [
+                  0.9742266700172574,
+                  0.1849397432043521,
+                  0.12914986182955943
+                ],
+                "piece": "finger_collision_piece_19",
+                "point": [
+                  -0.08856728749777888,
+                  -0.11751018770516998,
+                  0.023288180498007127
+                ],
+                "q_m": 0.005925191072386224,
+                "source": "offline_selected_closure",
+                "surface_distance_m": 1.9753235306226776e-05
+              },
+              {
+                "force_normal": [
+                  0.9742266700172574,
+                  0.1849397432043521,
+                  0.12914986182955943
+                ],
+                "piece": "finger_collision_piece_19",
+                "point": [
+                  -0.08856038792723499,
+                  -0.11753465300544305,
+                  0.023271168174072036
+                ],
+                "q_m": 0.005790110677480698,
+                "source": "offline_selected_closure",
+                "surface_distance_m": 0.00015132503673426676
+              },
+              {
+                "force_normal": [
+                  0.9742266700172574,
+                  0.1849397432043521,
+                  0.12914986182955943
+                ],
+                "piece": "finger_collision_piece_19",
+                "point": [
+                  -0.0886233577472588,
+                  -0.11749698005858392,
+                  0.02329733663170697
+                ],
+                "q_m": 0.0060501910723862245,
+                "source": "offline_selected_contact_midpoint",
+                "surface_distance_m": 0.00010200000053534495
+              },
+              {
+                "force_normal": [
+                  0.9742266700172574,
+                  0.1849397432043521,
+                  0.12914986182955943
+                ],
+                "piece": "finger_collision_piece_19",
+                "point": [
+                  -0.08862810960073034,
+                  -0.11749183550961166,
+                  0.023325814795213083
+                ],
+                "q_m": 0.006092091338604223,
+                "source": "offline_recorded_final_pose_contact",
+                "surface_distance_m": 0.00010200000040768274
+              },
+              {
+                "force_normal": [
+                  0.9715694330289384,
+                  0.17889690403991879,
+                  0.15507654409600266
+                ],
+                "piece": "finger_collision_piece_17",
+                "point": [
+                  -0.08836681727881711,
+                  -0.11723374252906217,
+                  0.02160280143179834
+                ],
+                "q_m": 0.006021858067775612,
+                "source": "offline_selected_closure",
+                "surface_distance_m": 0.00010199999931476554
+              },
+              {
+                "force_normal": [
+                  0.9715694330289384,
+                  0.17889690403991879,
+                  0.15507654409600266
+                ],
+                "piece": "finger_collision_piece_17",
+                "point": [
+                  -0.0883597866084502,
+                  -0.11725558699329716,
+                  0.021583953465994333
+                ],
+                "q_m": 0.005896858067775612,
+                "source": "offline_selected_closure",
+                "surface_distance_m": 1.942134659083337e-05
+              },
+              {
+                "force_normal": [
+                  0.9715694330289384,
+                  0.17889690403991879,
+                  0.15507654409600266
+                ],
+                "piece": "finger_collision_piece_17",
+                "point": [
+                  -0.08835378256274071,
+                  -0.11727424170969296,
+                  0.021567857696698767
+                ],
+                "q_m": 0.005790110677480698,
+                "source": "offline_selected_closure",
+                "surface_distance_m": 0.0001231126410030093
+              },
+              {
+                "force_normal": [
+                  0.9715694330289384,
+                  0.17889690403991879,
+                  0.15507654409600266
+                ],
+                "piece": "finger_collision_piece_17",
+                "point": [
+                  -0.0884163673195687,
+                  -0.11724286627110692,
+                  0.021594892528102577
+                ],
+                "q_m": 0.006021858067775612,
+                "source": "offline_selected_contact_midpoint",
+                "surface_distance_m": 0.00010199999931476554
+              },
+              {
+                "force_normal": [
+                  0.9715694330289384,
+                  0.17889690403991879,
+                  0.15507654409600266
+                ],
+                "piece": "finger_collision_piece_17",
+                "point": [
+                  -0.08842187064703105,
+                  -0.11723768768866184,
+                  0.02162339736775916
+                ],
+                "q_m": 0.006064688150526491,
+                "source": "offline_recorded_final_pose_contact",
+                "surface_distance_m": 0.00010200000001807518
+              },
+              {
+                "force_normal": [
+                  0.9715694330289384,
+                  0.17889690403991879,
+                  0.15507654409600266
+                ],
+                "piece": "finger_collision_piece_18",
+                "point": [
+                  -0.08837116438166118,
+                  -0.11723865550661777,
+                  0.021635704078356383
+                ],
+                "q_m": 0.006007598683855031,
+                "source": "offline_selected_closure",
+                "surface_distance_m": 0.00010200000028732623
+              },
+              {
+                "force_normal": [
+                  0.9715694330289384,
+                  0.17889690403991879,
+                  0.15507654409600266
+                ],
+                "piece": "finger_collision_piece_18",
+                "point": [
+                  -0.08836413371129427,
+                  -0.11726049997085276,
+                  0.021616856112552377
+                ],
+                "q_m": 0.005882598683855031,
+                "source": "offline_selected_closure",
+                "surface_distance_m": 1.9421345618272147e-05
+              },
+              {
+                "force_normal": [
+                  0.9715694330289384,
+                  0.17889690403991879,
+                  0.15507654409600266
+                ],
+                "piece": "finger_collision_piece_18",
+                "point": [
+                  -0.0883589316898086,
+                  -0.11727666277843203,
+                  0.021602910426300984
+                ],
+                "q_m": 0.005790110677480698,
+                "source": "offline_selected_closure",
+                "surface_distance_m": 0.00010926149133104625
+              },
+              {
+                "force_normal": [
+                  0.9715694330289384,
+                  0.17889690403991879,
+                  0.15507654409600266
+                ],
+                "piece": "finger_collision_piece_18",
+                "point": [
+                  -0.08842071442288524,
+                  -0.11724777924874952,
+                  0.021627795174585206
+                ],
+                "q_m": 0.006007598683855031,
+                "source": "offline_selected_contact_midpoint",
+                "surface_distance_m": 0.00010200000028732623
+              },
+              {
+                "force_normal": [
+                  0.9715694330289384,
+                  0.17889690403991879,
+                  0.15507654409600266
+                ],
+                "piece": "finger_collision_piece_18",
+                "point": [
+                  -0.088426217543802,
+                  -0.11724260130981767,
+                  0.02165629946329535
+                ],
+                "q_m": 0.006050425115867984,
+                "source": "offline_recorded_final_pose_contact",
+                "surface_distance_m": 0.0001020000007667775
+              },
+              {
+                "force_normal": [
+                  0.9715694330289384,
+                  0.17889690403991879,
+                  0.15507654409600266
+                ],
+                "piece": "finger_collision_piece_16",
+                "point": [
+                  -0.08805007905000599,
+                  -0.11687577373475234,
+                  0.01920545183520563
+                ],
+                "q_m": 0.005825506404542829,
+                "source": "offline_selected_closure",
+                "surface_distance_m": 0.00010199999925340194
+              },
+              {
+                "force_normal": [
+                  0.9715694330289384,
+                  0.17889690403991879,
+                  0.15507654409600266
+                ],
+                "piece": "finger_collision_piece_16",
+                "point": [
+                  -0.08804808820449102,
+                  -0.11688195934030339,
+                  0.01920011473557943
+                ],
+                "q_m": 0.005790110677480698,
+                "source": "offline_selected_closure",
+                "surface_distance_m": 6.761762469987892e-05
+              },
+              {
+                "force_normal": [
+                  0.9715694330289384,
+                  0.17889690403991879,
+                  0.15507654409600266
+                ],
+                "piece": "finger_collision_piece_16",
+                "point": [
+                  -0.08809962909072777,
+                  -0.1168848974767916,
+                  0.01919754293151462
+                ],
+                "q_m": 0.005825506404542829,
+                "source": "offline_selected_contact_midpoint",
+                "surface_distance_m": 0.00010199999925340194
+              },
+              {
+                "force_normal": [
+                  0.9715694330289384,
+                  0.17889690403991879,
+                  0.15507654409600266
+                ],
+                "piece": "finger_collision_piece_16",
+                "point": [
+                  -0.08810514745814196,
+                  -0.11687967200830116,
+                  0.019226087912838852
+                ],
+                "q_m": 0.005868602469319011,
+                "source": "offline_recorded_final_pose_contact",
+                "surface_distance_m": 0.00010199999907279422
+              },
+              {
+                "force_normal": [
+                  0.9455620289976868,
+                  0.1444542346834478,
+                  0.29162548482565287
+                ],
+                "normal_scalar_n": 0.26027223259927285,
+                "piece": "finger_collision_piece_17",
+                "point": [
+                  -0.08821781008307572,
+                  -0.11724958965769874,
+                  0.02165303622528835
+                ],
+                "q_m": 0.005790261551737785,
+                "source": "runtime_first_load",
+                "surface_distance_m": -4.449580046639312e-07
+              },
+              {
+                "force_normal": [
+                  0.9455618265486959,
+                  0.1444613566677986,
+                  0.29162261332687023
+                ],
+                "normal_scalar_n": 0.3253711608900105,
+                "piece": "finger_collision_piece_17",
+                "point": [
+                  -0.08821736217300481,
+                  -0.11724936320781938,
+                  0.02165432590346521
+                ],
+                "q_m": 0.005790110677480698,
+                "source": "runtime_abort_step",
+                "surface_distance_m": -5.9386172779341e-07
+              }
+            ],
+            "normal_alignment_statistics_deg": {
+              "margin_to_30": 12.461684713532524,
+              "max": 17.538315286467476,
+              "mean": 10.291350378166559,
+              "min": 7.57254708791396
+            },
+            "normal_derivation": "normalized equal-weight combination of cooked manifold mean, hash-pinned render-surface inward normal, and selected closure direction",
+            "obb_robustness_margin_m": 0.00025,
+            "physical_collider_changed": false,
+            "render_surface_inward_normal_rigid_body": [
+              0.9765437484574409,
+              0.1843104107955452,
+              -0.11131926976524707
+            ],
+            "runtime_abort_piece": "finger_collision_piece_17",
+            "runtime_abort_q_m": 0.005790110677480698,
+            "runtime_first_load_piece": "finger_collision_piece_17",
+            "runtime_first_load_q_m": 0.005790261551737785,
+            "schema": "chicgrasp-four-jaw-load-manifold-evidence/v2",
+            "target_collider": "cg_grasp_negX_shank",
+            "validated_closure_depth_m": 0.0003000359048019154,
+            "validated_closure_min_q_m": 0.005790110677480698
+          },
+          "expected_normal_local": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "expected_normal_rigid_body": [
+            0.9934475407550237,
+            0.11401179389000349,
+            -0.007955791712890063
+          ],
+          "jaw_id": 1,
+          "obb_half_extents_m": [
+            0.0005892885580685845,
+            0.0034754108383504775,
+            0.00028653291830230804
+          ],
+          "prim_path": "GraspContract/negX_shank/jaw1_patch",
+          "quaternion_rigid_body_wxyz": [
+            0.6529320178668017,
+            0.7552506540360614,
+            0.04580109141246533,
+            0.03432913701092915
+          ]
+        },
+        {
+          "center_rigid_body_m": [
+            -0.062391266043781916,
+            -0.13661017921920807,
+            0.023161938887945065
+          ],
+          "cooked_geometry_evidence": {
+            "closure_axis_rigid_body": [
+              -0.9999995085281209,
+              0.0009804909449300774,
+              0.0001469048118326284
+            ],
+            "combined_contact_offset_plus_solver_tolerance_m": 0.000102,
+            "contact_offset_each_asset_side_m": 5e-05,
+            "contributing_pieces": [
+              "finger_collision_piece_21",
+              "finger_collision_piece_20"
+            ],
+            "cooked_mean_force_normal_rigid_body": [
+              -0.9948471986087329,
+              -0.09949300242761683,
+              -0.019498561185238735
+            ],
+            "first_load_bearing_q_m": 0.0060454970570630396,
+            "jaw_id": 2,
+            "manifold_sample_count": 12,
+            "manifold_samples": [
+              {
+                "force_normal": [
+                  -0.9837694349529007,
+                  -0.08873240093589126,
+                  -0.15596236686009463
+                ],
+                "piece": "finger_collision_piece_21",
+                "point": [
+                  -0.062433842362174675,
+                  -0.13628701309767244,
+                  0.02337117037785423
+                ],
+                "q_m": 0.0060454970570630396,
+                "source": "offline_selected_closure",
+                "surface_distance_m": 0.00010199999963929336
+              },
+              {
+                "force_normal": [
+                  -0.9837694349529007,
+                  -0.08873240093589126,
+                  -0.15596236686009463
+                ],
+                "piece": "finger_collision_piece_21",
+                "point": [
+                  -0.06243788058867679,
+                  -0.13627598023278056,
+                  0.023390365464934573
+                ],
+                "q_m": 0.0059204970570630394,
+                "source": "offline_selected_closure",
+                "surface_distance_m": 2.095738017571816e-05
+              },
+              {
+                "force_normal": [
+                  -0.9837694349529007,
+                  -0.08873240093589126,
+                  -0.15596236686009463
+                ],
+                "piece": "finger_collision_piece_21",
+                "point": [
+                  -0.062441918815178896,
+                  -0.13626494736788866,
+                  0.02340956055201492
+                ],
+                "q_m": 0.005795497057063039,
+                "source": "offline_selected_closure",
+                "surface_distance_m": 0.000143914759990739
+              },
+              {
+                "force_normal": [
+                  -0.9837694349529007,
+                  -0.08873240093589126,
+                  -0.15596236686009463
+                ],
+                "piece": "finger_collision_piece_21",
+                "point": [
+                  -0.06238367012116951,
+                  -0.1362824877452407,
+                  0.023379124458535967
+                ],
+                "q_m": 0.0060454970570630396,
+                "source": "offline_selected_contact_midpoint",
+                "surface_distance_m": 0.00010199999963929336
+              },
+              {
+                "force_normal": [
+                  -0.9837694349529007,
+                  -0.08873240093589126,
+                  -0.15596236686009463
+                ],
+                "piece": "finger_collision_piece_21",
+                "point": [
+                  -0.06238903064748,
+                  -0.13627732430923895,
+                  0.023409999586990356
+                ],
+                "q_m": 0.006002983960567507,
+                "source": "offline_recorded_final_pose_contact",
+                "surface_distance_m": 0.00010200000012901004
+              },
+              {
+                "force_normal": [
+                  -0.9704585766490044,
+                  -0.21058760808593377,
+                  0.11774128557576448
+                ],
+                "piece": "finger_collision_piece_20",
+                "point": [
+                  -0.06245766570572978,
+                  -0.13626758857201213,
+                  0.023186118635435106
+                ],
+                "q_m": 0.0059399512592819515,
+                "source": "offline_selected_closure",
+                "surface_distance_m": 0.00010200000068434604
+              },
+              {
+                "force_normal": [
+                  -0.9704585766490044,
+                  -0.21058760808593377,
+                  0.11774128557576448
+                ],
+                "piece": "finger_collision_piece_20",
+                "point": [
+                  -0.06246496492024996,
+                  -0.13624192518433448,
+                  0.023171856909828203
+                ],
+                "q_m": 0.0058149512592819514,
+                "source": "offline_selected_closure",
+                "surface_distance_m": 1.928361396745832e-05
+              },
+              {
+                "force_normal": [
+                  -0.9704585766490044,
+                  -0.21058760808593377,
+                  0.11774128557576448
+                ],
+                "piece": "finger_collision_piece_20",
+                "point": [
+                  -0.06246610092341247,
+                  -0.13623793109846646,
+                  0.023169637305876626
+                ],
+                "q_m": 0.005795497057063039,
+                "source": "offline_selected_closure",
+                "surface_distance_m": 3.815942168968828e-05
+              },
+              {
+                "force_normal": [
+                  -0.9704585766490044,
+                  -0.21058760808593377,
+                  0.11774128557576448
+                ],
+                "piece": "finger_collision_piece_20",
+                "point": [
+                  -0.06240817231798862,
+                  -0.1362568486039277,
+                  0.023180113829830457
+                ],
+                "q_m": 0.0059399512592819515,
+                "source": "offline_selected_contact_midpoint",
+                "surface_distance_m": 0.00010200000068434604
+              },
+              {
+                "force_normal": [
+                  -0.9704585766490044,
+                  -0.21058760808593377,
+                  0.11774128557576448
+                ],
+                "piece": "finger_collision_piece_20",
+                "point": [
+                  -0.062405546318630815,
+                  -0.1362516888694189,
+                  0.023210986601529687
+                ],
+                "q_m": 0.005905402399145532,
+                "source": "offline_recorded_final_pose_contact",
+                "surface_distance_m": 0.00010200000052128116
+              },
+              {
+                "force_normal": [
+                  -0.9997988020830422,
+                  0.0038958340598219147,
+                  -0.019676834864691933
+                ],
+                "normal_scalar_n": 0.5529788808149934,
+                "piece": "finger_collision_piece_20",
+                "point": [
+                  -0.06231717159403491,
+                  -0.13699865215428744,
+                  0.02303873379701377
+                ],
+                "q_m": 0.005970573518425226,
+                "source": "runtime_first_load",
+                "surface_distance_m": -9.297514225181658e-07
+              },
+              {
+                "force_normal": [
+                  -0.9997988383744363,
+                  0.0038896303165115984,
+                  -0.019676218161239142
+                ],
+                "normal_scalar_n": 0.7815270859127866,
+                "piece": "finger_collision_piece_20",
+                "point": [
+                  -0.062316452527615404,
+                  -0.13699873733839396,
+                  0.02303940868267447
+                ],
+                "q_m": 0.005968938581645489,
+                "source": "runtime_abort_step",
+                "surface_distance_m": -1.0732967439253116e-06
+              }
+            ],
+            "normal_alignment_statistics_deg": {
+              "margin_to_30": 20.149662561114315,
+              "max": 9.850337438885685,
+              "mean": 8.179701592575753,
+              "min": 5.044922518377806
+            },
+            "normal_derivation": "normalized equal-weight combination of cooked manifold mean, hash-pinned render-surface inward normal, and selected closure direction",
+            "obb_robustness_margin_m": 0.00025,
+            "physical_collider_changed": false,
+            "render_surface_inward_normal_rigid_body": [
+              -0.9892356797204679,
+              -0.13629530998326378,
+              0.053257473133354646
+            ],
+            "runtime_abort_piece": "finger_collision_piece_20",
+            "runtime_abort_q_m": 0.005968938581645489,
+            "runtime_first_load_piece": "finger_collision_piece_20",
+            "runtime_first_load_q_m": 0.005970573518425226,
+            "schema": "chicgrasp-four-jaw-load-manifold-evidence/v2",
+            "target_collider": "cg_grasp_negX_shank",
+            "validated_closure_depth_m": 0.0002500000000000002,
+            "validated_closure_min_q_m": 0.005795497057063039
+          },
+          "expected_normal_local": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "expected_normal_rigid_body": [
+            -0.9968545488623968,
+            -0.07843927029887124,
+            0.011326486098007866
+          ],
+          "jaw_id": 2,
+          "obb_half_extents_m": [
+            0.0002954878152358895,
+            0.0006614046114174,
+            0.0003711267157290863
+          ],
+          "prim_path": "GraspContract/negX_shank/jaw2_patch",
+          "quaternion_rigid_body_wxyz": [
+            0.012333315167218462,
+            0.03769104543240686,
+            -0.9843265998601667,
+            -0.17183835206065418
+          ]
+        }
+      ],
+      "prim_path": "GraspContract/negX_shank",
+      "quaternion_rigid_body_wxyz": [
+        5.551112476147821e-17,
+        -1.0,
+        1.0842021724855042e-19,
+        0.0
+      ],
+      "station_id": "negX_shank"
+    },
+    "posX_shank": {
+      "allowed_colliders": [
+        "tight_compound_collision/cg_grasp_posX_shank"
+      ],
+      "allowed_region": {
+        "center_rigid_body_m": [
+          0.07549986572862619,
+          -0.12717366394694002,
+          0.023563876647867518
+        ],
+        "half_extents_m": [
+          0.013551562541309325,
+          0.010216410556792012,
+          0.002403249547228955
+        ],
+        "prim_path": "GraspContract/posX_shank/allowed_region",
+        "quaternion_rigid_body_wxyz": [
+          5.551112476147821e-17,
+          -1.0,
+          1.0842021724855042e-19,
+          0.0
+        ]
+      },
+      "axes_rigid_body": {
+        "closure_plus_x": [
+          1.0,
+          -2.1684043449710084e-19,
+          -1.2037056412701709e-35
+        ],
+        "right_handed_plus_z": [
+          1.2037056412701709e-35,
+          1.1102224952295643e-16,
+          -1.0
+        ],
+        "toward_foot_plus_y": [
+          -2.1684043449710084e-19,
+          -1.0,
+          -1.1102224952295643e-16
+        ]
+      },
+      "center_rigid_body_m": [
+        0.075401970165048,
+        -0.12700826161191536,
+        0.023871477861293296
+      ],
+      "forbidden_colliders": [
+        "tight_compound_collision/body_x00_y00_front",
+        "tight_compound_collision/body_x00_y00_rear",
+        "tight_compound_collision/body_x00_y01_front",
+        "tight_compound_collision/body_x00_y01_rear",
+        "tight_compound_collision/body_x00_y02_front",
+        "tight_compound_collision/body_x00_y02_rear",
+        "tight_compound_collision/body_x00_y03_front",
+        "tight_compound_collision/body_x00_y03_rear",
+        "tight_compound_collision/body_x00_y04_front",
+        "tight_compound_collision/body_x00_y04_rear",
+        "tight_compound_collision/body_x00_y05",
+        "tight_compound_collision/body_x00_y06",
+        "tight_compound_collision/body_x00_y07",
+        "tight_compound_collision/body_x01_y00",
+        "tight_compound_collision/body_x01_y01",
+        "tight_compound_collision/body_x01_y02",
+        "tight_compound_collision/body_x01_y03",
+        "tight_compound_collision/body_x01_y04",
+        "tight_compound_collision/body_x01_y05",
+        "tight_compound_collision/body_x01_y06",
+        "tight_compound_collision/body_x01_y07",
+        "tight_compound_collision/body_x02_y00_front",
+        "tight_compound_collision/body_x02_y00_rear",
+        "tight_compound_collision/body_x02_y01_front",
+        "tight_compound_collision/body_x02_y01_rear",
+        "tight_compound_collision/body_x02_y02_front",
+        "tight_compound_collision/body_x02_y02_rear",
+        "tight_compound_collision/body_x02_y03_front",
+        "tight_compound_collision/body_x02_y03_rear",
+        "tight_compound_collision/body_x02_y04_front",
+        "tight_compound_collision/body_x02_y04_rear",
+        "tight_compound_collision/body_x02_y05",
+        "tight_compound_collision/body_x02_y06",
+        "tight_compound_collision/body_x02_y07",
+        "tight_compound_collision/cg_grasp_negX_shank",
+        "tight_compound_collision/cg_trimmed_negX_foot_01_distal",
+        "tight_compound_collision/cg_trimmed_posX_foot_01_distal",
+        "tight_compound_collision/leg_negX_foot_00",
+        "tight_compound_collision/leg_negX_mid_00_front",
+        "tight_compound_collision/leg_negX_mid_00_rear",
+        "tight_compound_collision/leg_negX_mid_01_front",
+        "tight_compound_collision/leg_negX_mid_01_rear",
+        "tight_compound_collision/leg_negX_mid_02_front",
+        "tight_compound_collision/leg_negX_mid_02_rear",
+        "tight_compound_collision/leg_negX_mid_03_front",
+        "tight_compound_collision/leg_negX_mid_03_rear",
+        "tight_compound_collision/leg_negX_mid_04_front",
+        "tight_compound_collision/leg_negX_mid_04_rear",
+        "tight_compound_collision/leg_negX_mid_05_front",
+        "tight_compound_collision/leg_negX_mid_05_rear",
+        "tight_compound_collision/leg_negX_mid_06_front",
+        "tight_compound_collision/leg_negX_mid_06_rear",
+        "tight_compound_collision/leg_negX_prox_00_front",
+        "tight_compound_collision/leg_negX_prox_00_rear",
+        "tight_compound_collision/leg_negX_prox_01_front",
+        "tight_compound_collision/leg_negX_prox_01_rear",
+        "tight_compound_collision/leg_negX_prox_02_front",
+        "tight_compound_collision/leg_negX_prox_02_rear",
+        "tight_compound_collision/leg_negX_prox_03_front",
+        "tight_compound_collision/leg_negX_prox_03_rear",
+        "tight_compound_collision/leg_negX_prox_04_front",
+        "tight_compound_collision/leg_negX_prox_04_rear",
+        "tight_compound_collision/leg_negX_prox_05_front",
+        "tight_compound_collision/leg_negX_prox_05_rear",
+        "tight_compound_collision/leg_negX_prox_06_front",
+        "tight_compound_collision/leg_negX_prox_06_rear",
+        "tight_compound_collision/leg_negX_prox_07_front",
+        "tight_compound_collision/leg_negX_prox_07_rear",
+        "tight_compound_collision/leg_negX_upper_00_front",
+        "tight_compound_collision/leg_negX_upper_00_rear",
+        "tight_compound_collision/leg_negX_upper_01_front",
+        "tight_compound_collision/leg_negX_upper_01_rear",
+        "tight_compound_collision/leg_negX_upper_02_front",
+        "tight_compound_collision/leg_negX_upper_02_rear",
+        "tight_compound_collision/leg_negX_upper_03_front",
+        "tight_compound_collision/leg_negX_upper_03_rear",
+        "tight_compound_collision/leg_negX_upper_04_front",
+        "tight_compound_collision/leg_negX_upper_04_rear",
+        "tight_compound_collision/leg_posX_foot_00",
+        "tight_compound_collision/leg_posX_mid_00_front",
+        "tight_compound_collision/leg_posX_mid_00_rear",
+        "tight_compound_collision/leg_posX_mid_01_front",
+        "tight_compound_collision/leg_posX_mid_01_rear",
+        "tight_compound_collision/leg_posX_mid_02_front",
+        "tight_compound_collision/leg_posX_mid_02_rear",
+        "tight_compound_collision/leg_posX_mid_03_front",
+        "tight_compound_collision/leg_posX_mid_03_rear",
+        "tight_compound_collision/leg_posX_mid_04_front",
+        "tight_compound_collision/leg_posX_mid_04_rear",
+        "tight_compound_collision/leg_posX_mid_05_front",
+        "tight_compound_collision/leg_posX_mid_05_rear",
+        "tight_compound_collision/leg_posX_mid_06_front",
+        "tight_compound_collision/leg_posX_mid_06_rear",
+        "tight_compound_collision/leg_posX_prox_00_front",
+        "tight_compound_collision/leg_posX_prox_00_rear",
+        "tight_compound_collision/leg_posX_prox_01_front",
+        "tight_compound_collision/leg_posX_prox_01_rear",
+        "tight_compound_collision/leg_posX_prox_02_front",
+        "tight_compound_collision/leg_posX_prox_02_rear",
+        "tight_compound_collision/leg_posX_prox_03_front",
+        "tight_compound_collision/leg_posX_prox_03_rear",
+        "tight_compound_collision/leg_posX_prox_04_front",
+        "tight_compound_collision/leg_posX_prox_04_rear",
+        "tight_compound_collision/leg_posX_prox_05_front",
+        "tight_compound_collision/leg_posX_prox_05_rear",
+        "tight_compound_collision/leg_posX_prox_06_front",
+        "tight_compound_collision/leg_posX_prox_06_rear",
+        "tight_compound_collision/leg_posX_prox_07_front",
+        "tight_compound_collision/leg_posX_prox_07_rear",
+        "tight_compound_collision/leg_posX_upper_00_front",
+        "tight_compound_collision/leg_posX_upper_00_rear",
+        "tight_compound_collision/leg_posX_upper_01_front",
+        "tight_compound_collision/leg_posX_upper_01_rear",
+        "tight_compound_collision/leg_posX_upper_02_front",
+        "tight_compound_collision/leg_posX_upper_02_rear",
+        "tight_compound_collision/leg_posX_upper_03_front",
+        "tight_compound_collision/leg_posX_upper_03_rear",
+        "tight_compound_collision/leg_posX_upper_04_front",
+        "tight_compound_collision/leg_posX_upper_04_rear",
+        "tight_compound_collision/wing_negX_00",
+        "tight_compound_collision/wing_negX_01",
+        "tight_compound_collision/wing_posX_00",
+        "tight_compound_collision/wing_posX_01"
+      ],
+      "jaw_ids": [
+        3,
+        4
+      ],
+      "patches": [
+        {
+          "center_rigid_body_m": [
+            0.062414985730072516,
+            -0.13652314332230714,
+            0.02330938835896615
+          ],
+          "cooked_geometry_evidence": {
+            "closure_axis_rigid_body": [
+              0.9999995085281209,
+              -0.0009804909449300774,
+              -0.0001469048118326284
+            ],
+            "combined_contact_offset_plus_solver_tolerance_m": 0.000102,
+            "contact_offset_each_asset_side_m": 5e-05,
+            "contributing_pieces": [
+              "finger_collision_piece_21",
+              "finger_collision_piece_20"
+            ],
+            "cooked_mean_force_normal_rigid_body": [
+              0.9871775103331623,
+              -0.15962470833286546,
+              -0.000718040435332727
+            ],
+            "first_load_bearing_q_m": 0.005951830942381641,
+            "jaw_id": 3,
+            "manifold_sample_count": 12,
+            "manifold_samples": [
+              {
+                "force_normal": [
+                  0.9704586850732337,
+                  -0.21058781110362923,
+                  0.11774002879442619
+                ],
+                "piece": "finger_collision_piece_21",
+                "point": [
+                  0.06247047826860255,
+                  -0.13611443505989262,
+                  0.023354443026919174
+                ],
+                "q_m": 0.005951830942381641,
+                "source": "offline_selected_closure",
+                "surface_distance_m": 0.00010200000095915814
+              },
+              {
+                "force_normal": [
+                  0.9704586850732337,
+                  -0.21058781110362923,
+                  0.11774002879442619
+                ],
+                "piece": "finger_collision_piece_21",
+                "point": [
+                  0.062477731558327906,
+                  -0.13608900680758315,
+                  0.023340139157347214
+                ],
+                "q_m": 0.0058268309423816405,
+                "source": "offline_selected_closure",
+                "surface_distance_m": 1.933092291399401e-05
+              },
+              {
+                "force_normal": [
+                  0.9704586850732337,
+                  -0.21058781110362923,
+                  0.11774002879442619
+                ],
+                "piece": "finger_collision_piece_21",
+                "point": [
+                  0.06248498484805327,
+                  -0.13606357855527362,
+                  0.02332583528777525
+                ],
+                "q_m": 0.00570183094238164,
+                "source": "offline_selected_closure",
+                "surface_distance_m": 0.00014066184678714568
+              },
+              {
+                "force_normal": [
+                  0.9704586850732337,
+                  -0.21058781110362923,
+                  0.11774002879442619
+                ],
+                "piece": "finger_collision_piece_21",
+                "point": [
+                  0.062420984875198406,
+                  -0.13610369508142534,
+                  0.023348438285394194
+                ],
+                "q_m": 0.005951830942381641,
+                "source": "offline_selected_contact_midpoint",
+                "surface_distance_m": 0.00010200000095915814
+              },
+              {
+                "force_normal": [
+                  0.9704586850732337,
+                  -0.21058781110362923,
+                  0.11774002879442619
+                ],
+                "piece": "finger_collision_piece_21",
+                "point": [
+                  0.06241679419888779,
+                  -0.13609843653823117,
+                  0.023392384801956642
+                ],
+                "q_m": 0.005993178039521444,
+                "source": "offline_recorded_final_pose_contact",
+                "surface_distance_m": 0.00010199999935386164
+              },
+              {
+                "force_normal": [
+                  0.9704586850732337,
+                  -0.21058781110362923,
+                  0.11774002879442619
+                ],
+                "piece": "finger_collision_piece_20",
+                "point": [
+                  0.06249250186820591,
+                  -0.13609304534120256,
+                  0.023211173319536753
+                ],
+                "q_m": 0.00587574620990781,
+                "source": "offline_selected_closure",
+                "surface_distance_m": 0.00010200000084527738
+              },
+              {
+                "force_normal": [
+                  0.9704586850732337,
+                  -0.21058781110362923,
+                  0.11774002879442619
+                ],
+                "piece": "finger_collision_piece_20",
+                "point": [
+                  0.06249975515793127,
+                  -0.13606761708889303,
+                  0.023196869449964793
+                ],
+                "q_m": 0.00575074620990781,
+                "source": "offline_selected_closure",
+                "surface_distance_m": 1.9330923027867155e-05
+              },
+              {
+                "force_normal": [
+                  0.9704586850732337,
+                  -0.21058781110362923,
+                  0.11774002879442619
+                ],
+                "piece": "finger_collision_piece_20",
+                "point": [
+                  0.06250259353079016,
+                  -0.1360576664507775,
+                  0.023191272029110616
+                ],
+                "q_m": 0.00570183094238164,
+                "source": "offline_selected_closure",
+                "surface_distance_m": 6.681039983149503e-05
+              },
+              {
+                "force_normal": [
+                  0.9704586850732337,
+                  -0.21058781110362923,
+                  0.11774002879442619
+                ],
+                "piece": "finger_collision_piece_20",
+                "point": [
+                  0.06244300847485702,
+                  -0.13608230536274726,
+                  0.023205168578018475
+                ],
+                "q_m": 0.00587574620990781,
+                "source": "offline_selected_contact_midpoint",
+                "surface_distance_m": 0.00010200000084527738
+              },
+              {
+                "force_normal": [
+                  0.9704586850732337,
+                  -0.21058781110362923,
+                  0.11774002879442619
+                ],
+                "piece": "finger_collision_piece_20",
+                "point": [
+                  0.06243881807589996,
+                  -0.13607704401645032,
+                  0.023249117817772832
+                ],
+                "q_m": 0.00591710802692687,
+                "source": "offline_recorded_final_pose_contact",
+                "surface_distance_m": 0.00010200000026078942
+              },
+              {
+                "force_normal": [
+                  0.9701000264804576,
+                  -0.04953269438711578,
+                  -0.23759724495323667
+                ],
+                "normal_scalar_n": 0.6495191573302681,
+                "piece": "finger_collision_piece_21",
+                "point": [
+                  0.06238304240545127,
+                  -0.13699884538784557,
+                  0.023310050130956918
+                ],
+                "q_m": 0.0060005346313118935,
+                "source": "runtime_first_load",
+                "surface_distance_m": -1.197395931740175e-06
+              },
+              {
+                "force_normal": [
+                  0.9701001759524261,
+                  -0.04952793485695274,
+                  -0.2375976268523681
+                ],
+                "normal_scalar_n": 0.9302035586360973,
+                "piece": "finger_collision_piece_21",
+                "point": [
+                  0.06238376383355908,
+                  -0.13699815503860283,
+                  0.023310645715475434
+                ],
+                "q_m": 0.006001065019518137,
+                "source": "runtime_abort_step",
+                "surface_distance_m": -1.9817657630483154e-06
+              }
+            ],
+            "normal_alignment_statistics_deg": {
+              "margin_to_30": 14.99753383636011,
+              "max": 15.00246616363989,
+              "mean": 10.804292533582997,
+              "min": 8.7052239976024
+            },
+            "normal_derivation": "normalized equal-weight combination of cooked manifold mean, hash-pinned render-surface inward normal, and selected closure direction",
+            "obb_robustness_margin_m": 0.00025,
+            "physical_collider_changed": false,
+            "render_surface_inward_normal_rigid_body": [
+              0.9892345505353637,
+              -0.1362989113992833,
+              0.05326922918972403
+            ],
+            "runtime_abort_piece": "finger_collision_piece_21",
+            "runtime_abort_q_m": 0.006001065019518137,
+            "runtime_first_load_piece": "finger_collision_piece_21",
+            "runtime_first_load_q_m": 0.0060005346313118935,
+            "schema": "chicgrasp-four-jaw-load-manifold-evidence/v2",
+            "target_collider": "cg_grasp_posX_shank",
+            "validated_closure_depth_m": 0.0002500000000000002,
+            "validated_closure_min_q_m": 0.00570183094238164
+          },
+          "expected_normal_local": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "expected_normal_rigid_body": [
+            0.9949088821098795,
+            -0.09924451977165238,
+            0.017516894535398085
+          ],
+          "jaw_id": 3,
+          "obb_half_extents_m": [
+            0.00028889671920334626,
+            0.0007261720399002606,
+            0.00035021250274587675
+          ],
+          "prim_path": "GraspContract/posX_shank/jaw3_patch",
+          "quaternion_rigid_body_wxyz": [
+            0.02002927845867451,
+            0.9985255475246311,
+            -0.04985141932748753,
+            0.007771417894780729
+          ]
+        },
+        {
+          "center_rigid_body_m": [
+            0.08841263413705301,
+            -0.1177157297812071,
+            0.023563876647867518
+          ],
+          "cooked_geometry_evidence": {
+            "closure_axis_rigid_body": [
+              -0.9999995085281209,
+              0.0009804909449300774,
+              0.0001469048118326284
+            ],
+            "combined_contact_offset_plus_solver_tolerance_m": 0.000102,
+            "contact_offset_each_asset_side_m": 5e-05,
+            "contributing_pieces": [
+              "finger_collision_piece_20",
+              "finger_collision_piece_21",
+              "finger_collision_piece_19",
+              "finger_collision_piece_17",
+              "finger_collision_piece_18"
+            ],
+            "cooked_mean_force_normal_rigid_body": [
+              -0.9860562140024436,
+              0.16060674021044408,
+              0.04357313192945959
+            ],
+            "first_load_bearing_q_m": 0.00606741831569234,
+            "jaw_id": 4,
+            "manifold_sample_count": 27,
+            "manifold_samples": [
+              {
+                "force_normal": [
+                  -0.984331562670585,
+                  0.10775990632352568,
+                  -0.1395678233678141
+                ],
+                "piece": "finger_collision_piece_20",
+                "point": [
+                  0.08833385616454405,
+                  -0.11800677840179234,
+                  0.02551022847701339
+                ],
+                "q_m": 0.00606741831569234,
+                "source": "offline_selected_closure",
+                "surface_distance_m": 0.0001019999992763868
+              },
+              {
+                "force_normal": [
+                  -0.984331562670585,
+                  0.10775990632352568,
+                  -0.1395678233678141
+                ],
+                "piece": "finger_collision_piece_20",
+                "point": [
+                  0.08832998022213664,
+                  -0.11801991591556006,
+                  0.025527420943986537
+                ],
+                "q_m": 0.00594241831569234,
+                "source": "offline_selected_closure",
+                "surface_distance_m": 2.1052029889471406e-05
+              },
+              {
+                "force_normal": [
+                  -0.984331562670585,
+                  0.10775990632352568,
+                  -0.1395678233678141
+                ],
+                "piece": "finger_collision_piece_20",
+                "point": [
+                  0.08832610427972923,
+                  -0.11803305342932778,
+                  0.02554461341095969
+                ],
+                "q_m": 0.00581741831569234,
+                "source": "offline_selected_closure",
+                "surface_distance_m": 0.00014410405905531496
+              },
+              {
+                "force_normal": [
+                  -0.984331562670585,
+                  0.10775990632352568,
+                  -0.1395678233678141
+                ],
+                "piece": "finger_collision_piece_20",
+                "point": [
+                  0.08838405707388411,
+                  -0.11801227415697585,
+                  0.02551734643595465
+                ],
+                "q_m": 0.00606741831569234,
+                "source": "offline_selected_contact_midpoint",
+                "surface_distance_m": 0.0001019999992763868
+              },
+              {
+                "force_normal": [
+                  -0.984331562670585,
+                  0.10775990632352568,
+                  -0.1395678233678141
+                ],
+                "piece": "finger_collision_piece_20",
+                "point": [
+                  0.08837796250286853,
+                  -0.11800703627198264,
+                  0.025564373844800585
+                ],
+                "q_m": 0.006024409983388615,
+                "source": "offline_recorded_final_pose_contact",
+                "surface_distance_m": 0.00010200000024334481
+              },
+              {
+                "force_normal": [
+                  -0.984331562670585,
+                  0.10775990632352568,
+                  -0.1395678233678141
+                ],
+                "piece": "finger_collision_piece_21",
+                "point": [
+                  0.0883332058560735,
+                  -0.11800739235335336,
+                  0.02551434088470502
+                ],
+                "q_m": 0.006066801488224883,
+                "source": "offline_selected_closure",
+                "surface_distance_m": 0.00010199999911589962
+              },
+              {
+                "force_normal": [
+                  -0.984331562670585,
+                  0.10775990632352568,
+                  -0.1395678233678141
+                ],
+                "piece": "finger_collision_piece_21",
+                "point": [
+                  0.0883293299136661,
+                  -0.11802052986712108,
+                  0.025531533351678168
+                ],
+                "q_m": 0.005941801488224883,
+                "source": "offline_selected_closure",
+                "surface_distance_m": 2.1052030049956607e-05
+              },
+              {
+                "force_normal": [
+                  -0.984331562670585,
+                  0.10775990632352568,
+                  -0.1395678233678141
+                ],
+                "piece": "finger_collision_piece_21",
+                "point": [
+                  0.08832547309756061,
+                  -0.11803360255225404,
+                  0.02554864098036442
+                ],
+                "q_m": 0.00581741831569234,
+                "source": "offline_selected_closure",
+                "surface_distance_m": 0.00014349684424369097
+              },
+              {
+                "force_normal": [
+                  -0.984331562670585,
+                  0.10775990632352568,
+                  -0.1395678233678141
+                ],
+                "piece": "finger_collision_piece_21",
+                "point": [
+                  0.08838340676533457,
+                  -0.11801288810852822,
+                  0.025521458843635082
+                ],
+                "q_m": 0.006066801488224883,
+                "source": "offline_selected_contact_midpoint",
+                "surface_distance_m": 0.00010199999911589962
+              },
+              {
+                "force_normal": [
+                  -0.984331562670585,
+                  0.10775990632352568,
+                  -0.1395678233678141
+                ],
+                "piece": "finger_collision_piece_21",
+                "point": [
+                  0.08837731219689016,
+                  -0.11800765030401937,
+                  0.025568486172410934
+                ],
+                "q_m": 0.006023793588986155,
+                "source": "offline_recorded_final_pose_contact",
+                "surface_distance_m": 0.00010200000014014321
+              },
+              {
+                "force_normal": [
+                  -0.9742264837604533,
+                  0.18494044014602154,
+                  0.12915026882797873
+                ],
+                "piece": "finger_collision_piece_19",
+                "point": [
+                  0.08853686449882285,
+                  -0.11766086396071786,
+                  0.023274391089046144
+                ],
+                "q_m": 0.006006645330239553,
+                "source": "offline_selected_closure",
+                "surface_distance_m": 0.00010199999917543996
+              },
+              {
+                "force_normal": [
+                  -0.9742264837604533,
+                  0.18494044014602154,
+                  0.12915026882797873
+                ],
+                "piece": "finger_collision_piece_19",
+                "point": [
+                  0.08853052854998794,
+                  -0.11768326775318651,
+                  0.02325867852465855
+                ],
+                "q_m": 0.005881645330239553,
+                "source": "offline_selected_closure",
+                "surface_distance_m": 1.980328959686886e-05
+              },
+              {
+                "force_normal": [
+                  -0.9742264837604533,
+                  0.18494044014602154,
+                  0.12915026882797873
+                ],
+                "piece": "finger_collision_piece_19",
+                "point": [
+                  0.088527273037364,
+                  -0.11769477918282491,
+                  0.02325060515584658
+                ],
+                "q_m": 0.00581741831569234,
+                "source": "offline_selected_closure",
+                "surface_distance_m": 8.238778239588022e-05
+              },
+              {
+                "force_normal": [
+                  -0.9742264837604533,
+                  0.18494044014602154,
+                  0.12915026882797873
+                ],
+                "piece": "finger_collision_piece_19",
+                "point": [
+                  0.08858655004909298,
+                  -0.11767029592308906,
+                  0.023267804425389164
+                ],
+                "q_m": 0.006006645330239553,
+                "source": "offline_selected_contact_midpoint",
+                "surface_distance_m": 0.00010199999917543996
+              },
+              {
+                "force_normal": [
+                  -0.9742264837604533,
+                  0.18494044014602154,
+                  0.12915026882797873
+                ],
+                "piece": "finger_collision_piece_19",
+                "point": [
+                  0.08859378816322164,
+                  -0.11766502692511789,
+                  0.02331485900105041
+                ],
+                "q_m": 0.0059767327838460916,
+                "source": "offline_recorded_final_pose_contact",
+                "surface_distance_m": 0.00010200000032837993
+              },
+              {
+                "force_normal": [
+                  -0.9715691706659386,
+                  0.17889745562080567,
+                  0.15507755151504724
+                ],
+                "piece": "finger_collision_piece_17",
+                "point": [
+                  0.08833074245903015,
+                  -0.1174071740293086,
+                  0.021576816659344356
+                ],
+                "q_m": 0.005978359848016408,
+                "source": "offline_selected_closure",
+                "surface_distance_m": 0.00010200000097875307
+              },
+              {
+                "force_normal": [
+                  -0.9715691706659386,
+                  0.17889745562080567,
+                  0.15507755151504724
+                ],
+                "piece": "finger_collision_piece_17",
+                "point": [
+                  0.08832375986343441,
+                  -0.11742878229577443,
+                  0.02155799761885511
+                ],
+                "q_m": 0.005853359848016408,
+                "source": "offline_selected_closure",
+                "surface_distance_m": 1.947085928883689e-05
+              },
+              {
+                "force_normal": [
+                  -0.9715691706659386,
+                  0.17889745562080567,
+                  0.15507755151504724
+                ],
+                "piece": "finger_collision_piece_17",
+                "point": [
+                  0.08832175214195193,
+                  -0.11743499536943562,
+                  0.02155258653763869
+                ],
+                "q_m": 0.00581741831569234,
+                "source": "offline_selected_closure",
+                "surface_distance_m": 5.439765009476996e-05
+              },
+              {
+                "force_normal": [
+                  -0.9715691706659386,
+                  0.17889745562080567,
+                  0.15507755151504724
+                ],
+                "piece": "finger_collision_piece_17",
+                "point": [
+                  0.08838029248720958,
+                  -0.11741629779963281,
+                  0.021568907704141195
+                ],
+                "q_m": 0.005978359848016408,
+                "source": "offline_selected_contact_midpoint",
+                "surface_distance_m": 0.00010200000097875307
+              },
+              {
+                "force_normal": [
+                  -0.9715691706659386,
+                  0.17889745562080567,
+                  0.15507755151504724
+                ],
+                "piece": "finger_collision_piece_17",
+                "point": [
+                  0.08838877648601473,
+                  -0.11741099711052252,
+                  0.021615945536653844
+                ],
+                "q_m": 0.005949515213922132,
+                "source": "offline_recorded_final_pose_contact",
+                "surface_distance_m": 0.00010200000096585515
+              },
+              {
+                "force_normal": [
+                  -0.9715691706659386,
+                  0.17889745562080567,
+                  0.15507755151504724
+                ],
+                "piece": "finger_collision_piece_18",
+                "point": [
+                  0.08833508782188004,
+                  -0.11741209552627395,
+                  0.02160971802911335
+                ],
+                "q_m": 0.005964098697190637,
+                "source": "offline_selected_closure",
+                "surface_distance_m": 0.00010199999927702939
+              },
+              {
+                "force_normal": [
+                  -0.9715691706659386,
+                  0.17889745562080567,
+                  0.15507755151504724
+                ],
+                "piece": "finger_collision_piece_18",
+                "point": [
+                  0.0883281052262843,
+                  -0.11743370379273979,
+                  0.021590898988624103
+                ],
+                "q_m": 0.005839098697190637,
+                "source": "offline_selected_closure",
+                "surface_distance_m": 1.9470860990577074e-05
+              },
+              {
+                "force_normal": [
+                  -0.9715691706659386,
+                  0.17889745562080567,
+                  0.15507755151504724
+                ],
+                "piece": "finger_collision_piece_18",
+                "point": [
+                  0.08832689414359339,
+                  -0.11743745159642376,
+                  0.021587634956806195
+                ],
+                "q_m": 0.00581741831569234,
+                "source": "offline_selected_closure",
+                "surface_distance_m": 4.053913772280745e-05
+              },
+              {
+                "force_normal": [
+                  -0.9715691706659386,
+                  0.17889745562080567,
+                  0.15507755151504724
+                ],
+                "piece": "finger_collision_piece_18",
+                "point": [
+                  0.0883846378492328,
+                  -0.11742121929644594,
+                  0.02160180907404214
+                ],
+                "q_m": 0.005964098697190637,
+                "source": "offline_selected_contact_midpoint",
+                "surface_distance_m": 0.00010199999927702939
+              },
+              {
+                "force_normal": [
+                  -0.9715691706659386,
+                  0.17889745562080567,
+                  0.15507755151504724
+                ],
+                "piece": "finger_collision_piece_18",
+                "point": [
+                  0.0883931217883588,
+                  -0.11741591924387766,
+                  0.02164884726637159
+                ],
+                "q_m": 0.005935257447499314,
+                "source": "offline_recorded_final_pose_contact",
+                "surface_distance_m": 0.00010199999945174936
+              },
+              {
+                "force_normal": [
+                  -0.9755158532204359,
+                  0.19646347789446733,
+                  0.09884797402686256
+                ],
+                "normal_scalar_n": 0.27197851385013017,
+                "piece": "finger_collision_piece_19",
+                "point": [
+                  0.08850485228275835,
+                  -0.11766579725313558,
+                  0.023296919644043616
+                ],
+                "q_m": 0.005837848410010338,
+                "source": "runtime_first_load",
+                "surface_distance_m": -6.506455747512518e-07
+              },
+              {
+                "force_normal": [
+                  -0.9755169961596084,
+                  0.19645797149286112,
+                  0.09884763851830061
+                ],
+                "normal_scalar_n": 0.5144261885095293,
+                "piece": "finger_collision_piece_19",
+                "point": [
+                  0.08850547527676704,
+                  -0.11766495022479928,
+                  0.02329741767167473
+                ],
+                "q_m": 0.005836491473019123,
+                "source": "runtime_abort_step",
+                "surface_distance_m": -8.124827672872925e-07
+              }
+            ],
+            "normal_alignment_statistics_deg": {
+              "margin_to_30": 19.110539698863874,
+              "max": 10.889460301136126,
+              "mean": 8.883024576175991,
+              "min": 6.737025616450837
+            },
+            "normal_derivation": "normalized equal-weight combination of cooked manifold mean, hash-pinned render-surface inward normal, and selected closure direction",
+            "obb_robustness_margin_m": 0.00025,
+            "physical_collider_changed": false,
+            "render_surface_inward_normal_rigid_body": [
+              -0.9765434982208671,
+              0.18431145246778305,
+              -0.11131974026095956
+            ],
+            "runtime_abort_piece": "finger_collision_piece_19",
+            "runtime_abort_q_m": 0.005836491473019123,
+            "runtime_first_load_piece": "finger_collision_piece_19",
+            "runtime_first_load_q_m": 0.005837848410010338,
+            "schema": "chicgrasp-four-jaw-load-manifold-evidence/v2",
+            "target_collider": "cg_grasp_posX_shank",
+            "validated_closure_depth_m": 0.0002500000000000002,
+            "validated_closure_min_q_m": 0.00581741831569234
+          },
+          "expected_normal_local": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "expected_normal_rigid_body": [
+            -0.9929980290597604,
+            0.11593762284357907,
+            -0.02265793222717042
+          ],
+          "jaw_id": 4,
+          "obb_half_extents_m": [
+            0.0004183649973703502,
+            0.0022755673862799967,
+            0.00028300372387819023
+          ],
+          "prim_path": "GraspContract/posX_shank/jaw4_patch",
+          "quaternion_rigid_body_wxyz": [
+            0.051392236542523353,
+            0.02932274702815334,
+            0.651823813212629,
+            0.7560586822851968
+          ]
+        }
+      ],
+      "prim_path": "GraspContract/posX_shank",
+      "quaternion_rigid_body_wxyz": [
+        5.551112476147821e-17,
+        -1.0,
+        1.0842021724855042e-19,
+        0.0
+      ],
+      "station_id": "posX_shank"
+    }
+  },
+  "target_center_spacing_m": 0.15080393664133188,
+  "version": "1.0"
+}

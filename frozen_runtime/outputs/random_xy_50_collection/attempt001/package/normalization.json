@@ -1,0 +1,240 @@
+{
+  "constant_feature_behavior": "XYZ action range < range_eps: scale=2/largest ordinary XYZ range when available; otherwise stock scale=1; offset=-minimum*scale; finite inverse",
+  "fields": {
+    "action": {
+      "input_stats": {
+        "max": [
+          0.6990238428115845,
+          0.18337664008140564,
+          0.212895005941391,
+          1.0,
+          1.0
+        ],
+        "mean": [
+          0.6695413589477539,
+          0.048141177743673325,
+          0.1456402987241745,
+          0.46666666865348816,
+          0.46666666865348816
+        ],
+        "min": [
+          0.6401646137237549,
+          -0.1655743271112442,
+          0.10041283816099167,
+          0.0,
+          0.0
+        ],
+        "std": [
+          0.017999442294239998,
+          0.08016244322061539,
+          0.03852737322449684,
+          0.49892091751098633,
+          0.49892091751098633
+        ]
+      },
+      "offset": [
+        -22.752395629882812,
+        -0.05101674795150757,
+        -2.785399913787842,
+        -1.0,
+        -1.0
+      ],
+      "scale": [
+        33.97937774658203,
+        5.73146390914917,
+        17.780595779418945,
+        2.0,
+        2.0
+      ]
+    },
+    "arm_joint_pos": {
+      "input_stats": {
+        "max": [
+          -0.036851756274700165,
+          -1.2610890865325928,
+          2.23038387298584,
+          -2.107787609100342,
+          -1.4227824211120605,
+          1.5349500179290771
+        ],
+        "mean": [
+          -0.24276739358901978,
+          -1.3674017190933228,
+          2.1400468349456787,
+          -2.3032960891723633,
+          -1.4332411289215088,
+          1.327706217765808
+        ],
+        "min": [
+          -0.5570756793022156,
+          -1.5078190565109253,
+          2.0107874870300293,
+          -2.4463372230529785,
+          -1.4495905637741089,
+          1.0096969604492188
+        ],
+        "std": [
+          0.11830359697341919,
+          0.05602568760514259,
+          0.04230507090687752,
+          0.08714620769023895,
+          0.005576413590461016,
+          0.1196475625038147
+        ]
+      },
+      "offset": [
+        1.141676664352417,
+        11.22242259979248,
+        -19.31348419189453,
+        13.451868057250977,
+        107.14554595947266,
+        -4.844611167907715
+      ],
+      "scale": [
+        3.8444983959198,
+        8.106027603149414,
+        9.10761833190918,
+        5.907553672790527,
+        74.60420227050781,
+        3.8076884746551514
+      ]
+    },
+    "camera_left_rgb": {
+      "input_stats": {
+        "max": [
+          0.9960784316062927
+        ],
+        "mean": [
+          0.7511193156242371
+        ],
+        "min": [
+          0.003921568859368563
+        ],
+        "std": [
+          0.2512143850326538
+        ]
+      },
+      "offset": [
+        0.0
+      ],
+      "scale": [
+        1.0
+      ]
+    },
+    "camera_right_rgb": {
+      "input_stats": {
+        "max": [
+          1.0
+        ],
+        "mean": [
+          0.6794999837875366
+        ],
+        "min": [
+          0.0
+        ],
+        "std": [
+          0.23953664302825928
+        ]
+      },
+      "offset": [
+        0.0
+      ],
+      "scale": [
+        1.0
+      ]
+    },
+    "jaw_state": {
+      "input_stats": {
+        "max": [
+          1.0,
+          1.0
+        ],
+        "mean": [
+          0.4768211841583252,
+          0.4768211841583252
+        ],
+        "min": [
+          0.0,
+          0.0
+        ],
+        "std": [
+          0.4994955360889435,
+          0.4994955360889435
+        ]
+      },
+      "offset": [
+        -1.0,
+        -1.0
+      ],
+      "scale": [
+        2.0,
+        2.0
+      ]
+    }
+  },
+  "fit_source": "selected_training_episodes_actions50-199_observations49-199",
+  "implementation": "unchanged overfit_policy._fit_normalizer_from_validated_policy_rows; CPU",
+  "mode": "limits",
+  "observation_row_count": 7550,
+  "range_eps": 0.0001,
+  "rgb": {
+    "byte_divisor": 255.0,
+    "crop": null,
+    "imagenet_mean": [
+      0.485,
+      0.456,
+      0.406
+    ],
+    "imagenet_std": [
+      0.229,
+      0.224,
+      0.225
+    ],
+    "layout": "NCHW",
+    "linear_transform": "identity",
+    "random_augmentation": false
+  },
+  "rgb_statistics": "integer-byte histograms; population mean/std with the unchanged identity transform",
+  "roundtrip_max_abs": {
+    "action": 1.4901161193847656e-08,
+    "arm_joint_pos": 1.1920928955078125e-07,
+    "jaw_state": 0.0
+  },
+  "row_count": 7500,
+  "training_source_identity": {
+    "bytes": 57792,
+    "path": "C:\\robotics\\ChicGrasp_gate6_stage3\\outputs\\random_xy_50_collection\\attempt001\\package\\training_source_identity.json",
+    "sha256": "95784c1e8938f518fa093b4e78c486e6ef4a41de55cf6d686c8e27c6232e27e2"
+  },
+  "xyz_branch": {
+    "axes": [
+      "x",
+      "y",
+      "z"
+    ],
+    "comparison": "float32(max-min) < range_eps; pinned stock ignore_dim predicate",
+    "degenerate_mask": [
+      false,
+      false,
+      false
+    ],
+    "forward": "normalized = metres * scale + offset",
+    "input_ranges_m": [
+      0.05885922908782959,
+      0.34895098209381104,
+      0.11248216778039932
+    ],
+    "inverse": "metres = (normalized - offset) / scale",
+    "offset": [
+      -22.752395629882812,
+      -0.05101674795150757,
+      -2.785399913787842
+    ],
+    "reference_range_m": 0.34895098209381104,
+    "scale": [
+      33.97937774658203,
+      5.73146390914917,
+      17.780595779418945
+    ]
+  }
+}

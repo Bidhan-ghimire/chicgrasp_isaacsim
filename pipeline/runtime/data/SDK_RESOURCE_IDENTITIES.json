@@ -1,0 +1,46 @@
+{
+  "schema": "hc-sdk-resources/v1",
+  "scope": "Installed original SDK resource identities; no SDK content redistributed.",
+  "resources": [
+    {
+      "name": "experience",
+      "config_key": "isaac_lab",
+      "relative_path": "apps/isaaclab.python.rendering.kit",
+      "original_path": "C:/robotics/IsaacLab/apps/isaaclab.python.rendering.kit",
+      "bytes": 5785,
+      "sha256": "449c473cf160fe7be59f40978b3e5755969c755cf40bfbbfd1063f1c3bfd1349"
+    },
+    {
+      "name": "ground_shader",
+      "config_key": "isaac_sim",
+      "relative_path": "kit/mdl/core/Base/OmniPBR.mdl",
+      "original_path": "C:/isaacsim/kit/mdl/core/Base/OmniPBR.mdl",
+      "bytes": 15591,
+      "sha256": "685a82c18b381f1cd29831490e4c356e61dbeac2d86803babc115cd6a4a845db"
+    },
+    {
+      "name": "physx_binding",
+      "config_key": "isaac_sim",
+      "relative_path": "extscache/omni.physx-107.3.26+107.3.3.wx64.r.cp311.u353/omni/physx/bindings/_physx.cp311-win_amd64.pyd",
+      "original_path": "C:/isaacsim/extscache/omni.physx-107.3.26+107.3.3.wx64.r.cp311.u353/omni/physx/bindings/_physx.cp311-win_amd64.pyd",
+      "bytes": 1311840,
+      "sha256": "7fd515caa211084c1b4b2d57fbaba3fda232c280981ceab122143e4220b0265e"
+    },
+    {
+      "name": "sim_version",
+      "config_key": "isaac_sim",
+      "relative_path": "VERSION",
+      "original_path": "C:/isaacsim/VERSION",
+      "bytes": 37,
+      "sha256": "3608df6c48e6857e9cdcf9cedb5ddf23d3ce76c46bc87b0f6ab3a5241ef5e5e7"
+    },
+    {
+      "name": "lab_version",
+      "config_key": "isaac_lab",
+      "relative_path": "VERSION",
+      "original_path": "C:/robotics/IsaacLab/VERSION",
+      "bytes": 7,
+      "sha256": "06422ec926e5945ba64744f935f3bf0b2c29c8b3a1fbb0fef56e01082a0b3af5"
+    }
+  ]
+}

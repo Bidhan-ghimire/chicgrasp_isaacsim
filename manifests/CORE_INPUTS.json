@@ -1,0 +1,978 @@
+{
+  "schema": "public-reproduction-input-inventory/v1",
+  "files": [
+    {
+      "path": "assets/grasp_contract/chicken_rigid_wide_torso_spread_legs_protected_shank_grasp_v2/MANIFEST_SHA256.txt",
+      "group": "metadata",
+      "bytes": 4899,
+      "sha256": "63609d00dfaf80f9c834c8132fcc152bdd674c2577d8f3f759f5666def5ce47f"
+    },
+    {
+      "path": "assets/grasp_contract/chicken_rigid_wide_torso_spread_legs_protected_shank_grasp_v2/asset/chicken_rigid_wide_torso_spread_legs_protected_shank_grasp_v2.usda",
+      "group": "chicken",
+      "bytes": 613904,
+      "sha256": "0697c15631313b5e2ff2b74eb9717a52e9ab1530093b0f39ff1c872b08792589"
+    },
+    {
+      "path": "assets/grasp_contract/chicken_rigid_wide_torso_spread_legs_protected_shank_grasp_v2/asset/chicken_rigid_wide_torso_spread_legs_visual.usd",
+      "group": "chicken",
+      "bytes": 778681,
+      "sha256": "0d7358f144fd3d64c29cebe92599eeb26ccbd430234bfce6b395fde22438be26"
+    },
+    {
+      "path": "assets/grasp_contract/chicken_rigid_wide_torso_spread_legs_protected_shank_grasp_v2/asset/grasp_contract.json",
+      "group": "chicken",
+      "bytes": 82537,
+      "sha256": "2d3a7527395e916e558c64af9f776c3d337b82e931e191ec87d65dd793d6b822"
+    },
+    {
+      "path": "assets/grasp_contract/chicken_rigid_wide_torso_spread_legs_protected_shank_grasp_v2/asset/textures/Image_0.png",
+      "group": "chicken",
+      "bytes": 4025768,
+      "sha256": "4a3cb879818aad0479c129fd1c3d0c21d691923eabe30d8dcdd0bc893ccf74c1"
+    },
+    {
+      "path": "assets/grasp_contract/chicken_rigid_wide_torso_spread_legs_protected_shank_grasp_v2/asset/textures/Image_1.png",
+      "group": "chicken",
+      "bytes": 7968589,
+      "sha256": "3367a080fbec9434dc7d68c316c7bd2ef85d944b1cdb90da85946162c2c1af4f"
+    },
+    {
+      "path": "assets/grasp_contract/chicken_rigid_wide_torso_spread_legs_protected_shank_grasp_v2/asset/textures/Image_2.png",
+      "group": "chicken",
+      "bytes": 3663017,
+      "sha256": "9e3b6a78fadd69c5d9e059f0e9e00cd52c73a305135ebead5edec9a6af2c2c19"
+    },
+    {
+      "path": "assets/grasp_contract/chicken_rigid_wide_torso_spread_legs_protected_shank_grasp_v2/asset/textures/color_0C0C0C.exr",
+      "group": "chicken",
+      "bytes": 461,
+      "sha256": "af8ecc7a8d01bbb547c0f966442175f15f3a2bf63f361c9efcfe01c5d723cc8a"
+    },
+    {
+      "path": "assets/grasp_contract/chicken_rigid_wide_torso_spread_legs_protected_shank_grasp_v2/asset/validation.json",
+      "group": "metadata",
+      "bytes": 815,
+      "sha256": "edd3ccd5c5b278b1e55d82469852376d766e87f48cdd5a861c43cbd04d3d067f"
+    },
+    {
+      "path": "assets/grasp_contract/chicken_rigid_wide_torso_spread_legs_protected_shank_grasp_v2/handoff/PART1_V2_RUNTIME_HANDOFF.json",
+      "group": "metadata",
+      "bytes": 18830,
+      "sha256": "8cc928a517610379933bdca3495279c4178c65d43c69c3589a13e6df60636490"
+    },
+    {
+      "path": "assets/grasp_contract/ur10e_chicgrasp_serrated_tip_collision_package/1_corrected_v2.usda",
+      "group": "robot",
+      "bytes": 275940020,
+      "sha256": "18b91d2b1e112d9c9e1a3d2d90fbc4c9cf59f12d734410e68ee0c5abdd492f2d"
+    },
+    {
+      "path": "assets/grasp_contract/ur10e_chicgrasp_serrated_tip_collision_package/ur10e_chicgrasp_rigid_proxy.usda",
+      "group": "robot",
+      "bytes": 823,
+      "sha256": "9275b7a0ffcebff078a130d712f9a58721c67a03c86fd3dc67949c240f1d81b1"
+    },
+    {
+      "path": "assets/grasp_contract/ur10e_chicgrasp_serrated_tip_collision_package/ur10e_chicgrasp_rigid_proxy_offsets_0p05mm_0mm.usda",
+      "group": "robot",
+      "bytes": 5577,
+      "sha256": "0f70dd139bffbdf896a96de05e797beedbc3470befa30ce7c9b46b1fdcb30b02"
+    },
+    {
+      "path": "assets/grasp_contract/ur10e_chicgrasp_serrated_tip_collision_package/ur10e_chicgrasp_serrated_tip_collision.usda",
+      "group": "robot",
+      "bytes": 221130,
+      "sha256": "4a2b0f7502f6ff19841857f6466f6fa7b245417f84cacf91efe6c53c9e29eb33"
+    },
+    {
+      "path": "assets/lighting/grey_studio/light_rig_environment.usda",
+      "group": "lighting",
+      "bytes": 5305,
+      "sha256": "42e90211ef403c4d6e61fd07afaf9481ebe4734bfabcd27556a1b6b7e814723c"
+    },
+    {
+      "path": "assets/portable_sdk_ground/Materials/Textures/WireframeBlur_basecolor.png",
+      "group": "sdk_ground",
+      "bytes": 436257,
+      "sha256": "deab39088eaf39ed7be951966c5e6bd5e58b90ab64743b0cdc8e5579fd5a99d9"
+    },
+    {
+      "path": "assets/portable_sdk_ground/Materials/Textures/WireframeBlur_blue.png",
+      "group": "sdk_ground",
+      "bytes": 1474958,
+      "sha256": "44fc0e82007bb0bd94631cd7ec45986a71ed74b9413899fbffac13efe151be4b"
+    },
+    {
+      "path": "assets/portable_sdk_ground/Materials/Textures/Wireframe_blue.png",
+      "group": "sdk_ground",
+      "bytes": 111895,
+      "sha256": "940b96ee8c8e53bd1acbc770d4ca0ac98bed9c96439ab386d1b27dbc9790cc4e"
+    },
+    {
+      "path": "assets/portable_sdk_ground/default_environment.usd",
+      "group": "sdk_ground",
+      "bytes": 13622,
+      "sha256": "8a21c317d638d33a4e6c20c958a7ed8f4d8c5195efd7e20f1b85178b4a15638a"
+    },
+    {
+      "path": "config/dual_leg_grasp_contract.json",
+      "group": "frozen_source",
+      "bytes": 2504,
+      "sha256": "eb2dfe101d3351db7f2ab13bfe304a438dd35e511296a545203f007e7ee0aef2",
+      "git_blob": "e63cf4dcd0bf58a3553f7619aafbbba9fb42b8e4",
+      "source_commit": "3d98c85228821d955479730292d2b026fd1d63ed"
+    },
+    {
+      "path": "config/policy_camera_calibration.json",
+      "group": "frozen_source",
+      "bytes": 21191,
+      "sha256": "8c7baf682c4d15ade6309a2372d4227b7a543f4074b79bccfd9a2bdd23589104",
+      "git_blob": "5aa832dc85eaa3345c7f3405c5b645ce72317b61",
+      "source_commit": "3d98c85228821d955479730292d2b026fd1d63ed"
+    },
+    {
+      "path": "config/robot_station_frames.json",
+      "group": "frozen_source",
+      "bytes": 13069,
+      "sha256": "9192da25d0117405e812a85104ab14a6cce94372bdf0591b0805a34e87c4c181",
+      "git_blob": "e8508fbc0a788f23a9160a941f3b52ad130e9c30",
+      "source_commit": "3d98c85228821d955479730292d2b026fd1d63ed"
+    },
+    {
+      "path": "docs/diagnostics/gate6_stage3_repro_witness/RULE.json",
+      "group": "metadata",
+      "bytes": 1660,
+      "sha256": "770faeab856c154bf6f9ab48512fce3932bfe1fee494e451f7ec56da8eb00782"
+    },
+    {
+      "path": "docs/grants/GATE6_STAGE0_VISUAL_APPROVAL_20261012.json",
+      "group": "metadata",
+      "bytes": 19253,
+      "sha256": "f7d7555fd036edb0b715870e5371cdedfc67bcb25eff59661b6e2a45c6de9be2",
+      "purpose": "Frozen visual-approval validation required by the original recorder"
+    },
+    {
+      "path": "docs/plans/CHICGRASP_SCALED50_HB_V3C_BATCH/readout.py",
+      "group": "frozen_source",
+      "bytes": 15336,
+      "sha256": "abcb135c9573c8005a689dda2d0b780c3788ccb4fc39714bb5e9b1e1918e949c",
+      "git_blob": "91fc9f1c76dd3521e8d1ac4e87a1a9e79d8155c9",
+      "source_commit": "3d98c85228821d955479730292d2b026fd1d63ed"
+    },
+    {
+      "path": "docs/plans/CHICGRASP_SCALED50_HC_V3C_BATCH/HC_POSITIONS.json",
+      "group": "metadata",
+      "bytes": 18265,
+      "sha256": "6b72af4c8f822d4db52d20c89516c0dfb7a0ee36d0512c6bcd6e0132c8b50cee"
+    },
+    {
+      "path": "docs/plans/CHICGRASP_SCALED50_HC_V3C_BATCH/POSITIONS.json",
+      "group": "metadata",
+      "bytes": 259858,
+      "sha256": "7c9281fb34d8a0b26244f6d5b213765fb10da43e5d41be191bf44c33d41e1ce3"
+    },
+    {
+      "path": "docs/plans/CHICGRASP_SCALED50_HC_V3C_BATCH/readout.py",
+      "group": "frozen_source",
+      "bytes": 6311,
+      "sha256": "a58bcec2e865fed6e08b20bbed360281139cf474e262aa6a802d9dce90f27aa6",
+      "git_blob": "ec2f7517ee13e3bdcb27245f198bdd0a16d86bea",
+      "source_commit": "3d98c85228821d955479730292d2b026fd1d63ed"
+    },
+    {
+      "path": "docs/plans/CHICGRASP_SCALED50_HC_V3C_BATCH/run_batch.py",
+      "group": "frozen_source",
+      "bytes": 4373,
+      "sha256": "5376544be23409e1af49431db2e075b25bb37f08099c3ab2533aa719da319743",
+      "git_blob": "ae0cb87288f6063aef8fb0c5477dc5a763a8581e",
+      "source_commit": "3d98c85228821d955479730292d2b026fd1d63ed"
+    },
+    {
+      "path": "docs/plans/CHICGRASP_SCALED_TABLE_AND_COVERAGE/attempt005/SCENE_PROFILE.json",
+      "group": "metadata",
+      "bytes": 39255,
+      "sha256": "4f40d26e122c99ea5cb980edea4a391b5335a99fe060b84cacd40305374c0d5f"
+    },
+    {
+      "path": "outputs/random_xy_50_collection/attempt001/package/normalization.json",
+      "group": "metadata",
+      "bytes": 5402,
+      "sha256": "b15853dc2619416f2ff89a04a3da2f476557305b083aefe73dc9a8ccddea8141"
+    },
+    {
+      "path": "outputs/random_xy_50_collection/attempt001/package/selected_training.json",
+      "group": "metadata",
+      "bytes": 30702,
+      "sha256": "8cff41a2b9ba18acf90104175f3e0dc81a5e1cdd2a89e206f20cf0b00819d733"
+    },
+    {
+      "path": "outputs/random_xy_50_collection/attempt001/package/training_source_identity.json",
+      "group": "metadata",
+      "bytes": 57792,
+      "sha256": "95784c1e8938f518fa093b4e78c486e6ef4a41de55cf6d686c8e27c6232e27e2"
+    },
+    {
+      "path": "outputs/scaled50_aligned_training/attempt001/preflight002/recipe.json",
+      "group": "metadata",
+      "bytes": 16015,
+      "sha256": "84abeba3ab958b887356c5692f6eeec527c2cfb6335e047f2d214a83508ca36d"
+    },
+    {
+      "path": "outputs/scaled50_aligned_training/attempt001/step2/counted004/BEST.pt",
+      "group": "model",
+      "bytes": 5268876919,
+      "sha256": "1e91f1db31fb9b2856845abc2266a9078d9c97c1b291bc1e1faaa3c29a3855fe"
+    },
+    {
+      "path": "outputs/scaled50_aligned_training/attempt001/step2/counted004/recipe.json",
+      "group": "metadata",
+      "bytes": 16696,
+      "sha256": "81da7f911c82f6a217d43e8ae547b801bb4e6eb89d4d83e6ce94bec311d4c8b4"
+    },
+    {
+      "path": "scripts/policy/attachment_assisted_lift_record.py",
+      "group": "frozen_source",
+      "bytes": 138460,
+      "sha256": "6b5ddd72871866c1e76979b641cc82cf4b43e645ac422f3a94ef3dbcfb4e8026",
+      "git_blob": "042a9e4b7f1babf519f88e5162905ec75574e7de",
+      "source_commit": "3d98c85228821d955479730292d2b026fd1d63ed"
+    },
+    {
+      "path": "source/chicgrasp_isaac/chicgrasp_isaac/__init__.py",
+      "group": "frozen_source",
+      "bytes": 384,
+      "sha256": "f28fd5c0e73ae4c7b8e57612ad8de63f57048b28b9f713851a6219947eec1a24",
+      "git_blob": "702c9a06288f351c6a502b29f53f01e3bc1011da",
+      "source_commit": "3d98c85228821d955479730292d2b026fd1d63ed"
+    },
+    {
+      "path": "source/chicgrasp_isaac/chicgrasp_isaac/tasks/__init__.py",
+      "group": "frozen_source",
+      "bytes": 549,
+      "sha256": "8f743e0dc8438ea60cdc2779f7335bebce38d56ac0c79657efb73d1016386672",
+      "git_blob": "0a1b8f99b3ea663e7643ae4e6229629c9ba43d5a",
+      "source_commit": "3d98c85228821d955479730292d2b026fd1d63ed"
+    },
+    {
+      "path": "source/chicgrasp_isaac/chicgrasp_isaac/tasks/manager_based/__init__.py",
+      "group": "frozen_source",
+      "bytes": 237,
+      "sha256": "7698d42c66bc857f0850a84519165ed1180744663bb490b943f241339b8b6eef",
+      "git_blob": "52a0c054ce96126c5e03934e645a1c4a17f57cdb",
+      "source_commit": "3d98c85228821d955479730292d2b026fd1d63ed"
+    },
+    {
+      "path": "source/chicgrasp_isaac/chicgrasp_isaac/tasks/manager_based/chicgrasp_isaac/__init__.py",
+      "group": "frozen_source",
+      "bytes": 1022,
+      "sha256": "dd0889d3806c90994f73353ec3c31444e40910bada9a1d9a6b43d542694089bd",
+      "git_blob": "b73bd072e0e7f4a2cf57a4963d6e8dd0c4973673",
+      "source_commit": "3d98c85228821d955479730292d2b026fd1d63ed"
+    },
+    {
+      "path": "source/chicgrasp_isaac/chicgrasp_isaac/tasks/manager_based/chicgrasp_isaac/agents/__init__.py",
+      "group": "frozen_source",
+      "bytes": 194,
+      "sha256": "c4c9ea5b954074caf3af54706fa6efa9e1671777d652db642351ca3a3505e7bb",
+      "git_blob": "cb67d3ca9d1d511b4390d788d50e5b7f7d763e72",
+      "source_commit": "3d98c85228821d955479730292d2b026fd1d63ed"
+    },
+    {
+      "path": "source/chicgrasp_isaac/chicgrasp_isaac/tasks/manager_based/chicgrasp_isaac/agents/rsl_rl_ppo_cfg.py",
+      "group": "frozen_source",
+      "bytes": 1162,
+      "sha256": "a3df65eadbd7de2e7dd068509d2e48331c60f4e1c9ce858044475efc8c9f985f",
+      "git_blob": "ae2b5ac4fadf06caf118768c82072fd43492236a",
+      "source_commit": "3d98c85228821d955479730292d2b026fd1d63ed"
+    },
+    {
+      "path": "source/chicgrasp_isaac/chicgrasp_isaac/tasks/manager_based/chicgrasp_isaac/chicgrasp_isaac_env_cfg.py",
+      "group": "frozen_source",
+      "bytes": 18753,
+      "sha256": "8f1cef638081d569d872c6e616ad89c74813273fccdfd199666a54fac676b3d8",
+      "git_blob": "eb9ccc49bd5526313ab3a61b428295a88dbb1158",
+      "source_commit": "3d98c85228821d955479730292d2b026fd1d63ed"
+    },
+    {
+      "path": "source/chicgrasp_isaac/chicgrasp_isaac/tasks/manager_based/chicgrasp_isaac/mdp/__init__.py",
+      "group": "frozen_source",
+      "bytes": 383,
+      "sha256": "4624277bf57ca1e57c93cac3b5b2c5fd33f0453e17038aa41741e4ac1e474465",
+      "git_blob": "2670b656d4b94d0d3303658c74db9aec2bf3439b",
+      "source_commit": "3d98c85228821d955479730292d2b026fd1d63ed"
+    },
+    {
+      "path": "source/chicgrasp_isaac/chicgrasp_isaac/tasks/manager_based/chicgrasp_isaac/mdp/policy_interface.py",
+      "group": "frozen_source",
+      "bytes": 16789,
+      "sha256": "715cbe981af6b01eb6de6f17dcc8d5a28e40502bc8554545a5b59572b8ed2d69",
+      "git_blob": "5c7accab039265c20f9c98f7cbdd66f04d06dc25",
+      "source_commit": "3d98c85228821d955479730292d2b026fd1d63ed"
+    },
+    {
+      "path": "source/chicgrasp_isaac/chicgrasp_isaac/tasks/manager_based/chicgrasp_isaac/mdp/rewards.py",
+      "group": "frozen_source",
+      "bytes": 989,
+      "sha256": "028f5b6f0c57ec0dd9164a341eba932799d7cc294b905a76c600676c1fc0a73a",
+      "git_blob": "820e3907cc7d9d9e5e64e709c470d50c3b096743",
+      "source_commit": "3d98c85228821d955479730292d2b026fd1d63ed"
+    },
+    {
+      "path": "source/chicgrasp_isaac/chicgrasp_isaac/tasks/manager_based/chicgrasp_isaac/robot_cfg.py",
+      "group": "frozen_source",
+      "bytes": 4478,
+      "sha256": "4ece22e2c51cd2ef6da58edd35b7f7d1a2d2e39384947f26989552ba13840c34",
+      "git_blob": "4410b5c6621745d9f08b3086e46fcc638e4b6a88",
+      "source_commit": "3d98c85228821d955479730292d2b026fd1d63ed"
+    },
+    {
+      "path": "source/chicgrasp_isaac/chicgrasp_isaac/ui_extension_example.py",
+      "group": "frozen_source",
+      "bytes": 1764,
+      "sha256": "322593c159ac90ce77ccd917759a374f0a3dc4712351fbab2193d3c94a8e765c",
+      "git_blob": "a6f0530e2f1de5dff8d132b5dc6bbf8322ef9d3e",
+      "source_commit": "3d98c85228821d955479730292d2b026fd1d63ed"
+    },
+    {
+      "path": "source/chicgrasp_isaac/config/extension.toml",
+      "group": "frozen_source",
+      "bytes": 987,
+      "sha256": "60e13b7de452edb802df2f0edd28aa3d857603b1d92c8ff214709c5658232064",
+      "git_blob": "20c015d3453c88b87bbc45b3c528bf1577cc467c",
+      "source_commit": "3d98c85228821d955479730292d2b026fd1d63ed"
+    },
+    {
+      "path": "source/chicgrasp_isaac/pyproject.toml",
+      "group": "frozen_source",
+      "bytes": 101,
+      "sha256": "0252d692648067f2a5ca4f3f954416a854663922f5d9f30b46302b9c4c294390",
+      "git_blob": "054f753b855cf24765c53c3827e12ea87c962fa6",
+      "source_commit": "3d98c85228821d955479730292d2b026fd1d63ed"
+    },
+    {
+      "path": "source/chicgrasp_isaac/setup.py",
+      "group": "frozen_source",
+      "bytes": 1691,
+      "sha256": "7492f598316d55f7dc37e280b80b711058511176a2722f54653cd38e8f4c0e6e",
+      "git_blob": "307a82990d0542ccb464a6cb3251c4642279ef90",
+      "source_commit": "3d98c85228821d955479730292d2b026fd1d63ed"
+    },
+    {
+      "path": "src/.gitkeep",
+      "group": "frozen_source",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "source_commit": "3d98c85228821d955479730292d2b026fd1d63ed"
+    },
+    {
+      "path": "src/chicgrasp_policy/__init__.py",
+      "group": "frozen_source",
+      "bytes": 3878,
+      "sha256": "0d7402d69fdfcadecbb7ae24dd38e729a5b99dd3736ce6b1dd5aef502b9db399",
+      "git_blob": "61dd5e466f1655560719ce0ec2df5129825014fb",
+      "source_commit": "3d98c85228821d955479730292d2b026fd1d63ed"
+    },
+    {
+      "path": "src/chicgrasp_policy/attachment_backend_adjudicate.py",
+      "group": "frozen_source",
+      "bytes": 10962,
+      "sha256": "b0360443a485e03d8e2116ac1dc1622431bbd77a5a53e85d288f634ec0218187",
+      "git_blob": "55dc3c58814f54aa2abaff6dbd81120bf74f5026",
+      "source_commit": "3d98c85228821d955479730292d2b026fd1d63ed"
+    },
+    {
+      "path": "src/chicgrasp_policy/attachment_capture.py",
+      "group": "frozen_source",
+      "bytes": 31167,
+      "sha256": "7c15e23cab22b3562e594870bab2dfe5b470b0780e67f755ccd866f5b0a33886",
+      "git_blob": "bdbb7af2637865db051ba40b50b83adcd0e380b3",
+      "source_commit": "3d98c85228821d955479730292d2b026fd1d63ed"
+    },
+    {
+      "path": "src/chicgrasp_policy/attachment_capture_runtime.py",
+      "group": "frozen_source",
+      "bytes": 66197,
+      "sha256": "c8e45a9950408c232f1c4fbc1c8820de59c3e3c8481eb0f4f60943d43882543c",
+      "git_blob": "dade19153bf4c3718ba4d10eb764aa9f8b999369",
+      "source_commit": "3d98c85228821d955479730292d2b026fd1d63ed"
+    },
+    {
+      "path": "src/chicgrasp_policy/attachment_observation_adjudicate.py",
+      "group": "frozen_source",
+      "bytes": 47826,
+      "sha256": "2954891294d88a2d7ab0a2d5921d937872bc84838e36480e97e4e23d2883cde9",
+      "git_blob": "89ccaf9c6246a6fadae51119a7136655f8e66b94",
+      "source_commit": "3d98c85228821d955479730292d2b026fd1d63ed"
+    },
+    {
+      "path": "src/chicgrasp_policy/attachment_observation_control.py",
+      "group": "frozen_source",
+      "bytes": 33512,
+      "sha256": "ef0a586b77b0289b98d9f415a37736c5f88378299a98c9d49e0924431110d73f",
+      "git_blob": "ca328140f27b0795122ce5606cfc79cfbc7d18e8",
+      "source_commit": "3d98c85228821d955479730292d2b026fd1d63ed"
+    },
+    {
+      "path": "src/chicgrasp_policy/attachment_observation_evidence.py",
+      "group": "frozen_source",
+      "bytes": 26628,
+      "sha256": "1adb78a3449c6bd245e37edf3edf50d95a8262834d2e2980001129dec77b2ed8",
+      "git_blob": "54bf81c7491587747e51283e674925772639793e",
+      "source_commit": "3d98c85228821d955479730292d2b026fd1d63ed"
+    },
+    {
+      "path": "src/chicgrasp_policy/attachment_owner.py",
+      "group": "frozen_source",
+      "bytes": 52652,
+      "sha256": "ee668df0a5776115b02a398af81e448ab21dc9ab611b5184b6dde835ee691336",
+      "git_blob": "5d3981406dc111d46b3f5df99d2bfc6d5ca71fb6",
+      "source_commit": "3d98c85228821d955479730292d2b026fd1d63ed"
+    },
+    {
+      "path": "src/chicgrasp_policy/attachment_run_policy.py",
+      "group": "frozen_source",
+      "bytes": 21414,
+      "sha256": "8503074687bbe8f37d22afcc4981796674853033d109eac203adc4e604313511",
+      "git_blob": "e2593931547a12c058386eb702f48e3a77caf959",
+      "source_commit": "3d98c85228821d955479730292d2b026fd1d63ed"
+    },
+    {
+      "path": "src/chicgrasp_policy/callback_contact_collector.py",
+      "group": "frozen_source",
+      "bytes": 49384,
+      "sha256": "3fba11fd6ceba8b0640f81c22ad6f8699709d03774ec261eee89cd2082abb9e3",
+      "git_blob": "bb4c2b5161c90c226062fad42ef571ee8b4cb0d4",
+      "source_commit": "3d98c85228821d955479730292d2b026fd1d63ed"
+    },
+    {
+      "path": "src/chicgrasp_policy/compact_contact_replay.py",
+      "group": "frozen_source",
+      "bytes": 18388,
+      "sha256": "74a2f6ae040dab54c62ee5588f57dd62a18c64a9986d59da2b6b33d58b9e9057",
+      "git_blob": "4ecad5d262d2eda312fc37771ab52527f2edfd9c",
+      "source_commit": "3d98c85228821d955479730292d2b026fd1d63ed"
+    },
+    {
+      "path": "src/chicgrasp_policy/compact_contact_storage.py",
+      "group": "frozen_source",
+      "bytes": 31586,
+      "sha256": "6a6ff2753651e46b0a6a53412ca672404e24c23b4e9404fc1421435926a9f30d",
+      "git_blob": "872113ff29ea52ca703e09b71f5fc97c3c4dd0ae",
+      "source_commit": "3d98c85228821d955479730292d2b026fd1d63ed"
+    },
+    {
+      "path": "src/chicgrasp_policy/compact_contact_storage_budget.py",
+      "group": "frozen_source",
+      "bytes": 9630,
+      "sha256": "1ae753a3745ff45d1e162f3814926a18cee17cfac1ab65f3ea6de69885b9425a",
+      "git_blob": "d543b453da47639a67cef0e12c65ed3445db4916",
+      "source_commit": "3d98c85228821d955479730292d2b026fd1d63ed"
+    },
+    {
+      "path": "src/chicgrasp_policy/cpu_evidence_first_adjudicate.py",
+      "group": "frozen_source",
+      "bytes": 37145,
+      "sha256": "11213da6fd27ec12f9d705f5a3a6da22a881320b47e77e2da83739c0ba79788c",
+      "git_blob": "ef77a56828f9c3a9421d202e97ef54d7e1de6ac8",
+      "source_commit": "3d98c85228821d955479730292d2b026fd1d63ed"
+    },
+    {
+      "path": "src/chicgrasp_policy/cpu_startup_adjudicate.py",
+      "group": "frozen_source",
+      "bytes": 35422,
+      "sha256": "432d352e3793c8c84e67d7b2a38cd4167121cd854b91995b82360de80cfc882f",
+      "git_blob": "5d2c6b2c3c918924d44002fa38ecc3ed3ff160b8",
+      "source_commit": "3d98c85228821d955479730292d2b026fd1d63ed"
+    },
+    {
+      "path": "src/chicgrasp_policy/deployment_adapter.py",
+      "group": "frozen_source",
+      "bytes": 7434,
+      "sha256": "fc47eee3f4331efa42ba3bd255532c1dcb6f00c1f7631f95a04914e204f8e262",
+      "git_blob": "55b2ff7db390de2d1850dea210ddff3f59771f56",
+      "source_commit": "3d98c85228821d955479730292d2b026fd1d63ed"
+    },
+    {
+      "path": "src/chicgrasp_policy/domain_previews.py",
+      "group": "frozen_source",
+      "bytes": 1339,
+      "sha256": "431aa807343a35a4abd7f5aa65832d95c4f4cbd6089d102fb21b7f021e1f9c17",
+      "git_blob": "0dd9cd21c92e1a979d83583b626468868cad7a54",
+      "source_commit": "3d98c85228821d955479730292d2b026fd1d63ed"
+    },
+    {
+      "path": "src/chicgrasp_policy/dome_recovery.py",
+      "group": "frozen_source",
+      "bytes": 7965,
+      "sha256": "62eac354460980c97af79c1a8bc7fd590cf0e1a74b6b08ea312e094f9a7d0930",
+      "git_blob": "dbd15fcd8b49344948b76a26a0588622e090ae05",
+      "source_commit": "3d98c85228821d955479730292d2b026fd1d63ed"
+    },
+    {
+      "path": "src/chicgrasp_policy/envelope_schedule.py",
+      "group": "frozen_source",
+      "bytes": 790,
+      "sha256": "4c2f31ba2214e31fc15e56045af5c490b0b78dc746fc1376ad89c48a1fd2b773",
+      "git_blob": "d59654c7385c0bde98e1468681d323cdf221df36",
+      "source_commit": "3d98c85228821d955479730292d2b026fd1d63ed"
+    },
+    {
+      "path": "src/chicgrasp_policy/episode_io.py",
+      "group": "frozen_source",
+      "bytes": 39582,
+      "sha256": "a0bea8ba6473c3088ae6a58b7d9105fd3c1856e098ebf8f2f22da4e553724e82",
+      "git_blob": "b1b7b0a78f5cf4ab6617e0887d33aa83fd666f77",
+      "source_commit": "3d98c85228821d955479730292d2b026fd1d63ed"
+    },
+    {
+      "path": "src/chicgrasp_policy/episode_publication.py",
+      "group": "frozen_source",
+      "bytes": 9263,
+      "sha256": "ce58030c99f371cdf5f901cbece78fe3f482822684c5a09284d34781006015d4",
+      "git_blob": "440c3f07ff9c80483c5584e227ed2f241075fdcd",
+      "source_commit": "3d98c85228821d955479730292d2b026fd1d63ed"
+    },
+    {
+      "path": "src/chicgrasp_policy/exposure_cuda.py",
+      "group": "frozen_source",
+      "bytes": 1795,
+      "sha256": "b4ea0096aa171a4e54e78e7b7cde73dbebb1c0686a5beed29bf79c30b89b8b9d",
+      "git_blob": "812391b67b53c27f7dd322e1110766e2cd9fedb5",
+      "source_commit": "3d98c85228821d955479730292d2b026fd1d63ed"
+    },
+    {
+      "path": "src/chicgrasp_policy/exposure_recovery.py",
+      "group": "frozen_source",
+      "bytes": 10064,
+      "sha256": "14e8eef6429360435a853162c95ac6cc08c9c253b079e31511ce724244323ac1",
+      "git_blob": "011d544de366bef1ad08030e133ce3b720bf5e44",
+      "source_commit": "3d98c85228821d955479730292d2b026fd1d63ed"
+    },
+    {
+      "path": "src/chicgrasp_policy/geometric_admission.py",
+      "group": "frozen_source",
+      "bytes": 9185,
+      "sha256": "26ed7d26cc1b12c19df149fb1bafa798c88066d61bd4db23c5eb7191447be8a0",
+      "git_blob": "74d11a75c9c214017e38fcdb971a46002b8a408f",
+      "source_commit": "3d98c85228821d955479730292d2b026fd1d63ed"
+    },
+    {
+      "path": "src/chicgrasp_policy/geometric_capture.py",
+      "group": "frozen_source",
+      "bytes": 28320,
+      "sha256": "3b7455cfafb1d7b83460ab2f54d8c7cdc54fdeb47044429d2393a70a5e65705b",
+      "git_blob": "c3dd8f6f96223c7faacb1a18f7df7dfb733628c3",
+      "source_commit": "3d98c85228821d955479730292d2b026fd1d63ed"
+    },
+    {
+      "path": "src/chicgrasp_policy/geometric_capture_check.py",
+      "group": "frozen_source",
+      "bytes": 21382,
+      "sha256": "eb591c5699838a74ac592366dfb3b3821f131442abaeef7cc5b9d64c1cc135c1",
+      "git_blob": "efbb16ec59f9eaade558b5654946909d344cf753",
+      "source_commit": "3d98c85228821d955479730292d2b026fd1d63ed"
+    },
+    {
+      "path": "src/chicgrasp_policy/grey_studio_check.py",
+      "group": "frozen_source",
+      "bytes": 15449,
+      "sha256": "8304fe4f03313e2f5c19085464cc45c847f25c8ab43a915b31a153170aa12b2a",
+      "git_blob": "d5b558b3ca79329e6ed1aaebef6d56d3aabda902",
+      "source_commit": "3d98c85228821d955479730292d2b026fd1d63ed"
+    },
+    {
+      "path": "src/chicgrasp_policy/interface.py",
+      "group": "frozen_source",
+      "bytes": 24575,
+      "sha256": "17c14e13e00b94d8cdb81b1f31f93f94ac9c176bf94f09ab34b700fefb2ec535",
+      "git_blob": "f8331737c3be3844ce690283ccf288e26d026d91",
+      "source_commit": "3d98c85228821d955479730292d2b026fd1d63ed"
+    },
+    {
+      "path": "src/chicgrasp_policy/jaw_contact_diagnostic.py",
+      "group": "frozen_source",
+      "bytes": 57227,
+      "sha256": "fe7708dc29403b2d55fda17ac9e254f1066a5af28f8d93eba2f5c583abd4bae6",
+      "git_blob": "0a21f4160197f7b969717ffc838f59793c6e27bc",
+      "source_commit": "3d98c85228821d955479730292d2b026fd1d63ed"
+    },
+    {
+      "path": "src/chicgrasp_policy/jaw_state_diagnostics.py",
+      "group": "frozen_source",
+      "bytes": 10717,
+      "sha256": "78556fe504fd0f4491bb3ca755f1c49386266c7963d9c0da29dffce275731e1f",
+      "git_blob": "a9798182894e22615d0697d42da8034830892ef2",
+      "source_commit": "3d98c85228821d955479730292d2b026fd1d63ed"
+    },
+    {
+      "path": "src/chicgrasp_policy/lift_event_pose_evidence.py",
+      "group": "frozen_source",
+      "bytes": 55781,
+      "sha256": "a2455f84a0f2c34b24f5bc39ecadacf42c5655e931a9b95fb5c59d1638949703",
+      "git_blob": "130a5e970cd95f130846c4df0787dfb724d04afd",
+      "source_commit": "3d98c85228821d955479730292d2b026fd1d63ed"
+    },
+    {
+      "path": "src/chicgrasp_policy/managed_scene_identity.py",
+      "group": "frozen_source",
+      "bytes": 18680,
+      "sha256": "ee5be0210e10e9260e00c35839e302c6d798ce3662e494d5d6e3930215af51f3",
+      "git_blob": "f666dfb574d84a4f30a6ee457217fe79cd19b0dc",
+      "source_commit": "3d98c85228821d955479730292d2b026fd1d63ed"
+    },
+    {
+      "path": "src/chicgrasp_policy/observation_metadata.py",
+      "group": "frozen_source",
+      "bytes": 5950,
+      "sha256": "86afcef578a06456426a9e6848cbf9531fdcd1bf5211dcdcac4e9cc72077758f",
+      "git_blob": "4f2f2df97e56eabb0ac10c3538b66ef60d9559c6",
+      "source_commit": "3d98c85228821d955479730292d2b026fd1d63ed"
+    },
+    {
+      "path": "src/chicgrasp_policy/overfit_data.py",
+      "group": "frozen_source",
+      "bytes": 7608,
+      "sha256": "62ce3e19157309d06fea90ecca9ffbf98bf07100c8d925b100029e3dd32900d7",
+      "git_blob": "63ce5fc0f6a3dde2b83e66022ca857b462407db6",
+      "source_commit": "3d98c85228821d955479730292d2b026fd1d63ed"
+    },
+    {
+      "path": "src/chicgrasp_policy/overfit_policy.py",
+      "group": "frozen_source",
+      "bytes": 19037,
+      "sha256": "bdcdfdb52a018611a5ced6e6720acf20b776b8ef733adb39a2ae9d1015de7a03",
+      "git_blob": "d3dac2387748934755d79df06c5f082dfdacef6d",
+      "source_commit": "3d98c85228821d955479730292d2b026fd1d63ed"
+    },
+    {
+      "path": "src/chicgrasp_policy/pilot_cleanup.py",
+      "group": "frozen_source",
+      "bytes": 1922,
+      "sha256": "a61957dcce90962ec8c18749b02df4207651e5ef4b0cf7dac13a5bb481011c99",
+      "git_blob": "082e5dc610648f99b00986f058a24644677f0389",
+      "source_commit": "3d98c85228821d955479730292d2b026fd1d63ed"
+    },
+    {
+      "path": "src/chicgrasp_policy/proposed_geometric_witness.py",
+      "group": "frozen_source",
+      "bytes": 9197,
+      "sha256": "8e190f1ea131eb1f09d104f9b301e6dd7a20a2adf146321a08a022fa5ad0e36d",
+      "git_blob": "3cf435e6ee956f7060ca7f1dfa98fe106583c71f",
+      "source_commit": "3d98c85228821d955479730292d2b026fd1d63ed"
+    },
+    {
+      "path": "src/chicgrasp_policy/r4_live_binding.py",
+      "group": "frozen_source",
+      "bytes": 36658,
+      "sha256": "d7b1395bc7bda462410f5252e341f28fa8cf7ed9a9c2e1dff506675fb6554d1c",
+      "git_blob": "71136f21d195be71ba6dec2029ef01ea7fd7bd75",
+      "source_commit": "3d98c85228821d955479730292d2b026fd1d63ed"
+    },
+    {
+      "path": "src/chicgrasp_policy/r4_live_check.py",
+      "group": "frozen_source",
+      "bytes": 34291,
+      "sha256": "dc98b6acc6c4b461c8a3a460db2ea40f8c68046b11412e1817b06c9e7f16478e",
+      "git_blob": "9a67f7ac3a9833014577c77bff524ceb8f5797b1",
+      "source_commit": "3d98c85228821d955479730292d2b026fd1d63ed"
+    },
+    {
+      "path": "src/chicgrasp_policy/random_collection.py",
+      "group": "frozen_source",
+      "bytes": 9598,
+      "sha256": "d1ab6a0b679edffae8f8c6a7ff2c49c77ec244787496d1c9b5d0d639e0cfa6e5",
+      "git_blob": "d428f9413675073b491350483610dfb7b1e88681",
+      "source_commit": "3d98c85228821d955479730292d2b026fd1d63ed"
+    },
+    {
+      "path": "src/chicgrasp_policy/render_profile.py",
+      "group": "frozen_source",
+      "bytes": 3637,
+      "sha256": "e742e3582080e781272f1615008c29e7d09c788c456cd398d9612a5c84b8480a",
+      "git_blob": "b149c12eceda465039338d977fdba361b05f6f4f",
+      "source_commit": "3d98c85228821d955479730292d2b026fd1d63ed"
+    },
+    {
+      "path": "src/chicgrasp_policy/side_opening_admission.py",
+      "group": "frozen_source",
+      "bytes": 7519,
+      "sha256": "cd9d57e4475751382bf94ed34244ece25e7e4f51c3b0b2f7a19b0036b3f0da26",
+      "git_blob": "e361d511736160b2df77dd87b451d95679a5bf78",
+      "source_commit": "3d98c85228821d955479730292d2b026fd1d63ed"
+    },
+    {
+      "path": "src/chicgrasp_policy/stage0_camera_runtime.py",
+      "group": "frozen_source",
+      "bytes": 30160,
+      "sha256": "90a45a83682b42ee7e7ec4df8177b0aed9db17f1b2df3ed1b0717c2724195e45",
+      "git_blob": "337f4f6e1f85cb03b895e524f9a7bb544647cb21",
+      "source_commit": "3d98c85228821d955479730292d2b026fd1d63ed"
+    },
+    {
+      "path": "src/chicgrasp_policy/stage0_capture_check.py",
+      "group": "frozen_source",
+      "bytes": 28672,
+      "sha256": "6f4e99ed68ba740cd3b73b6f76a1b13bcc6a9881480c11c1b4552a169c830bc0",
+      "git_blob": "8541e2b88567a9cba895e8765d82a6f8cb4a3d52",
+      "source_commit": "3d98c85228821d955479730292d2b026fd1d63ed"
+    },
+    {
+      "path": "src/chicgrasp_policy/stage0_light_dump.py",
+      "group": "frozen_source",
+      "bytes": 5368,
+      "sha256": "56413c925a404fa4102f6e5224b9e4677e8c596c468aad8a50fbda55cb609b51",
+      "git_blob": "95dbd0fc7159daedbdd5ffad05e0304d202270ad",
+      "source_commit": "3d98c85228821d955479730292d2b026fd1d63ed"
+    },
+    {
+      "path": "src/chicgrasp_policy/stage0_render_diagnostic.py",
+      "group": "frozen_source",
+      "bytes": 7546,
+      "sha256": "795c790ff91ebc6e9764d124502e20e59aa44ba733483d84358135f8b72098e8",
+      "git_blob": "9d68c7682143e26a0867555cc7e866911068faae",
+      "source_commit": "3d98c85228821d955479730292d2b026fd1d63ed"
+    },
+    {
+      "path": "src/chicgrasp_policy/stage0_visuals.py",
+      "group": "frozen_source",
+      "bytes": 16359,
+      "sha256": "45b4cc789c435f506be712d7e83479544536cdd606bc5cd11ca0c55c2811045a",
+      "git_blob": "95aca1c77747355df00d55cdd721c5769cfd6358",
+      "source_commit": "3d98c85228821d955479730292d2b026fd1d63ed"
+    },
+    {
+      "path": "src/chicgrasp_policy/stage1_demo.py",
+      "group": "frozen_source",
+      "bytes": 21197,
+      "sha256": "67f25a7d2e6d502d978f3eae9e8fe7090c6ed31e1cf5341f708cdc73a041beb3",
+      "git_blob": "1556242016631728c29c53ecb1fc2c3ab2784370",
+      "source_commit": "3d98c85228821d955479730292d2b026fd1d63ed"
+    },
+    {
+      "path": "src/chicgrasp_policy/stage2_evaluation.py",
+      "group": "frozen_source",
+      "bytes": 10008,
+      "sha256": "49b622bf566e0c616a427ff72bd358755d2839d9a631097de907a7fb04b955b2",
+      "git_blob": "fa0e4c8d96256cf08cb2b7355b642afc7e039163",
+      "source_commit": "3d98c85228821d955479730292d2b026fd1d63ed"
+    },
+    {
+      "path": "src/chicgrasp_policy/stage2_overfit.py",
+      "group": "frozen_source",
+      "bytes": 15283,
+      "sha256": "283688abc20282bf085434ba556f59a9952a70d0b601e73404617dc24646693d",
+      "git_blob": "89d753c23966ad8c97eefe49e0bdad7680f57107",
+      "source_commit": "3d98c85228821d955479730292d2b026fd1d63ed"
+    },
+    {
+      "path": "src/chicgrasp_policy/stage3_check.py",
+      "group": "frozen_source",
+      "bytes": 22585,
+      "sha256": "0b81f4da523d60dfe60e7146ed5e242150e47a95edf3f63806962c58ebb09e44",
+      "git_blob": "7901338cbf6a70db4c5c4aceebf3f487bf71ac35",
+      "source_commit": "3d98c85228821d955479730292d2b026fd1d63ed"
+    },
+    {
+      "path": "src/chicgrasp_policy/stage3_policy.py",
+      "group": "frozen_source",
+      "bytes": 15687,
+      "sha256": "4f4417dff3498f6d28ba41efa9197f7bd50ea36ae46905138dbf109f0b6379a5",
+      "git_blob": "caa428d3db11936150fd6ba60362a0bdd3db98fe",
+      "source_commit": "3d98c85228821d955479730292d2b026fd1d63ed"
+    },
+    {
+      "path": "src/chicgrasp_policy/stage3_storage.py",
+      "group": "frozen_source",
+      "bytes": 3814,
+      "sha256": "7eeec4e3a98a1e75921d7748d7a7e9fdb72a17dc6d893e3c9cd5cd790c3a97d8",
+      "git_blob": "7bb3f7c30610d50df54926f80a8efe48bd26b904",
+      "source_commit": "3d98c85228821d955479730292d2b026fd1d63ed"
+    },
+    {
+      "path": "src/chicgrasp_policy/startup_backend_diagnostics.py",
+      "group": "frozen_source",
+      "bytes": 8230,
+      "sha256": "283af222038c22e6a27c96bdb28368a3f3bbd38c48464fdaa20f635cdc0e3abe",
+      "git_blob": "db1421dc99ea54defaedf207f583d79f893326e2",
+      "source_commit": "3d98c85228821d955479730292d2b026fd1d63ed"
+    },
+    {
+      "path": "src/chicgrasp_policy/translated_script.py",
+      "group": "frozen_source",
+      "bytes": 36172,
+      "sha256": "0621ded2bbe1bb2b43a709146958c5af09aea899f16fa18ff6ceb8e18af8bafd",
+      "git_blob": "1449d085bc36699709df80bc7249ae73fb87e24f",
+      "source_commit": "3d98c85228821d955479730292d2b026fd1d63ed"
+    },
+    {
+      "path": "src/chicgrasp_policy/translated_script_check.py",
+      "group": "frozen_source",
+      "bytes": 19408,
+      "sha256": "93a582917d16b1cdd2994c31b5ec6173a33265e1a248d3253d4737670d572037",
+      "git_blob": "e8d84429710a7dfd0efd67a3129108711207abb3",
+      "source_commit": "3d98c85228821d955479730292d2b026fd1d63ed"
+    },
+    {
+      "path": "third_party/chicgrasp_official/diffusion_policy/common/pytorch_util.py",
+      "group": "frozen_source",
+      "bytes": 2795,
+      "sha256": "97e74ca61df1375535d5259e1e695947a7f49be484fa024900482294aa3d7285",
+      "git_blob": "8c73f132536d8ab84e2f19f3eff11ef1b8bbc322",
+      "source_commit": "3d98c85228821d955479730292d2b026fd1d63ed"
+    },
+    {
+      "path": "third_party/chicgrasp_official/diffusion_policy/config/train_diffusion_unet_real_image_workspace.yaml",
+      "group": "frozen_source",
+      "bytes": 3767,
+      "sha256": "3478bfd7401a6838fd9a83cb25cb90a684b1e53a7be4214e87d6f0cd3c56b609",
+      "git_blob": "9cef6012408568a96abfeaa6405ce2116225c3f0",
+      "source_commit": "3d98c85228821d955479730292d2b026fd1d63ed"
+    },
+    {
+      "path": "third_party/chicgrasp_official/diffusion_policy/env/kitchen/relay_policy_learning/adept_models/LICENSE",
+      "group": "frozen_source",
+      "bytes": 11618,
+      "sha256": "9ef095165a46f4107ffcd84cd6bd71571dd58ff7d17fac8a407caf19557df509",
+      "git_blob": "0a3147b58a9f7678e7b5753ce9e57e098943da7a",
+      "source_commit": "3d98c85228821d955479730292d2b026fd1d63ed"
+    },
+    {
+      "path": "third_party/chicgrasp_official/diffusion_policy/env/kitchen/relay_policy_learning/third_party/franka/LICENSE",
+      "group": "frozen_source",
+      "bytes": 11558,
+      "sha256": "1eb85fc97224598dad1852b5d6483bbcf0aa8608790dcc657a5a2a761ae9c8c6",
+      "git_blob": "29f81d812f3e768fa89638d1f72920dbfd1413a8",
+      "source_commit": "3d98c85228821d955479730292d2b026fd1d63ed"
+    },
+    {
+      "path": "third_party/chicgrasp_official/diffusion_policy/model/bet/libraries/mingpt/LICENSE",
+      "group": "frozen_source",
+      "bytes": 1090,
+      "sha256": "f5c4128241f8863155562a99a9d3f772466e846d022699242aa69274bdee4ac9",
+      "git_blob": "46a8ed91ce628e0ec4ccc712feffc736baadc210",
+      "source_commit": "3d98c85228821d955479730292d2b026fd1d63ed"
+    },
+    {
+      "path": "third_party/chicgrasp_official/diffusion_policy/model/common/dict_of_tensor_mixin.py",
+      "group": "frozen_source",
+      "bytes": 1407,
+      "sha256": "7626cf5020fc07fd35e1e31ba5c4930605dec03232047387dabd98a02d56814e",
+      "git_blob": "c6fb50c692902d91ca32d8cf3ec770810b3b0d79",
+      "source_commit": "3d98c85228821d955479730292d2b026fd1d63ed"
+    },
+    {
+      "path": "third_party/chicgrasp_official/diffusion_policy/model/common/lr_scheduler.py",
+      "group": "frozen_source",
+      "bytes": 2014,
+      "sha256": "6b6962467bd4dcc6c48758ae3a2e1bec92c45d96c73b3e62bef33bb9a5285b13",
+      "git_blob": "05a3c1ce9fa702321d984811b74b9acc53ed3f3c",
+      "source_commit": "3d98c85228821d955479730292d2b026fd1d63ed"
+    },
+    {
+      "path": "third_party/chicgrasp_official/diffusion_policy/model/common/module_attr_mixin.py",
+      "group": "frozen_source",
+      "bytes": 348,
+      "sha256": "25e4f2ec9802a3e5b9d86ea72e10ff3f691c3dc9116efb97e02207657bdd49e5",
+      "git_blob": "16c0f3cbeca900f6e481687c6a7f4ec00b7917b0",
+      "source_commit": "3d98c85228821d955479730292d2b026fd1d63ed"
+    },
+    {
+      "path": "third_party/chicgrasp_official/diffusion_policy/model/common/normalizer.py",
+      "group": "frozen_source",
+      "bytes": 12254,
+      "sha256": "41716b26e46f75a868db012647e810c0a75666e2839bdf4a79bbca6524d0e803",
+      "git_blob": "c874f36d269e9f09d4fe66952bb713773330aa9f",
+      "source_commit": "3d98c85228821d955479730292d2b026fd1d63ed"
+    },
+    {
+      "path": "third_party/chicgrasp_official/diffusion_policy/model/common/tensor_util.py",
+      "group": "frozen_source",
+      "bytes": 31222,
+      "sha256": "877b4dc0f78f6cc1464ebd54c5dc956099e81b6083891fa624488ab9a6555ad6",
+      "git_blob": "8b95f6d24a32b6e86e49bf4a5462c18989709587",
+      "source_commit": "3d98c85228821d955479730292d2b026fd1d63ed"
+    },
+    {
+      "path": "third_party/chicgrasp_official/diffusion_policy/model/diffusion/conditional_unet1d.py",
+      "group": "frozen_source",
+      "bytes": 9194,
+      "sha256": "1e020288d07f187a13b1e7a23324540fcf1db307c200e43a177e72d9208d1c33",
+      "git_blob": "b09516698c9036e1ea56e5d63b5c980c8ca582ac",
+      "source_commit": "3d98c85228821d955479730292d2b026fd1d63ed"
+    },
+    {
+      "path": "third_party/chicgrasp_official/diffusion_policy/model/diffusion/conv1d_components.py",
+      "group": "frozen_source",
+      "bytes": 1269,
+      "sha256": "71c04137f59d3ba6a7d41e985336f7a5753439976753ce6fc23cb57a5b53d98d",
+      "git_blob": "b65fe3d7e318eff69f87afa182a5228f98823e20",
+      "source_commit": "3d98c85228821d955479730292d2b026fd1d63ed"
+    },
+    {
+      "path": "third_party/chicgrasp_official/diffusion_policy/model/diffusion/ema_model.py",
+      "group": "frozen_source",
+      "bytes": 3392,
+      "sha256": "f6578769bf9105f368602a959f5a37906ce00c2885ecde5baf56117261651807",
+      "git_blob": "8e523f024596b5ab8537edea79e5a4b7730611ae",
+      "source_commit": "3d98c85228821d955479730292d2b026fd1d63ed"
+    },
+    {
+      "path": "third_party/chicgrasp_official/diffusion_policy/model/diffusion/mask_generator.py",
+      "group": "frozen_source",
+      "bytes": 8137,
+      "sha256": "5d7832fa66af8b30b6a5c2ad83e8d9f9f8a8092a5d587d6f5fa2a8ae66d7966a",
+      "git_blob": "88260c4157ef47cc749af2c1941c41f8e3ff9ba7",
+      "source_commit": "3d98c85228821d955479730292d2b026fd1d63ed"
+    },
+    {
+      "path": "third_party/chicgrasp_official/diffusion_policy/model/diffusion/positional_embedding.py",
+      "group": "frozen_source",
+      "bytes": 497,
+      "sha256": "58e88588c30ec28d0b52e5b4d5f5376e3d78bb61e49da31c87cddf7776fd5f4e",
+      "git_blob": "6934290a6e9a56b35d8cd1a1585db4e27a9c4c3b",
+      "source_commit": "3d98c85228821d955479730292d2b026fd1d63ed"
+    },
+    {
+      "path": "third_party/chicgrasp_official/diffusion_policy/model/vision/crop_randomizer.py",
+      "group": "frozen_source",
+      "bytes": 12990,
+      "sha256": "71dc97593b10b4c9ebbecb7c723c7eef4d10841e0ec59e5f20341a87f52e83cb",
+      "git_blob": "323417a4f5f6beae6374e4b278b17cdb43b47f73",
+      "source_commit": "3d98c85228821d955479730292d2b026fd1d63ed"
+    },
+    {
+      "path": "third_party/chicgrasp_official/diffusion_policy/model/vision/model_getter.py",
+      "group": "frozen_source",
+      "bytes": 745,
+      "sha256": "c10154b71ab6ba9e5947c700d1cecadfedb15ed9470d117f81792d74f5747be4",
+      "git_blob": "1532ee01c64d0122e6135a1b2254253290894453",
+      "source_commit": "3d98c85228821d955479730292d2b026fd1d63ed"
+    },
+    {
+      "path": "third_party/chicgrasp_official/diffusion_policy/model/vision/multi_image_obs_encoder.py",
+      "group": "frozen_source",
+      "bytes": 8108,
+      "sha256": "8cad3cb5a3f390d8904b32f1f750f920e4f631a996e56cbeba4a201a1ec8d51d",
+      "git_blob": "4c7a0f64a4b07a54816ca25231f94aafba415735",
+      "source_commit": "3d98c85228821d955479730292d2b026fd1d63ed"
+    },
+    {
+      "path": "third_party/chicgrasp_official/diffusion_policy/policy/base_image_policy.py",
+      "group": "frozen_source",
+      "bytes": 840,
+      "sha256": "d3271b5e97ff3bf2d5eb078e05a35e75485b7203f70ae2ac2f139f513748c330",
+      "git_blob": "86ae61d0e90c2ad5075a90e15d5c65fa643d9cb3",
+      "source_commit": "3d98c85228821d955479730292d2b026fd1d63ed"
+    },
+    {
+      "path": "third_party/chicgrasp_official/diffusion_policy/policy/diffusion_unet_image_policy.py",
+      "group": "frozen_source",
+      "bytes": 9911,
+      "sha256": "ff3bf7d91caa14ff7987df620b69a983249424184f92048115baafc2f5a45c66",
+      "git_blob": "5e59416121fccf9728e775453f72439981213f5d",
+      "source_commit": "3d98c85228821d955479730292d2b026fd1d63ed"
+    }
+  ]
+}

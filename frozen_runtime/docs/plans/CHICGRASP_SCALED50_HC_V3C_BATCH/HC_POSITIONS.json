@@ -1,0 +1,667 @@
+{
+  "schema": "chicgrasp-hc-preregistration/v1",
+  "status": "FROZEN_IN_OWNER_CONVERSATION_PENDING_REPOSITORY_IMPORT_AND_EXISTING_OFFLINE_COVERAGE_RECEIPT",
+  "date": "2026-10-25",
+  "owner_order": "Freeze HC with zero starts; run HC batch; film DEMO_ONLY after HC; prepare publication package after both.",
+  "definition_id": "V1_WINDOWS_WITH_EARLIEST_DEMO_ATTACHMENT",
+  "checkpoint_update": 120000,
+  "checkpoint_sha256": "1e91f1db31fb9b2856845abc2266a9078d9c97c1b291bc1e1faaa3c29a3855fe",
+  "normalizer_sha256": "b15853dc2619416f2ff89a04a3da2f476557305b083aefe73dc9a8ccddea8141",
+  "scene_profile_sha256": "4f40d26e122c99ea5cb980edea4a391b5335a99fe060b84cacd40305374c0d5f",
+  "preceding_harness_publication": "cd354d8bce72766a0bf1980ebff1253e153a8d23",
+  "preceding_harness_executed": "7a6cd79105241cc6426d3f1e9fece03c855a19db",
+  "preceding_HB_v3c_publication": "Resolve existing chicgrasp-scaled50-hb-v3c-batch tag; full final batch report not supplied to this freeze.",
+  "generator": {
+    "bit_generator": "PCG64",
+    "seed": 42004,
+    "numpy_version_used": "2.3.5",
+    "construction": "numpy.random.Generator(numpy.random.PCG64(42004))",
+    "draw": "One float64 rng.uniform(low=[x_min,y_min], high=[x_max,y_max], size=2) per candidate.",
+    "continuation_interpretation": "Next independent placement seed after HB seed42003; not reuse or continuation of its consumed bit-generator state.",
+    "historical_HB_reproduction": "All ten HB coordinates and accepted draw indices reproduced exactly from the supplied frozen HB generation rule.",
+    "acceptance": "Minimum Euclidean authored-world-XY distance >=0.010 m from all50 selected training spawns, all10 H development spawns and all10 HB development spawns; no exact duplicate of an available previously attempted collection/H/HB spawn or within HC.",
+    "no_additional_inter_HC_distance_rule": true,
+    "no_outcome_or_refusal_neighborhood_screening": true,
+    "max_candidate_draws": 10000
+  },
+  "rectangle_world_xy_m": {
+    "x": [
+      0.6400000393390657,
+      0.699988579750061
+    ],
+    "y": [
+      -0.009999997913837447,
+      0.295
+    ]
+  },
+  "exclusion_counts": {
+    "selected_training": 50,
+    "H_development": 10,
+    "HB_development": 10
+  },
+  "coverage": {
+    "rectangle_and_authored_height_orientation": "PASS: every point lies in the unchanged approved placement rectangle, Z0.8155, identity rotation.",
+    "camera_table_profile": "Inherited attempt005 approved-profile coverage; no new simulator or image check performed.",
+    "existing_HB_offline_coverage_and_real_fence_validator": "REQUIRED_LOCAL_RECEIPT_BEFORE_NATIVE_DISPATCH. Reuse the exact existing HB check without new margins or camera changes; do not claim it was executed in ChatGPT.",
+    "additional_render_or_simulator_qualification": "NOT_AUTHORIZED",
+    "on_genuine_local_coverage_or_fence_failure": "STOP with the frozen file preserved; do not silently move, replace or redraw points."
+  },
+  "inference_seeds": {
+    "environment_seed": 42,
+    "local_rounds": [
+      0,
+      1,
+      2
+    ],
+    "continued_round_indices": [
+      3,
+      4,
+      5
+    ],
+    "diffusion_formula": "12345 + 12*k + 1000*(3+r), with HC local r=0,1,2 and unchanged global chunk k.",
+    "base_diffusion_seeds": [
+      15345,
+      16345,
+      17345
+    ],
+    "dispatch_order": "HC01_R0..HC10_R0, then HC01_R1..HC10_R1, then HC01_R2..HC10_R2."
+  },
+  "scoring": {
+    "planned_trials": 30,
+    "WORKED_min": 15,
+    "PARTIAL_min": 12,
+    "PARTIAL_max": 14,
+    "FAILED_max": 11,
+    "additional_60_percent_min": 18,
+    "headline": "ten previously untested positions, 30 trials, temporary-attachment protocol"
+  },
+  "sources": {
+    "CONTACT_MODE_MAP.json": {
+      "sha256": "a3283ceb3b1b939002ab6f2c490ec54b9cbd989245858d729f8ff2707cf90826",
+      "bytes": 2348888
+    },
+    "POSITIONS.json": {
+      "sha256": "89be3c48b3f1b82723db97711cd7fa3b984d76ae39da8f4b57c3d0f22c585eeb",
+      "bytes": 324468
+    },
+    "HB_conversation_preregistration": {
+      "sha256": "d7e23a47e0174dff6251da50ade74ccad84a357b9b1ddcbe8139189b0c81c4b4",
+      "bytes": 11704
+    },
+    "selected_training_manifest": {
+      "path": "C:\\robotics\\ChicGrasp_gate6_stage3\\outputs\\random_xy_50_collection\\attempt001\\package\\selected_training.json",
+      "bytes": 30702,
+      "sha256": "8cff41a2b9ba18acf90104175f3e0dc81a5e1cdd2a89e206f20cf0b00819d733"
+    },
+    "H_positions_manifest": {
+      "path": "C:\\robotics\\ChicGrasp_gate6_stage3\\docs\\plans\\CHICGRASP_RANDOM_XY_50_COLLECTION\\PACKAGE\\heldout_positions.json",
+      "bytes": 9931,
+      "sha256": "3d72a30c604987fe9bbddae20b8000c41b47a5249be765d817a47d3ddac4c900"
+    },
+    "repository_HB_positions_sha256": "c76525600edef6126ebec8bc5fa19209e2eeb2d26fe7b79e560113359233ee17"
+  },
+  "candidate_draw_count": 37,
+  "rejected_candidate_count": 27,
+  "positions": [
+    {
+      "position_id": "HC01",
+      "draw_index_zero_based": 2,
+      "authored_xy_m": [
+        0.6694885857605405,
+        0.054859911649051615
+      ],
+      "authored_world_xyz_m": [
+        0.6694885857605405,
+        0.054859911649051615,
+        0.8155
+      ],
+      "rotation_wxyz": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "nearest_training_id": "R000054",
+      "nearest_training_distance_m": 0.01411288164485166,
+      "nearest_H_id": "H05",
+      "nearest_H_distance_m": 0.028552622643037363,
+      "nearest_HB_id": "HB07",
+      "nearest_HB_distance_m": 0.016433840882267445,
+      "rectangle_check": "PASS",
+      "known_prior_attempt_exact_match": false
+    },
+    {
+      "position_id": "HC02",
+      "draw_index_zero_based": 6,
+      "authored_xy_m": [
+        0.6931872929281494,
+        -0.00767338821993384
+      ],
+      "authored_world_xyz_m": [
+        0.6931872929281494,
+        -0.00767338821993384,
+        0.8155
+      ],
+      "rotation_wxyz": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "nearest_training_id": "R000062",
+      "nearest_training_distance_m": 0.04186610161772471,
+      "nearest_H_id": "H03",
+      "nearest_H_distance_m": 0.026206189609996274,
+      "nearest_HB_id": "HB07",
+      "nearest_HB_distance_m": 0.05471452446913196,
+      "rectangle_check": "PASS",
+      "known_prior_attempt_exact_match": false
+    },
+    {
+      "position_id": "HC03",
+      "draw_index_zero_based": 7,
+      "authored_xy_m": [
+        0.6801895917302738,
+        0.19405871339582204
+      ],
+      "authored_world_xyz_m": [
+        0.6801895917302738,
+        0.19405871339582204,
+        0.8155
+      ],
+      "rotation_wxyz": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "nearest_training_id": "R000028",
+      "nearest_training_distance_m": 0.011100771776918943,
+      "nearest_H_id": "H02",
+      "nearest_H_distance_m": 0.02859949078264894,
+      "nearest_HB_id": "HB01",
+      "nearest_HB_distance_m": 0.010169950167503784,
+      "rectangle_check": "PASS",
+      "known_prior_attempt_exact_match": false
+    },
+    {
+      "position_id": "HC04",
+      "draw_index_zero_based": 9,
+      "authored_xy_m": [
+        0.6872869716228535,
+        0.16741404819251376
+      ],
+      "authored_world_xyz_m": [
+        0.6872869716228535,
+        0.16741404819251376,
+        0.8155
+      ],
+      "rotation_wxyz": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "nearest_training_id": "R000020",
+      "nearest_training_distance_m": 0.012107180110178967,
+      "nearest_H_id": "H02",
+      "nearest_H_distance_m": 0.02642803403598896,
+      "nearest_HB_id": "HB01",
+      "nearest_HB_distance_m": 0.03327219548563996,
+      "rectangle_check": "PASS",
+      "known_prior_attempt_exact_match": false
+    },
+    {
+      "position_id": "HC05",
+      "draw_index_zero_based": 16,
+      "authored_xy_m": [
+        0.6550067125612443,
+        0.009531440134910783
+      ],
+      "authored_world_xyz_m": [
+        0.6550067125612443,
+        0.009531440134910783,
+        0.8155
+      ],
+      "rotation_wxyz": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "nearest_training_id": "R000062",
+      "nearest_training_distance_m": 0.015536474533094393,
+      "nearest_H_id": "H03",
+      "nearest_H_distance_m": 0.016254449244906426,
+      "nearest_HB_id": "HB07",
+      "nearest_HB_distance_m": 0.03115708652569956,
+      "rectangle_check": "PASS",
+      "known_prior_attempt_exact_match": false
+    },
+    {
+      "position_id": "HC06",
+      "draw_index_zero_based": 19,
+      "authored_xy_m": [
+        0.6608007853866696,
+        0.2914155397573648
+      ],
+      "authored_world_xyz_m": [
+        0.6608007853866696,
+        0.2914155397573648,
+        0.8155
+      ],
+      "rotation_wxyz": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "nearest_training_id": "R000045",
+      "nearest_training_distance_m": 0.017491104539272884,
+      "nearest_H_id": "H10",
+      "nearest_H_distance_m": 0.04200050419589271,
+      "nearest_HB_id": "HB04",
+      "nearest_HB_distance_m": 0.03534862564511321,
+      "rectangle_check": "PASS",
+      "known_prior_attempt_exact_match": false
+    },
+    {
+      "position_id": "HC07",
+      "draw_index_zero_based": 28,
+      "authored_xy_m": [
+        0.6586981621724224,
+        0.00984905763558629
+      ],
+      "authored_world_xyz_m": [
+        0.6586981621724224,
+        0.00984905763558629,
+        0.8155
+      ],
+      "rotation_wxyz": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "nearest_training_id": "R000062",
+      "nearest_training_distance_m": 0.017074148033379453,
+      "nearest_H_id": "H03",
+      "nearest_H_distance_m": 0.01275935822740417,
+      "nearest_HB_id": "HB07",
+      "nearest_HB_distance_m": 0.02988871846565626,
+      "rectangle_check": "PASS",
+      "known_prior_attempt_exact_match": false
+    },
+    {
+      "position_id": "HC08",
+      "draw_index_zero_based": 30,
+      "authored_xy_m": [
+        0.6732028231159473,
+        0.08678128744154463
+      ],
+      "authored_world_xyz_m": [
+        0.6732028231159473,
+        0.08678128744154463,
+        0.8155
+      ],
+      "rotation_wxyz": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "nearest_training_id": "R000067",
+      "nearest_training_distance_m": 0.017570604239091056,
+      "nearest_H_id": "H06",
+      "nearest_H_distance_m": 0.018414805053139114,
+      "nearest_HB_id": "HB10",
+      "nearest_HB_distance_m": 0.013135063314468962,
+      "rectangle_check": "PASS",
+      "known_prior_attempt_exact_match": false
+    },
+    {
+      "position_id": "HC09",
+      "draw_index_zero_based": 34,
+      "authored_xy_m": [
+        0.6696524297800783,
+        0.09606626723803434
+      ],
+      "authored_world_xyz_m": [
+        0.6696524297800783,
+        0.09606626723803434,
+        0.8155
+      ],
+      "rotation_wxyz": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "nearest_training_id": "R000047",
+      "nearest_training_distance_m": 0.016363697396237376,
+      "nearest_H_id": "H06",
+      "nearest_H_distance_m": 0.01508286637266647,
+      "nearest_HB_id": "HB09",
+      "nearest_HB_distance_m": 0.014704357509744687,
+      "rectangle_check": "PASS",
+      "known_prior_attempt_exact_match": false
+    },
+    {
+      "position_id": "HC10",
+      "draw_index_zero_based": 36,
+      "authored_xy_m": [
+        0.6664625241370362,
+        0.09921277183544311
+      ],
+      "authored_world_xyz_m": [
+        0.6664625241370362,
+        0.09921277183544311,
+        0.8155
+      ],
+      "rotation_wxyz": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "nearest_training_id": "R000002",
+      "nearest_training_distance_m": 0.016256304351815146,
+      "nearest_H_id": "H06",
+      "nearest_H_distance_m": 0.013652522873697176,
+      "nearest_HB_id": "HB09",
+      "nearest_HB_distance_m": 0.012557998417471827,
+      "rectangle_check": "PASS",
+      "known_prior_attempt_exact_match": false
+    }
+  ],
+  "rejected_candidates": [
+    {
+      "draw_index_zero_based": 0,
+      "xy_m": [
+        0.6727092377885155,
+        0.26399434483012285
+      ],
+      "reasons": [
+        "TRAINING_DISTANCE_LT_10_MM"
+      ]
+    },
+    {
+      "draw_index_zero_based": 1,
+      "xy_m": [
+        0.6416113565544659,
+        0.2231606544795921
+      ],
+      "reasons": [
+        "TRAINING_DISTANCE_LT_10_MM"
+      ]
+    },
+    {
+      "draw_index_zero_based": 3,
+      "xy_m": [
+        0.650186166985432,
+        0.14284662679054821
+      ],
+      "reasons": [
+        "TRAINING_DISTANCE_LT_10_MM",
+        "H_DEVELOPMENT_DISTANCE_LT_10_MM"
+      ]
+    },
+    {
+      "draw_index_zero_based": 4,
+      "xy_m": [
+        0.6902352359959131,
+        0.045050346368187215
+      ],
+      "reasons": [
+        "TRAINING_DISTANCE_LT_10_MM"
+      ]
+    },
+    {
+      "draw_index_zero_based": 5,
+      "xy_m": [
+        0.6530731178234367,
+        0.19327213828222434
+      ],
+      "reasons": [
+        "HB_DEVELOPMENT_DISTANCE_LT_10_MM"
+      ]
+    },
+    {
+      "draw_index_zero_based": 8,
+      "xy_m": [
+        0.6650997659995809,
+        0.012814405772431977
+      ],
+      "reasons": [
+        "H_DEVELOPMENT_DISTANCE_LT_10_MM"
+      ]
+    },
+    {
+      "draw_index_zero_based": 10,
+      "xy_m": [
+        0.6733907544026624,
+        0.007987346137209667
+      ],
+      "reasons": [
+        "H_DEVELOPMENT_DISTANCE_LT_10_MM"
+      ]
+    },
+    {
+      "draw_index_zero_based": 11,
+      "xy_m": [
+        0.6731573536064361,
+        0.16895631348154905
+      ],
+      "reasons": [
+        "TRAINING_DISTANCE_LT_10_MM"
+      ]
+    },
+    {
+      "draw_index_zero_based": 12,
+      "xy_m": [
+        0.6579492475194483,
+        0.21487659550137067
+      ],
+      "reasons": [
+        "TRAINING_DISTANCE_LT_10_MM"
+      ]
+    },
+    {
+      "draw_index_zero_based": 13,
+      "xy_m": [
+        0.6764943775935474,
+        0.1595964709679486
+      ],
+      "reasons": [
+        "TRAINING_DISTANCE_LT_10_MM"
+      ]
+    },
+    {
+      "draw_index_zero_based": 14,
+      "xy_m": [
+        0.6719448093035622,
+        0.1634570382470913
+      ],
+      "reasons": [
+        "TRAINING_DISTANCE_LT_10_MM"
+      ]
+    },
+    {
+      "draw_index_zero_based": 15,
+      "xy_m": [
+        0.6947723672841727,
+        0.04281818606534528
+      ],
+      "reasons": [
+        "TRAINING_DISTANCE_LT_10_MM"
+      ]
+    },
+    {
+      "draw_index_zero_based": 17,
+      "xy_m": [
+        0.6674068771208873,
+        0.21483284525840302
+      ],
+      "reasons": [
+        "TRAINING_DISTANCE_LT_10_MM"
+      ]
+    },
+    {
+      "draw_index_zero_based": 18,
+      "xy_m": [
+        0.6476531072181178,
+        0.19374819817825506
+      ],
+      "reasons": [
+        "HB_DEVELOPMENT_DISTANCE_LT_10_MM"
+      ]
+    },
+    {
+      "draw_index_zero_based": 20,
+      "xy_m": [
+        0.669398510458198,
+        0.11556618497083786
+      ],
+      "reasons": [
+        "HB_DEVELOPMENT_DISTANCE_LT_10_MM"
+      ]
+    },
+    {
+      "draw_index_zero_based": 21,
+      "xy_m": [
+        0.6575861673599076,
+        0.0776306305454555
+      ],
+      "reasons": [
+        "TRAINING_DISTANCE_LT_10_MM",
+        "HB_DEVELOPMENT_DISTANCE_LT_10_MM"
+      ]
+    },
+    {
+      "draw_index_zero_based": 22,
+      "xy_m": [
+        0.667840756220277,
+        0.1410137878868742
+      ],
+      "reasons": [
+        "TRAINING_DISTANCE_LT_10_MM"
+      ]
+    },
+    {
+      "draw_index_zero_based": 23,
+      "xy_m": [
+        0.6597291902495154,
+        0.13338578334758205
+      ],
+      "reasons": [
+        "TRAINING_DISTANCE_LT_10_MM",
+        "H_DEVELOPMENT_DISTANCE_LT_10_MM"
+      ]
+    },
+    {
+      "draw_index_zero_based": 24,
+      "xy_m": [
+        0.6843806825842257,
+        0.1807220889188842
+      ],
+      "reasons": [
+        "TRAINING_DISTANCE_LT_10_MM"
+      ]
+    },
+    {
+      "draw_index_zero_based": 25,
+      "xy_m": [
+        0.6486590201767712,
+        0.23927867629831479
+      ],
+      "reasons": [
+        "TRAINING_DISTANCE_LT_10_MM"
+      ]
+    },
+    {
+      "draw_index_zero_based": 26,
+      "xy_m": [
+        0.6436840119461683,
+        0.1739796357311737
+      ],
+      "reasons": [
+        "HB_DEVELOPMENT_DISTANCE_LT_10_MM"
+      ]
+    },
+    {
+      "draw_index_zero_based": 27,
+      "xy_m": [
+        0.6418936501917379,
+        0.20300745472324822
+      ],
+      "reasons": [
+        "TRAINING_DISTANCE_LT_10_MM"
+      ]
+    },
+    {
+      "draw_index_zero_based": 29,
+      "xy_m": [
+        0.643238088012771,
+        0.18331296551442533
+      ],
+      "reasons": [
+        "HB_DEVELOPMENT_DISTANCE_LT_10_MM"
+      ]
+    },
+    {
+      "draw_index_zero_based": 31,
+      "xy_m": [
+        0.6491015223717637,
+        0.25777479801911624
+      ],
+      "reasons": [
+        "TRAINING_DISTANCE_LT_10_MM"
+      ]
+    },
+    {
+      "draw_index_zero_based": 32,
+      "xy_m": [
+        0.6494534345886973,
+        0.1494654110472361
+      ],
+      "reasons": [
+        "TRAINING_DISTANCE_LT_10_MM"
+      ]
+    },
+    {
+      "draw_index_zero_based": 33,
+      "xy_m": [
+        0.6461934461344253,
+        0.06377559261743952
+      ],
+      "reasons": [
+        "TRAINING_DISTANCE_LT_10_MM"
+      ]
+    },
+    {
+      "draw_index_zero_based": 35,
+      "xy_m": [
+        0.6420431056253859,
+        0.29038914145690703
+      ],
+      "reasons": [
+        "TRAINING_DISTANCE_LT_10_MM"
+      ]
+    }
+  ],
+  "restrictions": [
+    "Coordinate file is immutable before HC evaluation; no native/saved-model screening, no reroll or best-of-position selection.",
+    "Only existing offline coverage and binding verification may precede the first HC trial; no new smoke.",
+    "No parameters, checkpoint, scene, protocol, threshold or camera changes after HC outcomes are seen.",
+    "No inter-HC radius is added beyond unique positions; report any spatial clustering as part of the prespecified distribution.",
+    "Scope of unknown-position claim is this conditioned XY distribution and temporary-attachment simulator protocol, not orientation, moving-object, friction-only or real-hardware generalization.",
+    "Repository publication/commit and complete local prior-launch-ledger check remain for Codex; this file is not a claim of local execution."
+  ],
+  "execution_counts": {
+    "KIT_STARTS": 0,
+    "MODEL_LOADS": 0,
+    "POLICY_PREDICTIONS": 0,
+    "SIMULATION_STEPS": 0,
+    "GPU_HOURS": 0
+  }
+}

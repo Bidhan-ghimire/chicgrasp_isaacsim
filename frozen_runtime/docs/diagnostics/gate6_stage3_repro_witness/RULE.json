@@ -1,0 +1,72 @@
+{
+  "parameters": {
+    "label": "PROPOSED_NOT_APPROVED",
+    "source": "side-opening-progress/v1",
+    "start": [
+      809,
+      1
+    ],
+    "end": [
+      839,
+      1
+    ],
+    "samples": 61,
+    "closed_reference_m": [
+      -0.00930000003427267,
+      -0.00930000003427267,
+      -0.00930000003427267,
+      -0.00930000003427267
+    ],
+    "opening_signs": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "side_jaw_ids": [
+      [
+        1,
+        2
+      ],
+      [
+        3,
+        4
+      ]
+    ],
+    "envelope_m": 0.003,
+    "progress_m": 0.001,
+    "shortfall_m": 0.001,
+    "radius_m": 0.15,
+    "reference": "accepted original demo at839/1",
+    "comparison": "inclusive; no epsilon repair",
+    "integration": "NONE",
+    "interpretation": "geometric admission, not clamp proof"
+  },
+  "reference_opening_m": [
+    0.028657774440944195,
+    0.02741769648855552
+  ],
+  "reference": {
+    "path": "C:\\robotics\\ChicGrasp_gate6_stage1\\outputs\\gate6_stage1_gpu_demo\\evidence_20261012_002\\capture\\experiment\\measurements.json",
+    "sha256": "74fe529f087a8c4607a57a19e7d4c3c4cc9a04f42c28bc96dda00c48d80f6e4f",
+    "context": [
+      839,
+      1
+    ],
+    "jaw_positions_m": [
+      0.00753627996891737,
+      0.0025214944034814835,
+      0.0008497456437908113,
+      0.007967950776219368
+    ],
+    "native_clock": [
+      1688,
+      14.066667400300503
+    ],
+    "accepted_demo_status": "PASS"
+  },
+  "frozen_before_saved_evaluation": true,
+  "created_unix_ns": 1791929475629280800,
+  "baseline": "8e7440e85cab4305918273c75eccc84b4f207463",
+  "evaluator_sha256": "e71746d1b039621dd1f3bde275149050e21b69a99b0ba6ba27704066fa330fde"
+}

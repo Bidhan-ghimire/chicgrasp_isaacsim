@@ -1,0 +1,4 @@
+* -text
+frozen_runtime/assets/**/*.usd filter=lfs diff=lfs merge=lfs -text
+frozen_runtime/assets/**/*.usda filter=lfs diff=lfs merge=lfs -text
+frozen_runtime/assets/**/*.usdc filter=lfs diff=lfs merge=lfs -text

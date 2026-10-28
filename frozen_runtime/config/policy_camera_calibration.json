@@ -1,0 +1,768 @@
+{
+  "schema_version": 1,
+  "calibration_status": "STAGE0_PENDING_HEADLESS",
+  "visual_configuration_schema": "gate6-stage0-visuals/v1",
+  "fixed_chicken_pose_assumption": "Both camera calibrations apply to the fixed chicken orientation used during manual user-supervised Gate 0B placement.",
+  "camera_left_right_convention": {
+    "PolicyCameraLeft": "PolicyCameraLeft is the fixed external camera optimized for the fixed chicken's left-leg grasp region.",
+    "PolicyCameraRight": "PolicyCameraRight is the fixed external camera optimized for the fixed chicken's right-leg grasp region.",
+    "identity_basis": "Camera identity is based on the chicken's fixed orientation and the leg primarily observed.",
+    "identity_exclusions": "Camera identity is not based on the robot base, world-axis side, viewport side, screen position, or physical left/right side of the table.",
+    "coordinate_swap_rule": "Do not swap the two records based on their world coordinates."
+  },
+  "cameras": {
+    "PolicyCameraLeft": {
+      "camera_prim_name": "PolicyCameraLeft",
+      "camera_prim_path": "/World/envs/env_0/PolicyCameraLeft",
+      "camera_parent_prim": "/World/envs/env_0",
+      "quaternion_convention": "wxyz",
+      "camera_convention": "opengl",
+      "parent_world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "direct_child_of_environment_root": true,
+      "camera_not_under_robot_or_chicken": true,
+      "position_environment_m": [
+        0.26577503542279396,
+        0.7799933148477876,
+        1.2985271240330045
+      ],
+      "quaternion_environment_wxyz": [
+        0.1705903630631453,
+        0.24203416435950198,
+        -0.4670206708838293,
+        -0.8331927053689321
+      ],
+      "historical_calibration_provenance": {
+        "source_json_path": "outputs/gate0b_camera_frame_calibration/manual_camera_left_run2/manual_camera_left_final.json",
+        "robot_command_issued": false,
+        "jaw_command_issued": false,
+        "requested_tcp_translation_m": [
+          0,
+          0,
+          0
+        ],
+        "requested_tcp_movement_norm_m": 0.0,
+        "actual_tcp_movement": "NOT_MEASURED",
+        "chicken_movement": "NOT_MEASURED",
+        "quaternion_norm_before_normalization": 1.0,
+        "quaternion_norm_after_normalization": 1.0
+      },
+      "pose_source": "Owner-selected manual LEFT export for Grant 2 attempt005; exact saved rigid XYZ/WXYZ and unchanged raw focal15; six-placement native coverage observed, owner review pending",
+      "input_reference": "scaled_scene_approval.final_camera_extrinsics.PolicyCameraLeft"
+    },
+    "PolicyCameraRight": {
+      "camera_prim_name": "PolicyCameraRight",
+      "camera_prim_path": "/World/envs/env_0/PolicyCameraRight",
+      "camera_parent_prim": "/World/envs/env_0",
+      "quaternion_convention": "wxyz",
+      "camera_convention": "opengl",
+      "parent_world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "direct_child_of_environment_root": true,
+      "camera_not_under_robot_or_chicken": true,
+      "position_environment_m": [
+        1.2737191134500323,
+        0.5984612267210614,
+        1.3274025068760795
+      ],
+      "quaternion_environment_wxyz": [
+        0.3556681255757961,
+        0.21820635973308325,
+        0.448112515124621,
+        0.7906208590785614
+      ],
+      "historical_calibration_provenance": {
+        "source_json_path": "outputs/gate0b_camera_frame_calibration/manual_camera_right_run1/manual_camera_right_final.json",
+        "robot_command_issued": false,
+        "jaw_command_issued": false,
+        "requested_tcp_translation_m": [
+          0,
+          0,
+          0
+        ],
+        "requested_tcp_movement_norm_m": 0.0,
+        "actual_tcp_movement": "NOT_MEASURED",
+        "chicken_movement": "NOT_MEASURED",
+        "quaternion_norm_before_normalization": 1.0,
+        "quaternion_norm_after_normalization": 1.0
+      },
+      "pose_source": "Owner-authorized Path B attempt002 one joint extrinsic revision; native six-placement coverage complete, owner review pending",
+      "input_reference": "scaled_scene_approval.final_camera_extrinsics.PolicyCameraRight"
+    }
+  },
+  "shared_camera_settings": {
+    "projection_type": "pinhole",
+    "focal_length": 15.0,
+    "horizontal_aperture": 20.954999923706055,
+    "vertical_aperture": 15.716249942779541,
+    "horizontal_aperture_offset": 0.0,
+    "vertical_aperture_offset": 0.0,
+    "f_stop": 0.0,
+    "focus_distance": 400.0,
+    "clipping_range": [
+      0.029999999329447746,
+      5.0
+    ],
+    "width": 320,
+    "height": 240,
+    "data_types": [
+      "rgb"
+    ],
+    "rgb_only": true
+  },
+  "automated_replicator_png_capture_used_as_camera_pose_acceptance_criterion": false,
+  "scene_light": {
+    "type": "DomeLight",
+    "prim_path": "/World/DomeLight",
+    "parent_path": "/World",
+    "quaternion_convention": "wxyz",
+    "parent_world_matrix": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "position_parent_m": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "quaternion_parent_wxyz": [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "properties": {
+      "color": [
+        0.8999999761581421,
+        0.8999999761581421,
+        0.8999999761581421
+      ],
+      "intensity": 1200.0,
+      "exposure": 0.0,
+      "normalize": false,
+      "enable_color_temperature": false,
+      "color_temperature": 6500.0,
+      "texture_file": null,
+      "texture_format": "automatic",
+      "visible_in_primary_ray": true
+    },
+    "exported_world_matrix": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  "historical_calibration_status": "USER_APPROVED",
+  "historical_stage0_export": {
+    "cameras": {
+      "PolicyCameraLeft": {
+        "prim_path": "/World/envs/env_0/PolicyCameraLeft",
+        "parent_path": "/World/envs/env_0",
+        "parent_world_matrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "local_matrix": [
+          [
+            0.8373246777819032,
+            -0.5293955913830484,
+            0.1364833022813578,
+            0.0
+          ],
+          [
+            0.26147259692263386,
+            0.6070296105269228,
+            0.750431297989407,
+            0.0
+          ],
+          [
+            -0.4801244266187316,
+            -0.5926680013023522,
+            0.646703313116849,
+            0.0
+          ],
+          [
+            0.04834269575328769,
+            -0.5772294363429119,
+            1.209177939230478,
+            1.0
+          ]
+        ],
+        "world_matrix": [
+          [
+            0.8373246777819032,
+            -0.5293955913830484,
+            0.1364833022813578,
+            0.0
+          ],
+          [
+            0.26147259692263386,
+            0.6070296105269228,
+            0.750431297989407,
+            0.0
+          ],
+          [
+            -0.4801244266187316,
+            -0.5926680013023522,
+            0.646703313116849,
+            0.0
+          ],
+          [
+            0.04834269575328769,
+            -0.5772294363429119,
+            1.209177939230478,
+            1.0
+          ]
+        ],
+        "effective_optics": {
+          "projection": "perspective",
+          "focal_length": 15.0,
+          "horizontal_aperture": 20.954999923706055,
+          "vertical_aperture": 15.716249465942383,
+          "horizontal_aperture_offset": 0.0,
+          "vertical_aperture_offset": 0.0,
+          "focus_distance": 400.0,
+          "f_stop": 0.0,
+          "clipping_range": [
+            0.029999999329447746,
+            5.0
+          ],
+          "width": 320,
+          "height": 240,
+          "data_types": [
+            "rgb"
+          ]
+        }
+      },
+      "PolicyCameraRight": {
+        "prim_path": "/World/envs/env_0/PolicyCameraRight",
+        "parent_path": "/World/envs/env_0",
+        "parent_world_matrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "local_matrix": [
+          [
+            0.0515930696116057,
+            0.3214169938283421,
+            -0.9455312111434522,
+            0.0
+          ],
+          [
+            -0.6342685579036415,
+            0.7418654560897502,
+            0.21757536973559768,
+            0.0
+          ],
+          [
+            0.7713893644735368,
+            0.5884953365483013,
+            0.24213980927971024,
+            0.0
+          ],
+          [
+            0.6873790423487859,
+            -0.4824136208618839,
+            1.0521061203911912,
+            1.0
+          ]
+        ],
+        "world_matrix": [
+          [
+            0.0515930696116057,
+            0.3214169938283421,
+            -0.9455312111434522,
+            0.0
+          ],
+          [
+            -0.6342685579036415,
+            0.7418654560897502,
+            0.21757536973559768,
+            0.0
+          ],
+          [
+            0.7713893644735368,
+            0.5884953365483013,
+            0.24213980927971024,
+            0.0
+          ],
+          [
+            0.6873790423487859,
+            -0.4824136208618839,
+            1.0521061203911912,
+            1.0
+          ]
+        ],
+        "effective_optics": {
+          "projection": "perspective",
+          "focal_length": 15.0,
+          "horizontal_aperture": 20.954999923706055,
+          "vertical_aperture": 15.716249465942383,
+          "horizontal_aperture_offset": 0.0,
+          "vertical_aperture_offset": 0.0,
+          "focus_distance": 400.0,
+          "f_stop": 0.0,
+          "clipping_range": [
+            0.029999999329447746,
+            5.0
+          ],
+          "width": 320,
+          "height": 240,
+          "data_types": [
+            "rgb"
+          ]
+        }
+      }
+    },
+    "light": {
+      "prim_path": "/World/DomeLight",
+      "parent_path": "/World",
+      "parent_world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "local_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "type": "DomeLight",
+      "properties": {
+        "color": [
+          0.8999999761581421,
+          0.8999999761581421,
+          0.8999999761581421
+        ],
+        "intensity": 1200.0,
+        "exposure": 0.0,
+        "normalize": false,
+        "enable_color_temperature": false,
+        "color_temperature": 6500.0,
+        "texture_file": null,
+        "texture_format": "automatic",
+        "visible_in_primary_ray": true
+      }
+    }
+  },
+  "stage0_owner_dump_input": {
+    "source_kind": "OWNER_SUPPLIED_NATIVE_STAGE_DUMP",
+    "source_path": "C:/robotics/stage0_dump.txt",
+    "source_bytes": 6634,
+    "source_sha256": "470d599a00aaa3151f7e084bd09299e8fa73a06cf860cb8c534cec96d48eec70",
+    "provided_date": "2026-10-11",
+    "headless_verified": false,
+    "convention_trace": "Task CameraCfg.OffsetCfg explicitly consumes OpenGL WXYZ local to /World/envs/env_0. Installed Camera converts OpenGL to OpenGL unchanged, casting the quaternion to float32 before authoring. No ROS conversion or world transform is applied to the local input.",
+    "storage_precision_note": "Verbatim local and world dump values are retained below. Active quaternion doubles are the normalized local representatives required by the existing unit-quaternion validator; every component casts exactly back to the supplied local float32 component used by Camera. This changes neither the authored float32 quaternion nor the camera convention. Parent identity is retained and checked against native composition before capture.",
+    "optics_note": "Existing optics remain unchanged. Config vertical_aperture 15.716249942779541 casts to the dump's USD float32 15.716249465942383; clipping near 0.029999999329447746 is the float32 representation of printed 0.03. No material optical mismatch was found at native storage precision.",
+    "cameras": {
+      "PolicyCameraLeft": {
+        "prim_path": "/World/envs/env_0/PolicyCameraLeft",
+        "position_local_m": [
+          0.17890000343322754,
+          0.7060400247573853,
+          1.499210000038147
+        ],
+        "quaternion_local_wxyz": [
+          0.30211108922958374,
+          0.31385716795921326,
+          -0.42211607098579407,
+          -0.7950097918510437
+        ],
+        "position_world_m": [
+          0.17890000343322754,
+          0.7060400247573853,
+          1.499210000038147
+        ],
+        "quaternion_world_wxyz": [
+          -0.30211108922958385,
+          -0.31385717164815485,
+          0.42211607594716394,
+          0.7950098011952453
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "quaternion_local_norm": 0.9999999893191934
+      },
+      "PolicyCameraRight": {
+        "prim_path": "/World/envs/env_0/PolicyCameraRight",
+        "position_local_m": [
+          1.1409599781036377,
+          0.34529000520706177,
+          1.226770043373108
+        ],
+        "quaternion_local_wxyz": [
+          0.3556681275367737,
+          0.21820636093616486,
+          0.44811251759529114,
+          0.7906208634376526
+        ],
+        "position_world_m": [
+          1.1409599781036377,
+          0.34529000520706177,
+          1.226770043373108
+        ],
+        "quaternion_world_wxyz": [
+          0.35566812753677385,
+          0.2182063595588536,
+          0.44811251476681996,
+          0.7906208584472803
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "quaternion_local_norm": 1.0000000055135039
+      }
+    }
+  },
+  "stage0_manual_camera_input": {
+    "source_kind": "OWNER_TRANSCRIBED_PROPERTY_PANEL",
+    "provided_date": "2026-10-11",
+    "native_export": false,
+    "headless_verified": false,
+    "precision_note": "Uses only the owner-provided decimal values. Not a recovered full-precision native export.",
+    "rotation_conversion": "Installed Orient Euler model: Gf.Rotation(Z,z) * Gf.Rotation(Y,y) * Gf.Rotation(X,x); equivalent Hamilton qx * qy * qz, stored raw USD/OpenGL WXYZ.",
+    "prior_configuration_commit": "fd0c75acf55e34dfe31fde8a3ec5d307632f724a",
+    "prior_configuration_sha256": "99586d31931ce96703716ba2a4fc89dcd29fc729ff2b6db044b5ce3a194a56cd",
+    "parent_frame_note": "Translate/Orient are local to the existing env_0 parent; parent and lighting retained from the prior configuration, not newly measured.",
+    "cameras": {
+      "PolicyCameraLeft": {
+        "prim_path": "/World/envs/env_0/PolicyCameraLeft",
+        "instanceable": false,
+        "translate_m": [
+          0.1789,
+          0.70604,
+          1.49921
+        ],
+        "orient_xyz_degrees": [
+          -47.154,
+          -48.946,
+          -160.855
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ],
+        "focal_length": 15,
+        "focus_distance": 400,
+        "f_stop": 0,
+        "projection": "perspective"
+      },
+      "PolicyCameraRight": {
+        "prim_path": "/World/envs/env_0/PolicyCameraRight",
+        "instanceable": false,
+        "translate_m": [
+          1.14096,
+          0.34529,
+          1.22677
+        ],
+        "orient_xyz_degrees": [
+          -47.72,
+          41.59,
+          150.628
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ],
+        "focal_length": 15,
+        "focus_distance": 400,
+        "f_stop": 0,
+        "projection": "perspective"
+      }
+    }
+  },
+  "scaled_scene_approval": {
+    "profile_id": "scaled-table-path-b-attempt005",
+    "status": "FROZEN_SIX_PLACEMENT_COVERAGE",
+    "owner_authority": "CHICGRASP_SCALED_TABLE_AND_COVERAGE: Grant 2 attempt005; owner-selected saved LEFT pose, one GPU session with the same six placements and five-second open-jaw holds; no in-session camera change or downstream release",
+    "owner_grant": "docs/plans/CHICGRASP_SCALED_TABLE_AND_COVERAGE/attempt005/PLAN.md",
+    "initial_commit": "05722dd026e4fadb89af788086b033e3990aeaf7",
+    "environment_configuration": {
+      "path": "source/chicgrasp_isaac/chicgrasp_isaac/tasks/manager_based/chicgrasp_isaac/chicgrasp_isaac_env_cfg.py",
+      "bytes": 18753,
+      "sha256": "8f1cef638081d569d872c6e616ad89c74813273fccdfd199666a54fac676b3d8"
+    },
+    "table": {
+      "prim_path": "/World/envs/env_0/Tabletop",
+      "size_m": [
+        0.6,
+        0.8,
+        0.04
+      ],
+      "centre_world_m": [
+        0.65,
+        0.0,
+        0.73
+      ],
+      "top_z_world_m": 0.75,
+      "x_footprint_world_m": [
+        0.35,
+        0.95
+      ],
+      "y_footprint_world_m": [
+        -0.4,
+        0.4
+      ],
+      "visible_and_collision_geometry": "same existing CuboidCfg with TABLE_SIZE"
+    },
+    "scientific_change": "Relative to starting commit05722dd: exact saved manual LEFT XYZ/WXYZ only; RIGHT, raw focal15, other optics, widened table, lights and environment unchanged",
+    "camera_poses_changed": true,
+    "old_scene_training_selection": "REFERENCE_ONLY: all pre-table-change recordings, including seven old grid demos and ORIGINAL probe, are retired from future scaled training selection; historical qualifications unchanged",
+    "downstream_release": "NONE; Grants 3-6 remain for owner review",
+    "owner_review_status": "PENDING_OWNER_REVIEW",
+    "coverage_result": "CHICGRASP_SCALED_TABLE_AND_COVERAGE_COMPLETE",
+    "camera_revision_record": {
+      "path": "outputs/gate6_stage0_harness/left_camera_20261020_183609_309_75131268/capture/experiment/left_camera_settings/left_camera_001.json",
+      "sha256": "57990319f3055fde55b5b0255f07f2f0e90df5fe437a296d849b63ddd1ac7b33"
+    },
+    "historical_camera_translation_record": {
+      "path": "docs/plans/CHICGRASP_SCALED_TABLE_AND_COVERAGE/attempt003/CAMERA_TRANSLATION.json",
+      "sha256": "30f529b1ee8c337b63e09f481e7ebd508bf5025386234548db20ecc47ac458f6"
+    },
+    "final_camera_extrinsics": {
+      "PolicyCameraLeft": {
+        "position_environment_m": [
+          0.26577503542279396,
+          0.7799933148477876,
+          1.2985271240330045
+        ],
+        "quaternion_environment_wxyz": [
+          0.1705903630631453,
+          0.24203416435950198,
+          -0.4670206708838293,
+          -0.8331927053689321
+        ]
+      },
+      "PolicyCameraRight": {
+        "position_environment_m": [
+          1.2737191134500323,
+          0.5984612267210614,
+          1.3274025068760795
+        ],
+        "quaternion_environment_wxyz": [
+          0.3556681255757961,
+          0.21820635973308325,
+          0.448112515124621,
+          0.7906208590785614
+        ]
+      }
+    },
+    "native_result": "outputs/scaled_table_and_coverage/attempt005/native001/attempt_result.json",
+    "grant_number": 2,
+    "continuation": "attempt005",
+    "in_session_camera_adjustments_authorized": 0,
+    "failure_reason": null,
+    "executed_commit": "f90cf37e7495bf7429e391e050a216ff28d7be93"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "schema": "research-experiment/v1",
+  "experiment_id": "editable-table-grasp-v1",
+  "host": ".local/host.json",
+  "scene_profile": "attempt005",
+  "scene_sha256": "4f40d26e122c99ea5cb980edea4a391b5335a99fe060b84cacd40305374c0d5f",
+  "environment_seed": 42,
+  "scene_setup": "scene_setup.py",
+  "scene_options": {},
+  "script": "scripted_run.py",
+  "script_options": {},
+  "positions": [
+    "configs/positions/train50.json",
+    "configs/positions/test_hc10.json"
+  ],
+  "scene_approval": "research_outputs/scene-approval.json",
+  "dataset": "research_outputs/collection001/dataset.json",
+  "model_artifact": "research_outputs/training001/model/artifact.json",
+  "training": {
+    "model_type": "diffusion",
+    "updates": 142858,
+    "seed": 42,
+    "device": "cuda:0",
+    "training_window_start": 50
+  },
+  "video": {
+    "enabled": true,
+    "crf": 16,
+    "fps": 30
+  },
+  "limits": {
+    "per_simulator_seconds": 1200,
+    "cleanup_seconds": 5
+  }
+}

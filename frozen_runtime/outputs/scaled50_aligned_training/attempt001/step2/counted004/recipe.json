@@ -1,0 +1,514 @@
+{
+  "all_sources_training": true,
+  "approved_normalization": {
+    "bytes": 5402,
+    "path": "C:\\robotics\\ChicGrasp_gate6_stage3\\outputs\\random_xy_50_collection\\attempt001\\package\\normalization.json",
+    "sha256": "b15853dc2619416f2ff89a04a3da2f476557305b083aefe73dc9a8ccddea8141"
+  },
+  "approved_scene": {
+    "bytes": 39255,
+    "path": "C:\\robotics\\ChicGrasp_gate6_stage3\\docs\\plans\\CHICGRASP_SCALED_TABLE_AND_COVERAGE\\attempt005\\SCENE_PROFILE.json",
+    "sha256": "4f40d26e122c99ea5cb980edea4a391b5335a99fe060b84cacd40305374c0d5f"
+  },
+  "attempt003_module_comparison": {
+    "overfit_data": "IDENTICAL_TO_ATTEMPT003",
+    "overfit_policy": "IDENTICAL_TO_ATTEMPT003",
+    "stage2_derived_view": "IDENTICAL_TO_ATTEMPT003",
+    "stage2_evaluation": "IDENTICAL_TO_ATTEMPT003",
+    "stage2_overfit": "IDENTICAL_TO_ATTEMPT003"
+  },
+  "campaign": "scaled50-aligned/v1",
+  "configuration_authority": {
+    "bytes": 995,
+    "path": "C:\\robotics\\ChicGrasp_gate6_stage3\\docs\\plans\\CHICGRASP_SCALED50_ALIGNED_TRAINING\\r2\\OWNER_AMENDMENT.txt",
+    "sha256": "bc96e88bd98aec1064a59e23d347c6943331ddc34aec3b611209a5ec5524b660"
+  },
+  "device": "cuda:0",
+  "device_name": "NVIDIA GeForce RTX 5080 Laptop GPU",
+  "effective_chunks_per_update": 13,
+  "evaluation": "Unchanged Stage3 make_predictor; FP32, batch1, seed12345+12*chunk",
+  "executed_commit": "06951b826b2bbec5c9275bd7e00cc83ce335037a",
+  "forwarded_examples_per_update": 13,
+  "gradient_clipping": false,
+  "held_out_count": 0,
+  "horizons": {
+    "execution": 12,
+    "observation": 2,
+    "prediction": 16
+  },
+  "inherited_executed_commit": "f5a3f9ab735d84ed697851f915d12ba100fca7fa",
+  "inherited_files": {
+    "artifact_manifest.json": {
+      "bytes": 32519,
+      "path": "C:\\robotics\\ChicGrasp_gate6_stage2\\outputs\\gate6_stage2_overfit\\attempt003\\training\\artifact_manifest.json",
+      "sha256": "eb01d1061bb408699572359bf9b3b4abaf2552a1e9ee66af7121cd18a3b1631e"
+    },
+    "checkpoint.pt": {
+      "bytes": 1317193573,
+      "path": "C:\\robotics\\ChicGrasp_gate6_stage2\\outputs\\gate6_stage2_overfit\\attempt003\\training\\checkpoint.pt",
+      "sha256": "f1a954f9e0ea973f402accd271ce9e6742332fc853f5d6f0ace805c20585f54a"
+    },
+    "derived_view.json": {
+      "bytes": 13982,
+      "path": "C:\\robotics\\ChicGrasp_gate6_stage2\\outputs\\gate6_stage2_overfit\\attempt003\\training\\derived_view.json",
+      "sha256": "4e206e4d3c8db024b141eafaa507c5f61712fbc7bafa6d4ae084c1ceb4a441ab"
+    },
+    "normalization.json": {
+      "bytes": 4738,
+      "path": "C:\\robotics\\ChicGrasp_gate6_stage2\\outputs\\gate6_stage2_overfit\\attempt003\\training\\normalization.json",
+      "sha256": "06426dddeaf60b8173e5f8272985291de185dc8d54c544bc5f88fcdb80aca83b"
+    },
+    "recipe.json": {
+      "bytes": 25956,
+      "path": "C:\\robotics\\ChicGrasp_gate6_stage2\\outputs\\gate6_stage2_overfit\\attempt003\\training\\recipe.json",
+      "sha256": "3ca15001b1e62d576d70e3af307971ca58c822726bf516d4e87d99eb151c7a3d"
+    },
+    "reload.json": {
+      "bytes": 1422,
+      "path": "C:\\robotics\\ChicGrasp_gate6_stage2\\outputs\\gate6_stage2_overfit\\attempt003\\training\\reload.json",
+      "sha256": "cfb78858de45445044044e7338c4e23e799cdf1ff313af7d6142027fd9797417"
+    },
+    "source.json": {
+      "bytes": 13289,
+      "path": "C:\\robotics\\ChicGrasp_gate6_stage2\\outputs\\gate6_stage2_overfit\\attempt003\\training\\source.json",
+      "sha256": "eade4dd3480d7ce5702962710c50a2bce36aea205343075fe8f30d9abb522338"
+    },
+    "stage2_result": {
+      "bytes": 290099,
+      "path": "C:\\robotics\\ChicGrasp_gate6_stage2\\docs\\plans\\GATE6_STAGE2_ATTEMPT003_RESULT.json",
+      "sha256": "ff6f15840aa4681b76d576c400a433ce00937756f401cded85e8a415faa4b553"
+    },
+    "training_report.json": {
+      "bytes": 23369,
+      "path": "C:\\robotics\\ChicGrasp_gate6_stage2\\outputs\\gate6_stage2_overfit\\attempt003\\training\\training_report.json",
+      "sha256": "d53187ca45cf718699bad9c151cc386e2c40465b9f108b5735ad6cf17dcad75e"
+    }
+  },
+  "inherited_recipe": {
+    "bytes": 15069,
+    "path": "C:\\robotics\\ChicGrasp_gate6_stage3\\outputs\\r4_fresh_20k_training\\attempt001\\preflight001\\recipe.json",
+    "sha256": "03d2157fe9fd35dccfd321e39edb54a6225e7d66032e6a1b9caa9c5e9c18c286"
+  },
+  "inherited_training_configuration": {
+    "betas": [
+      0.95,
+      0.999
+    ],
+    "calibration_evaluation_step": 100,
+    "deterministic_algorithms": true,
+    "ema": {
+      "inv_gamma": 1.0,
+      "max_value": 0.9999,
+      "min_value": 0.0,
+      "power": 0.75,
+      "update_after_step": 0
+    },
+    "epsilon": 1e-08,
+    "evaluation_every_optimizer_steps": 500,
+    "foreach": false,
+    "full_batch_gradient_accumulation": true,
+    "full_batch_window_count": 147,
+    "inference_precision": "float32",
+    "learning_rate": 0.0001,
+    "lr_schedule": "cosine",
+    "microbatch_size": 2,
+    "optimizer": "AdamW",
+    "shuffle": false,
+    "training_precision": "bfloat16 autocast with float32 weights/loss",
+    "warmup_steps": 500,
+    "weight_decay": 1e-06,
+    "zero_loss_optimization": "skip all-zero original microbatches only; preserve boundaries and full147 noise draws"
+  },
+  "initialization": "Fresh seed42 model/optimizer/scheduler/EMA; no smoke or old-model continuation",
+  "label": "TRAINING-SET REPLAY",
+  "libraries": {
+    "diffusers": "0.11.1",
+    "einops": "0.4.1",
+    "huggingface-hub": "0.25.2",
+    "numpy": "2.4.6",
+    "torch": "2.13.0+cu130",
+    "torchvision": "0.28.0+cu130",
+    "zarr": "2.18.7"
+  },
+  "microbatch_size": 1,
+  "model_configuration": {
+    "encoder": {
+      "crop_shape": null,
+      "imagenet_norm": true,
+      "random_crop": false,
+      "resize_shape": null,
+      "resnet": "resnet18",
+      "share_rgb_model": false,
+      "use_group_norm": true,
+      "weights": null
+    },
+    "policy": {
+      "cond_predict_scale": true,
+      "diffusion_step_embed_dim": 128,
+      "down_dims": [
+        512,
+        1024,
+        2048
+      ],
+      "horizon": 16,
+      "kernel_size": 5,
+      "n_action_steps": 12,
+      "n_groups": 8,
+      "n_obs_steps": 2,
+      "num_inference_steps": 100,
+      "obs_as_global_cond": true
+    },
+    "scheduler": {
+      "beta_end": 0.02,
+      "beta_schedule": "squaredcos_cap_v2",
+      "beta_start": 0.0001,
+      "clip_sample": true,
+      "num_train_timesteps": 100,
+      "prediction_type": "epsilon",
+      "set_alpha_to_one": true,
+      "steps_offset": 0
+    },
+    "shape_meta": {
+      "action": {
+        "shape": [
+          5
+        ]
+      },
+      "obs": {
+        "arm_joint_pos": {
+          "shape": [
+            6
+          ],
+          "type": "low_dim"
+        },
+        "camera_left_rgb": {
+          "shape": [
+            3,
+            240,
+            320
+          ],
+          "type": "rgb"
+        },
+        "camera_right_rgb": {
+          "shape": [
+            3,
+            240,
+            320
+          ],
+          "type": "rgb"
+        },
+        "jaw_state": {
+          "shape": [
+            2
+          ],
+          "type": "low_dim"
+        }
+      }
+    }
+  },
+  "model_constructor_note": "Original CPU weight initialization; existing synthetic shape forward on CUDA with unchanged RNG/state; actual training/replay CUDA.",
+  "official_source": {
+    "cnn_config": {
+      "byte_count": 3767,
+      "path": "C:\\robotics\\ChicGrasp_gate6_stage3\\third_party\\chicgrasp_official\\diffusion_policy\\config\\train_diffusion_unet_real_image_workspace.yaml",
+      "sha256": "3478bfd7401a6838fd9a83cb25cb90a684b1e53a7be4214e87d6f0cd3c56b609"
+    },
+    "commit": "321a566cfdb070926c4620e8dafca327600920d9",
+    "policy": {
+      "byte_count": 9911,
+      "path": "C:\\robotics\\ChicGrasp_gate6_stage3\\third_party\\chicgrasp_official\\diffusion_policy\\policy\\diffusion_unet_image_policy.py",
+      "sha256": "ff3bf7d91caa14ff7987df620b69a983249424184f92048115baafc2f5a45c66"
+    },
+    "root": "C:\\robotics\\ChicGrasp_gate6_stage3\\third_party\\chicgrasp_official"
+  },
+  "recording_ids": [
+    "R000002",
+    "R000003",
+    "R000004",
+    "R000005",
+    "R000006",
+    "R000007",
+    "R000009",
+    "R000010",
+    "R000012",
+    "R000015",
+    "R000017",
+    "R000018",
+    "R000019",
+    "R000020",
+    "R000021",
+    "R000022",
+    "R000023",
+    "R000024",
+    "R000026",
+    "R000028",
+    "R000029",
+    "R000030",
+    "R000031",
+    "R000034",
+    "R000035",
+    "R000038",
+    "R000039",
+    "R000040",
+    "R000041",
+    "R000042",
+    "R000043",
+    "R000044",
+    "R000045",
+    "R000046",
+    "R000047",
+    "R000049",
+    "R000051",
+    "R000053",
+    "R000054",
+    "R000058",
+    "R000059",
+    "R000060",
+    "R000061",
+    "R000062",
+    "R000063",
+    "R000064",
+    "R000065",
+    "R000066",
+    "R000067",
+    "R000068"
+  ],
+  "runtime_evaluation_steps": [
+    20000,
+    40000,
+    60000,
+    80000,
+    100000,
+    120000,
+    142858
+  ],
+  "runtime_initialization": "Restored validated counted recovery state",
+  "runtime_stop_after": null,
+  "script_versions": {
+    "exposure_control_prepare": {
+      "bytes": 23870,
+      "path": "C:\\robotics\\ChicGrasp_gate6_stage3\\scripts\\policy\\exposure_control_prepare.py",
+      "sha256": "e6b940f220ba6f208247518c45ccfae6c48219b83164c0d73c79527382210c92"
+    },
+    "exposure_control_process": {
+      "bytes": 25345,
+      "path": "C:\\robotics\\ChicGrasp_gate6_stage3\\scripts\\policy\\exposure_control_process.py",
+      "sha256": "435dd71c0b01a8127b86694f86f487663702d484f24ab0d096ca23ed65019c4c"
+    },
+    "exposure_control_train": {
+      "bytes": 40387,
+      "path": "C:\\robotics\\ChicGrasp_gate6_stage3\\scripts\\policy\\exposure_control_train.py",
+      "sha256": "2669dcd75efbd843093d20efa3b0c5ae6d0632a25fb3730667b29038e101ab5a"
+    },
+    "exposure_r3_inputs": {
+      "bytes": 2676,
+      "path": "C:\\robotics\\ChicGrasp_gate6_stage3\\scripts\\policy\\exposure_r3_inputs.py",
+      "sha256": "d520275d592ac506634a32b20d613a44f072e2345947b82c517fcb01003367ad"
+    },
+    "exposure_r3_launch": {
+      "bytes": 11036,
+      "path": "C:\\robotics\\ChicGrasp_gate6_stage3\\scripts\\policy\\exposure_r3_launch.py",
+      "sha256": "ab583a07161a18510f45f88d0d31fe75dd5f7a9aa54b3cfc379714c99750d80b"
+    }
+  },
+  "seeds": {
+    "cuda": 42,
+    "diffusion_evaluation": 12345,
+    "numpy": 42,
+    "python": 42,
+    "sampler": 42,
+    "torch": 42
+  },
+  "selected_actions_per_update": "sampled",
+  "source_comparison": {
+    "bytes": 19791,
+    "path": "C:\\robotics\\ChicGrasp_gate6_stage3\\docs\\plans\\CHICGRASP_MULTI_DEMO_DIAGNOSIS\\audit002\\STAGE2_SOURCE_COMPARISON.json",
+    "sha256": "6c5d1fe69b6f1b35a43651b36fc9279e2a8e912322e742363aa61e768564764a"
+  },
+  "source_evaluation_caveat": "Current source RGB differs slightly from Stage2; normalizer observation population includes49; current deployment evaluation batch/seeds differ. No identical-image or identical-evaluation claim.",
+  "source_recipe": {
+    "bytes": 25956,
+    "path": "C:\\robotics\\ChicGrasp_gate6_stage2\\outputs\\gate6_stage2_overfit\\attempt003\\training\\recipe.json",
+    "sha256": "3ca15001b1e62d576d70e3af307971ca58c822726bf516d4e87d99eb151c7a3d"
+  },
+  "source_versions": {
+    "exposure_control": {
+      "bytes": 11975,
+      "path": "C:\\robotics\\ChicGrasp_gate6_stage3\\src\\chicgrasp_policy\\exposure_control.py",
+      "sha256": "e701580f33eeb8e3b185296f2b8be388019f140ea48bc804197c5b3846daee10"
+    },
+    "exposure_schedule": {
+      "bytes": 11185,
+      "path": "C:\\robotics\\ChicGrasp_gate6_stage3\\src\\chicgrasp_policy\\exposure_schedule.py",
+      "sha256": "d8106e336985cf81d5934c7a76e802b8d9fddfce0081ec9d8776a74eecd2b897"
+    },
+    "multi_demo_training": {
+      "bytes": 16965,
+      "path": "C:\\robotics\\ChicGrasp_gate6_stage3\\src\\chicgrasp_policy\\multi_demo_training.py",
+      "sha256": "d01190087096b941561b96c3a55e479c0998f8c65b992c5077d270bb747b7541"
+    },
+    "overfit_policy": {
+      "bytes": 19347,
+      "path": "C:\\robotics\\ChicGrasp_gate6_stage3\\src\\chicgrasp_policy\\overfit_policy.py",
+      "sha256": "9b9180787ee3db072c6344924e01b58ff5b5ad9be36df8e01c302536289e2da8"
+    },
+    "stage2_derived_view": {
+      "bytes": 8494,
+      "path": "C:\\robotics\\ChicGrasp_gate6_stage3\\src\\chicgrasp_policy\\stage2_derived_view.py",
+      "sha256": "a1af141f7c790bf0146dc28501559af876821feccf313a1a9e5a3326f20df705"
+    },
+    "stage3_policy": {
+      "bytes": 14187,
+      "path": "C:\\robotics\\ChicGrasp_gate6_stage3\\src\\chicgrasp_policy\\stage3_policy.py",
+      "sha256": "40ac4588c7ebd2efa7ac14f5164601462a0b066b103e9869f895a7b3540e8d58"
+    }
+  },
+  "step": 2,
+  "steps": {
+    "1": {
+      "absolute_cap_seconds": 21600,
+      "active_chunks": 13,
+      "control_maximum_waiver_m": 0.0063,
+      "diffusion_noise_order": [
+        "randn[147,16,5]",
+        "randint[147]",
+        "index original groups"
+      ],
+      "evaluation_steps": [
+        1000,
+        5000,
+        10000
+      ],
+      "forwarded_examples": 26,
+      "fresh_seed": 42,
+      "full_batch_gradient_accumulation": true,
+      "full_batch_window_count": 147,
+      "loss_reduction": "SUM selected squared errors /750 across13 historical two-window groups",
+      "max_optimizer_steps": 10000,
+      "microbatch_size": 2,
+      "normalizer": "ORIGINAL action50-199 and observation49-199 only",
+      "planned_positive_lr_exposure_per_action": 9999,
+      "points": [
+        "ORIGINAL"
+      ],
+      "scheduled_raw_exposure_per_action": 10000,
+      "selected_actions_per_update": 150,
+      "selected_components_per_update": 750,
+      "selection": "PASS_STRICT before PASS_OWNER_WAIVER; unchanged lexicographic rank within category",
+      "shuffle": false
+    },
+    "2": {
+      "absolute_cap_seconds": 216000,
+      "control_waiver_transferred": false,
+      "evaluation_steps": [
+        20000,
+        40000,
+        60000,
+        80000,
+        100000,
+        120000,
+        142858
+      ],
+      "fresh_seed": 42,
+      "full_batch_gradient_accumulation": false,
+      "loss_reduction": "Mean across B individually reduced selected-valid-component chunk losses",
+      "max_optimizer_steps": 142858,
+      "microbatch_size": 1,
+      "minimum_effective_action_presentations": 600,
+      "minimum_effective_action_presentations_enforced": false,
+      "normalizer": "Approved selected50 fit; no refitting",
+      "points": [
+        "R000002",
+        "R000003",
+        "R000004",
+        "R000005",
+        "R000006",
+        "R000007",
+        "R000009",
+        "R000010",
+        "R000012",
+        "R000015",
+        "R000017",
+        "R000018",
+        "R000019",
+        "R000020",
+        "R000021",
+        "R000022",
+        "R000023",
+        "R000024",
+        "R000026",
+        "R000028",
+        "R000029",
+        "R000030",
+        "R000031",
+        "R000034",
+        "R000035",
+        "R000038",
+        "R000039",
+        "R000040",
+        "R000041",
+        "R000042",
+        "R000043",
+        "R000044",
+        "R000045",
+        "R000046",
+        "R000047",
+        "R000049",
+        "R000051",
+        "R000053",
+        "R000054",
+        "R000058",
+        "R000059",
+        "R000060",
+        "R000061",
+        "R000062",
+        "R000063",
+        "R000064",
+        "R000065",
+        "R000066",
+        "R000067",
+        "R000068"
+      ],
+      "sampler": "uniform recording;13 windows weighted [12]*12+[6] /150; replacement; continuous seed42",
+      "samples_per_optimizer_update": 13,
+      "sampling_seed": 42,
+      "selection": "Deterministic minimum invalid,jaw,worstXYZ,meanXYZ,earliest; no held-out selection",
+      "shuffle": true,
+      "training_windows": {
+        "training_window_offset": 0,
+        "training_window_stride": 12
+      }
+    }
+  },
+  "training_configuration": {
+    "betas": [
+      0.95,
+      0.999
+    ],
+    "calibration_evaluation_step": 20000,
+    "deterministic_algorithms": true,
+    "ema": {
+      "inv_gamma": 1.0,
+      "max_value": 0.9999,
+      "min_value": 0.0,
+      "power": 0.75,
+      "update_after_step": 0
+    },
+    "epsilon": 1e-08,
+    "evaluation_every_optimizer_steps": 20000,
+    "foreach": false,
+    "full_batch_gradient_accumulation": false,
+    "full_batch_window_count": 147,
+    "inference_precision": "float32",
+    "learning_rate": 0.0001,
+    "lr_schedule": "cosine",
+    "microbatch_size": 1,
+    "optimizer": "AdamW",
+    "shuffle": true,
+    "training_precision": "bfloat16 autocast with float32 weights/loss",
+    "warmup_steps": 7143,
+    "weight_decay": 1e-06,
+    "zero_loss_optimization": "skip all-zero original microbatches only; preserve boundaries and full147 noise draws"
+  },
+  "training_precision": "BF16 autocast with FP32 weights/loss"
+}

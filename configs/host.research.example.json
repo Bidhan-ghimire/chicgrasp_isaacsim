@@ -1,0 +1,8 @@
+{
+  "schema": "research-host/v1",
+  "isaac_sim": "C:/isaacsim",
+  "isaac_lab": "C:/robotics/IsaacLab",
+  "policy_support": "C:/replace-with-your-policy-support/site-packages",
+  "training_python": "C:/isaacsim/kit/python/python.exe",
+  "ffmpeg": "C:/replace-with-your-ffmpeg/bin/ffmpeg.exe"
+}

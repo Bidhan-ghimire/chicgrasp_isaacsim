@@ -1,0 +1,671 @@
+{
+  "action_indices": [
+    50,
+    199
+  ],
+  "action_rows_per_record": 150,
+  "observation_indices": [
+    49,
+    199
+  ],
+  "observation_rows_per_record": 151,
+  "records": [
+    {
+      "authored_xy_m": [
+        0.6512343724388256,
+        0.10490230846289623
+      ],
+      "episode_manifest": {
+        "bytes": 1170,
+        "path": "C:\\robotics\\ChicGrasp_gate6_stage3\\outputs\\random_xy_50_collection\\attempt001\\R000002\\native001\\capture\\experiment\\episode\\manifest.json",
+        "sha256": "14cfc4bbe626270c0eab690cccc0b723d8413f902e442bb1fb989c6b3fcbc190"
+      },
+      "episode_path": "C:\\robotics\\ChicGrasp_gate6_stage3\\outputs\\random_xy_50_collection\\attempt001\\R000002\\native001\\capture\\experiment\\episode",
+      "record_id": "R000002"
+    },
+    {
+      "authored_xy_m": [
+        0.6433839149781518,
+        0.2942323697490213
+      ],
+      "episode_manifest": {
+        "bytes": 1170,
+        "path": "C:\\robotics\\ChicGrasp_gate6_stage3\\outputs\\random_xy_50_collection\\attempt001\\R000003\\native001\\capture\\experiment\\episode\\manifest.json",
+        "sha256": "cd5c1e0438b79a45af53d65639a3dacdab553300b9f1dc26d8381c09c3803835"
+      },
+      "episode_path": "C:\\robotics\\ChicGrasp_gate6_stage3\\outputs\\random_xy_50_collection\\attempt001\\R000003\\native001\\capture\\experiment\\episode",
+      "record_id": "R000003"
+    },
+    {
+      "authored_xy_m": [
+        0.6831442232993254,
+        0.2739704315680435
+      ],
+      "episode_manifest": {
+        "bytes": 1170,
+        "path": "C:\\robotics\\ChicGrasp_gate6_stage3\\outputs\\random_xy_50_collection\\attempt001\\R000004\\native001\\capture\\experiment\\episode\\manifest.json",
+        "sha256": "7d57f7655e9170ff15e453936fa89f4e04c91fa1803a4b6c4cfa343772af47b9"
+      },
+      "episode_path": "C:\\robotics\\ChicGrasp_gate6_stage3\\outputs\\random_xy_50_collection\\attempt001\\R000004\\native001\\capture\\experiment\\episode",
+      "record_id": "R000004"
+    },
+    {
+      "authored_xy_m": [
+        0.6677749693707062,
+        0.2132801908487043
+      ],
+      "episode_manifest": {
+        "bytes": 1170,
+        "path": "C:\\robotics\\ChicGrasp_gate6_stage3\\outputs\\random_xy_50_collection\\attempt001\\R000005\\native001\\capture\\experiment\\episode\\manifest.json",
+        "sha256": "6aec2499466bb61abcbd75d29081efe3b0d5902d020fe2f9080d4253b9385410"
+      },
+      "episode_path": "C:\\robotics\\ChicGrasp_gate6_stage3\\outputs\\random_xy_50_collection\\attempt001\\R000005\\native001\\capture\\experiment\\episode",
+      "record_id": "R000005"
+    },
+    {
+      "authored_xy_m": [
+        0.6753234362600639,
+        0.15498838955824823
+      ],
+      "episode_manifest": {
+        "bytes": 1170,
+        "path": "C:\\robotics\\ChicGrasp_gate6_stage3\\outputs\\random_xy_50_collection\\attempt001\\R000006\\native001\\capture\\experiment\\episode\\manifest.json",
+        "sha256": "5f33368fcc2bad09310af831bee580909e8bbc3cfcc08346d965b921df2443f6"
+      },
+      "episode_path": "C:\\robotics\\ChicGrasp_gate6_stage3\\outputs\\random_xy_50_collection\\attempt001\\R000006\\native001\\capture\\experiment\\episode",
+      "record_id": "R000006"
+    },
+    {
+      "authored_xy_m": [
+        0.6709894362571154,
+        0.14221441810680757
+      ],
+      "episode_manifest": {
+        "bytes": 1170,
+        "path": "C:\\robotics\\ChicGrasp_gate6_stage3\\outputs\\random_xy_50_collection\\attempt001\\R000007\\native001\\capture\\experiment\\episode\\manifest.json",
+        "sha256": "36a3cd28cb7bf7320d356646ddc5f0b4662859ce153bef1fc6e5100b6a522f12"
+      },
+      "episode_path": "C:\\robotics\\ChicGrasp_gate6_stage3\\outputs\\random_xy_50_collection\\attempt001\\R000007\\native001\\capture\\experiment\\episode",
+      "record_id": "R000007"
+    },
+    {
+      "authored_xy_m": [
+        0.6535908102010519,
+        0.12465987508537026
+      ],
+      "episode_manifest": {
+        "bytes": 1170,
+        "path": "C:\\robotics\\ChicGrasp_gate6_stage3\\outputs\\random_xy_50_collection\\attempt001\\R000009\\native001\\capture\\experiment\\episode\\manifest.json",
+        "sha256": "e5a7776217b257fa04883742bfccd4bbf1407ca0bff3103431e8ee28a83385d1"
+      },
+      "episode_path": "C:\\robotics\\ChicGrasp_gate6_stage3\\outputs\\random_xy_50_collection\\attempt001\\R000009\\native001\\capture\\experiment\\episode",
+      "record_id": "R000009"
+    },
+    {
+      "authored_xy_m": [
+        0.6401646522115719,
+        0.2699885299270174
+      ],
+      "episode_manifest": {
+        "bytes": 1170,
+        "path": "C:\\robotics\\ChicGrasp_gate6_stage3\\outputs\\random_xy_50_collection\\attempt001\\R000010\\native001\\capture\\experiment\\episode\\manifest.json",
+        "sha256": "3d1e0c6693ebb37fa3ea8d42710caf5c7bb0bf35343b4759796e305495157240"
+      },
+      "episode_path": "C:\\robotics\\ChicGrasp_gate6_stage3\\outputs\\random_xy_50_collection\\attempt001\\R000010\\native001\\capture\\experiment\\episode",
+      "record_id": "R000010"
+    },
+    {
+      "authored_xy_m": [
+        0.6704621393670724,
+        0.20890057577562138
+      ],
+      "episode_manifest": {
+        "bytes": 1170,
+        "path": "C:\\robotics\\ChicGrasp_gate6_stage3\\outputs\\random_xy_50_collection\\attempt001\\R000012\\native001\\capture\\experiment\\episode\\manifest.json",
+        "sha256": "3a7ad27500cfbe4aecbc462d63d7b233758ba2dbfd51d53a48840c9d87c321a0"
+      },
+      "episode_path": "C:\\robotics\\ChicGrasp_gate6_stage3\\outputs\\random_xy_50_collection\\attempt001\\R000012\\native001\\capture\\experiment\\episode",
+      "record_id": "R000012"
+    },
+    {
+      "authored_xy_m": [
+        0.6942052918481589,
+        0.23510352887696256
+      ],
+      "episode_manifest": {
+        "bytes": 1170,
+        "path": "C:\\robotics\\ChicGrasp_gate6_stage3\\outputs\\random_xy_50_collection\\attempt001\\R000015\\native001\\capture\\experiment\\episode\\manifest.json",
+        "sha256": "5670954bca346573e68e70e9b85f200064dccf23beba0d29719f10273c83da34"
+      },
+      "episode_path": "C:\\robotics\\ChicGrasp_gate6_stage3\\outputs\\random_xy_50_collection\\attempt001\\R000015\\native001\\capture\\experiment\\episode",
+      "record_id": "R000015"
+    },
+    {
+      "authored_xy_m": [
+        0.6852577436579412,
+        0.14399957536256763
+      ],
+      "episode_manifest": {
+        "bytes": 1170,
+        "path": "C:\\robotics\\ChicGrasp_gate6_stage3\\outputs\\random_xy_50_collection\\attempt001\\R000017\\native001\\capture\\experiment\\episode\\manifest.json",
+        "sha256": "a1a85ec5bebea4ee7710f2ab0b6f92818d7f0bf67344255d424e036df5de3701"
+      },
+      "episode_path": "C:\\robotics\\ChicGrasp_gate6_stage3\\outputs\\random_xy_50_collection\\attempt001\\R000017\\native001\\capture\\experiment\\episode",
+      "record_id": "R000017"
+    },
+    {
+      "authored_xy_m": [
+        0.6953904833646308,
+        0.15098984439246788
+      ],
+      "episode_manifest": {
+        "bytes": 1170,
+        "path": "C:\\robotics\\ChicGrasp_gate6_stage3\\outputs\\random_xy_50_collection\\attempt001\\R000018\\native001\\capture\\experiment\\episode\\manifest.json",
+        "sha256": "3da1c148eb44a50456963d7555339234298847a1121775eec10ed97b6981377b"
+      },
+      "episode_path": "C:\\robotics\\ChicGrasp_gate6_stage3\\outputs\\random_xy_50_collection\\attempt001\\R000018\\native001\\capture\\experiment\\episode",
+      "record_id": "R000018"
+    },
+    {
+      "authored_xy_m": [
+        0.672704847153656,
+        0.21510253955496433
+      ],
+      "episode_manifest": {
+        "bytes": 1170,
+        "path": "C:\\robotics\\ChicGrasp_gate6_stage3\\outputs\\random_xy_50_collection\\attempt001\\R000019\\native001\\capture\\experiment\\episode\\manifest.json",
+        "sha256": "5ddd2dec3ea6d76c1f125856da256111bcfa184b1804a71ab6e12df6cb2e2a9c"
+      },
+      "episode_path": "C:\\robotics\\ChicGrasp_gate6_stage3\\outputs\\random_xy_50_collection\\attempt001\\R000019\\native001\\capture\\experiment\\episode",
+      "record_id": "R000019"
+    },
+    {
+      "authored_xy_m": [
+        0.6822508688615093,
+        0.17842411082619097
+      ],
+      "episode_manifest": {
+        "bytes": 1170,
+        "path": "C:\\robotics\\ChicGrasp_gate6_stage3\\outputs\\random_xy_50_collection\\attempt001\\R000020\\native001\\capture\\experiment\\episode\\manifest.json",
+        "sha256": "9cd3b0680dc2c61dd6f2a2745860c211f3133b562154e8ca6ede9bf40f502e69"
+      },
+      "episode_path": "C:\\robotics\\ChicGrasp_gate6_stage3\\outputs\\random_xy_50_collection\\attempt001\\R000020\\native001\\capture\\experiment\\episode",
+      "record_id": "R000020"
+    },
+    {
+      "authored_xy_m": [
+        0.6985819302863558,
+        0.13034878989141524
+      ],
+      "episode_manifest": {
+        "bytes": 1170,
+        "path": "C:\\robotics\\ChicGrasp_gate6_stage3\\outputs\\random_xy_50_collection\\attempt001\\R000021\\native001\\capture\\experiment\\episode\\manifest.json",
+        "sha256": "81b7ac43ee9d511f4ecc1a1f9a2f9124c84ce64c87c80615de952f9c3421374c"
+      },
+      "episode_path": "C:\\robotics\\ChicGrasp_gate6_stage3\\outputs\\random_xy_50_collection\\attempt001\\R000021\\native001\\capture\\experiment\\episode",
+      "record_id": "R000021"
+    },
+    {
+      "authored_xy_m": [
+        0.6938423876675871,
+        0.13076768666018057
+      ],
+      "episode_manifest": {
+        "bytes": 1170,
+        "path": "C:\\robotics\\ChicGrasp_gate6_stage3\\outputs\\random_xy_50_collection\\attempt001\\R000022\\native001\\capture\\experiment\\episode\\manifest.json",
+        "sha256": "78f89ef94650082627db6311f5e0af1d96e641ddfc18b58bb27c7f7cfd903757"
+      },
+      "episode_path": "C:\\robotics\\ChicGrasp_gate6_stage3\\outputs\\random_xy_50_collection\\attempt001\\R000022\\native001\\capture\\experiment\\episode",
+      "record_id": "R000022"
+    },
+    {
+      "authored_xy_m": [
+        0.6747229591943115,
+        0.2611432345379226
+      ],
+      "episode_manifest": {
+        "bytes": 1170,
+        "path": "C:\\robotics\\ChicGrasp_gate6_stage3\\outputs\\random_xy_50_collection\\attempt001\\R000023\\native001\\capture\\experiment\\episode\\manifest.json",
+        "sha256": "e6900c96ec5b291be66943ac68f958bfbe3976d561bdd15dd36db2342611b747"
+      },
+      "episode_path": "C:\\robotics\\ChicGrasp_gate6_stage3\\outputs\\random_xy_50_collection\\attempt001\\R000023\\native001\\capture\\experiment\\episode",
+      "record_id": "R000023"
+    },
+    {
+      "authored_xy_m": [
+        0.6408442902455082,
+        0.06776990806657747
+      ],
+      "episode_manifest": {
+        "bytes": 1170,
+        "path": "C:\\robotics\\ChicGrasp_gate6_stage3\\outputs\\random_xy_50_collection\\attempt001\\R000024\\native001\\capture\\experiment\\episode\\manifest.json",
+        "sha256": "47259840f81cab1f15bc41392495b731ed729af01b7092d4e116c82e0d2f0f79"
+      },
+      "episode_path": "C:\\robotics\\ChicGrasp_gate6_stage3\\outputs\\random_xy_50_collection\\attempt001\\R000024\\native001\\capture\\experiment\\episode",
+      "record_id": "R000024"
+    },
+    {
+      "authored_xy_m": [
+        0.6495562152194998,
+        0.20432399784331023
+      ],
+      "episode_manifest": {
+        "bytes": 1170,
+        "path": "C:\\robotics\\ChicGrasp_gate6_stage3\\outputs\\random_xy_50_collection\\attempt001\\R000026\\native001\\capture\\experiment\\episode\\manifest.json",
+        "sha256": "a83590c6114a0643d091dffda3770dbd6a40ce8a4b2568f7f019d08111bf351c"
+      },
+      "episode_path": "C:\\robotics\\ChicGrasp_gate6_stage3\\outputs\\random_xy_50_collection\\attempt001\\R000026\\native001\\capture\\experiment\\episode",
+      "record_id": "R000026"
+    },
+    {
+      "authored_xy_m": [
+        0.6695231428017245,
+        0.1909839774237604
+      ],
+      "episode_manifest": {
+        "bytes": 1170,
+        "path": "C:\\robotics\\ChicGrasp_gate6_stage3\\outputs\\random_xy_50_collection\\attempt001\\R000028\\native001\\capture\\experiment\\episode\\manifest.json",
+        "sha256": "29966777841b84a14b4c3d9f8a148268fc66ba20a0eeabdb21dc0bc280da0a76"
+      },
+      "episode_path": "C:\\robotics\\ChicGrasp_gate6_stage3\\outputs\\random_xy_50_collection\\attempt001\\R000028\\native001\\capture\\experiment\\episode",
+      "record_id": "R000028"
+    },
+    {
+      "authored_xy_m": [
+        0.6405399428660955,
+        0.12328573182419915
+      ],
+      "episode_manifest": {
+        "bytes": 1170,
+        "path": "C:\\robotics\\ChicGrasp_gate6_stage3\\outputs\\random_xy_50_collection\\attempt001\\R000029\\native001\\capture\\experiment\\episode\\manifest.json",
+        "sha256": "fe9073f9c315c70afc8abcec3667cf881c491b3545ff16205d393a993823f6e7"
+      },
+      "episode_path": "C:\\robotics\\ChicGrasp_gate6_stage3\\outputs\\random_xy_50_collection\\attempt001\\R000029\\native001\\capture\\experiment\\episode",
+      "record_id": "R000029"
+    },
+    {
+      "authored_xy_m": [
+        0.6990123929947922,
+        0.22400495439424184
+      ],
+      "episode_manifest": {
+        "bytes": 1170,
+        "path": "C:\\robotics\\ChicGrasp_gate6_stage3\\outputs\\random_xy_50_collection\\attempt001\\R000030\\native001\\capture\\experiment\\episode\\manifest.json",
+        "sha256": "89315c214a7ada9c277f2d1a2b35db11a64dd9d656806bc970264d1dac8f2055"
+      },
+      "episode_path": "C:\\robotics\\ChicGrasp_gate6_stage3\\outputs\\random_xy_50_collection\\attempt001\\R000030\\native001\\capture\\experiment\\episode",
+      "record_id": "R000030"
+    },
+    {
+      "authored_xy_m": [
+        0.6823969120567183,
+        0.06415265257318267
+      ],
+      "episode_manifest": {
+        "bytes": 1170,
+        "path": "C:\\robotics\\ChicGrasp_gate6_stage3\\outputs\\random_xy_50_collection\\attempt001\\R000031\\native001\\capture\\experiment\\episode\\manifest.json",
+        "sha256": "bec80fda82ad587e0c7c2cdfcad94bb85737cca93ad454e598958001f5c43fda"
+      },
+      "episode_path": "C:\\robotics\\ChicGrasp_gate6_stage3\\outputs\\random_xy_50_collection\\attempt001\\R000031\\native001\\capture\\experiment\\episode",
+      "record_id": "R000031"
+    },
+    {
+      "authored_xy_m": [
+        0.6548967739318227,
+        0.22212863349314976
+      ],
+      "episode_manifest": {
+        "bytes": 1170,
+        "path": "C:\\robotics\\ChicGrasp_gate6_stage3\\outputs\\random_xy_50_collection\\attempt001\\R000034\\native001\\capture\\experiment\\episode\\manifest.json",
+        "sha256": "42b37c5af1602114d4be1493ee2ee1f373fa3fec9ad0b5fb5c658311f45f7d9e"
+      },
+      "episode_path": "C:\\robotics\\ChicGrasp_gate6_stage3\\outputs\\random_xy_50_collection\\attempt001\\R000034\\native001\\capture\\experiment\\episode",
+      "record_id": "R000034"
+    },
+    {
+      "authored_xy_m": [
+        0.6689220771270286,
+        0.2745556661514637
+      ],
+      "episode_manifest": {
+        "bytes": 1170,
+        "path": "C:\\robotics\\ChicGrasp_gate6_stage3\\outputs\\random_xy_50_collection\\attempt001\\R000035\\native001\\capture\\experiment\\episode\\manifest.json",
+        "sha256": "adc2233d55e7d30095f0be3cdcf85b37dcbf376afb7ebd1aa74e13cc5bc4b46e"
+      },
+      "episode_path": "C:\\robotics\\ChicGrasp_gate6_stage3\\outputs\\random_xy_50_collection\\attempt001\\R000035\\native001\\capture\\experiment\\episode",
+      "record_id": "R000035"
+    },
+    {
+      "authored_xy_m": [
+        0.6537736933852887,
+        0.1509206318508774
+      ],
+      "episode_manifest": {
+        "bytes": 1170,
+        "path": "C:\\robotics\\ChicGrasp_gate6_stage3\\outputs\\random_xy_50_collection\\attempt001\\R000038\\native001\\capture\\experiment\\episode\\manifest.json",
+        "sha256": "7c1bc1274bc1e26e2b3139da16b05e0469a511f84af74e81641ab0c7e4330abf"
+      },
+      "episode_path": "C:\\robotics\\ChicGrasp_gate6_stage3\\outputs\\random_xy_50_collection\\attempt001\\R000038\\native001\\capture\\experiment\\episode",
+      "record_id": "R000038"
+    },
+    {
+      "authored_xy_m": [
+        0.6929517201283699,
+        0.2805861564974512
+      ],
+      "episode_manifest": {
+        "bytes": 1170,
+        "path": "C:\\robotics\\ChicGrasp_gate6_stage3\\outputs\\random_xy_50_collection\\attempt001\\R000039\\native001\\capture\\experiment\\episode\\manifest.json",
+        "sha256": "898f83a2716c4c9a12926fef2e6e96ad32e24b1bb661608cd232a5220dda11a1"
+      },
+      "episode_path": "C:\\robotics\\ChicGrasp_gate6_stage3\\outputs\\random_xy_50_collection\\attempt001\\R000039\\native001\\capture\\experiment\\episode",
+      "record_id": "R000039"
+    },
+    {
+      "authored_xy_m": [
+        0.6892255063104862,
+        0.13652884787331127
+      ],
+      "episode_manifest": {
+        "bytes": 1170,
+        "path": "C:\\robotics\\ChicGrasp_gate6_stage3\\outputs\\random_xy_50_collection\\attempt001\\R000040\\native001\\capture\\experiment\\episode\\manifest.json",
+        "sha256": "b0534913893d85d7ad354e343d7b0aff29a5b483b0aa2fabb0cdd2dcd0b8d831"
+      },
+      "episode_path": "C:\\robotics\\ChicGrasp_gate6_stage3\\outputs\\random_xy_50_collection\\attempt001\\R000040\\native001\\capture\\experiment\\episode",
+      "record_id": "R000040"
+    },
+    {
+      "authored_xy_m": [
+        0.6539284282747543,
+        0.07056249210477854
+      ],
+      "episode_manifest": {
+        "bytes": 1170,
+        "path": "C:\\robotics\\ChicGrasp_gate6_stage3\\outputs\\random_xy_50_collection\\attempt001\\R000041\\native001\\capture\\experiment\\episode\\manifest.json",
+        "sha256": "0322393b7827d3f71326472200344673613e4f8b095c31fd973dbf597431736b"
+      },
+      "episode_path": "C:\\robotics\\ChicGrasp_gate6_stage3\\outputs\\random_xy_50_collection\\attempt001\\R000041\\native001\\capture\\experiment\\episode",
+      "record_id": "R000041"
+    },
+    {
+      "authored_xy_m": [
+        0.6859040244122923,
+        0.13469428741972
+      ],
+      "episode_manifest": {
+        "bytes": 1170,
+        "path": "C:\\robotics\\ChicGrasp_gate6_stage3\\outputs\\random_xy_50_collection\\attempt001\\R000042\\native001\\capture\\experiment\\episode\\manifest.json",
+        "sha256": "2f173f1633354d2b43d3bcab58a87fe35ba2d740d0121596136b51328b46f212"
+      },
+      "episode_path": "C:\\robotics\\ChicGrasp_gate6_stage3\\outputs\\random_xy_50_collection\\attempt001\\R000042\\native001\\capture\\experiment\\episode",
+      "record_id": "R000042"
+    },
+    {
+      "authored_xy_m": [
+        0.6492732691098198,
+        0.22242068618475064
+      ],
+      "episode_manifest": {
+        "bytes": 1170,
+        "path": "C:\\robotics\\ChicGrasp_gate6_stage3\\outputs\\random_xy_50_collection\\attempt001\\R000043\\native001\\capture\\experiment\\episode\\manifest.json",
+        "sha256": "eeb3c1e71923b71ddb2a66280213c1ecd43d0d174e126076dd6e4f540f09566a"
+      },
+      "episode_path": "C:\\robotics\\ChicGrasp_gate6_stage3\\outputs\\random_xy_50_collection\\attempt001\\R000043\\native001\\capture\\experiment\\episode",
+      "record_id": "R000043"
+    },
+    {
+      "authored_xy_m": [
+        0.6594799664698305,
+        0.15273443833818284
+      ],
+      "episode_manifest": {
+        "bytes": 1170,
+        "path": "C:\\robotics\\ChicGrasp_gate6_stage3\\outputs\\random_xy_50_collection\\attempt001\\R000044\\native001\\capture\\experiment\\episode\\manifest.json",
+        "sha256": "de4b5b78540be72e5c359f466a2fc06b2d5a9033e98ace46427b766aefcd58cd"
+      },
+      "episode_path": "C:\\robotics\\ChicGrasp_gate6_stage3\\outputs\\random_xy_50_collection\\attempt001\\R000044\\native001\\capture\\experiment\\episode",
+      "record_id": "R000044"
+    },
+    {
+      "authored_xy_m": [
+        0.6681655405464918,
+        0.2755505115683055
+      ],
+      "episode_manifest": {
+        "bytes": 1170,
+        "path": "C:\\robotics\\ChicGrasp_gate6_stage3\\outputs\\random_xy_50_collection\\attempt001\\R000045\\native001\\capture\\experiment\\episode\\manifest.json",
+        "sha256": "7784792bb0e3b9334b561247e0ef2db1b49fc1bab6aabb7eb4e01d7e2f472802"
+      },
+      "episode_path": "C:\\robotics\\ChicGrasp_gate6_stage3\\outputs\\random_xy_50_collection\\attempt001\\R000045\\native001\\capture\\experiment\\episode",
+      "record_id": "R000045"
+    },
+    {
+      "authored_xy_m": [
+        0.6594408745220274,
+        0.21785901939225166
+      ],
+      "episode_manifest": {
+        "bytes": 1170,
+        "path": "C:\\robotics\\ChicGrasp_gate6_stage3\\outputs\\random_xy_50_collection\\attempt001\\R000046\\native001\\capture\\experiment\\episode\\manifest.json",
+        "sha256": "448fed15001e4a0a3fd6f013da8f6e58865f7588ca2127cfe957115f4a0a88ed"
+      },
+      "episode_path": "C:\\robotics\\ChicGrasp_gate6_stage3\\outputs\\random_xy_50_collection\\attempt001\\R000046\\native001\\capture\\experiment\\episode",
+      "record_id": "R000046"
+    },
+    {
+      "authored_xy_m": [
+        0.6854375014964222,
+        0.10037928281712809
+      ],
+      "episode_manifest": {
+        "bytes": 1170,
+        "path": "C:\\robotics\\ChicGrasp_gate6_stage3\\outputs\\random_xy_50_collection\\attempt001\\R000047\\native001\\capture\\experiment\\episode\\manifest.json",
+        "sha256": "420ed4f78f56524a8856f5f92ad37dd4fee4ed914a076b05def9bd3342119352"
+      },
+      "episode_path": "C:\\robotics\\ChicGrasp_gate6_stage3\\outputs\\random_xy_50_collection\\attempt001\\R000047\\native001\\capture\\experiment\\episode",
+      "record_id": "R000047"
+    },
+    {
+      "authored_xy_m": [
+        0.690861308069097,
+        0.039955652378670964
+      ],
+      "episode_manifest": {
+        "bytes": 1170,
+        "path": "C:\\robotics\\ChicGrasp_gate6_stage3\\outputs\\random_xy_50_collection\\attempt001\\R000049\\native001\\capture\\experiment\\episode\\manifest.json",
+        "sha256": "7396fc5f2c9c5571d5b37aac1669e50ba1f81b13a42d37b1ff692be3ef0cd6c7"
+      },
+      "episode_path": "C:\\robotics\\ChicGrasp_gate6_stage3\\outputs\\random_xy_50_collection\\attempt001\\R000049\\native001\\capture\\experiment\\episode",
+      "record_id": "R000049"
+    },
+    {
+      "authored_xy_m": [
+        0.6540147279568745,
+        0.258825149281549
+      ],
+      "episode_manifest": {
+        "bytes": 1170,
+        "path": "C:\\robotics\\ChicGrasp_gate6_stage3\\outputs\\random_xy_50_collection\\attempt001\\R000051\\native001\\capture\\experiment\\episode\\manifest.json",
+        "sha256": "2ef9d6b23289b2de9d99a9bbbbdbff5d67c369c0e429a66c2585bab4a3f1e062"
+      },
+      "episode_path": "C:\\robotics\\ChicGrasp_gate6_stage3\\outputs\\random_xy_50_collection\\attempt001\\R000051\\native001\\capture\\experiment\\episode",
+      "record_id": "R000051"
+    },
+    {
+      "authored_xy_m": [
+        0.6506557712881152,
+        0.2746887552249634
+      ],
+      "episode_manifest": {
+        "bytes": 1170,
+        "path": "C:\\robotics\\ChicGrasp_gate6_stage3\\outputs\\random_xy_50_collection\\attempt001\\R000053\\native001\\capture\\experiment\\episode\\manifest.json",
+        "sha256": "72badbff300d6146bb0ed1b4d0a44e79467a41642af66d7318ea970c445c466a"
+      },
+      "episode_path": "C:\\robotics\\ChicGrasp_gate6_stage3\\outputs\\random_xy_50_collection\\attempt001\\R000053\\native001\\capture\\experiment\\episode",
+      "record_id": "R000053"
+    },
+    {
+      "authored_xy_m": [
+        0.6799175426188737,
+        0.0453514792246919
+      ],
+      "episode_manifest": {
+        "bytes": 1170,
+        "path": "C:\\robotics\\ChicGrasp_gate6_stage3\\outputs\\random_xy_50_collection\\attempt001\\R000054\\native001\\capture\\experiment\\episode\\manifest.json",
+        "sha256": "7bc1fc4b1be51ef609796d5dd8d4afeeaa38c4a8159a46a9aa39ae3650b98080"
+      },
+      "episode_path": "C:\\robotics\\ChicGrasp_gate6_stage3\\outputs\\random_xy_50_collection\\attempt001\\R000054\\native001\\capture\\experiment\\episode",
+      "record_id": "R000054"
+    },
+    {
+      "authored_xy_m": [
+        0.696477597728234,
+        0.04162691692318956
+      ],
+      "episode_manifest": {
+        "bytes": 1170,
+        "path": "C:\\robotics\\ChicGrasp_gate6_stage3\\outputs\\random_xy_50_collection\\attempt001\\R000058\\native001\\capture\\experiment\\episode\\manifest.json",
+        "sha256": "06dd7d81191fea7e5cce0e04d7c69e3336a1c36edc0ff604fa42dacc95fa777f"
+      },
+      "episode_path": "C:\\robotics\\ChicGrasp_gate6_stage3\\outputs\\random_xy_50_collection\\attempt001\\R000058\\native001\\capture\\experiment\\episode",
+      "record_id": "R000058"
+    },
+    {
+      "authored_xy_m": [
+        0.6833161092109237,
+        0.2948222507746817
+      ],
+      "episode_manifest": {
+        "bytes": 1170,
+        "path": "C:\\robotics\\ChicGrasp_gate6_stage3\\outputs\\random_xy_50_collection\\attempt001\\R000059\\native001\\capture\\experiment\\episode\\manifest.json",
+        "sha256": "142ed20976b20b2d4a25187b3b5b8879bf8124ffd468f621492f90bcb377b0c0"
+      },
+      "episode_path": "C:\\robotics\\ChicGrasp_gate6_stage3\\outputs\\random_xy_50_collection\\attempt001\\R000059\\native001\\capture\\experiment\\episode",
+      "record_id": "R000059"
+    },
+    {
+      "authored_xy_m": [
+        0.6468453381044448,
+        0.23922955408163588
+      ],
+      "episode_manifest": {
+        "bytes": 1170,
+        "path": "C:\\robotics\\ChicGrasp_gate6_stage3\\outputs\\random_xy_50_collection\\attempt001\\R000060\\native001\\capture\\experiment\\episode\\manifest.json",
+        "sha256": "3655494336aa9ad47da923bdf69d68eeb1a6ef7fc853d5ad2a200f5b502ff5c0"
+      },
+      "episode_path": "C:\\robotics\\ChicGrasp_gate6_stage3\\outputs\\random_xy_50_collection\\attempt001\\R000060\\native001\\capture\\experiment\\episode",
+      "record_id": "R000060"
+    },
+    {
+      "authored_xy_m": [
+        0.674974312204969,
+        0.21018384397469309
+      ],
+      "episode_manifest": {
+        "bytes": 1170,
+        "path": "C:\\robotics\\ChicGrasp_gate6_stage3\\outputs\\random_xy_50_collection\\attempt001\\R000061\\native001\\capture\\experiment\\episode\\manifest.json",
+        "sha256": "2d12eb24c087946ab407605f3f305c3572335d3e7eedda88a6d979d8487a7461"
+      },
+      "episode_path": "C:\\robotics\\ChicGrasp_gate6_stage3\\outputs\\random_xy_50_collection\\attempt001\\R000061\\native001\\capture\\experiment\\episode",
+      "record_id": "R000061"
+    },
+    {
+      "authored_xy_m": [
+        0.6513738450615871,
+        -0.005574330770522186
+      ],
+      "episode_manifest": {
+        "bytes": 1170,
+        "path": "C:\\robotics\\ChicGrasp_gate6_stage3\\outputs\\random_xy_50_collection\\attempt001\\R000062\\native001\\capture\\experiment\\episode\\manifest.json",
+        "sha256": "ba3bfa95242b5ccd8cceb6475ab25df4b39c8133666da1c9d12bd6f98e6bfb9e"
+      },
+      "episode_path": "C:\\robotics\\ChicGrasp_gate6_stage3\\outputs\\random_xy_50_collection\\attempt001\\R000062\\native001\\capture\\experiment\\episode",
+      "record_id": "R000062"
+    },
+    {
+      "authored_xy_m": [
+        0.6792853588454294,
+        0.2891605999324489
+      ],
+      "episode_manifest": {
+        "bytes": 1170,
+        "path": "C:\\robotics\\ChicGrasp_gate6_stage3\\outputs\\random_xy_50_collection\\attempt001\\R000063\\native001\\capture\\experiment\\episode\\manifest.json",
+        "sha256": "e555ae1d84e4574c418d2d8cdec556a249ea10d048bcd7057ab7e762684be7ae"
+      },
+      "episode_path": "C:\\robotics\\ChicGrasp_gate6_stage3\\outputs\\random_xy_50_collection\\attempt001\\R000063\\native001\\capture\\experiment\\episode",
+      "record_id": "R000063"
+    },
+    {
+      "authored_xy_m": [
+        0.6535204286902629,
+        0.12852233073208097
+      ],
+      "episode_manifest": {
+        "bytes": 1170,
+        "path": "C:\\robotics\\ChicGrasp_gate6_stage3\\outputs\\random_xy_50_collection\\attempt001\\R000064\\native001\\capture\\experiment\\episode\\manifest.json",
+        "sha256": "514b7686ff587c4b8556d963ab0d78b43401c70862ac9fd58bcf0533a476f0c3"
+      },
+      "episode_path": "C:\\robotics\\ChicGrasp_gate6_stage3\\outputs\\random_xy_50_collection\\attempt001\\R000064\\native001\\capture\\experiment\\episode",
+      "record_id": "R000064"
+    },
+    {
+      "authored_xy_m": [
+        0.6428488264238547,
+        0.15607980573252356
+      ],
+      "episode_manifest": {
+        "bytes": 1170,
+        "path": "C:\\robotics\\ChicGrasp_gate6_stage3\\outputs\\random_xy_50_collection\\attempt001\\R000065\\native001\\capture\\experiment\\episode\\manifest.json",
+        "sha256": "ae7a7a91968c8eb6c8ee5dd853c2af6b9142bbfb9388cd56722a3a6938237fee"
+      },
+      "episode_path": "C:\\robotics\\ChicGrasp_gate6_stage3\\outputs\\random_xy_50_collection\\attempt001\\R000065\\native001\\capture\\experiment\\episode",
+      "record_id": "R000065"
+    },
+    {
+      "authored_xy_m": [
+        0.6740669308376104,
+        0.16790985205810843
+      ],
+      "episode_manifest": {
+        "bytes": 1170,
+        "path": "C:\\robotics\\ChicGrasp_gate6_stage3\\outputs\\random_xy_50_collection\\attempt001\\R000066\\native001\\capture\\experiment\\episode\\manifest.json",
+        "sha256": "8ee6dd151cf11a35e83841b16193bd8f22752efb7c90a0ffe2487b9dd079b390"
+      },
+      "episode_path": "C:\\robotics\\ChicGrasp_gate6_stage3\\outputs\\random_xy_50_collection\\attempt001\\R000066\\native001\\capture\\experiment\\episode",
+      "record_id": "R000066"
+    },
+    {
+      "authored_xy_m": [
+        0.6906506315409625,
+        0.08470761570022892
+      ],
+      "episode_manifest": {
+        "bytes": 1170,
+        "path": "C:\\robotics\\ChicGrasp_gate6_stage3\\outputs\\random_xy_50_collection\\attempt001\\R000067\\native001\\capture\\experiment\\episode\\manifest.json",
+        "sha256": "765307add4f41a4dcc05c214041e66b4b122c2a3881c6c3723448d62dcb93b08"
+      },
+      "episode_path": "C:\\robotics\\ChicGrasp_gate6_stage3\\outputs\\random_xy_50_collection\\attempt001\\R000067\\native001\\capture\\experiment\\episode",
+      "record_id": "R000067"
+    },
+    {
+      "authored_xy_m": [
+        0.6515773154350645,
+        0.20853905224109515
+      ],
+      "episode_manifest": {
+        "bytes": 1170,
+        "path": "C:\\robotics\\ChicGrasp_gate6_stage3\\outputs\\random_xy_50_collection\\attempt001\\R000068\\native001\\capture\\experiment\\episode\\manifest.json",
+        "sha256": "9d95ff62f8c83824a6fc04d56ab9de8b47299a9e47d6a069ae6f6278580e6bd5"
+      },
+      "episode_path": "C:\\robotics\\ChicGrasp_gate6_stage3\\outputs\\random_xy_50_collection\\attempt001\\R000068\\native001\\capture\\experiment\\episode",
+      "record_id": "R000068"
+    }
+  ],
+  "reference_or_heldout_rows_in_fit": false,
+  "reused_windows": false,
+  "selected_count": 50,
+  "selected_order": "caller-frozen first usable candidate order",
+  "source_qualification": "Caller froze membership after existing integrity and physical usability checks",
+  "target_count": 50,
+  "training_authority": "PENDING owner approval of actual selected records and N; any N other than50 requires explicit approval before training"
+}

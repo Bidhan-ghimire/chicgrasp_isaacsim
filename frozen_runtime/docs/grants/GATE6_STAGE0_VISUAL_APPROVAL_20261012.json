@@ -1,0 +1,581 @@
+{
+  "authority": "Owner Stage1 grant explicitly approves six headless frames and closes Stage0",
+  "grant_path": "docs/grants/GATE6_STAGE1_OWNER_GRANT_20261012.txt",
+  "grant_sha256": "59bd72a1bffa62fac5182fa13cc07eee3d0abb0c64d40e14ce46b66b9fb43459",
+  "baseline_tag": "gate6-stage0-baseline-20261012",
+  "baseline_commit": "012251ca4c2cb0b243cbe8de056953a0d069d4c1",
+  "baseline_config_sha256": "bc670fb1dfceb908353a8efd81e4e6515794ddf18457432c224852346dc3fd05",
+  "approved_config_sha256": "d8f6e1aa8f7c51eac22b561c602e954bff7e5d9b585091bd6f3270547e3df0cc",
+  "only_config_change": "calibration_status STAGE0_PENDING_HEADLESS -> STAGE0_OWNER_APPROVED",
+  "frames": [
+    {
+      "path": "C:\\robotics\\ChicGrasp_DP_VerticalSlice\\outputs\\gate6_stage0_harness\\dome_recovery_20261012_001\\capture\\experiment\\stage0\\tick0000_substep1_camera_left.png",
+      "bytes": 40906,
+      "sha256": "465eaff2ced464b6277d9d85e7b471e60f28813249a24cbc288c1b90b4c3bbdd",
+      "tick": 0,
+      "substep": 1,
+      "camera": "left"
+    },
+    {
+      "path": "C:\\robotics\\ChicGrasp_DP_VerticalSlice\\outputs\\gate6_stage0_harness\\dome_recovery_20261012_001\\capture\\experiment\\stage0\\tick0000_substep1_camera_right.png",
+      "bytes": 52903,
+      "sha256": "4f7f370c318d50be62b71341bca1140e19c76d4d5edb4e3412665e77d7a413d7",
+      "tick": 0,
+      "substep": 1,
+      "camera": "right"
+    },
+    {
+      "path": "C:\\robotics\\ChicGrasp_DP_VerticalSlice\\outputs\\gate6_stage0_harness\\dome_recovery_20261012_001\\capture\\experiment\\stage0\\tick0839_substep1_camera_left.png",
+      "bytes": 37325,
+      "sha256": "2793264f1bd9d75df64f70b19cfedb388282924310764e3fdc02ca8c5c5f07ff",
+      "tick": 839,
+      "substep": 1,
+      "camera": "left"
+    },
+    {
+      "path": "C:\\robotics\\ChicGrasp_DP_VerticalSlice\\outputs\\gate6_stage0_harness\\dome_recovery_20261012_001\\capture\\experiment\\stage0\\tick0839_substep1_camera_right.png",
+      "bytes": 72417,
+      "sha256": "0e0650cad502cf5d3352c4b9e33e4a91f79c70576dbde667f73534e67e5f94e6",
+      "tick": 839,
+      "substep": 1,
+      "camera": "right"
+    },
+    {
+      "path": "C:\\robotics\\ChicGrasp_DP_VerticalSlice\\outputs\\gate6_stage0_harness\\dome_recovery_20261012_001\\capture\\experiment\\stage0\\tick1199_substep1_camera_left.png",
+      "bytes": 38110,
+      "sha256": "3854cc6a6464b3e0458defb23f10b65b105cfd2667aca6e3b7c63a6d0ae49c28",
+      "tick": 1199,
+      "substep": 1,
+      "camera": "left"
+    },
+    {
+      "path": "C:\\robotics\\ChicGrasp_DP_VerticalSlice\\outputs\\gate6_stage0_harness\\dome_recovery_20261012_001\\capture\\experiment\\stage0\\tick1199_substep1_camera_right.png",
+      "bytes": 77223,
+      "sha256": "9ce1ee11dae26d5117ce390159e8cbce0b50c06b9fe7fb70ae267945d7caf0db",
+      "tick": 1199,
+      "substep": 1,
+      "camera": "right"
+    }
+  ],
+  "renderer": {
+    "experience": {
+      "bytes": 5785,
+      "path": "C:/robotics/IsaacLab/apps/isaaclab.python.rendering.kit",
+      "sha256": "449c473cf160fe7be59f40978b3e5755969c755cf40bfbbfd1063f1c3bfd1349"
+    },
+    "schema": "shared-camera-renderer/v1",
+    "settings": {
+      "/app/vulkan": false,
+      "/isaaclab/render/active_viewport": true,
+      "/isaaclab/render/offscreen": true,
+      "/rtx/background/source/color": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "/rtx/background/source/type": 0,
+      "/rtx/directLighting/domeLight/enabled": true,
+      "/rtx/directLighting/enabled": true,
+      "/rtx/directLighting/sampledLighting/enabled": true,
+      "/rtx/domeLight/upperLowerStrategy": 0,
+      "/rtx/indirectDiffuse/enabled": false,
+      "/rtx/post/histogram/enabled": false,
+      "/rtx/post/tonemap/cm2Factor": 1.0,
+      "/rtx/post/tonemap/filmIso": 100.0,
+      "/rtx/post/tonemap/op": 6,
+      "/rtx/reflections/enabled": false,
+      "/rtx/rendermode": "RaytracedLighting",
+      "/rtx/sceneDb/ambientLightIntensity": 1.0,
+      "/rtx/scenedb/skipMostLights": false,
+      "/rtx/useViewLightingMode": false
+    }
+  },
+  "startup_profile": {
+    "schema": "stage0-single-dome/v1",
+    "inactive_paths": [
+      "/World/DomeLight",
+      "/World/envs/env_0/Chicken/env_light"
+    ],
+    "startup_refresh": "NONE",
+    "startup_additional_renders": 0
+  },
+  "start_pose": "Frozen candidate unchanged; right camera gripper occlusion at0/1 accepted",
+  "stage1_scope": "One attachment-assisted GPU demonstration; no training or native replay",
+  "approved_lights": [
+    {
+      "path": "/Environment/Grey_Studio/DistantLight",
+      "type": "DistantLight",
+      "active": true,
+      "loaded": true,
+      "instance_proxy": false,
+      "computed_visibility": {
+        "source": "/Environment/Grey_Studio/DistantLight.ComputeVisibility",
+        "status": "OBSERVED",
+        "value": "inherited"
+      },
+      "attributes": {
+        "visibility": {
+          "present": true,
+          "value": {
+            "source": "/Environment/Grey_Studio/DistantLight.visibility",
+            "status": "OBSERVED",
+            "value": "inherited"
+          },
+          "authored": {
+            "source": "/Environment/Grey_Studio/DistantLight.visibility.authored",
+            "status": "OBSERVED",
+            "value": false
+          }
+        },
+        "inputs:intensity": {
+          "present": true,
+          "value": {
+            "source": "/Environment/Grey_Studio/DistantLight.inputs:intensity",
+            "status": "OBSERVED",
+            "value": 3000.0
+          },
+          "authored": {
+            "source": "/Environment/Grey_Studio/DistantLight.inputs:intensity.authored",
+            "status": "OBSERVED",
+            "value": true
+          }
+        },
+        "intensity": {
+          "present": false
+        },
+        "inputs:color": {
+          "present": true,
+          "value": {
+            "source": "/Environment/Grey_Studio/DistantLight.inputs:color",
+            "status": "OBSERVED",
+            "value": {
+              "python_type": "pxr.Gf.Vec3f",
+              "representation": "Gf.Vec3f(1.0, 1.0, 1.0)"
+            }
+          },
+          "authored": {
+            "source": "/Environment/Grey_Studio/DistantLight.inputs:color.authored",
+            "status": "OBSERVED",
+            "value": false
+          }
+        },
+        "inputs:exposure": {
+          "present": true,
+          "value": {
+            "source": "/Environment/Grey_Studio/DistantLight.inputs:exposure",
+            "status": "OBSERVED",
+            "value": 0.0
+          },
+          "authored": {
+            "source": "/Environment/Grey_Studio/DistantLight.inputs:exposure.authored",
+            "status": "OBSERVED",
+            "value": false
+          }
+        },
+        "inputs:texture:file": {
+          "present": false
+        },
+        "texture:file": {
+          "present": false
+        },
+        "visibleInPrimaryRay": {
+          "present": false
+        }
+      }
+    },
+    {
+      "path": "/Environment/Grey_Studio/DomeLight",
+      "type": "DomeLight",
+      "active": true,
+      "loaded": true,
+      "instance_proxy": false,
+      "computed_visibility": {
+        "source": "/Environment/Grey_Studio/DomeLight.ComputeVisibility",
+        "status": "OBSERVED",
+        "value": "inherited"
+      },
+      "attributes": {
+        "visibility": {
+          "present": true,
+          "value": {
+            "source": "/Environment/Grey_Studio/DomeLight.visibility",
+            "status": "OBSERVED",
+            "value": "inherited"
+          },
+          "authored": {
+            "source": "/Environment/Grey_Studio/DomeLight.visibility.authored",
+            "status": "OBSERVED",
+            "value": false
+          }
+        },
+        "inputs:intensity": {
+          "present": true,
+          "value": {
+            "source": "/Environment/Grey_Studio/DomeLight.inputs:intensity",
+            "status": "OBSERVED",
+            "value": 1003.2999877929688
+          },
+          "authored": {
+            "source": "/Environment/Grey_Studio/DomeLight.inputs:intensity.authored",
+            "status": "OBSERVED",
+            "value": true
+          }
+        },
+        "intensity": {
+          "present": false
+        },
+        "inputs:color": {
+          "present": true,
+          "value": {
+            "source": "/Environment/Grey_Studio/DomeLight.inputs:color",
+            "status": "OBSERVED",
+            "value": {
+              "python_type": "pxr.Gf.Vec3f",
+              "representation": "Gf.Vec3f(1.0, 1.0, 1.0)"
+            }
+          },
+          "authored": {
+            "source": "/Environment/Grey_Studio/DomeLight.inputs:color.authored",
+            "status": "OBSERVED",
+            "value": false
+          }
+        },
+        "inputs:exposure": {
+          "present": true,
+          "value": {
+            "source": "/Environment/Grey_Studio/DomeLight.inputs:exposure",
+            "status": "OBSERVED",
+            "value": 0.4000000059604645
+          },
+          "authored": {
+            "source": "/Environment/Grey_Studio/DomeLight.inputs:exposure.authored",
+            "status": "OBSERVED",
+            "value": true
+          }
+        },
+        "inputs:texture:file": {
+          "present": true,
+          "value": {
+            "source": "/Environment/Grey_Studio/DomeLight.inputs:texture:file",
+            "status": "OBSERVED",
+            "value": null
+          },
+          "authored": {
+            "source": "/Environment/Grey_Studio/DomeLight.inputs:texture:file.authored",
+            "status": "OBSERVED",
+            "value": false
+          }
+        },
+        "texture:file": {
+          "present": false
+        },
+        "visibleInPrimaryRay": {
+          "present": true,
+          "value": {
+            "source": "/Environment/Grey_Studio/DomeLight.visibleInPrimaryRay",
+            "status": "OBSERVED",
+            "value": true
+          },
+          "authored": {
+            "source": "/Environment/Grey_Studio/DomeLight.visibleInPrimaryRay.authored",
+            "status": "OBSERVED",
+            "value": true
+          }
+        }
+      }
+    },
+    {
+      "path": "/World/DomeLight",
+      "type": "DomeLight",
+      "active": false,
+      "loaded": false,
+      "instance_proxy": false,
+      "computed_visibility": {
+        "source": "/World/DomeLight.ComputeVisibility",
+        "status": "OBSERVED",
+        "value": "inherited"
+      },
+      "attributes": {
+        "visibility": {
+          "present": true,
+          "value": {
+            "source": "/World/DomeLight.visibility",
+            "status": "OBSERVED",
+            "value": "inherited"
+          },
+          "authored": {
+            "source": "/World/DomeLight.visibility.authored",
+            "status": "OBSERVED",
+            "value": false
+          }
+        },
+        "inputs:intensity": {
+          "present": true,
+          "value": {
+            "source": "/World/DomeLight.inputs:intensity",
+            "status": "OBSERVED",
+            "value": 1200.0
+          },
+          "authored": {
+            "source": "/World/DomeLight.inputs:intensity.authored",
+            "status": "OBSERVED",
+            "value": true
+          }
+        },
+        "intensity": {
+          "present": false
+        },
+        "inputs:color": {
+          "present": true,
+          "value": {
+            "source": "/World/DomeLight.inputs:color",
+            "status": "OBSERVED",
+            "value": {
+              "python_type": "pxr.Gf.Vec3f",
+              "representation": "Gf.Vec3f(0.8999999761581421, 0.8999999761581421, 0.8999999761581421)"
+            }
+          },
+          "authored": {
+            "source": "/World/DomeLight.inputs:color.authored",
+            "status": "OBSERVED",
+            "value": true
+          }
+        },
+        "inputs:exposure": {
+          "present": true,
+          "value": {
+            "source": "/World/DomeLight.inputs:exposure",
+            "status": "OBSERVED",
+            "value": 0.0
+          },
+          "authored": {
+            "source": "/World/DomeLight.inputs:exposure.authored",
+            "status": "OBSERVED",
+            "value": true
+          }
+        },
+        "inputs:texture:file": {
+          "present": true,
+          "value": {
+            "source": "/World/DomeLight.inputs:texture:file",
+            "status": "OBSERVED",
+            "value": null
+          },
+          "authored": {
+            "source": "/World/DomeLight.inputs:texture:file.authored",
+            "status": "OBSERVED",
+            "value": false
+          }
+        },
+        "texture:file": {
+          "present": false
+        },
+        "visibleInPrimaryRay": {
+          "present": true,
+          "value": {
+            "source": "/World/DomeLight.visibleInPrimaryRay",
+            "status": "OBSERVED",
+            "value": true
+          },
+          "authored": {
+            "source": "/World/DomeLight.visibleInPrimaryRay.authored",
+            "status": "OBSERVED",
+            "value": true
+          }
+        }
+      }
+    },
+    {
+      "path": "/World/Ground/SphereLight",
+      "type": "SphereLight",
+      "active": true,
+      "loaded": true,
+      "instance_proxy": false,
+      "computed_visibility": {
+        "source": "/World/Ground/SphereLight.ComputeVisibility",
+        "status": "OBSERVED",
+        "value": "invisible"
+      },
+      "attributes": {
+        "visibility": {
+          "present": true,
+          "value": {
+            "source": "/World/Ground/SphereLight.visibility",
+            "status": "OBSERVED",
+            "value": "invisible"
+          },
+          "authored": {
+            "source": "/World/Ground/SphereLight.visibility.authored",
+            "status": "OBSERVED",
+            "value": true
+          }
+        },
+        "inputs:intensity": {
+          "present": true,
+          "value": {
+            "source": "/World/Ground/SphereLight.inputs:intensity",
+            "status": "OBSERVED",
+            "value": 100000.0
+          },
+          "authored": {
+            "source": "/World/Ground/SphereLight.inputs:intensity.authored",
+            "status": "OBSERVED",
+            "value": true
+          }
+        },
+        "intensity": {
+          "present": true,
+          "value": {
+            "source": "/World/Ground/SphereLight.intensity",
+            "status": "OBSERVED",
+            "value": 100000.0
+          },
+          "authored": {
+            "source": "/World/Ground/SphereLight.intensity.authored",
+            "status": "OBSERVED",
+            "value": true
+          }
+        },
+        "inputs:color": {
+          "present": true,
+          "value": {
+            "source": "/World/Ground/SphereLight.inputs:color",
+            "status": "OBSERVED",
+            "value": {
+              "python_type": "pxr.Gf.Vec3f",
+              "representation": "Gf.Vec3f(1.0, 1.0, 1.0)"
+            }
+          },
+          "authored": {
+            "source": "/World/Ground/SphereLight.inputs:color.authored",
+            "status": "OBSERVED",
+            "value": false
+          }
+        },
+        "inputs:exposure": {
+          "present": true,
+          "value": {
+            "source": "/World/Ground/SphereLight.inputs:exposure",
+            "status": "OBSERVED",
+            "value": 0.0
+          },
+          "authored": {
+            "source": "/World/Ground/SphereLight.inputs:exposure.authored",
+            "status": "OBSERVED",
+            "value": false
+          }
+        },
+        "inputs:texture:file": {
+          "present": false
+        },
+        "texture:file": {
+          "present": false
+        },
+        "visibleInPrimaryRay": {
+          "present": false
+        }
+      }
+    },
+    {
+      "path": "/World/envs/env_0/Chicken/env_light",
+      "type": "DomeLight",
+      "active": false,
+      "loaded": false,
+      "instance_proxy": false,
+      "computed_visibility": {
+        "source": "/World/envs/env_0/Chicken/env_light.ComputeVisibility",
+        "status": "OBSERVED",
+        "value": "inherited"
+      },
+      "attributes": {
+        "visibility": {
+          "present": true,
+          "value": {
+            "source": "/World/envs/env_0/Chicken/env_light.visibility",
+            "status": "OBSERVED",
+            "value": "inherited"
+          },
+          "authored": {
+            "source": "/World/envs/env_0/Chicken/env_light.visibility.authored",
+            "status": "OBSERVED",
+            "value": false
+          }
+        },
+        "inputs:intensity": {
+          "present": true,
+          "value": {
+            "source": "/World/envs/env_0/Chicken/env_light.inputs:intensity",
+            "status": "OBSERVED",
+            "value": 1.0
+          },
+          "authored": {
+            "source": "/World/envs/env_0/Chicken/env_light.inputs:intensity.authored",
+            "status": "OBSERVED",
+            "value": true
+          }
+        },
+        "intensity": {
+          "present": false
+        },
+        "inputs:color": {
+          "present": true,
+          "value": {
+            "source": "/World/envs/env_0/Chicken/env_light.inputs:color",
+            "status": "OBSERVED",
+            "value": {
+              "python_type": "pxr.Gf.Vec3f",
+              "representation": "Gf.Vec3f(1.0, 1.0, 1.0)"
+            }
+          },
+          "authored": {
+            "source": "/World/envs/env_0/Chicken/env_light.inputs:color.authored",
+            "status": "OBSERVED",
+            "value": false
+          }
+        },
+        "inputs:exposure": {
+          "present": true,
+          "value": {
+            "source": "/World/envs/env_0/Chicken/env_light.inputs:exposure",
+            "status": "OBSERVED",
+            "value": 0.0
+          },
+          "authored": {
+            "source": "/World/envs/env_0/Chicken/env_light.inputs:exposure.authored",
+            "status": "OBSERVED",
+            "value": false
+          }
+        },
+        "inputs:texture:file": {
+          "present": true,
+          "value": {
+            "source": "/World/envs/env_0/Chicken/env_light.inputs:texture:file",
+            "status": "OBSERVED",
+            "value": {
+              "python_type": "pxr.Sdf.AssetPath",
+              "representation": "Sdf.AssetPath('./textures/color_0C0C0C.exr', 'C:\\\\robotics\\\\ChicGrasp_DP_VerticalSlice\\\\assets\\\\grasp_contract\\\\chicken_rigid_wide_torso_spread_legs_protected_shank_grasp_v2\\\\asset\\\\textures\\\\color_0C0C0C.exr')"
+            }
+          },
+          "authored": {
+            "source": "/World/envs/env_0/Chicken/env_light.inputs:texture:file.authored",
+            "status": "OBSERVED",
+            "value": true
+          }
+        },
+        "texture:file": {
+          "present": false
+        },
+        "visibleInPrimaryRay": {
+          "present": false
+        }
+      }
+    }
+  ],
+  "inactive_dome_texture": {
+    "source_path": "C:\\robotics\\ChicGrasp_DP_VerticalSlice\\assets\\grasp_contract\\chicken_rigid_wide_torso_spread_legs_protected_shank_grasp_v2\\asset\\textures\\color_0C0C0C.exr",
+    "relative_path": "assets/grasp_contract/chicken_rigid_wide_torso_spread_legs_protected_shank_grasp_v2/asset/textures/color_0C0C0C.exr",
+    "authored_path": "./textures/color_0C0C0C.exr",
+    "sha256": "af8ecc7a8d01bbb547c0f966442175f15f3a2bf63f361c9efcfe01c5d723cc8a",
+    "bytes": 461
+  }
+}

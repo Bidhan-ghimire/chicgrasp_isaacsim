@@ -1,0 +1,214 @@
+{
+  "schema": "chicgrasp/optional-demo-camera-preset/v1",
+  "enabled_by_default": false,
+  "DEMO_ONLY": true,
+  "policy_observation_member": false,
+  "integration": "EXPLICIT_OPT_IN_ONLY",
+  "changes_chicken_or_materials": false,
+  "changes_physics_parameters": false,
+  "runtime_retested": false,
+  "scope": "Camera configuration only. Historical filming scene/asset substitutions are not imported.",
+  "name": "HD_TWINS",
+  "views": {
+    "LEFT_HD": {
+      "resolution": [
+        1280,
+        960
+      ],
+      "copy_from": "/World/envs/env_0/PolicyCameraLeft",
+      "all_physical_optics_copied": true,
+      "pixel_K_scale": 4
+    },
+    "RIGHT_HD": {
+      "resolution": [
+        1280,
+        960
+      ],
+      "copy_from": "/World/envs/env_0/PolicyCameraRight",
+      "all_physical_optics_copied": true,
+      "pixel_K_scale": 4
+    }
+  },
+  "identity_rule": "LEFT/RIGHT follow fixed chicken-leg observation identity, not viewport side or world-coordinate ordering.",
+  "configured_policy_extrinsics": {
+    "PolicyCameraLeft": {
+      "position_environment_m": [
+        0.26577503542279396,
+        0.7799933148477876,
+        1.2985271240330045
+      ],
+      "quaternion_environment_wxyz": [
+        0.1705903630631453,
+        0.24203416435950198,
+        -0.4670206708838293,
+        -0.8331927053689321
+      ]
+    },
+    "PolicyCameraRight": {
+      "position_environment_m": [
+        1.2737191134500323,
+        0.5984612267210614,
+        1.3274025068760795
+      ],
+      "quaternion_environment_wxyz": [
+        0.3556681255757961,
+        0.21820635973308325,
+        0.448112515124621,
+        0.7906208590785614
+      ]
+    }
+  },
+  "configured_policy_settings": {
+    "projection_type": "pinhole",
+    "focal_length": 15.0,
+    "horizontal_aperture": 20.954999923706055,
+    "vertical_aperture": 15.716249942779541,
+    "horizontal_aperture_offset": 0.0,
+    "vertical_aperture_offset": 0.0,
+    "f_stop": 0.0,
+    "focus_distance": 400.0,
+    "clipping_range": [
+      0.029999999329447746,
+      5.0
+    ],
+    "width": 320,
+    "height": 240,
+    "data_types": [
+      "rgb"
+    ],
+    "rgb_only": true
+  },
+  "saved_native_policy_readback": {
+    "PolicyCameraLeft": {
+      "passed": true,
+      "matrix_max_abs_difference": {
+        "parent_world_matrix": 0.0,
+        "local_matrix": 4.440892098500626e-16,
+        "world_matrix": 4.440892098500626e-16
+      },
+      "effective_optics": {
+        "projection": "perspective",
+        "focal_length": 15.0,
+        "horizontal_aperture": 20.954999923706055,
+        "vertical_aperture": 15.716249465942383,
+        "horizontal_aperture_offset": 0.0,
+        "vertical_aperture_offset": 0.0,
+        "focus_distance": 400.0,
+        "f_stop": 0.0,
+        "clipping_range": [
+          0.029999999329447746,
+          5.0
+        ],
+        "width": 320,
+        "height": 240,
+        "data_types": [
+          "rgb"
+        ]
+      }
+    },
+    "PolicyCameraRight": {
+      "passed": true,
+      "matrix_max_abs_difference": {
+        "parent_world_matrix": 0.0,
+        "local_matrix": 0.0,
+        "world_matrix": 0.0
+      },
+      "effective_optics": {
+        "projection": "perspective",
+        "focal_length": 15.0,
+        "horizontal_aperture": 20.954999923706055,
+        "vertical_aperture": 15.716249465942383,
+        "horizontal_aperture_offset": 0.0,
+        "vertical_aperture_offset": 0.0,
+        "focus_distance": 400.0,
+        "f_stop": 0.0,
+        "clipping_range": [
+          0.029999999329447746,
+          5.0
+        ],
+        "width": 320,
+        "height": 240,
+        "data_types": [
+          "rgb"
+        ]
+      }
+    }
+  },
+  "saved_native_twin_comparison": {
+    "LEFT_HD": {
+      "passed": true,
+      "source": "/World/envs/env_0/PolicyCameraLeft",
+      "twin": "/World/DemoOnlyFilming/LEFT_HD",
+      "world_matrix_max_abs_difference": 4.440892098500626e-16
+    },
+    "RIGHT_HD": {
+      "passed": true,
+      "source": "/World/envs/env_0/PolicyCameraRight",
+      "twin": "/World/DemoOnlyFilming/RIGHT_HD",
+      "world_matrix_max_abs_difference": 0.0
+    }
+  },
+  "focal_units": "Nominal raw15 for both cameras, same existing USD/Isaac convention; not literal physical millimetres",
+  "clone_rule": "Copy the existing policy prim world pose and all non-transform camera attributes after optional sensor initialization; change only the separate render product resolution. Original policy prims remain read-only.",
+  "pixel_intrinsics_rule": "Scale policy fx, fy, cx and cy by 4 for 1280x960; preserve the physical/raw USD optics.",
+  "sampling": {
+    "physics_hz": 120,
+    "fps": 30,
+    "every_nth_scheduled_sample": 4,
+    "zero_based_phase": 1,
+    "first_relative_time_s": 0.016666666666666666,
+    "no_extra_physics_steps": true
+  },
+  "provenance": {
+    "calibration": {
+      "source_tree": "ChicGrasp_gate6_stage3",
+      "original_project_relative_path": "config/policy_camera_calibration.json",
+      "sha256": "8c7baf682c4d15ade6309a2372d4227b7a543f4074b79bccfd9a2bdd23589104",
+      "bytes": 21191,
+      "bundled_repository_relative_path": "frozen_runtime/config/policy_camera_calibration.json"
+    },
+    "scene_profile": {
+      "source_tree": "ChicGrasp_gate6_stage3",
+      "original_project_relative_path": "docs/plans/CHICGRASP_SCALED_TABLE_AND_COVERAGE/attempt005/SCENE_PROFILE.json",
+      "sha256": "4f40d26e122c99ea5cb980edea4a391b5335a99fe060b84cacd40305374c0d5f",
+      "bytes": 39255,
+      "bundled_repository_relative_path": "frozen_runtime/docs/plans/CHICGRASP_SCALED_TABLE_AND_COVERAGE/attempt005/SCENE_PROFILE.json"
+    },
+    "t10_profile": {
+      "source_tree": "ChicGrasp_gate6_stage3",
+      "original_project_relative_path": "docs/plans/CHICGRASP_SCALED50_DEMO_ONLY_FILMING/part4/SINGLE_TAKE_CAMERA_PROFILE.json",
+      "sha256": "41888341df5cd7957bfe1a334c3f3a214bf79a64af4166e55c2fdb2816d03997",
+      "bytes": 6487
+    },
+    "t12_profile": {
+      "source_tree": "ChicGrasp_gate6_stage3",
+      "original_project_relative_path": "docs/plans/CHICGRASP_SCALED50_DEMO_ONLY_FILMING/part4/t10_hand_take001/CAPPED_CAMERA_PROFILE.json",
+      "sha256": "41888341df5cd7957bfe1a334c3f3a214bf79a64af4166e55c2fdb2816d03997",
+      "bytes": 6487
+    },
+    "t10_receipt": {
+      "source_tree": "ChicGrasp_gate6_stage3",
+      "original_project_relative_path": "outputs/scaled50_demo_only_filming/attempt001/T10/native001/capture/experiment/demo_media/camera_receipt.json",
+      "sha256": "fb2c86d0266625f242fe89c43e7b78253064c733717c6a9731b4603728ca0234",
+      "bytes": 14696
+    },
+    "t12_receipt": {
+      "source_tree": "ChicGrasp_gate6_stage3",
+      "original_project_relative_path": "outputs/scaled50_demo_only_filming/attempt001/T12/native001/capture/experiment/demo_media/camera_receipt.json",
+      "sha256": "a262988b2f601a904eeec2a83c6bcfead6615167cf2412f78722d6b27dca719f",
+      "bytes": 18316
+    },
+    "runtime": {
+      "source_tree": "ChicGrasp_gate6_stage3",
+      "original_project_relative_path": "src/chicgrasp_policy/demo_filming_runtime.py",
+      "sha256": "f5e3ca153ae458fa99edb6ab5d4a104a963cf89afa9d3582c521577bf32baa2b",
+      "bytes": 19339
+    },
+    "approved_runtime": {
+      "source_tree": "ChicGrasp_gate6_stage3",
+      "original_project_relative_path": "src/chicgrasp_policy/demo_approved_camera.py",
+      "sha256": "15735a3e97fa9743d32a34f7b717b3146d7d936db9350b44a5b93a487e8aa402",
+      "bytes": 6983
+    }
+  }
+}

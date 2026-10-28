@@ -1,0 +1,911 @@
+{
+  "schema": "research-positions/v1",
+  "frame": "WORLD",
+  "units": "metres",
+  "origin": {
+    "source": "original-selected-training-50",
+    "sha256": "8cff41a2b9ba18acf90104175f3e0dc81a5e1cdd2a89e206f20cf0b00819d733"
+  },
+  "positions": [
+    {
+      "id": "R000002",
+      "split": "train",
+      "authored_xyz_m": [
+        0.6512343724388256,
+        0.10490230846289623,
+        0.8155
+      ],
+      "authored_quaternion_wxyz": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "evaluation_seeds": [
+        15345
+      ]
+    },
+    {
+      "id": "R000003",
+      "split": "train",
+      "authored_xyz_m": [
+        0.6433839149781518,
+        0.2942323697490213,
+        0.8155
+      ],
+      "authored_quaternion_wxyz": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "evaluation_seeds": [
+        15345
+      ]
+    },
+    {
+      "id": "R000004",
+      "split": "train",
+      "authored_xyz_m": [
+        0.6831442232993254,
+        0.2739704315680435,
+        0.8155
+      ],
+      "authored_quaternion_wxyz": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "evaluation_seeds": [
+        15345
+      ]
+    },
+    {
+      "id": "R000005",
+      "split": "train",
+      "authored_xyz_m": [
+        0.6677749693707062,
+        0.2132801908487043,
+        0.8155
+      ],
+      "authored_quaternion_wxyz": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "evaluation_seeds": [
+        15345
+      ]
+    },
+    {
+      "id": "R000006",
+      "split": "train",
+      "authored_xyz_m": [
+        0.6753234362600639,
+        0.15498838955824823,
+        0.8155
+      ],
+      "authored_quaternion_wxyz": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "evaluation_seeds": [
+        15345
+      ]
+    },
+    {
+      "id": "R000007",
+      "split": "train",
+      "authored_xyz_m": [
+        0.6709894362571154,
+        0.14221441810680757,
+        0.8155
+      ],
+      "authored_quaternion_wxyz": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "evaluation_seeds": [
+        15345
+      ]
+    },
+    {
+      "id": "R000009",
+      "split": "train",
+      "authored_xyz_m": [
+        0.6535908102010519,
+        0.12465987508537026,
+        0.8155
+      ],
+      "authored_quaternion_wxyz": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "evaluation_seeds": [
+        15345
+      ]
+    },
+    {
+      "id": "R000010",
+      "split": "train",
+      "authored_xyz_m": [
+        0.6401646522115719,
+        0.2699885299270174,
+        0.8155
+      ],
+      "authored_quaternion_wxyz": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "evaluation_seeds": [
+        15345
+      ]
+    },
+    {
+      "id": "R000012",
+      "split": "train",
+      "authored_xyz_m": [
+        0.6704621393670724,
+        0.20890057577562138,
+        0.8155
+      ],
+      "authored_quaternion_wxyz": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "evaluation_seeds": [
+        15345
+      ]
+    },
+    {
+      "id": "R000015",
+      "split": "train",
+      "authored_xyz_m": [
+        0.6942052918481589,
+        0.23510352887696256,
+        0.8155
+      ],
+      "authored_quaternion_wxyz": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "evaluation_seeds": [
+        15345
+      ]
+    },
+    {
+      "id": "R000017",
+      "split": "train",
+      "authored_xyz_m": [
+        0.6852577436579412,
+        0.14399957536256763,
+        0.8155
+      ],
+      "authored_quaternion_wxyz": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "evaluation_seeds": [
+        15345
+      ]
+    },
+    {
+      "id": "R000018",
+      "split": "train",
+      "authored_xyz_m": [
+        0.6953904833646308,
+        0.15098984439246788,
+        0.8155
+      ],
+      "authored_quaternion_wxyz": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "evaluation_seeds": [
+        15345
+      ]
+    },
+    {
+      "id": "R000019",
+      "split": "train",
+      "authored_xyz_m": [
+        0.672704847153656,
+        0.21510253955496433,
+        0.8155
+      ],
+      "authored_quaternion_wxyz": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "evaluation_seeds": [
+        15345
+      ]
+    },
+    {
+      "id": "R000020",
+      "split": "train",
+      "authored_xyz_m": [
+        0.6822508688615093,
+        0.17842411082619097,
+        0.8155
+      ],
+      "authored_quaternion_wxyz": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "evaluation_seeds": [
+        15345
+      ]
+    },
+    {
+      "id": "R000021",
+      "split": "train",
+      "authored_xyz_m": [
+        0.6985819302863558,
+        0.13034878989141524,
+        0.8155
+      ],
+      "authored_quaternion_wxyz": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "evaluation_seeds": [
+        15345
+      ]
+    },
+    {
+      "id": "R000022",
+      "split": "train",
+      "authored_xyz_m": [
+        0.6938423876675871,
+        0.13076768666018057,
+        0.8155
+      ],
+      "authored_quaternion_wxyz": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "evaluation_seeds": [
+        15345
+      ]
+    },
+    {
+      "id": "R000023",
+      "split": "train",
+      "authored_xyz_m": [
+        0.6747229591943115,
+        0.2611432345379226,
+        0.8155
+      ],
+      "authored_quaternion_wxyz": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "evaluation_seeds": [
+        15345
+      ]
+    },
+    {
+      "id": "R000024",
+      "split": "train",
+      "authored_xyz_m": [
+        0.6408442902455082,
+        0.06776990806657747,
+        0.8155
+      ],
+      "authored_quaternion_wxyz": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "evaluation_seeds": [
+        15345
+      ]
+    },
+    {
+      "id": "R000026",
+      "split": "train",
+      "authored_xyz_m": [
+        0.6495562152194998,
+        0.20432399784331023,
+        0.8155
+      ],
+      "authored_quaternion_wxyz": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "evaluation_seeds": [
+        15345
+      ]
+    },
+    {
+      "id": "R000028",
+      "split": "train",
+      "authored_xyz_m": [
+        0.6695231428017245,
+        0.1909839774237604,
+        0.8155
+      ],
+      "authored_quaternion_wxyz": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "evaluation_seeds": [
+        15345
+      ]
+    },
+    {
+      "id": "R000029",
+      "split": "train",
+      "authored_xyz_m": [
+        0.6405399428660955,
+        0.12328573182419915,
+        0.8155
+      ],
+      "authored_quaternion_wxyz": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "evaluation_seeds": [
+        15345
+      ]
+    },
+    {
+      "id": "R000030",
+      "split": "train",
+      "authored_xyz_m": [
+        0.6990123929947922,
+        0.22400495439424184,
+        0.8155
+      ],
+      "authored_quaternion_wxyz": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "evaluation_seeds": [
+        15345
+      ]
+    },
+    {
+      "id": "R000031",
+      "split": "train",
+      "authored_xyz_m": [
+        0.6823969120567183,
+        0.06415265257318267,
+        0.8155
+      ],
+      "authored_quaternion_wxyz": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "evaluation_seeds": [
+        15345
+      ]
+    },
+    {
+      "id": "R000034",
+      "split": "train",
+      "authored_xyz_m": [
+        0.6548967739318227,
+        0.22212863349314976,
+        0.8155
+      ],
+      "authored_quaternion_wxyz": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "evaluation_seeds": [
+        15345
+      ]
+    },
+    {
+      "id": "R000035",
+      "split": "train",
+      "authored_xyz_m": [
+        0.6689220771270286,
+        0.2745556661514637,
+        0.8155
+      ],
+      "authored_quaternion_wxyz": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "evaluation_seeds": [
+        15345
+      ]
+    },
+    {
+      "id": "R000038",
+      "split": "train",
+      "authored_xyz_m": [
+        0.6537736933852887,
+        0.1509206318508774,
+        0.8155
+      ],
+      "authored_quaternion_wxyz": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "evaluation_seeds": [
+        15345
+      ]
+    },
+    {
+      "id": "R000039",
+      "split": "train",
+      "authored_xyz_m": [
+        0.6929517201283699,
+        0.2805861564974512,
+        0.8155
+      ],
+      "authored_quaternion_wxyz": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "evaluation_seeds": [
+        15345
+      ]
+    },
+    {
+      "id": "R000040",
+      "split": "train",
+      "authored_xyz_m": [
+        0.6892255063104862,
+        0.13652884787331127,
+        0.8155
+      ],
+      "authored_quaternion_wxyz": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "evaluation_seeds": [
+        15345
+      ]
+    },
+    {
+      "id": "R000041",
+      "split": "train",
+      "authored_xyz_m": [
+        0.6539284282747543,
+        0.07056249210477854,
+        0.8155
+      ],
+      "authored_quaternion_wxyz": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "evaluation_seeds": [
+        15345
+      ]
+    },
+    {
+      "id": "R000042",
+      "split": "train",
+      "authored_xyz_m": [
+        0.6859040244122923,
+        0.13469428741972,
+        0.8155
+      ],
+      "authored_quaternion_wxyz": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "evaluation_seeds": [
+        15345
+      ]
+    },
+    {
+      "id": "R000043",
+      "split": "train",
+      "authored_xyz_m": [
+        0.6492732691098198,
+        0.22242068618475064,
+        0.8155
+      ],
+      "authored_quaternion_wxyz": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "evaluation_seeds": [
+        15345
+      ]
+    },
+    {
+      "id": "R000044",
+      "split": "train",
+      "authored_xyz_m": [
+        0.6594799664698305,
+        0.15273443833818284,
+        0.8155
+      ],
+      "authored_quaternion_wxyz": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "evaluation_seeds": [
+        15345
+      ]
+    },
+    {
+      "id": "R000045",
+      "split": "train",
+      "authored_xyz_m": [
+        0.6681655405464918,
+        0.2755505115683055,
+        0.8155
+      ],
+      "authored_quaternion_wxyz": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "evaluation_seeds": [
+        15345
+      ]
+    },
+    {
+      "id": "R000046",
+      "split": "train",
+      "authored_xyz_m": [
+        0.6594408745220274,
+        0.21785901939225166,
+        0.8155
+      ],
+      "authored_quaternion_wxyz": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "evaluation_seeds": [
+        15345
+      ]
+    },
+    {
+      "id": "R000047",
+      "split": "train",
+      "authored_xyz_m": [
+        0.6854375014964222,
+        0.10037928281712809,
+        0.8155
+      ],
+      "authored_quaternion_wxyz": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "evaluation_seeds": [
+        15345
+      ]
+    },
+    {
+      "id": "R000049",
+      "split": "train",
+      "authored_xyz_m": [
+        0.690861308069097,
+        0.039955652378670964,
+        0.8155
+      ],
+      "authored_quaternion_wxyz": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "evaluation_seeds": [
+        15345
+      ]
+    },
+    {
+      "id": "R000051",
+      "split": "train",
+      "authored_xyz_m": [
+        0.6540147279568745,
+        0.258825149281549,
+        0.8155
+      ],
+      "authored_quaternion_wxyz": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "evaluation_seeds": [
+        15345
+      ]
+    },
+    {
+      "id": "R000053",
+      "split": "train",
+      "authored_xyz_m": [
+        0.6506557712881152,
+        0.2746887552249634,
+        0.8155
+      ],
+      "authored_quaternion_wxyz": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "evaluation_seeds": [
+        15345
+      ]
+    },
+    {
+      "id": "R000054",
+      "split": "train",
+      "authored_xyz_m": [
+        0.6799175426188737,
+        0.0453514792246919,
+        0.8155
+      ],
+      "authored_quaternion_wxyz": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "evaluation_seeds": [
+        15345
+      ]
+    },
+    {
+      "id": "R000058",
+      "split": "train",
+      "authored_xyz_m": [
+        0.696477597728234,
+        0.04162691692318956,
+        0.8155
+      ],
+      "authored_quaternion_wxyz": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "evaluation_seeds": [
+        15345
+      ]
+    },
+    {
+      "id": "R000059",
+      "split": "train",
+      "authored_xyz_m": [
+        0.6833161092109237,
+        0.2948222507746817,
+        0.8155
+      ],
+      "authored_quaternion_wxyz": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "evaluation_seeds": [
+        15345
+      ]
+    },
+    {
+      "id": "R000060",
+      "split": "train",
+      "authored_xyz_m": [
+        0.6468453381044448,
+        0.23922955408163588,
+        0.8155
+      ],
+      "authored_quaternion_wxyz": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "evaluation_seeds": [
+        15345
+      ]
+    },
+    {
+      "id": "R000061",
+      "split": "train",
+      "authored_xyz_m": [
+        0.674974312204969,
+        0.21018384397469309,
+        0.8155
+      ],
+      "authored_quaternion_wxyz": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "evaluation_seeds": [
+        15345
+      ]
+    },
+    {
+      "id": "R000062",
+      "split": "train",
+      "authored_xyz_m": [
+        0.6513738450615871,
+        -0.005574330770522186,
+        0.8155
+      ],
+      "authored_quaternion_wxyz": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "evaluation_seeds": [
+        15345
+      ]
+    },
+    {
+      "id": "R000063",
+      "split": "train",
+      "authored_xyz_m": [
+        0.6792853588454294,
+        0.2891605999324489,
+        0.8155
+      ],
+      "authored_quaternion_wxyz": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "evaluation_seeds": [
+        15345
+      ]
+    },
+    {
+      "id": "R000064",
+      "split": "train",
+      "authored_xyz_m": [
+        0.6535204286902629,
+        0.12852233073208097,
+        0.8155
+      ],
+      "authored_quaternion_wxyz": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "evaluation_seeds": [
+        15345
+      ]
+    },
+    {
+      "id": "R000065",
+      "split": "train",
+      "authored_xyz_m": [
+        0.6428488264238547,
+        0.15607980573252356,
+        0.8155
+      ],
+      "authored_quaternion_wxyz": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "evaluation_seeds": [
+        15345
+      ]
+    },
+    {
+      "id": "R000066",
+      "split": "train",
+      "authored_xyz_m": [
+        0.6740669308376104,
+        0.16790985205810843,
+        0.8155
+      ],
+      "authored_quaternion_wxyz": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "evaluation_seeds": [
+        15345
+      ]
+    },
+    {
+      "id": "R000067",
+      "split": "train",
+      "authored_xyz_m": [
+        0.6906506315409625,
+        0.08470761570022892,
+        0.8155
+      ],
+      "authored_quaternion_wxyz": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "evaluation_seeds": [
+        15345
+      ]
+    },
+    {
+      "id": "R000068",
+      "split": "train",
+      "authored_xyz_m": [
+        0.6515773154350645,
+        0.20853905224109515,
+        0.8155
+      ],
+      "authored_quaternion_wxyz": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "evaluation_seeds": [
+        15345
+      ]
+    }
+  ]
+}

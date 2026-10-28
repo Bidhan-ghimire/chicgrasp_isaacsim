@@ -1,0 +1,67 @@
+{
+  "approach_offsets_chicken_rigid_frame_m": [
+    [
+      -1.144869001504234e-05,
+      -0.04855439254976058,
+      0.11508716358557873
+    ],
+    [
+      -1.144869001504234e-05,
+      -0.04855439254976058,
+      0.010887163585578737
+    ],
+    [
+      0.0,
+      0.0,
+      0.010887163585578737
+    ],
+    [
+      0.0,
+      0.0,
+      0.0
+    ]
+  ],
+  "chicken_root_usd": "../assets/grasp_contract/chicken_rigid_wide_torso_spread_legs_protected_shank_grasp_v2/asset/chicken_rigid_wide_torso_spread_legs_protected_shank_grasp_v2.usda",
+  "grasp_contract_json": "../assets/grasp_contract/chicken_rigid_wide_torso_spread_legs_protected_shank_grasp_v2/asset/grasp_contract.json",
+  "lift_offset_world_m": [
+    0.0,
+    0.0,
+    0.1
+  ],
+  "mass_kg": 1.5,
+  "robot_station_frames_json": "robot_station_frames.json",
+  "robot_station_frames_sha256": "9192DA25D0117405E812A85104AB14A6CCE94372BDF0591B0805A34E87C4C181",
+  "robot_usd": "../assets/grasp_contract/ur10e_chicgrasp_serrated_tip_collision_package/ur10e_chicgrasp_serrated_tip_collision.usda",
+  "robot_usd_sha256": "4A2B0F7502F6FF19841857F6466F6FA7B245417F84CACF91EFE6C53C9E29EB33",
+  "schema": "chicgrasp-grasp-contract-run-config/v3",
+  "spawned_asset_root_prim_path": "/World/envs/env_0/Chicken",
+  "thresholds": {
+    "close_speed_mps": 0.0002,
+    "close_timeout_s": 110.0,
+    "contact_report_resultant_residual_absolute_n": 0.25,
+    "contact_report_resultant_residual_relative": 0.15,
+    "diagnostic_status": "initial_unvalidated_diagnostic_values",
+    "forbidden_abort_n": 1.0,
+    "forbidden_freeze_n": 0.5,
+    "force_floor_n": 14.0,
+    "force_target_n": 15.0,
+    "force_upper_n": 16.0,
+    "lift_hold_s": 2.0,
+    "load_bearing_threshold_n": 0.25,
+    "maintenance_speed_mps": 2e-05,
+    "maximum_guard_hold_frames": 180,
+    "minimum_arm_joint_margin_rad": 0.01,
+    "normal_alignment_limit_deg": 30.0,
+    "obb_tolerance_m": 1e-06,
+    "off_axis_abort_n": 10.0,
+    "off_axis_freeze_n": 5.0,
+    "pair_command_mismatch_m": 0.001,
+    "prelift_hold_s": 1.0,
+    "raw_per_jaw_ceiling_n": 34.5,
+    "station_spacing_tolerance_m": 0.0005,
+    "tracking_freeze_m": 0.002,
+    "tracking_resume_m": 0.0015
+  },
+  "v2_runtime_handoff_json": "../assets/grasp_contract/chicken_rigid_wide_torso_spread_legs_protected_shank_grasp_v2/handoff/PART1_V2_RUNTIME_HANDOFF.json",
+  "v2_runtime_handoff_sha256": "8CC928A517610379933BDCA3495279C4178C65D43C69C3589A13E6DF60636490"
+}

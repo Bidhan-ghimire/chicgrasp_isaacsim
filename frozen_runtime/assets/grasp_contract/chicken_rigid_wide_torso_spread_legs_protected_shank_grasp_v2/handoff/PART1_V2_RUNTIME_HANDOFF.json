@@ -1,0 +1,431 @@
+{
+  "allowed_and_forbidden_collider_relationship_targets": {
+    "negX_shank": {
+      "allowed": [
+        "tight_compound_collision/cg_grasp_negX_shank"
+      ],
+      "forbidden": [
+        "tight_compound_collision/body_x00_y00_front",
+        "tight_compound_collision/body_x00_y00_rear",
+        "tight_compound_collision/body_x00_y01_front",
+        "tight_compound_collision/body_x00_y01_rear",
+        "tight_compound_collision/body_x00_y02_front",
+        "tight_compound_collision/body_x00_y02_rear",
+        "tight_compound_collision/body_x00_y03_front",
+        "tight_compound_collision/body_x00_y03_rear",
+        "tight_compound_collision/body_x00_y04_front",
+        "tight_compound_collision/body_x00_y04_rear",
+        "tight_compound_collision/body_x00_y05",
+        "tight_compound_collision/body_x00_y06",
+        "tight_compound_collision/body_x00_y07",
+        "tight_compound_collision/body_x01_y00",
+        "tight_compound_collision/body_x01_y01",
+        "tight_compound_collision/body_x01_y02",
+        "tight_compound_collision/body_x01_y03",
+        "tight_compound_collision/body_x01_y04",
+        "tight_compound_collision/body_x01_y05",
+        "tight_compound_collision/body_x01_y06",
+        "tight_compound_collision/body_x01_y07",
+        "tight_compound_collision/body_x02_y00_front",
+        "tight_compound_collision/body_x02_y00_rear",
+        "tight_compound_collision/body_x02_y01_front",
+        "tight_compound_collision/body_x02_y01_rear",
+        "tight_compound_collision/body_x02_y02_front",
+        "tight_compound_collision/body_x02_y02_rear",
+        "tight_compound_collision/body_x02_y03_front",
+        "tight_compound_collision/body_x02_y03_rear",
+        "tight_compound_collision/body_x02_y04_front",
+        "tight_compound_collision/body_x02_y04_rear",
+        "tight_compound_collision/body_x02_y05",
+        "tight_compound_collision/body_x02_y06",
+        "tight_compound_collision/body_x02_y07",
+        "tight_compound_collision/cg_grasp_posX_shank",
+        "tight_compound_collision/cg_trimmed_negX_foot_01_distal",
+        "tight_compound_collision/cg_trimmed_posX_foot_01_distal",
+        "tight_compound_collision/leg_negX_foot_00",
+        "tight_compound_collision/leg_negX_mid_00_front",
+        "tight_compound_collision/leg_negX_mid_00_rear",
+        "tight_compound_collision/leg_negX_mid_01_front",
+        "tight_compound_collision/leg_negX_mid_01_rear",
+        "tight_compound_collision/leg_negX_mid_02_front",
+        "tight_compound_collision/leg_negX_mid_02_rear",
+        "tight_compound_collision/leg_negX_mid_03_front",
+        "tight_compound_collision/leg_negX_mid_03_rear",
+        "tight_compound_collision/leg_negX_mid_04_front",
+        "tight_compound_collision/leg_negX_mid_04_rear",
+        "tight_compound_collision/leg_negX_mid_05_front",
+        "tight_compound_collision/leg_negX_mid_05_rear",
+        "tight_compound_collision/leg_negX_mid_06_front",
+        "tight_compound_collision/leg_negX_mid_06_rear",
+        "tight_compound_collision/leg_negX_prox_00_front",
+        "tight_compound_collision/leg_negX_prox_00_rear",
+        "tight_compound_collision/leg_negX_prox_01_front",
+        "tight_compound_collision/leg_negX_prox_01_rear",
+        "tight_compound_collision/leg_negX_prox_02_front",
+        "tight_compound_collision/leg_negX_prox_02_rear",
+        "tight_compound_collision/leg_negX_prox_03_front",
+        "tight_compound_collision/leg_negX_prox_03_rear",
+        "tight_compound_collision/leg_negX_prox_04_front",
+        "tight_compound_collision/leg_negX_prox_04_rear",
+        "tight_compound_collision/leg_negX_prox_05_front",
+        "tight_compound_collision/leg_negX_prox_05_rear",
+        "tight_compound_collision/leg_negX_prox_06_front",
+        "tight_compound_collision/leg_negX_prox_06_rear",
+        "tight_compound_collision/leg_negX_prox_07_front",
+        "tight_compound_collision/leg_negX_prox_07_rear",
+        "tight_compound_collision/leg_negX_upper_00_front",
+        "tight_compound_collision/leg_negX_upper_00_rear",
+        "tight_compound_collision/leg_negX_upper_01_front",
+        "tight_compound_collision/leg_negX_upper_01_rear",
+        "tight_compound_collision/leg_negX_upper_02_front",
+        "tight_compound_collision/leg_negX_upper_02_rear",
+        "tight_compound_collision/leg_negX_upper_03_front",
+        "tight_compound_collision/leg_negX_upper_03_rear",
+        "tight_compound_collision/leg_negX_upper_04_front",
+        "tight_compound_collision/leg_negX_upper_04_rear",
+        "tight_compound_collision/leg_posX_foot_00",
+        "tight_compound_collision/leg_posX_mid_00_front",
+        "tight_compound_collision/leg_posX_mid_00_rear",
+        "tight_compound_collision/leg_posX_mid_01_front",
+        "tight_compound_collision/leg_posX_mid_01_rear",
+        "tight_compound_collision/leg_posX_mid_02_front",
+        "tight_compound_collision/leg_posX_mid_02_rear",
+        "tight_compound_collision/leg_posX_mid_03_front",
+        "tight_compound_collision/leg_posX_mid_03_rear",
+        "tight_compound_collision/leg_posX_mid_04_front",
+        "tight_compound_collision/leg_posX_mid_04_rear",
+        "tight_compound_collision/leg_posX_mid_05_front",
+        "tight_compound_collision/leg_posX_mid_05_rear",
+        "tight_compound_collision/leg_posX_mid_06_front",
+        "tight_compound_collision/leg_posX_mid_06_rear",
+        "tight_compound_collision/leg_posX_prox_00_front",
+        "tight_compound_collision/leg_posX_prox_00_rear",
+        "tight_compound_collision/leg_posX_prox_01_front",
+        "tight_compound_collision/leg_posX_prox_01_rear",
+        "tight_compound_collision/leg_posX_prox_02_front",
+        "tight_compound_collision/leg_posX_prox_02_rear",
+        "tight_compound_collision/leg_posX_prox_03_front",
+        "tight_compound_collision/leg_posX_prox_03_rear",
+        "tight_compound_collision/leg_posX_prox_04_front",
+        "tight_compound_collision/leg_posX_prox_04_rear",
+        "tight_compound_collision/leg_posX_prox_05_front",
+        "tight_compound_collision/leg_posX_prox_05_rear",
+        "tight_compound_collision/leg_posX_prox_06_front",
+        "tight_compound_collision/leg_posX_prox_06_rear",
+        "tight_compound_collision/leg_posX_prox_07_front",
+        "tight_compound_collision/leg_posX_prox_07_rear",
+        "tight_compound_collision/leg_posX_upper_00_front",
+        "tight_compound_collision/leg_posX_upper_00_rear",
+        "tight_compound_collision/leg_posX_upper_01_front",
+        "tight_compound_collision/leg_posX_upper_01_rear",
+        "tight_compound_collision/leg_posX_upper_02_front",
+        "tight_compound_collision/leg_posX_upper_02_rear",
+        "tight_compound_collision/leg_posX_upper_03_front",
+        "tight_compound_collision/leg_posX_upper_03_rear",
+        "tight_compound_collision/leg_posX_upper_04_front",
+        "tight_compound_collision/leg_posX_upper_04_rear",
+        "tight_compound_collision/wing_negX_00",
+        "tight_compound_collision/wing_negX_01",
+        "tight_compound_collision/wing_posX_00",
+        "tight_compound_collision/wing_posX_01"
+      ]
+    },
+    "posX_shank": {
+      "allowed": [
+        "tight_compound_collision/cg_grasp_posX_shank"
+      ],
+      "forbidden": [
+        "tight_compound_collision/body_x00_y00_front",
+        "tight_compound_collision/body_x00_y00_rear",
+        "tight_compound_collision/body_x00_y01_front",
+        "tight_compound_collision/body_x00_y01_rear",
+        "tight_compound_collision/body_x00_y02_front",
+        "tight_compound_collision/body_x00_y02_rear",
+        "tight_compound_collision/body_x00_y03_front",
+        "tight_compound_collision/body_x00_y03_rear",
+        "tight_compound_collision/body_x00_y04_front",
+        "tight_compound_collision/body_x00_y04_rear",
+        "tight_compound_collision/body_x00_y05",
+        "tight_compound_collision/body_x00_y06",
+        "tight_compound_collision/body_x00_y07",
+        "tight_compound_collision/body_x01_y00",
+        "tight_compound_collision/body_x01_y01",
+        "tight_compound_collision/body_x01_y02",
+        "tight_compound_collision/body_x01_y03",
+        "tight_compound_collision/body_x01_y04",
+        "tight_compound_collision/body_x01_y05",
+        "tight_compound_collision/body_x01_y06",
+        "tight_compound_collision/body_x01_y07",
+        "tight_compound_collision/body_x02_y00_front",
+        "tight_compound_collision/body_x02_y00_rear",
+        "tight_compound_collision/body_x02_y01_front",
+        "tight_compound_collision/body_x02_y01_rear",
+        "tight_compound_collision/body_x02_y02_front",
+        "tight_compound_collision/body_x02_y02_rear",
+        "tight_compound_collision/body_x02_y03_front",
+        "tight_compound_collision/body_x02_y03_rear",
+        "tight_compound_collision/body_x02_y04_front",
+        "tight_compound_collision/body_x02_y04_rear",
+        "tight_compound_collision/body_x02_y05",
+        "tight_compound_collision/body_x02_y06",
+        "tight_compound_collision/body_x02_y07",
+        "tight_compound_collision/cg_grasp_negX_shank",
+        "tight_compound_collision/cg_trimmed_negX_foot_01_distal",
+        "tight_compound_collision/cg_trimmed_posX_foot_01_distal",
+        "tight_compound_collision/leg_negX_foot_00",
+        "tight_compound_collision/leg_negX_mid_00_front",
+        "tight_compound_collision/leg_negX_mid_00_rear",
+        "tight_compound_collision/leg_negX_mid_01_front",
+        "tight_compound_collision/leg_negX_mid_01_rear",
+        "tight_compound_collision/leg_negX_mid_02_front",
+        "tight_compound_collision/leg_negX_mid_02_rear",
+        "tight_compound_collision/leg_negX_mid_03_front",
+        "tight_compound_collision/leg_negX_mid_03_rear",
+        "tight_compound_collision/leg_negX_mid_04_front",
+        "tight_compound_collision/leg_negX_mid_04_rear",
+        "tight_compound_collision/leg_negX_mid_05_front",
+        "tight_compound_collision/leg_negX_mid_05_rear",
+        "tight_compound_collision/leg_negX_mid_06_front",
+        "tight_compound_collision/leg_negX_mid_06_rear",
+        "tight_compound_collision/leg_negX_prox_00_front",
+        "tight_compound_collision/leg_negX_prox_00_rear",
+        "tight_compound_collision/leg_negX_prox_01_front",
+        "tight_compound_collision/leg_negX_prox_01_rear",
+        "tight_compound_collision/leg_negX_prox_02_front",
+        "tight_compound_collision/leg_negX_prox_02_rear",
+        "tight_compound_collision/leg_negX_prox_03_front",
+        "tight_compound_collision/leg_negX_prox_03_rear",
+        "tight_compound_collision/leg_negX_prox_04_front",
+        "tight_compound_collision/leg_negX_prox_04_rear",
+        "tight_compound_collision/leg_negX_prox_05_front",
+        "tight_compound_collision/leg_negX_prox_05_rear",
+        "tight_compound_collision/leg_negX_prox_06_front",
+        "tight_compound_collision/leg_negX_prox_06_rear",
+        "tight_compound_collision/leg_negX_prox_07_front",
+        "tight_compound_collision/leg_negX_prox_07_rear",
+        "tight_compound_collision/leg_negX_upper_00_front",
+        "tight_compound_collision/leg_negX_upper_00_rear",
+        "tight_compound_collision/leg_negX_upper_01_front",
+        "tight_compound_collision/leg_negX_upper_01_rear",
+        "tight_compound_collision/leg_negX_upper_02_front",
+        "tight_compound_collision/leg_negX_upper_02_rear",
+        "tight_compound_collision/leg_negX_upper_03_front",
+        "tight_compound_collision/leg_negX_upper_03_rear",
+        "tight_compound_collision/leg_negX_upper_04_front",
+        "tight_compound_collision/leg_negX_upper_04_rear",
+        "tight_compound_collision/leg_posX_foot_00",
+        "tight_compound_collision/leg_posX_mid_00_front",
+        "tight_compound_collision/leg_posX_mid_00_rear",
+        "tight_compound_collision/leg_posX_mid_01_front",
+        "tight_compound_collision/leg_posX_mid_01_rear",
+        "tight_compound_collision/leg_posX_mid_02_front",
+        "tight_compound_collision/leg_posX_mid_02_rear",
+        "tight_compound_collision/leg_posX_mid_03_front",
+        "tight_compound_collision/leg_posX_mid_03_rear",
+        "tight_compound_collision/leg_posX_mid_04_front",
+        "tight_compound_collision/leg_posX_mid_04_rear",
+        "tight_compound_collision/leg_posX_mid_05_front",
+        "tight_compound_collision/leg_posX_mid_05_rear",
+        "tight_compound_collision/leg_posX_mid_06_front",
+        "tight_compound_collision/leg_posX_mid_06_rear",
+        "tight_compound_collision/leg_posX_prox_00_front",
+        "tight_compound_collision/leg_posX_prox_00_rear",
+        "tight_compound_collision/leg_posX_prox_01_front",
+        "tight_compound_collision/leg_posX_prox_01_rear",
+        "tight_compound_collision/leg_posX_prox_02_front",
+        "tight_compound_collision/leg_posX_prox_02_rear",
+        "tight_compound_collision/leg_posX_prox_03_front",
+        "tight_compound_collision/leg_posX_prox_03_rear",
+        "tight_compound_collision/leg_posX_prox_04_front",
+        "tight_compound_collision/leg_posX_prox_04_rear",
+        "tight_compound_collision/leg_posX_prox_05_front",
+        "tight_compound_collision/leg_posX_prox_05_rear",
+        "tight_compound_collision/leg_posX_prox_06_front",
+        "tight_compound_collision/leg_posX_prox_06_rear",
+        "tight_compound_collision/leg_posX_prox_07_front",
+        "tight_compound_collision/leg_posX_prox_07_rear",
+        "tight_compound_collision/leg_posX_upper_00_front",
+        "tight_compound_collision/leg_posX_upper_00_rear",
+        "tight_compound_collision/leg_posX_upper_01_front",
+        "tight_compound_collision/leg_posX_upper_01_rear",
+        "tight_compound_collision/leg_posX_upper_02_front",
+        "tight_compound_collision/leg_posX_upper_02_rear",
+        "tight_compound_collision/leg_posX_upper_03_front",
+        "tight_compound_collision/leg_posX_upper_03_rear",
+        "tight_compound_collision/leg_posX_upper_04_front",
+        "tight_compound_collision/leg_posX_upper_04_rear",
+        "tight_compound_collision/wing_negX_00",
+        "tight_compound_collision/wing_negX_01",
+        "tight_compound_collision/wing_posX_00",
+        "tight_compound_collision/wing_posX_01"
+      ]
+    }
+  },
+  "contributor_sets": {
+    "1": [
+      "finger_collision_piece_20",
+      "finger_collision_piece_21",
+      "finger_collision_piece_19",
+      "finger_collision_piece_17",
+      "finger_collision_piece_18",
+      "finger_collision_piece_16"
+    ],
+    "2": [
+      "finger_collision_piece_21",
+      "finger_collision_piece_20"
+    ],
+    "3": [
+      "finger_collision_piece_21",
+      "finger_collision_piece_20"
+    ],
+    "4": [
+      "finger_collision_piece_20",
+      "finger_collision_piece_21",
+      "finger_collision_piece_19",
+      "finger_collision_piece_17",
+      "finger_collision_piece_18"
+    ]
+  },
+  "expected_normals_rigid_body": {
+    "1": [
+      0.9934475407550237,
+      0.11401179389000349,
+      -0.007955791712890063
+    ],
+    "2": [
+      -0.9968545488623968,
+      -0.07843927029887124,
+      0.011326486098007866
+    ],
+    "3": [
+      0.9949088821098795,
+      -0.09924451977165238,
+      0.017516894535398085
+    ],
+    "4": [
+      -0.9929980290597604,
+      0.11593762284357907,
+      -0.02265793222717042
+    ]
+  },
+  "four_patch_paths": [
+    "/root/GraspContract/negX_shank/jaw1_patch",
+    "/root/GraspContract/negX_shank/jaw2_patch",
+    "/root/GraspContract/posX_shank/jaw3_patch",
+    "/root/GraspContract/posX_shank/jaw4_patch"
+  ],
+  "patch_obb_transforms_and_half_extents": {
+    "1": {
+      "center_m": [
+        -0.08830968945991899,
+        -0.11735547924891616,
+        0.022394590018345328
+      ],
+      "half_extents_m": [
+        0.0005892885580685845,
+        0.0034754108383504775,
+        0.00028653291830230804
+      ],
+      "quaternion_wxyz": [
+        0.6529320178668017,
+        0.7552506540360614,
+        0.04580109141246533,
+        0.03432913701092915
+      ]
+    },
+    "2": {
+      "center_m": [
+        -0.062391266043781916,
+        -0.13661017921920807,
+        0.023161938887945065
+      ],
+      "half_extents_m": [
+        0.0002954878152358895,
+        0.0006614046114174,
+        0.0003711267157290863
+      ],
+      "quaternion_wxyz": [
+        0.012333315167218462,
+        0.03769104543240686,
+        -0.9843265998601667,
+        -0.17183835206065418
+      ]
+    },
+    "3": {
+      "center_m": [
+        0.062414985730072516,
+        -0.13652314332230714,
+        0.02330938835896615
+      ],
+      "half_extents_m": [
+        0.00028889671920334626,
+        0.0007261720399002606,
+        0.00035021250274587675
+      ],
+      "quaternion_wxyz": [
+        0.02002927845867451,
+        0.9985255475246311,
+        -0.04985141932748753,
+        0.007771417894780729
+      ]
+    },
+    "4": {
+      "center_m": [
+        0.08841263413705301,
+        -0.1177157297812071,
+        0.023563876647867518
+      ],
+      "half_extents_m": [
+        0.0004183649973703502,
+        0.0022755673862799967,
+        0.00028300372387819023
+      ],
+      "quaternion_wxyz": [
+        0.051392236542523353,
+        0.02932274702815334,
+        0.651823813212629,
+        0.7560586822851968
+      ]
+    }
+  },
+  "raw_per_jaw_ceiling_n": 34.5,
+  "rigid_body_prim_path": "/root/raw_chicken_visual/raw_chicken_visual_mesh",
+  "runtime_approach_contact_closure_lift_executed_for_v2": false,
+  "runtime_unverified_items": [
+    "Isaac Sim loading and relationship binding of the v2 root asset",
+    "runtime child-collider attribution against the v2 contributor sets",
+    "force-regulated 15 N per-jaw hold",
+    "runtime contact-force stability, compliance, and off-axis loads",
+    "jaw closure and lift"
+  ],
+  "schema": "chicgrasp-part1-v2-runtime-handoff/v1",
+  "selected_jaw_contact_positions_m": {
+    "1": 0.006090146582282613,
+    "2": 0.0060454970570630396,
+    "3": 0.005951830942381641,
+    "4": 0.00606741831569234
+  },
+  "selected_tcp_transform_chicken_rigid_body": {
+    "position_m": [
+      1.144869001504234e-05,
+      -0.11144560745023943,
+      0.034912836414421264
+    ],
+    "quaternion_wxyz": [
+      0.7575648913025227,
+      -0.6527596722606701,
+      0.0003756575301500135,
+      -0.0003234460691291637
+    ]
+  },
+  "stable_station_paths": [
+    "/root/GraspContract/negX_shank",
+    "/root/GraspContract/posX_shank"
+  ],
+  "static_validation_classification": "PASS_STATIC_ONLY_PART1_V2_FOUR_JAW_MANIFOLD",
+  "station_spacing_m": 0.15080393664133188,
+  "v2_grasp_contract_relative_path": "asset/grasp_contract.json",
+  "v2_grasp_contract_sha256": "2D3A7527395E916E558C64AF9F776C3D337B82E931E191EC87D65DD793D6B822",
+  "v2_root_asset_relative_path": "asset/chicken_rigid_wide_torso_spread_legs_protected_shank_grasp_v2.usda",
+  "v2_root_usd_sha256": "0697C15631313B5E2FF2B74EB9717A52E9AB1530093B0F39FF1C872B08792589"
+}

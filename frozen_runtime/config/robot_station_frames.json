@@ -1,0 +1,346 @@
+{
+  "before_after_alignment": {
+    "asset_station_spacing_m": 0.15080393664133188,
+    "corrected_max_station_residual_m": 0.00024504685380149544,
+    "corrected_minus_selected_m": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "corrected_spacing_mismatch_m": 2.7755575615628914e-17,
+    "corrected_station_spacing_m": 0.15080393664133185,
+    "corrected_tcp_position_chicken_m": [
+      1.144869001504234e-05,
+      -0.11144560745023943,
+      0.034912836414421264
+    ],
+    "corrected_translation_error_norm_m": 0.0,
+    "old_max_station_residual_m": 3.1249008503390803e-06,
+    "old_minus_selected_m": [
+      1.112657436946543e-09,
+      0.003356520717159417,
+      -0.0018157038233408418
+    ],
+    "old_station_spacing_m": 0.15130026887443776,
+    "old_tcp_position_chicken_m": [
+      1.9929724664836945e-05,
+      -0.10808163142813151,
+      0.033047191097669626
+    ],
+    "old_translation_error_norm_m": 0.0038161514250375545,
+    "part1_selected_tcp_position_chicken_m": [
+      1.144869001504234e-05,
+      -0.11144560745023943,
+      0.034912836414421264
+    ]
+  },
+  "calibration_regression": {
+    "computed_tcp_position_chicken_m": [
+      1.144869001504234e-05,
+      -0.11144560745023943,
+      0.034912836414421264
+    ],
+    "computed_tcp_quaternion_chicken_wxyz": [
+      0.7575648913025227,
+      -0.6527596722606701,
+      0.0003756575301500135,
+      -0.0003234460691291637
+    ],
+    "expected_tcp_position_chicken_m": [
+      1.144869001504234e-05,
+      -0.11144560745023943,
+      0.034912836414421264
+    ],
+    "expected_tcp_quaternion_chicken_wxyz": [
+      0.7575648913025227,
+      -0.6527596722606701,
+      0.0003756575301500135,
+      -0.0003234460691291637
+    ],
+    "orientation_error_deg": 0.0,
+    "orientation_tolerance_deg": 0.1,
+    "part1_selected_pose_source": "../assets/grasp_contract/chicken_rigid_wide_torso_spread_legs_protected_shank_grasp_v2/handoff/PART1_V2_RUNTIME_HANDOFF.json",
+    "pass": true,
+    "selected_pose_is_not_a_runtime_target": true,
+    "translation_error_m": 0.0,
+    "translation_tolerance_m": 0.0001
+  },
+  "jaw_patch_frames_tcp": {
+    "1": {
+      "contributing_serrated_collision_pieces": [
+        "finger_collision_piece_20",
+        "finger_collision_piece_21",
+        "finger_collision_piece_19",
+        "finger_collision_piece_17",
+        "finger_collision_piece_18",
+        "finger_collision_piece_16"
+      ],
+      "frame_convention": {
+        "surface_normal_is_separate": true,
+        "x_axis": "common dual-station center-line direction",
+        "y_axis": "serrated contact-patch longitudinal tangent",
+        "z_axis": "right-handed binormal"
+      },
+      "jaw_id": 1,
+      "minimum_cooked_surface_distance_m": 0.0002484701693016117,
+      "position_tcp_at_contact_m": [
+        -0.08839671654472249,
+        0.009462137876658117,
+        -0.01000446635693873
+      ],
+      "position_tcp_open_geometry_m": [
+        -0.08239179132131458,
+        0.009462137876658117,
+        -0.01000446635693873
+      ],
+      "quaternion_tcp_wxyz": [
+        0.6527596722606702,
+        -0.7575648913025227,
+        -0.00032344606912916357,
+        -0.00037565753015001346
+      ],
+      "selected_jaw_position_m": 0.006090146582282613,
+      "source_patch_center_chicken_m": [
+        -0.08838666672390515,
+        -0.1198474580047668,
+        0.024038922810643047
+      ],
+      "station_id": "negX_shank",
+      "surface_normal_tcp": [
+        -0.9763789071611866,
+        -0.13733898018073099,
+        -0.16679998253490283
+      ],
+      "target_collider": "cg_grasp_negX_shank"
+    },
+    "2": {
+      "contributing_serrated_collision_pieces": [
+        "finger_collision_piece_21",
+        "finger_collision_piece_20"
+      ],
+      "frame_convention": {
+        "surface_normal_is_separate": true,
+        "x_axis": "common dual-station center-line direction",
+        "y_axis": "serrated contact-patch longitudinal tangent",
+        "z_axis": "right-handed binormal"
+      },
+      "jaw_id": 2,
+      "minimum_cooked_surface_distance_m": 1.920635883948956e-05,
+      "position_tcp_at_contact_m": [
+        -0.062396277299628884,
+        0.007770824736384959,
+        -0.024192660401823596
+      ],
+      "position_tcp_open_geometry_m": [
+        -0.06833012245044595,
+        0.007770824736384959,
+        -0.024192660401823596
+      ],
+      "quaternion_tcp_wxyz": [
+        0.6527596722606702,
+        -0.7575648913025227,
+        -0.00032344606912916357,
+        -0.00037565753015001346
+      ],
+      "selected_jaw_position_m": 0.0060454970570630396,
+      "source_patch_center_chicken_m": [
+        -0.0624003063116255,
+        -0.1341552852863388,
+        0.02361069117311543
+      ],
+      "station_id": "negX_shank",
+      "surface_normal_tcp": [
+        0.9891093810007437,
+        0.07281785383555267,
+        0.12790696845406727
+      ],
+      "target_collider": "cg_grasp_negX_shank"
+    },
+    "3": {
+      "contributing_serrated_collision_pieces": [
+        "finger_collision_piece_21",
+        "finger_collision_piece_20"
+      ],
+      "frame_convention": {
+        "surface_normal_is_separate": true,
+        "x_axis": "common dual-station center-line direction",
+        "y_axis": "serrated contact-patch longitudinal tangent",
+        "z_axis": "right-handed binormal"
+      },
+      "jaw_id": 3,
+      "minimum_cooked_surface_distance_m": 7.009231069680922e-06,
+      "position_tcp_at_contact_m": [
+        0.06245768669659255,
+        0.007777351051588747,
+        -0.02406798236451203
+      ],
+      "position_tcp_open_geometry_m": [
+        0.06830729685604847,
+        0.007777351051588747,
+        -0.02406798236451203
+      ],
+      "quaternion_tcp_wxyz": [
+        0.6527596722606702,
+        -0.7575648913025227,
+        -0.00032344606912916357,
+        -0.00037565753015001346
+      ],
+      "selected_jaw_position_m": 0.005951830942381641,
+      "source_patch_center_chicken_m": [
+        0.06245371993017035,
+        -0.13415343032055277,
+        0.02360432347395829
+      ],
+      "station_id": "posX_shank",
+      "surface_normal_tcp": [
+        -0.9893598786967405,
+        0.07283073601823713,
+        0.1259472679982102
+      ],
+      "target_collider": "cg_grasp_posX_shank"
+    },
+    "4": {
+      "contributing_serrated_collision_pieces": [
+        "finger_collision_piece_20",
+        "finger_collision_piece_21",
+        "finger_collision_piece_19",
+        "finger_collision_piece_17",
+        "finger_collision_piece_18"
+      ],
+      "frame_convention": {
+        "surface_normal_is_separate": true,
+        "x_axis": "common dual-station center-line direction",
+        "y_axis": "serrated contact-patch longitudinal tangent",
+        "z_axis": "right-handed binormal"
+      },
+      "jaw_id": 4,
+      "minimum_cooked_surface_distance_m": 0.0002288611915464085,
+      "position_tcp_at_contact_m": [
+        0.08835704428920127,
+        0.009462137876659414,
+        -0.009829968389238724
+      ],
+      "position_tcp_open_geometry_m": [
+        0.08239179305529234,
+        0.009462137876659414,
+        -0.009829968389238724
+      ],
+      "quaternion_tcp_wxyz": [
+        0.6527596722606702,
+        -0.7575648913025227,
+        -0.00032344606912916357,
+        -0.00037565753015001346
+      ],
+      "selected_jaw_position_m": 0.00606741831569234,
+      "source_patch_center_chicken_m": [
+        0.08836718024391034,
+        -0.11984818229338096,
+        0.024038749261806724
+      ],
+      "station_id": "posX_shank",
+      "surface_normal_tcp": [
+        0.9767073805818942,
+        -0.1373403131357324,
+        -0.16486458414296834
+      ],
+      "target_collider": "cg_grasp_posX_shank"
+    }
+  },
+  "measured_station_spacing_m": 0.15080393664133185,
+  "orientation_provenance": {
+    "method": "v2 contract-bound dual-station alignment using unchanged robot station frames; runtime target remains live and the v2 selected pose is regression provenance only",
+    "protected_contract_json": "../assets/grasp_contract/chicken_rigid_wide_torso_spread_legs_protected_shank_grasp_v2/asset/grasp_contract.json",
+    "protected_contract_json_sha256": "2D3A7527395E916E558C64AF9F776C3D337B82E931E191EC87D65DD793D6B822",
+    "runtime_target_is_always_live_dual_station_alignment": true,
+    "selected_pose_is_provenance_only_not_runtime_target": true
+  },
+  "position_provenance": {
+    "actual_robot_usd": "../assets/grasp_contract/ur10e_chicgrasp_serrated_tip_collision_package/ur10e_chicgrasp_serrated_tip_collision.usda",
+    "actual_robot_usd_sha256": "4A2B0F7502F6FF19841857F6466F6FA7B245417F84CACF91EFE6C53C9E29EB33",
+    "method": "preserve the previously validated cooked serrated robot station frames while binding selected jaw positions and exact contributor lists to the hash-pinned Part 1 v2 handoff",
+    "old_dual_jaw_geometry_rigid_proxy_used": false,
+    "part1_authoring_script": "../assets/grasp_contract/chicken_rigid_wide_torso_spread_legs_protected_shank_grasp_v2/authoring/create_protected_shank_grasp_v2.py",
+    "part1_authoring_script_sha256": "47C960462378DB07DFD5307DD2A758B2B6AC5CCECDF984E58CF0DD08BAE334A8",
+    "source_file": "../assets/grasp_contract/chicken_rigid_wide_torso_spread_legs_protected_shank_grasp_v2/handoff/PART1_V2_RUNTIME_HANDOFF.json",
+    "source_file_sha256": "8CC928A517610379933BDCA3495279C4178C65D43C69C3589A13E6DF60636490",
+    "whole_link_centroids_used": false
+  },
+  "robot_root_usd": "../assets/grasp_contract/ur10e_chicgrasp_serrated_tip_collision_package/ur10e_chicgrasp_serrated_tip_collision.usda",
+  "robot_root_usd_sha256": "4A2B0F7502F6FF19841857F6466F6FA7B245417F84CACF91EFE6C53C9E29EB33",
+  "schema": "chicgrasp-robot-station-frames/v2",
+  "station_frames_tcp": {
+    "negX_shank": {
+      "derived_from_jaw_patch_ids": [
+        1,
+        2
+      ],
+      "orientation_method": "common patch-frame basis retained by both opposing active patch frames; surface normals are explicit independent fields",
+      "position_m": [
+        -0.07539649692217569,
+        0.008616481306521538,
+        -0.017098563379381163
+      ],
+      "position_method": "arithmetic midpoint of the two opposing cooked serrated contact-patch centers at their selected jaw positions",
+      "quaternion_wxyz": [
+        0.6527596722606702,
+        -0.7575648913025227,
+        -0.00032344606912916357,
+        -0.00037565753015001346
+      ]
+    },
+    "posX_shank": {
+      "derived_from_jaw_patch_ids": [
+        3,
+        4
+      ],
+      "orientation_method": "common patch-frame basis retained by both opposing active patch frames; surface normals are explicit independent fields",
+      "position_m": [
+        0.07540736549289691,
+        0.008619744464124082,
+        -0.016948975376875376
+      ],
+      "position_method": "arithmetic midpoint of the two opposing cooked serrated contact-patch centers at their selected jaw positions",
+      "quaternion_wxyz": [
+        0.6527596722606702,
+        -0.7575648913025227,
+        -0.00032344606912916357,
+        -0.00037565753015001346
+      ]
+    }
+  },
+  "tcp_definition": {
+    "current_repository_source": "../source/chicgrasp_isaac/chicgrasp_isaac/tasks/manager_based/chicgrasp_isaac/chicgrasp_isaac_env_cfg.py",
+    "current_repository_source_sha256": "143BC46175E1A16F5A9B1F7502AD4C68F0F29E347E5A04C552AF3CF6C356E5F9",
+    "parent_prim_relative_to_robot_root": "GripperRig/gripper_base_link",
+    "required_source_literal": "body_offset=mdp.DifferentialInverseKinematicsActionCfg.OffsetCfg(pos=(0.0, 0.12, 0.0))",
+    "rotation_from_gripper_base_wxyz": [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "source": "hash-pinned current repository TCP convention; no scaffold path or frame is authoritative",
+    "translation_from_gripper_base_m": [
+      0.0,
+      0.12,
+      0.0
+    ]
+  },
+  "validation": {
+    "derived_alignment_max_orientation_residual_deg": 0.0,
+    "derived_alignment_max_position_residual_m": 0.00024504685380149544,
+    "explicit_per_jaw_patch_frame_count": 4,
+    "identity_rotation_rejected": true,
+    "part1_pose_regression_pass": true,
+    "station_midpoints_equal_opposing_patch_midpoints": true
+  },
+  "sidecar_revision": "part3-v2-rebind/1",
+  "v2_runtime_handoff": {
+    "path": "../assets/grasp_contract/chicken_rigid_wide_torso_spread_legs_protected_shank_grasp_v2/handoff/PART1_V2_RUNTIME_HANDOFF.json",
+    "sha256": "8CC928A517610379933BDCA3495279C4178C65D43C69C3589A13E6DF60636490",
+    "schema": "chicgrasp-part1-v2-runtime-handoff/v1",
+    "static_validation_classification": "PASS_STATIC_ONLY_PART1_V2_FOUR_JAW_MANIFOLD",
+    "v2_root_usd_sha256": "0697C15631313B5E2FF2B74EB9717A52E9AB1530093B0F39FF1C872B08792589",
+    "v2_grasp_contract_sha256": "2D3A7527395E916E558C64AF9F776C3D337B82E931E191EC87D65DD793D6B822"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "classification": "PASS_STATIC_ONLY_PART1_V2_FOUR_JAW_MANIFOLD",
+  "contract_only_change": true,
+  "grasp_contract_sha256": "2D3A7527395E916E558C64AF9F776C3D337B82E931E191EC87D65DD793D6B822",
+  "jaw_closure_executed": false,
+  "lift_executed": false,
+  "minimum_forbidden_clearance_m": 0.000419645068634969,
+  "minimum_normal_alignment_margin_deg": 12.461684713532524,
+  "minimum_open_jaw_approach_clearance_m": 0.001552444477811422,
+  "minimum_selected_obb_margin_m": 0.0002499999999999713,
+  "openusd_status": "NOT_AVAILABLE_IN_CURRENT_EXECUTION_ENVIRONMENT; USDA_TEXT_VALIDATION_PASS",
+  "physical_collision_changed": false,
+  "root_usd_sha256": "0697C15631313B5E2FF2B74EB9717A52E9AB1530093B0F39FF1C872B08792589",
+  "runtime_executed": false,
+  "schema": "chicgrasp-protected-shank-grasp-v2-validation/v1"
+}

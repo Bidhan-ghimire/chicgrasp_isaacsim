@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+.venv/
+*.pt
+*.pt.part*
+*.zip
+*.mp4
+frozen_runtime/outputs/**/*.npy
+
+/.local/
+/downloads/
+/outputs/
+/runs/
+/research_outputs/
+/configs/experiments/
+/models/

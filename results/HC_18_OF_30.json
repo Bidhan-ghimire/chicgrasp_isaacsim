@@ -1,0 +1,3369 @@
+{
+  "HEADLINE": "ten previously untested positions, 30 trials, temporary-attachment protocol",
+  "V3C_SUCCESSES": 18,
+  "PLANNED_TRIALS": 30,
+  "DEFINITION_ID": "V1_WINDOWS_WITH_EARLIEST_DEMO_ATTACHMENT",
+  "qualifying_pass_label": "PIPELINE_VERTICAL_SLICE_PASS_WITH_TEMPORARY_ATTACHMENT",
+  "interpretation": "Ten previously untested XY positions from the prespecified PCG64 seed42004 distribution in the unchanged attempt005 rectangle, conditioned on at least10mm from50 selected training,10H and10HB positions; unique HC coordinates with no additional inter-HC radius. Three continued seeded rounds per position are not asserted independent. Temporary-attachment simulator evaluation only; no arbitrary-position, yaw, moving-target, friction-only or real-hardware generalization. HB remains matched-development evidence with its own denominator.",
+  "FIRST_FAILURE_GATE_COUNTS": {
+    "ADMISSION": 7,
+    "WORLD_ROOM": 2,
+    "ADMISSION_NO_ANCHOR": 2,
+    "RISE": 1
+  },
+  "HC_SUCCESSES": 18,
+  "published_utc": "2026-10-25T20:22:49.608534+00:00",
+  "source_result_path": "docs/plans/CHICGRASP_SCALED50_HC_V3C_BATCH/RESULT.json",
+  "source_result_sha256": "b576affe2ff1b057a7c555f9c2d4a326d76ec8ad651aaab32d6f5a2b0973368b",
+  "source_result_bytes": 9080580,
+  "executed_commit": "3d98c85228821d955479730292d2b026fd1d63ed",
+  "publication_commit": "6c858ab188464d188018bf1fb2084c7f60cb2329",
+  "result_tag": "chicgrasp-scaled50-hc-v3c-batch",
+  "rows": [
+    {
+      "allocation": "HC01_R0",
+      "position": {
+        "position_id": "HC01",
+        "draw_index_zero_based": 2,
+        "authored_xy_m": [
+          0.6694885857605405,
+          0.054859911649051615
+        ],
+        "authored_world_xyz_m": [
+          0.6694885857605405,
+          0.054859911649051615,
+          0.8155
+        ],
+        "rotation_wxyz": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "nearest_training_id": "R000054",
+        "nearest_training_distance_m": 0.01411288164485166,
+        "nearest_H_id": "H05",
+        "nearest_H_distance_m": 0.028552622643037363,
+        "nearest_HB_id": "HB07",
+        "nearest_HB_distance_m": 0.016433840882267445,
+        "rectangle_check": "PASS",
+        "known_prior_attempt_exact_match": false
+      },
+      "round": 0,
+      "base_diffusion_seed": 15345,
+      "environment_seed": 42,
+      "executed_commit": "3d98c85228821d955479730292d2b026fd1d63ed",
+      "first_accepted_close": {
+        "LEFT": {
+          "action": 132,
+          "chunk": 6,
+          "full_slot": 11
+        },
+        "RIGHT": {
+          "action": 132,
+          "chunk": 6,
+          "full_slot": 11
+        },
+        "BOTH": {
+          "action": 132,
+          "chunk": 6,
+          "full_slot": 11
+        }
+      },
+      "event_schedule": {
+        "close_action": 132,
+        "anchor": 1584,
+        "admission_start": 1693,
+        "decision": 1753,
+        "confirmation": 1754,
+        "rise_end": 2303,
+        "room_reference": 2303,
+        "room_start": 2304,
+        "score_end": 2543,
+        "total_actions": 212,
+        "admission_count": 61,
+        "rise_count": 550,
+        "room_count": 240,
+        "tail_count": 0
+      },
+      "V3C_VERDICT": "PASS",
+      "FIRST_V3C_FAILURE_GATE": null,
+      "SCORE_EVIDENCE_STATUS": "ESTABLISHED",
+      "PRIMARY_VERDICT_ESTABLISHED": true,
+      "PROCESS_COMPLETION": "COMPLETE",
+      "CLEANUP_STATUS": "CLEAN",
+      "rise": {
+        "status": "PASS",
+        "maximum_m": 0.05833125114440918,
+        "baseline_world_z_m": 0.8153985142707825,
+        "maximum_sample": [
+          1115,
+          1
+        ]
+      },
+      "world_room": {
+        "status": "PASS",
+        "reference": [
+          1151,
+          1
+        ],
+        "required_samples": 240,
+        "samples": 240,
+        "maximum_displacement_m": 0.004497721056995001,
+        "maximum_rotation_deg": 0.1078201362357539,
+        "limits": {
+          "displacement_m": 0.01,
+          "rotation_deg": 5
+        },
+        "reference_world_wxyz": [
+          0.6609659790992737,
+          0.07746293395757675,
+          0.8729749321937561,
+          0.9984818696975708,
+          -0.049972184002399445,
+          0.023118140175938606,
+          0.0014965764712542295
+        ],
+        "maximum_displacement_sample": [
+          1271,
+          1
+        ],
+        "maximum_rotation_sample": [
+          1168,
+          0
+        ]
+      },
+      "separate_motion": {
+        "requested_tcp_rise_max_m": 0.05708891153335571,
+        "measured_tcp_rise_max_m": 0.05821993936970793,
+        "chicken_rise_max_m": 0.05833125114440918,
+        "frame": "robot_base_for_TCP_world_for_chicken",
+        "acceptance_authority": false
+      }
+    },
+    {
+      "allocation": "HC02_R0",
+      "position": {
+        "position_id": "HC02",
+        "draw_index_zero_based": 6,
+        "authored_xy_m": [
+          0.6931872929281494,
+          -0.00767338821993384
+        ],
+        "authored_world_xyz_m": [
+          0.6931872929281494,
+          -0.00767338821993384,
+          0.8155
+        ],
+        "rotation_wxyz": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "nearest_training_id": "R000062",
+        "nearest_training_distance_m": 0.04186610161772471,
+        "nearest_H_id": "H03",
+        "nearest_H_distance_m": 0.026206189609996274,
+        "nearest_HB_id": "HB07",
+        "nearest_HB_distance_m": 0.05471452446913196,
+        "rectangle_check": "PASS",
+        "known_prior_attempt_exact_match": false
+      },
+      "round": 0,
+      "base_diffusion_seed": 15345,
+      "environment_seed": 42,
+      "executed_commit": "3d98c85228821d955479730292d2b026fd1d63ed",
+      "first_accepted_close": {
+        "LEFT": {
+          "action": 120,
+          "chunk": 5,
+          "full_slot": 11
+        },
+        "RIGHT": {
+          "action": 120,
+          "chunk": 5,
+          "full_slot": 11
+        },
+        "BOTH": {
+          "action": 120,
+          "chunk": 5,
+          "full_slot": 11
+        }
+      },
+      "event_schedule": {
+        "close_action": 120,
+        "anchor": 1440,
+        "admission_start": 1549,
+        "decision": 1609,
+        "confirmation": 1610,
+        "rise_end": 2159,
+        "room_reference": 2159,
+        "room_start": 2160,
+        "score_end": 2399,
+        "total_actions": 200,
+        "admission_count": 61,
+        "rise_count": 550,
+        "room_count": 240,
+        "tail_count": 0
+      },
+      "V3C_VERDICT": "FAIL",
+      "FIRST_V3C_FAILURE_GATE": "ADMISSION",
+      "SCORE_EVIDENCE_STATUS": "ESTABLISHED",
+      "PRIMARY_VERDICT_ESTABLISHED": true,
+      "PROCESS_COMPLETION": "STOPPED",
+      "CLEANUP_STATUS": "CLEAN",
+      "rise": {
+        "status": "NOT_EVALUABLE",
+        "maximum_m": null
+      },
+      "world_room": {
+        "status": "NOT_EVALUABLE",
+        "reference": [
+          1079,
+          1
+        ],
+        "required_samples": 240,
+        "samples": 0,
+        "maximum_displacement_m": null,
+        "maximum_rotation_deg": null,
+        "limits": {
+          "displacement_m": 0.01,
+          "rotation_deg": 5
+        }
+      },
+      "separate_motion": {
+        "requested_tcp_rise_max_m": 0.0,
+        "measured_tcp_rise_max_m": null,
+        "chicken_rise_max_m": null,
+        "frame": "robot_base_for_TCP_world_for_chicken",
+        "acceptance_authority": false
+      }
+    },
+    {
+      "allocation": "HC03_R0",
+      "position": {
+        "position_id": "HC03",
+        "draw_index_zero_based": 7,
+        "authored_xy_m": [
+          0.6801895917302738,
+          0.19405871339582204
+        ],
+        "authored_world_xyz_m": [
+          0.6801895917302738,
+          0.19405871339582204,
+          0.8155
+        ],
+        "rotation_wxyz": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "nearest_training_id": "R000028",
+        "nearest_training_distance_m": 0.011100771776918943,
+        "nearest_H_id": "H02",
+        "nearest_H_distance_m": 0.02859949078264894,
+        "nearest_HB_id": "HB01",
+        "nearest_HB_distance_m": 0.010169950167503784,
+        "rectangle_check": "PASS",
+        "known_prior_attempt_exact_match": false
+      },
+      "round": 0,
+      "base_diffusion_seed": 15345,
+      "environment_seed": 42,
+      "executed_commit": "3d98c85228821d955479730292d2b026fd1d63ed",
+      "first_accepted_close": {
+        "LEFT": {
+          "action": 120,
+          "chunk": 5,
+          "full_slot": 11
+        },
+        "RIGHT": {
+          "action": 120,
+          "chunk": 5,
+          "full_slot": 11
+        },
+        "BOTH": {
+          "action": 120,
+          "chunk": 5,
+          "full_slot": 11
+        }
+      },
+      "event_schedule": {
+        "close_action": 120,
+        "anchor": 1440,
+        "admission_start": 1549,
+        "decision": 1609,
+        "confirmation": 1610,
+        "rise_end": 2159,
+        "room_reference": 2159,
+        "room_start": 2160,
+        "score_end": 2399,
+        "total_actions": 200,
+        "admission_count": 61,
+        "rise_count": 550,
+        "room_count": 240,
+        "tail_count": 0
+      },
+      "V3C_VERDICT": "FAIL",
+      "FIRST_V3C_FAILURE_GATE": "ADMISSION",
+      "SCORE_EVIDENCE_STATUS": "ESTABLISHED",
+      "PRIMARY_VERDICT_ESTABLISHED": true,
+      "PROCESS_COMPLETION": "STOPPED",
+      "CLEANUP_STATUS": "CLEAN",
+      "rise": {
+        "status": "NOT_EVALUABLE",
+        "maximum_m": null
+      },
+      "world_room": {
+        "status": "NOT_EVALUABLE",
+        "reference": [
+          1079,
+          1
+        ],
+        "required_samples": 240,
+        "samples": 0,
+        "maximum_displacement_m": null,
+        "maximum_rotation_deg": null,
+        "limits": {
+          "displacement_m": 0.01,
+          "rotation_deg": 5
+        }
+      },
+      "separate_motion": {
+        "requested_tcp_rise_max_m": 0.0,
+        "measured_tcp_rise_max_m": null,
+        "chicken_rise_max_m": null,
+        "frame": "robot_base_for_TCP_world_for_chicken",
+        "acceptance_authority": false
+      }
+    },
+    {
+      "allocation": "HC04_R0",
+      "position": {
+        "position_id": "HC04",
+        "draw_index_zero_based": 9,
+        "authored_xy_m": [
+          0.6872869716228535,
+          0.16741404819251376
+        ],
+        "authored_world_xyz_m": [
+          0.6872869716228535,
+          0.16741404819251376,
+          0.8155
+        ],
+        "rotation_wxyz": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "nearest_training_id": "R000020",
+        "nearest_training_distance_m": 0.012107180110178967,
+        "nearest_H_id": "H02",
+        "nearest_H_distance_m": 0.02642803403598896,
+        "nearest_HB_id": "HB01",
+        "nearest_HB_distance_m": 0.03327219548563996,
+        "rectangle_check": "PASS",
+        "known_prior_attempt_exact_match": false
+      },
+      "round": 0,
+      "base_diffusion_seed": 15345,
+      "environment_seed": 42,
+      "executed_commit": "3d98c85228821d955479730292d2b026fd1d63ed",
+      "first_accepted_close": {
+        "LEFT": {
+          "action": 120,
+          "chunk": 5,
+          "full_slot": 11
+        },
+        "RIGHT": {
+          "action": 120,
+          "chunk": 5,
+          "full_slot": 11
+        },
+        "BOTH": {
+          "action": 120,
+          "chunk": 5,
+          "full_slot": 11
+        }
+      },
+      "event_schedule": {
+        "close_action": 120,
+        "anchor": 1440,
+        "admission_start": 1549,
+        "decision": 1609,
+        "confirmation": 1610,
+        "rise_end": 2159,
+        "room_reference": 2159,
+        "room_start": 2160,
+        "score_end": 2399,
+        "total_actions": 200,
+        "admission_count": 61,
+        "rise_count": 550,
+        "room_count": 240,
+        "tail_count": 0
+      },
+      "V3C_VERDICT": "FAIL",
+      "FIRST_V3C_FAILURE_GATE": "ADMISSION",
+      "SCORE_EVIDENCE_STATUS": "ESTABLISHED",
+      "PRIMARY_VERDICT_ESTABLISHED": true,
+      "PROCESS_COMPLETION": "STOPPED",
+      "CLEANUP_STATUS": "CLEAN",
+      "rise": {
+        "status": "NOT_EVALUABLE",
+        "maximum_m": null
+      },
+      "world_room": {
+        "status": "NOT_EVALUABLE",
+        "reference": [
+          1079,
+          1
+        ],
+        "required_samples": 240,
+        "samples": 0,
+        "maximum_displacement_m": null,
+        "maximum_rotation_deg": null,
+        "limits": {
+          "displacement_m": 0.01,
+          "rotation_deg": 5
+        }
+      },
+      "separate_motion": {
+        "requested_tcp_rise_max_m": 0.0,
+        "measured_tcp_rise_max_m": null,
+        "chicken_rise_max_m": null,
+        "frame": "robot_base_for_TCP_world_for_chicken",
+        "acceptance_authority": false
+      }
+    },
+    {
+      "allocation": "HC05_R0",
+      "position": {
+        "position_id": "HC05",
+        "draw_index_zero_based": 16,
+        "authored_xy_m": [
+          0.6550067125612443,
+          0.009531440134910783
+        ],
+        "authored_world_xyz_m": [
+          0.6550067125612443,
+          0.009531440134910783,
+          0.8155
+        ],
+        "rotation_wxyz": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "nearest_training_id": "R000062",
+        "nearest_training_distance_m": 0.015536474533094393,
+        "nearest_H_id": "H03",
+        "nearest_H_distance_m": 0.016254449244906426,
+        "nearest_HB_id": "HB07",
+        "nearest_HB_distance_m": 0.03115708652569956,
+        "rectangle_check": "PASS",
+        "known_prior_attempt_exact_match": false
+      },
+      "round": 0,
+      "base_diffusion_seed": 15345,
+      "environment_seed": 42,
+      "executed_commit": "3d98c85228821d955479730292d2b026fd1d63ed",
+      "first_accepted_close": {
+        "LEFT": {
+          "action": 120,
+          "chunk": 5,
+          "full_slot": 11
+        },
+        "RIGHT": {
+          "action": 120,
+          "chunk": 5,
+          "full_slot": 11
+        },
+        "BOTH": {
+          "action": 120,
+          "chunk": 5,
+          "full_slot": 11
+        }
+      },
+      "event_schedule": {
+        "close_action": 120,
+        "anchor": 1440,
+        "admission_start": 1549,
+        "decision": 1609,
+        "confirmation": 1610,
+        "rise_end": 2159,
+        "room_reference": 2159,
+        "room_start": 2160,
+        "score_end": 2399,
+        "total_actions": 200,
+        "admission_count": 61,
+        "rise_count": 550,
+        "room_count": 240,
+        "tail_count": 0
+      },
+      "V3C_VERDICT": "FAIL",
+      "FIRST_V3C_FAILURE_GATE": "ADMISSION",
+      "SCORE_EVIDENCE_STATUS": "ESTABLISHED",
+      "PRIMARY_VERDICT_ESTABLISHED": true,
+      "PROCESS_COMPLETION": "STOPPED",
+      "CLEANUP_STATUS": "CLEAN",
+      "rise": {
+        "status": "NOT_EVALUABLE",
+        "maximum_m": null
+      },
+      "world_room": {
+        "status": "NOT_EVALUABLE",
+        "reference": [
+          1079,
+          1
+        ],
+        "required_samples": 240,
+        "samples": 0,
+        "maximum_displacement_m": null,
+        "maximum_rotation_deg": null,
+        "limits": {
+          "displacement_m": 0.01,
+          "rotation_deg": 5
+        }
+      },
+      "separate_motion": {
+        "requested_tcp_rise_max_m": 0.0,
+        "measured_tcp_rise_max_m": null,
+        "chicken_rise_max_m": null,
+        "frame": "robot_base_for_TCP_world_for_chicken",
+        "acceptance_authority": false
+      }
+    },
+    {
+      "allocation": "HC06_R0",
+      "position": {
+        "position_id": "HC06",
+        "draw_index_zero_based": 19,
+        "authored_xy_m": [
+          0.6608007853866696,
+          0.2914155397573648
+        ],
+        "authored_world_xyz_m": [
+          0.6608007853866696,
+          0.2914155397573648,
+          0.8155
+        ],
+        "rotation_wxyz": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "nearest_training_id": "R000045",
+        "nearest_training_distance_m": 0.017491104539272884,
+        "nearest_H_id": "H10",
+        "nearest_H_distance_m": 0.04200050419589271,
+        "nearest_HB_id": "HB04",
+        "nearest_HB_distance_m": 0.03534862564511321,
+        "rectangle_check": "PASS",
+        "known_prior_attempt_exact_match": false
+      },
+      "round": 0,
+      "base_diffusion_seed": 15345,
+      "environment_seed": 42,
+      "executed_commit": "3d98c85228821d955479730292d2b026fd1d63ed",
+      "first_accepted_close": {
+        "LEFT": {
+          "action": 132,
+          "chunk": 6,
+          "full_slot": 11
+        },
+        "RIGHT": {
+          "action": 132,
+          "chunk": 6,
+          "full_slot": 11
+        },
+        "BOTH": {
+          "action": 132,
+          "chunk": 6,
+          "full_slot": 11
+        }
+      },
+      "event_schedule": {
+        "close_action": 132,
+        "anchor": 1584,
+        "admission_start": 1693,
+        "decision": 1753,
+        "confirmation": 1754,
+        "rise_end": 2303,
+        "room_reference": 2303,
+        "room_start": 2304,
+        "score_end": 2543,
+        "total_actions": 212,
+        "admission_count": 61,
+        "rise_count": 550,
+        "room_count": 240,
+        "tail_count": 0
+      },
+      "V3C_VERDICT": "PASS",
+      "FIRST_V3C_FAILURE_GATE": null,
+      "SCORE_EVIDENCE_STATUS": "ESTABLISHED",
+      "PRIMARY_VERDICT_ESTABLISHED": true,
+      "PROCESS_COMPLETION": "COMPLETE",
+      "CLEANUP_STATUS": "CLEAN",
+      "rise": {
+        "status": "PASS",
+        "maximum_m": 0.07907027006149292,
+        "baseline_world_z_m": 0.8059256672859192,
+        "maximum_sample": [
+          1085,
+          1
+        ]
+      },
+      "world_room": {
+        "status": "PASS",
+        "reference": [
+          1151,
+          1
+        ],
+        "required_samples": 240,
+        "samples": 240,
+        "maximum_displacement_m": 0.0021366726783434847,
+        "maximum_rotation_deg": 0.09679803172686503,
+        "limits": {
+          "displacement_m": 0.01,
+          "rotation_deg": 5
+        },
+        "reference_world_wxyz": [
+          0.6520513296127319,
+          0.298419326543808,
+          0.8838704228401184,
+          0.9997146129608154,
+          -0.008044881746172905,
+          0.01796620711684227,
+          0.01352878101170063
+        ],
+        "maximum_displacement_sample": [
+          1260,
+          1
+        ],
+        "maximum_rotation_sample": [
+          1261,
+          1
+        ]
+      },
+      "separate_motion": {
+        "requested_tcp_rise_max_m": 0.08107718825340271,
+        "measured_tcp_rise_max_m": 0.07926492357095405,
+        "chicken_rise_max_m": 0.07907027006149292,
+        "frame": "robot_base_for_TCP_world_for_chicken",
+        "acceptance_authority": false
+      }
+    },
+    {
+      "allocation": "HC07_R0",
+      "position": {
+        "position_id": "HC07",
+        "draw_index_zero_based": 28,
+        "authored_xy_m": [
+          0.6586981621724224,
+          0.00984905763558629
+        ],
+        "authored_world_xyz_m": [
+          0.6586981621724224,
+          0.00984905763558629,
+          0.8155
+        ],
+        "rotation_wxyz": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "nearest_training_id": "R000062",
+        "nearest_training_distance_m": 0.017074148033379453,
+        "nearest_H_id": "H03",
+        "nearest_H_distance_m": 0.01275935822740417,
+        "nearest_HB_id": "HB07",
+        "nearest_HB_distance_m": 0.02988871846565626,
+        "rectangle_check": "PASS",
+        "known_prior_attempt_exact_match": false
+      },
+      "round": 0,
+      "base_diffusion_seed": 15345,
+      "environment_seed": 42,
+      "executed_commit": "3d98c85228821d955479730292d2b026fd1d63ed",
+      "first_accepted_close": {
+        "LEFT": {
+          "action": 132,
+          "chunk": 6,
+          "full_slot": 11
+        },
+        "RIGHT": {
+          "action": 132,
+          "chunk": 6,
+          "full_slot": 11
+        },
+        "BOTH": {
+          "action": 132,
+          "chunk": 6,
+          "full_slot": 11
+        }
+      },
+      "event_schedule": {
+        "close_action": 132,
+        "anchor": 1584,
+        "admission_start": 1693,
+        "decision": 1753,
+        "confirmation": 1754,
+        "rise_end": 2303,
+        "room_reference": 2303,
+        "room_start": 2304,
+        "score_end": 2543,
+        "total_actions": 212,
+        "admission_count": 61,
+        "rise_count": 550,
+        "room_count": 240,
+        "tail_count": 0
+      },
+      "V3C_VERDICT": "PASS",
+      "FIRST_V3C_FAILURE_GATE": null,
+      "SCORE_EVIDENCE_STATUS": "ESTABLISHED",
+      "PRIMARY_VERDICT_ESTABLISHED": true,
+      "PROCESS_COMPLETION": "COMPLETE",
+      "CLEANUP_STATUS": "CLEAN",
+      "rise": {
+        "status": "PASS",
+        "maximum_m": 0.05834853649139404,
+        "baseline_world_z_m": 0.8160226345062256,
+        "maximum_sample": [
+          1115,
+          1
+        ]
+      },
+      "world_room": {
+        "status": "PASS",
+        "reference": [
+          1151,
+          1
+        ],
+        "required_samples": 240,
+        "samples": 240,
+        "maximum_displacement_m": 0.004942261905747456,
+        "maximum_rotation_deg": 0.11209171250855383,
+        "limits": {
+          "displacement_m": 0.01,
+          "rotation_deg": 5
+        },
+        "reference_world_wxyz": [
+          0.6544496417045593,
+          0.03928918018937111,
+          0.8734561800956726,
+          0.9984521269798279,
+          -0.05157914385199547,
+          0.020740732550621033,
+          0.0016329404897987843
+        ],
+        "maximum_displacement_sample": [
+          1262,
+          1
+        ],
+        "maximum_rotation_sample": [
+          1168,
+          0
+        ]
+      },
+      "separate_motion": {
+        "requested_tcp_rise_max_m": 0.05707547068595886,
+        "measured_tcp_rise_max_m": 0.058189479452542825,
+        "chicken_rise_max_m": 0.05834853649139404,
+        "frame": "robot_base_for_TCP_world_for_chicken",
+        "acceptance_authority": false
+      }
+    },
+    {
+      "allocation": "HC08_R0",
+      "position": {
+        "position_id": "HC08",
+        "draw_index_zero_based": 30,
+        "authored_xy_m": [
+          0.6732028231159473,
+          0.08678128744154463
+        ],
+        "authored_world_xyz_m": [
+          0.6732028231159473,
+          0.08678128744154463,
+          0.8155
+        ],
+        "rotation_wxyz": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "nearest_training_id": "R000067",
+        "nearest_training_distance_m": 0.017570604239091056,
+        "nearest_H_id": "H06",
+        "nearest_H_distance_m": 0.018414805053139114,
+        "nearest_HB_id": "HB10",
+        "nearest_HB_distance_m": 0.013135063314468962,
+        "rectangle_check": "PASS",
+        "known_prior_attempt_exact_match": false
+      },
+      "round": 0,
+      "base_diffusion_seed": 15345,
+      "environment_seed": 42,
+      "executed_commit": "3d98c85228821d955479730292d2b026fd1d63ed",
+      "first_accepted_close": {
+        "LEFT": {
+          "action": 132,
+          "chunk": 6,
+          "full_slot": 11
+        },
+        "RIGHT": {
+          "action": 132,
+          "chunk": 6,
+          "full_slot": 11
+        },
+        "BOTH": {
+          "action": 132,
+          "chunk": 6,
+          "full_slot": 11
+        }
+      },
+      "event_schedule": {
+        "close_action": 132,
+        "anchor": 1584,
+        "admission_start": 1693,
+        "decision": 1753,
+        "confirmation": 1754,
+        "rise_end": 2303,
+        "room_reference": 2303,
+        "room_start": 2304,
+        "score_end": 2543,
+        "total_actions": 212,
+        "admission_count": 61,
+        "rise_count": 550,
+        "room_count": 240,
+        "tail_count": 0
+      },
+      "V3C_VERDICT": "PASS",
+      "FIRST_V3C_FAILURE_GATE": null,
+      "SCORE_EVIDENCE_STATUS": "ESTABLISHED",
+      "PRIMARY_VERDICT_ESTABLISHED": true,
+      "PROCESS_COMPLETION": "COMPLETE",
+      "CLEANUP_STATUS": "CLEAN",
+      "rise": {
+        "status": "PASS",
+        "maximum_m": 0.0584145188331604,
+        "baseline_world_z_m": 0.814266562461853,
+        "maximum_sample": [
+          1115,
+          0
+        ]
+      },
+      "world_room": {
+        "status": "PASS",
+        "reference": [
+          1151,
+          1
+        ],
+        "required_samples": 240,
+        "samples": 240,
+        "maximum_displacement_m": 0.004647849380903843,
+        "maximum_rotation_deg": 0.13157051802459713,
+        "limits": {
+          "displacement_m": 0.01,
+          "rotation_deg": 5
+        },
+        "reference_world_wxyz": [
+          0.6631482839584351,
+          0.10360224545001984,
+          0.8718006610870361,
+          0.9981444478034973,
+          -0.0560026578605175,
+          0.02383224479854107,
+          0.0018346424913033843
+        ],
+        "maximum_displacement_sample": [
+          1242,
+          0
+        ],
+        "maximum_rotation_sample": [
+          1168,
+          0
+        ]
+      },
+      "separate_motion": {
+        "requested_tcp_rise_max_m": 0.056927427649497986,
+        "measured_tcp_rise_max_m": 0.058333550320322614,
+        "chicken_rise_max_m": 0.0584145188331604,
+        "frame": "robot_base_for_TCP_world_for_chicken",
+        "acceptance_authority": false
+      }
+    },
+    {
+      "allocation": "HC09_R0",
+      "position": {
+        "position_id": "HC09",
+        "draw_index_zero_based": 34,
+        "authored_xy_m": [
+          0.6696524297800783,
+          0.09606626723803434
+        ],
+        "authored_world_xyz_m": [
+          0.6696524297800783,
+          0.09606626723803434,
+          0.8155
+        ],
+        "rotation_wxyz": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "nearest_training_id": "R000047",
+        "nearest_training_distance_m": 0.016363697396237376,
+        "nearest_H_id": "H06",
+        "nearest_H_distance_m": 0.01508286637266647,
+        "nearest_HB_id": "HB09",
+        "nearest_HB_distance_m": 0.014704357509744687,
+        "rectangle_check": "PASS",
+        "known_prior_attempt_exact_match": false
+      },
+      "round": 0,
+      "base_diffusion_seed": 15345,
+      "environment_seed": 42,
+      "executed_commit": "3d98c85228821d955479730292d2b026fd1d63ed",
+      "first_accepted_close": {
+        "LEFT": {
+          "action": 120,
+          "chunk": 5,
+          "full_slot": 11
+        },
+        "RIGHT": {
+          "action": 120,
+          "chunk": 5,
+          "full_slot": 11
+        },
+        "BOTH": {
+          "action": 120,
+          "chunk": 5,
+          "full_slot": 11
+        }
+      },
+      "event_schedule": {
+        "close_action": 120,
+        "anchor": 1440,
+        "admission_start": 1549,
+        "decision": 1609,
+        "confirmation": 1610,
+        "rise_end": 2159,
+        "room_reference": 2159,
+        "room_start": 2160,
+        "score_end": 2399,
+        "total_actions": 200,
+        "admission_count": 61,
+        "rise_count": 550,
+        "room_count": 240,
+        "tail_count": 0
+      },
+      "V3C_VERDICT": "PASS",
+      "FIRST_V3C_FAILURE_GATE": null,
+      "SCORE_EVIDENCE_STATUS": "ESTABLISHED",
+      "PRIMARY_VERDICT_ESTABLISHED": true,
+      "PROCESS_COMPLETION": "COMPLETE",
+      "CLEANUP_STATUS": "CLEAN",
+      "rise": {
+        "status": "PASS",
+        "maximum_m": 0.05659151077270508,
+        "baseline_world_z_m": 0.8187310695648193,
+        "maximum_sample": [
+          1055,
+          1
+        ]
+      },
+      "world_room": {
+        "status": "PASS",
+        "reference": [
+          1079,
+          1
+        ],
+        "required_samples": 240,
+        "samples": 240,
+        "maximum_displacement_m": 0.004435398111471027,
+        "maximum_rotation_deg": 0.058121196576285866,
+        "limits": {
+          "displacement_m": 0.01,
+          "rotation_deg": 5
+        },
+        "reference_world_wxyz": [
+          0.6492457389831543,
+          0.10769125819206238,
+          0.8751212954521179,
+          0.9981124997138977,
+          -0.018786119297146797,
+          0.02572638913989067,
+          0.052502844482660294
+        ],
+        "maximum_displacement_sample": [
+          1199,
+          1
+        ],
+        "maximum_rotation_sample": [
+          1168,
+          1
+        ]
+      },
+      "separate_motion": {
+        "requested_tcp_rise_max_m": 0.055401355028152466,
+        "measured_tcp_rise_max_m": 0.05647453870969488,
+        "chicken_rise_max_m": 0.05659151077270508,
+        "frame": "robot_base_for_TCP_world_for_chicken",
+        "acceptance_authority": false
+      }
+    },
+    {
+      "allocation": "HC10_R0",
+      "position": {
+        "position_id": "HC10",
+        "draw_index_zero_based": 36,
+        "authored_xy_m": [
+          0.6664625241370362,
+          0.09921277183544311
+        ],
+        "authored_world_xyz_m": [
+          0.6664625241370362,
+          0.09921277183544311,
+          0.8155
+        ],
+        "rotation_wxyz": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "nearest_training_id": "R000002",
+        "nearest_training_distance_m": 0.016256304351815146,
+        "nearest_H_id": "H06",
+        "nearest_H_distance_m": 0.013652522873697176,
+        "nearest_HB_id": "HB09",
+        "nearest_HB_distance_m": 0.012557998417471827,
+        "rectangle_check": "PASS",
+        "known_prior_attempt_exact_match": false
+      },
+      "round": 0,
+      "base_diffusion_seed": 15345,
+      "environment_seed": 42,
+      "executed_commit": "3d98c85228821d955479730292d2b026fd1d63ed",
+      "first_accepted_close": {
+        "LEFT": {
+          "action": 132,
+          "chunk": 6,
+          "full_slot": 11
+        },
+        "RIGHT": {
+          "action": 132,
+          "chunk": 6,
+          "full_slot": 11
+        },
+        "BOTH": {
+          "action": 132,
+          "chunk": 6,
+          "full_slot": 11
+        }
+      },
+      "event_schedule": {
+        "close_action": 132,
+        "anchor": 1584,
+        "admission_start": 1693,
+        "decision": 1753,
+        "confirmation": 1754,
+        "rise_end": 2303,
+        "room_reference": 2303,
+        "room_start": 2304,
+        "score_end": 2543,
+        "total_actions": 212,
+        "admission_count": 61,
+        "rise_count": 550,
+        "room_count": 240,
+        "tail_count": 0
+      },
+      "V3C_VERDICT": "PASS",
+      "FIRST_V3C_FAILURE_GATE": null,
+      "SCORE_EVIDENCE_STATUS": "ESTABLISHED",
+      "PRIMARY_VERDICT_ESTABLISHED": true,
+      "PROCESS_COMPLETION": "COMPLETE",
+      "CLEANUP_STATUS": "CLEAN",
+      "rise": {
+        "status": "PASS",
+        "maximum_m": 0.0579683780670166,
+        "baseline_world_z_m": 0.8166590332984924,
+        "maximum_sample": [
+          1115,
+          0
+        ]
+      },
+      "world_room": {
+        "status": "PASS",
+        "reference": [
+          1151,
+          1
+        ],
+        "required_samples": 240,
+        "samples": 240,
+        "maximum_displacement_m": 0.0042058809008777365,
+        "maximum_rotation_deg": 0.1328578663088659,
+        "limits": {
+          "displacement_m": 0.01,
+          "rotation_deg": 5
+        },
+        "reference_world_wxyz": [
+          0.6563577055931091,
+          0.11453450471162796,
+          0.873776912689209,
+          0.9985050559043884,
+          -0.04945243149995804,
+          0.02319766953587532,
+          0.001990269171074033
+        ],
+        "maximum_displacement_sample": [
+          1240,
+          1
+        ],
+        "maximum_rotation_sample": [
+          1167,
+          1
+        ]
+      },
+      "separate_motion": {
+        "requested_tcp_rise_max_m": 0.05695769190788269,
+        "measured_tcp_rise_max_m": 0.057815063995652394,
+        "chicken_rise_max_m": 0.0579683780670166,
+        "frame": "robot_base_for_TCP_world_for_chicken",
+        "acceptance_authority": false
+      }
+    },
+    {
+      "allocation": "HC01_R1",
+      "position": {
+        "position_id": "HC01",
+        "draw_index_zero_based": 2,
+        "authored_xy_m": [
+          0.6694885857605405,
+          0.054859911649051615
+        ],
+        "authored_world_xyz_m": [
+          0.6694885857605405,
+          0.054859911649051615,
+          0.8155
+        ],
+        "rotation_wxyz": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "nearest_training_id": "R000054",
+        "nearest_training_distance_m": 0.01411288164485166,
+        "nearest_H_id": "H05",
+        "nearest_H_distance_m": 0.028552622643037363,
+        "nearest_HB_id": "HB07",
+        "nearest_HB_distance_m": 0.016433840882267445,
+        "rectangle_check": "PASS",
+        "known_prior_attempt_exact_match": false
+      },
+      "round": 1,
+      "base_diffusion_seed": 16345,
+      "environment_seed": 42,
+      "executed_commit": "3d98c85228821d955479730292d2b026fd1d63ed",
+      "first_accepted_close": {
+        "LEFT": {
+          "action": 120,
+          "chunk": 5,
+          "full_slot": 11
+        },
+        "RIGHT": {
+          "action": 120,
+          "chunk": 5,
+          "full_slot": 11
+        },
+        "BOTH": {
+          "action": 120,
+          "chunk": 5,
+          "full_slot": 11
+        }
+      },
+      "event_schedule": {
+        "close_action": 120,
+        "anchor": 1440,
+        "admission_start": 1549,
+        "decision": 1609,
+        "confirmation": 1610,
+        "rise_end": 2159,
+        "room_reference": 2159,
+        "room_start": 2160,
+        "score_end": 2399,
+        "total_actions": 200,
+        "admission_count": 61,
+        "rise_count": 550,
+        "room_count": 240,
+        "tail_count": 0
+      },
+      "V3C_VERDICT": "PASS",
+      "FIRST_V3C_FAILURE_GATE": null,
+      "SCORE_EVIDENCE_STATUS": "ESTABLISHED",
+      "PRIMARY_VERDICT_ESTABLISHED": true,
+      "PROCESS_COMPLETION": "COMPLETE",
+      "CLEANUP_STATUS": "CLEAN",
+      "rise": {
+        "status": "PASS",
+        "maximum_m": 0.07765352725982666,
+        "baseline_world_z_m": 0.806632399559021,
+        "maximum_sample": [
+          1046,
+          1
+        ]
+      },
+      "world_room": {
+        "status": "PASS",
+        "reference": [
+          1079,
+          1
+        ],
+        "required_samples": 240,
+        "samples": 240,
+        "maximum_displacement_m": 0.004344759616679925,
+        "maximum_rotation_deg": 0.11277069092438552,
+        "limits": {
+          "displacement_m": 0.01,
+          "rotation_deg": 5
+        },
+        "reference_world_wxyz": [
+          0.6640795469284058,
+          0.07139486074447632,
+          0.8837836384773254,
+          0.9994041323661804,
+          -0.020740915089845657,
+          0.01658322662115097,
+          -0.022045068442821503
+        ],
+        "maximum_displacement_sample": [
+          1187,
+          1
+        ],
+        "maximum_rotation_sample": [
+          1185,
+          1
+        ]
+      },
+      "separate_motion": {
+        "requested_tcp_rise_max_m": 0.08130589872598648,
+        "measured_tcp_rise_max_m": 0.07752417128255118,
+        "chicken_rise_max_m": 0.07765352725982666,
+        "frame": "robot_base_for_TCP_world_for_chicken",
+        "acceptance_authority": false
+      }
+    },
+    {
+      "allocation": "HC02_R1",
+      "position": {
+        "position_id": "HC02",
+        "draw_index_zero_based": 6,
+        "authored_xy_m": [
+          0.6931872929281494,
+          -0.00767338821993384
+        ],
+        "authored_world_xyz_m": [
+          0.6931872929281494,
+          -0.00767338821993384,
+          0.8155
+        ],
+        "rotation_wxyz": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "nearest_training_id": "R000062",
+        "nearest_training_distance_m": 0.04186610161772471,
+        "nearest_H_id": "H03",
+        "nearest_H_distance_m": 0.026206189609996274,
+        "nearest_HB_id": "HB07",
+        "nearest_HB_distance_m": 0.05471452446913196,
+        "rectangle_check": "PASS",
+        "known_prior_attempt_exact_match": false
+      },
+      "round": 1,
+      "base_diffusion_seed": 16345,
+      "environment_seed": 42,
+      "executed_commit": "3d98c85228821d955479730292d2b026fd1d63ed",
+      "first_accepted_close": {
+        "LEFT": {
+          "action": 120,
+          "chunk": 5,
+          "full_slot": 11
+        },
+        "RIGHT": {
+          "action": 120,
+          "chunk": 5,
+          "full_slot": 11
+        },
+        "BOTH": {
+          "action": 120,
+          "chunk": 5,
+          "full_slot": 11
+        }
+      },
+      "event_schedule": {
+        "close_action": 120,
+        "anchor": 1440,
+        "admission_start": 1549,
+        "decision": 1609,
+        "confirmation": 1610,
+        "rise_end": 2159,
+        "room_reference": 2159,
+        "room_start": 2160,
+        "score_end": 2399,
+        "total_actions": 200,
+        "admission_count": 61,
+        "rise_count": 550,
+        "room_count": 240,
+        "tail_count": 0
+      },
+      "V3C_VERDICT": "FAIL",
+      "FIRST_V3C_FAILURE_GATE": "ADMISSION",
+      "SCORE_EVIDENCE_STATUS": "ESTABLISHED",
+      "PRIMARY_VERDICT_ESTABLISHED": true,
+      "PROCESS_COMPLETION": "STOPPED",
+      "CLEANUP_STATUS": "CLEAN",
+      "rise": {
+        "status": "NOT_EVALUABLE",
+        "maximum_m": null
+      },
+      "world_room": {
+        "status": "NOT_EVALUABLE",
+        "reference": [
+          1079,
+          1
+        ],
+        "required_samples": 240,
+        "samples": 0,
+        "maximum_displacement_m": null,
+        "maximum_rotation_deg": null,
+        "limits": {
+          "displacement_m": 0.01,
+          "rotation_deg": 5
+        }
+      },
+      "separate_motion": {
+        "requested_tcp_rise_max_m": 0.0,
+        "measured_tcp_rise_max_m": null,
+        "chicken_rise_max_m": null,
+        "frame": "robot_base_for_TCP_world_for_chicken",
+        "acceptance_authority": false
+      }
+    },
+    {
+      "allocation": "HC03_R1",
+      "position": {
+        "position_id": "HC03",
+        "draw_index_zero_based": 7,
+        "authored_xy_m": [
+          0.6801895917302738,
+          0.19405871339582204
+        ],
+        "authored_world_xyz_m": [
+          0.6801895917302738,
+          0.19405871339582204,
+          0.8155
+        ],
+        "rotation_wxyz": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "nearest_training_id": "R000028",
+        "nearest_training_distance_m": 0.011100771776918943,
+        "nearest_H_id": "H02",
+        "nearest_H_distance_m": 0.02859949078264894,
+        "nearest_HB_id": "HB01",
+        "nearest_HB_distance_m": 0.010169950167503784,
+        "rectangle_check": "PASS",
+        "known_prior_attempt_exact_match": false
+      },
+      "round": 1,
+      "base_diffusion_seed": 16345,
+      "environment_seed": 42,
+      "executed_commit": "3d98c85228821d955479730292d2b026fd1d63ed",
+      "first_accepted_close": {
+        "LEFT": {
+          "action": 120,
+          "chunk": 5,
+          "full_slot": 11
+        },
+        "RIGHT": {
+          "action": 120,
+          "chunk": 5,
+          "full_slot": 11
+        },
+        "BOTH": {
+          "action": 120,
+          "chunk": 5,
+          "full_slot": 11
+        }
+      },
+      "event_schedule": {
+        "close_action": 120,
+        "anchor": 1440,
+        "admission_start": 1549,
+        "decision": 1609,
+        "confirmation": 1610,
+        "rise_end": 2159,
+        "room_reference": 2159,
+        "room_start": 2160,
+        "score_end": 2399,
+        "total_actions": 200,
+        "admission_count": 61,
+        "rise_count": 550,
+        "room_count": 240,
+        "tail_count": 0
+      },
+      "V3C_VERDICT": "PASS",
+      "FIRST_V3C_FAILURE_GATE": null,
+      "SCORE_EVIDENCE_STATUS": "ESTABLISHED",
+      "PRIMARY_VERDICT_ESTABLISHED": true,
+      "PROCESS_COMPLETION": "COMPLETE",
+      "CLEANUP_STATUS": "CLEAN",
+      "rise": {
+        "status": "PASS",
+        "maximum_m": 0.07455331087112427,
+        "baseline_world_z_m": 0.8061023950576782,
+        "maximum_sample": [
+          1047,
+          1
+        ]
+      },
+      "world_room": {
+        "status": "PASS",
+        "reference": [
+          1079,
+          1
+        ],
+        "required_samples": 240,
+        "samples": 240,
+        "maximum_displacement_m": 0.0023590197048957233,
+        "maximum_rotation_deg": 0.0741283585895879,
+        "limits": {
+          "displacement_m": 0.01,
+          "rotation_deg": 5
+        },
+        "reference_world_wxyz": [
+          0.6604198813438416,
+          0.2043081521987915,
+          0.8804022073745728,
+          0.9990893006324768,
+          -0.0019672575872391462,
+          0.028419319540262222,
+          0.03176475316286087
+        ],
+        "maximum_displacement_sample": [
+          1167,
+          1
+        ],
+        "maximum_rotation_sample": [
+          1168,
+          0
+        ]
+      },
+      "separate_motion": {
+        "requested_tcp_rise_max_m": 0.0802081972360611,
+        "measured_tcp_rise_max_m": 0.07435882506122582,
+        "chicken_rise_max_m": 0.07455331087112427,
+        "frame": "robot_base_for_TCP_world_for_chicken",
+        "acceptance_authority": false
+      }
+    },
+    {
+      "allocation": "HC04_R1",
+      "position": {
+        "position_id": "HC04",
+        "draw_index_zero_based": 9,
+        "authored_xy_m": [
+          0.6872869716228535,
+          0.16741404819251376
+        ],
+        "authored_world_xyz_m": [
+          0.6872869716228535,
+          0.16741404819251376,
+          0.8155
+        ],
+        "rotation_wxyz": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "nearest_training_id": "R000020",
+        "nearest_training_distance_m": 0.012107180110178967,
+        "nearest_H_id": "H02",
+        "nearest_H_distance_m": 0.02642803403598896,
+        "nearest_HB_id": "HB01",
+        "nearest_HB_distance_m": 0.03327219548563996,
+        "rectangle_check": "PASS",
+        "known_prior_attempt_exact_match": false
+      },
+      "round": 1,
+      "base_diffusion_seed": 16345,
+      "environment_seed": 42,
+      "executed_commit": "3d98c85228821d955479730292d2b026fd1d63ed",
+      "first_accepted_close": {
+        "LEFT": {
+          "action": 120,
+          "chunk": 5,
+          "full_slot": 11
+        },
+        "RIGHT": {
+          "action": 120,
+          "chunk": 5,
+          "full_slot": 11
+        },
+        "BOTH": {
+          "action": 120,
+          "chunk": 5,
+          "full_slot": 11
+        }
+      },
+      "event_schedule": {
+        "close_action": 120,
+        "anchor": 1440,
+        "admission_start": 1549,
+        "decision": 1609,
+        "confirmation": 1610,
+        "rise_end": 2159,
+        "room_reference": 2159,
+        "room_start": 2160,
+        "score_end": 2399,
+        "total_actions": 200,
+        "admission_count": 61,
+        "rise_count": 550,
+        "room_count": 240,
+        "tail_count": 0
+      },
+      "V3C_VERDICT": "FAIL",
+      "FIRST_V3C_FAILURE_GATE": "WORLD_ROOM",
+      "SCORE_EVIDENCE_STATUS": "ESTABLISHED",
+      "PRIMARY_VERDICT_ESTABLISHED": true,
+      "PROCESS_COMPLETION": "COMPLETE",
+      "CLEANUP_STATUS": "CLEAN",
+      "rise": {
+        "status": "PASS",
+        "maximum_m": 0.05107969045639038,
+        "baseline_world_z_m": 0.8063192367553711,
+        "maximum_sample": [
+          1079,
+          1
+        ]
+      },
+      "world_room": {
+        "status": "FAIL",
+        "reference": [
+          1079,
+          1
+        ],
+        "required_samples": 240,
+        "samples": 240,
+        "maximum_displacement_m": 0.028061201410343947,
+        "maximum_rotation_deg": 0.3326280145664279,
+        "limits": {
+          "displacement_m": 0.01,
+          "rotation_deg": 5
+        },
+        "reference_world_wxyz": [
+          0.6690837740898132,
+          0.1815241277217865,
+          0.8573989272117615,
+          0.9996103644371033,
+          -0.017750518396496773,
+          0.019581755623221397,
+          0.008977663703262806
+        ],
+        "maximum_displacement_sample": [
+          1157,
+          0
+        ],
+        "maximum_rotation_sample": [
+          1175,
+          0
+        ]
+      },
+      "separate_motion": {
+        "requested_tcp_rise_max_m": 0.06736917793750763,
+        "measured_tcp_rise_max_m": 0.051548383873618375,
+        "chicken_rise_max_m": 0.05107969045639038,
+        "frame": "robot_base_for_TCP_world_for_chicken",
+        "acceptance_authority": false
+      }
+    },
+    {
+      "allocation": "HC05_R1",
+      "position": {
+        "position_id": "HC05",
+        "draw_index_zero_based": 16,
+        "authored_xy_m": [
+          0.6550067125612443,
+          0.009531440134910783
+        ],
+        "authored_world_xyz_m": [
+          0.6550067125612443,
+          0.009531440134910783,
+          0.8155
+        ],
+        "rotation_wxyz": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "nearest_training_id": "R000062",
+        "nearest_training_distance_m": 0.015536474533094393,
+        "nearest_H_id": "H03",
+        "nearest_H_distance_m": 0.016254449244906426,
+        "nearest_HB_id": "HB07",
+        "nearest_HB_distance_m": 0.03115708652569956,
+        "rectangle_check": "PASS",
+        "known_prior_attempt_exact_match": false
+      },
+      "round": 1,
+      "base_diffusion_seed": 16345,
+      "environment_seed": 42,
+      "executed_commit": "3d98c85228821d955479730292d2b026fd1d63ed",
+      "first_accepted_close": {
+        "LEFT": {
+          "action": 108,
+          "chunk": 4,
+          "full_slot": 11
+        },
+        "RIGHT": {
+          "action": 108,
+          "chunk": 4,
+          "full_slot": 11
+        },
+        "BOTH": {
+          "action": 108,
+          "chunk": 4,
+          "full_slot": 11
+        }
+      },
+      "event_schedule": {
+        "close_action": 108,
+        "anchor": 1296,
+        "admission_start": 1405,
+        "decision": 1465,
+        "confirmation": 1466,
+        "rise_end": 2015,
+        "room_reference": 2015,
+        "room_start": 2016,
+        "score_end": 2255,
+        "total_actions": 200,
+        "admission_count": 61,
+        "rise_count": 550,
+        "room_count": 240,
+        "tail_count": 144
+      },
+      "V3C_VERDICT": "PASS",
+      "FIRST_V3C_FAILURE_GATE": null,
+      "SCORE_EVIDENCE_STATUS": "ESTABLISHED",
+      "PRIMARY_VERDICT_ESTABLISHED": true,
+      "PROCESS_COMPLETION": "COMPLETE",
+      "CLEANUP_STATUS": "CLEAN",
+      "rise": {
+        "status": "PASS",
+        "maximum_m": 0.07670706510543823,
+        "baseline_world_z_m": 0.8065534830093384,
+        "maximum_sample": [
+          1007,
+          1
+        ]
+      },
+      "world_room": {
+        "status": "PASS",
+        "reference": [
+          1007,
+          1
+        ],
+        "required_samples": 240,
+        "samples": 240,
+        "maximum_displacement_m": 0.0034302582593075176,
+        "maximum_rotation_deg": 0.2907592909906497,
+        "limits": {
+          "displacement_m": 0.01,
+          "rotation_deg": 5
+        },
+        "reference_world_wxyz": [
+          0.6463642716407776,
+          0.017579495906829834,
+          0.8832605481147766,
+          0.9995163679122925,
+          -0.022982129827141762,
+          0.017740465700626373,
+          -0.011139629408717155
+        ],
+        "maximum_displacement_sample": [
+          1092,
+          1
+        ],
+        "maximum_rotation_sample": [
+          1035,
+          0
+        ]
+      },
+      "separate_motion": {
+        "requested_tcp_rise_max_m": 0.09440352767705917,
+        "measured_tcp_rise_max_m": 0.07672211227238201,
+        "chicken_rise_max_m": 0.07670706510543823,
+        "frame": "robot_base_for_TCP_world_for_chicken",
+        "acceptance_authority": false
+      }
+    },
+    {
+      "allocation": "HC06_R1",
+      "position": {
+        "position_id": "HC06",
+        "draw_index_zero_based": 19,
+        "authored_xy_m": [
+          0.6608007853866696,
+          0.2914155397573648
+        ],
+        "authored_world_xyz_m": [
+          0.6608007853866696,
+          0.2914155397573648,
+          0.8155
+        ],
+        "rotation_wxyz": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "nearest_training_id": "R000045",
+        "nearest_training_distance_m": 0.017491104539272884,
+        "nearest_H_id": "H10",
+        "nearest_H_distance_m": 0.04200050419589271,
+        "nearest_HB_id": "HB04",
+        "nearest_HB_distance_m": 0.03534862564511321,
+        "rectangle_check": "PASS",
+        "known_prior_attempt_exact_match": false
+      },
+      "round": 1,
+      "base_diffusion_seed": 16345,
+      "environment_seed": 42,
+      "executed_commit": "3d98c85228821d955479730292d2b026fd1d63ed",
+      "first_accepted_close": {
+        "LEFT": null,
+        "RIGHT": null,
+        "BOTH": null
+      },
+      "event_schedule": null,
+      "V3C_VERDICT": "FAIL",
+      "FIRST_V3C_FAILURE_GATE": "ADMISSION_NO_ANCHOR",
+      "SCORE_EVIDENCE_STATUS": "ESTABLISHED",
+      "PRIMARY_VERDICT_ESTABLISHED": true,
+      "PROCESS_COMPLETION": "COMPLETE",
+      "CLEANUP_STATUS": "CLEAN",
+      "rise": {},
+      "world_room": {},
+      "separate_motion": {
+        "requested_tcp_rise_max_m": null,
+        "measured_tcp_rise_max_m": null,
+        "chicken_rise_max_m": null,
+        "frame": "robot_base_for_TCP_world_for_chicken",
+        "acceptance_authority": false
+      }
+    },
+    {
+      "allocation": "HC07_R1",
+      "position": {
+        "position_id": "HC07",
+        "draw_index_zero_based": 28,
+        "authored_xy_m": [
+          0.6586981621724224,
+          0.00984905763558629
+        ],
+        "authored_world_xyz_m": [
+          0.6586981621724224,
+          0.00984905763558629,
+          0.8155
+        ],
+        "rotation_wxyz": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "nearest_training_id": "R000062",
+        "nearest_training_distance_m": 0.017074148033379453,
+        "nearest_H_id": "H03",
+        "nearest_H_distance_m": 0.01275935822740417,
+        "nearest_HB_id": "HB07",
+        "nearest_HB_distance_m": 0.02988871846565626,
+        "rectangle_check": "PASS",
+        "known_prior_attempt_exact_match": false
+      },
+      "round": 1,
+      "base_diffusion_seed": 16345,
+      "environment_seed": 42,
+      "executed_commit": "3d98c85228821d955479730292d2b026fd1d63ed",
+      "first_accepted_close": {
+        "LEFT": {
+          "action": 120,
+          "chunk": 5,
+          "full_slot": 11
+        },
+        "RIGHT": {
+          "action": 120,
+          "chunk": 5,
+          "full_slot": 11
+        },
+        "BOTH": {
+          "action": 120,
+          "chunk": 5,
+          "full_slot": 11
+        }
+      },
+      "event_schedule": {
+        "close_action": 120,
+        "anchor": 1440,
+        "admission_start": 1549,
+        "decision": 1609,
+        "confirmation": 1610,
+        "rise_end": 2159,
+        "room_reference": 2159,
+        "room_start": 2160,
+        "score_end": 2399,
+        "total_actions": 200,
+        "admission_count": 61,
+        "rise_count": 550,
+        "room_count": 240,
+        "tail_count": 0
+      },
+      "V3C_VERDICT": "PASS",
+      "FIRST_V3C_FAILURE_GATE": null,
+      "SCORE_EVIDENCE_STATUS": "ESTABLISHED",
+      "PRIMARY_VERDICT_ESTABLISHED": true,
+      "PROCESS_COMPLETION": "COMPLETE",
+      "CLEANUP_STATUS": "CLEAN",
+      "rise": {
+        "status": "PASS",
+        "maximum_m": 0.05783390998840332,
+        "baseline_world_z_m": 0.8213651180267334,
+        "maximum_sample": [
+          1041,
+          0
+        ]
+      },
+      "world_room": {
+        "status": "PASS",
+        "reference": [
+          1079,
+          1
+        ],
+        "required_samples": 240,
+        "samples": 240,
+        "maximum_displacement_m": 0.0030265132418938823,
+        "maximum_rotation_deg": 0.12001649772099168,
+        "limits": {
+          "displacement_m": 0.01,
+          "rotation_deg": 5
+        },
+        "reference_world_wxyz": [
+          0.6571415066719055,
+          0.0221608467400074,
+          0.8782922029495239,
+          0.9990227818489075,
+          -0.04113244637846947,
+          0.016125446185469627,
+          0.0012175502488389611
+        ],
+        "maximum_displacement_sample": [
+          1186,
+          1
+        ],
+        "maximum_rotation_sample": [
+          1168,
+          0
+        ]
+      },
+      "separate_motion": {
+        "requested_tcp_rise_max_m": 0.05593062937259674,
+        "measured_tcp_rise_max_m": 0.05767957224962583,
+        "chicken_rise_max_m": 0.05783390998840332,
+        "frame": "robot_base_for_TCP_world_for_chicken",
+        "acceptance_authority": false
+      }
+    },
+    {
+      "allocation": "HC08_R1",
+      "position": {
+        "position_id": "HC08",
+        "draw_index_zero_based": 30,
+        "authored_xy_m": [
+          0.6732028231159473,
+          0.08678128744154463
+        ],
+        "authored_world_xyz_m": [
+          0.6732028231159473,
+          0.08678128744154463,
+          0.8155
+        ],
+        "rotation_wxyz": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "nearest_training_id": "R000067",
+        "nearest_training_distance_m": 0.017570604239091056,
+        "nearest_H_id": "H06",
+        "nearest_H_distance_m": 0.018414805053139114,
+        "nearest_HB_id": "HB10",
+        "nearest_HB_distance_m": 0.013135063314468962,
+        "rectangle_check": "PASS",
+        "known_prior_attempt_exact_match": false
+      },
+      "round": 1,
+      "base_diffusion_seed": 16345,
+      "environment_seed": 42,
+      "executed_commit": "3d98c85228821d955479730292d2b026fd1d63ed",
+      "first_accepted_close": {
+        "LEFT": {
+          "action": 132,
+          "chunk": 6,
+          "full_slot": 11
+        },
+        "RIGHT": {
+          "action": 132,
+          "chunk": 6,
+          "full_slot": 11
+        },
+        "BOTH": {
+          "action": 132,
+          "chunk": 6,
+          "full_slot": 11
+        }
+      },
+      "event_schedule": {
+        "close_action": 132,
+        "anchor": 1584,
+        "admission_start": 1693,
+        "decision": 1753,
+        "confirmation": 1754,
+        "rise_end": 2303,
+        "room_reference": 2303,
+        "room_start": 2304,
+        "score_end": 2543,
+        "total_actions": 212,
+        "admission_count": 61,
+        "rise_count": 550,
+        "room_count": 240,
+        "tail_count": 0
+      },
+      "V3C_VERDICT": "PASS",
+      "FIRST_V3C_FAILURE_GATE": null,
+      "SCORE_EVIDENCE_STATUS": "ESTABLISHED",
+      "PRIMARY_VERDICT_ESTABLISHED": true,
+      "PROCESS_COMPLETION": "COMPLETE",
+      "CLEANUP_STATUS": "CLEAN",
+      "rise": {
+        "status": "PASS",
+        "maximum_m": 0.05819219350814819,
+        "baseline_world_z_m": 0.821796715259552,
+        "maximum_sample": [
+          1113,
+          0
+        ]
+      },
+      "world_room": {
+        "status": "PASS",
+        "reference": [
+          1151,
+          1
+        ],
+        "required_samples": 240,
+        "samples": 240,
+        "maximum_displacement_m": 0.003494102575911841,
+        "maximum_rotation_deg": 0.12975118872399616,
+        "limits": {
+          "displacement_m": 0.01,
+          "rotation_deg": 5
+        },
+        "reference_world_wxyz": [
+          0.6648692488670349,
+          0.1032940000295639,
+          0.8792604804039001,
+          0.999190628528595,
+          -0.03656572103500366,
+          0.01548423059284687,
+          -0.006418163422495127
+        ],
+        "maximum_displacement_sample": [
+          1261,
+          1
+        ],
+        "maximum_rotation_sample": [
+          1168,
+          0
+        ]
+      },
+      "separate_motion": {
+        "requested_tcp_rise_max_m": 0.056534767150878906,
+        "measured_tcp_rise_max_m": 0.05807969705375349,
+        "chicken_rise_max_m": 0.05819219350814819,
+        "frame": "robot_base_for_TCP_world_for_chicken",
+        "acceptance_authority": false
+      }
+    },
+    {
+      "allocation": "HC09_R1",
+      "position": {
+        "position_id": "HC09",
+        "draw_index_zero_based": 34,
+        "authored_xy_m": [
+          0.6696524297800783,
+          0.09606626723803434
+        ],
+        "authored_world_xyz_m": [
+          0.6696524297800783,
+          0.09606626723803434,
+          0.8155
+        ],
+        "rotation_wxyz": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "nearest_training_id": "R000047",
+        "nearest_training_distance_m": 0.016363697396237376,
+        "nearest_H_id": "H06",
+        "nearest_H_distance_m": 0.01508286637266647,
+        "nearest_HB_id": "HB09",
+        "nearest_HB_distance_m": 0.014704357509744687,
+        "rectangle_check": "PASS",
+        "known_prior_attempt_exact_match": false
+      },
+      "round": 1,
+      "base_diffusion_seed": 16345,
+      "environment_seed": 42,
+      "executed_commit": "3d98c85228821d955479730292d2b026fd1d63ed",
+      "first_accepted_close": {
+        "LEFT": {
+          "action": 132,
+          "chunk": 6,
+          "full_slot": 11
+        },
+        "RIGHT": {
+          "action": 132,
+          "chunk": 6,
+          "full_slot": 11
+        },
+        "BOTH": {
+          "action": 132,
+          "chunk": 6,
+          "full_slot": 11
+        }
+      },
+      "event_schedule": {
+        "close_action": 132,
+        "anchor": 1584,
+        "admission_start": 1693,
+        "decision": 1753,
+        "confirmation": 1754,
+        "rise_end": 2303,
+        "room_reference": 2303,
+        "room_start": 2304,
+        "score_end": 2543,
+        "total_actions": 212,
+        "admission_count": 61,
+        "rise_count": 550,
+        "room_count": 240,
+        "tail_count": 0
+      },
+      "V3C_VERDICT": "PASS",
+      "FIRST_V3C_FAILURE_GATE": null,
+      "SCORE_EVIDENCE_STATUS": "ESTABLISHED",
+      "PRIMARY_VERDICT_ESTABLISHED": true,
+      "PROCESS_COMPLETION": "COMPLETE",
+      "CLEANUP_STATUS": "CLEAN",
+      "rise": {
+        "status": "PASS",
+        "maximum_m": 0.05746704339981079,
+        "baseline_world_z_m": 0.8155273795127869,
+        "maximum_sample": [
+          1113,
+          1
+        ]
+      },
+      "world_room": {
+        "status": "PASS",
+        "reference": [
+          1151,
+          1
+        ],
+        "required_samples": 240,
+        "samples": 240,
+        "maximum_displacement_m": 0.003344002272446089,
+        "maximum_rotation_deg": 0.12500783579554292,
+        "limits": {
+          "displacement_m": 0.01,
+          "rotation_deg": 5
+        },
+        "reference_world_wxyz": [
+          0.6605708599090576,
+          0.11153531819581985,
+          0.8723084330558777,
+          0.9981472492218018,
+          -0.05668041482567787,
+          0.022069286555051804,
+          0.0014890137827023864
+        ],
+        "maximum_displacement_sample": [
+          1261,
+          1
+        ],
+        "maximum_rotation_sample": [
+          1168,
+          1
+        ]
+      },
+      "separate_motion": {
+        "requested_tcp_rise_max_m": 0.05595412850379944,
+        "measured_tcp_rise_max_m": 0.05739309487054289,
+        "chicken_rise_max_m": 0.05746704339981079,
+        "frame": "robot_base_for_TCP_world_for_chicken",
+        "acceptance_authority": false
+      }
+    },
+    {
+      "allocation": "HC10_R1",
+      "position": {
+        "position_id": "HC10",
+        "draw_index_zero_based": 36,
+        "authored_xy_m": [
+          0.6664625241370362,
+          0.09921277183544311
+        ],
+        "authored_world_xyz_m": [
+          0.6664625241370362,
+          0.09921277183544311,
+          0.8155
+        ],
+        "rotation_wxyz": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "nearest_training_id": "R000002",
+        "nearest_training_distance_m": 0.016256304351815146,
+        "nearest_H_id": "H06",
+        "nearest_H_distance_m": 0.013652522873697176,
+        "nearest_HB_id": "HB09",
+        "nearest_HB_distance_m": 0.012557998417471827,
+        "rectangle_check": "PASS",
+        "known_prior_attempt_exact_match": false
+      },
+      "round": 1,
+      "base_diffusion_seed": 16345,
+      "environment_seed": 42,
+      "executed_commit": "3d98c85228821d955479730292d2b026fd1d63ed",
+      "first_accepted_close": {
+        "LEFT": {
+          "action": 120,
+          "chunk": 5,
+          "full_slot": 11
+        },
+        "RIGHT": {
+          "action": 120,
+          "chunk": 5,
+          "full_slot": 11
+        },
+        "BOTH": {
+          "action": 120,
+          "chunk": 5,
+          "full_slot": 11
+        }
+      },
+      "event_schedule": {
+        "close_action": 120,
+        "anchor": 1440,
+        "admission_start": 1549,
+        "decision": 1609,
+        "confirmation": 1610,
+        "rise_end": 2159,
+        "room_reference": 2159,
+        "room_start": 2160,
+        "score_end": 2399,
+        "total_actions": 200,
+        "admission_count": 61,
+        "rise_count": 550,
+        "room_count": 240,
+        "tail_count": 0
+      },
+      "V3C_VERDICT": "FAIL",
+      "FIRST_V3C_FAILURE_GATE": "WORLD_ROOM",
+      "SCORE_EVIDENCE_STATUS": "ESTABLISHED",
+      "PRIMARY_VERDICT_ESTABLISHED": true,
+      "PROCESS_COMPLETION": "COMPLETE",
+      "CLEANUP_STATUS": "CLEAN",
+      "rise": {
+        "status": "PASS",
+        "maximum_m": 0.05230468511581421,
+        "baseline_world_z_m": 0.8062580823898315,
+        "maximum_sample": [
+          1079,
+          1
+        ]
+      },
+      "world_room": {
+        "status": "FAIL",
+        "reference": [
+          1079,
+          1
+        ],
+        "required_samples": 240,
+        "samples": 240,
+        "maximum_displacement_m": 0.02767437470934737,
+        "maximum_rotation_deg": 0.3609530090709927,
+        "limits": {
+          "displacement_m": 0.01,
+          "rotation_deg": 5
+        },
+        "reference_world_wxyz": [
+          0.6565500497817993,
+          0.1152549460530281,
+          0.8585627675056458,
+          0.9994260668754578,
+          -0.016739552840590477,
+          0.018381010740995407,
+          -0.0230052899569273
+        ],
+        "maximum_displacement_sample": [
+          1157,
+          0
+        ],
+        "maximum_rotation_sample": [
+          1175,
+          0
+        ]
+      },
+      "separate_motion": {
+        "requested_tcp_rise_max_m": 0.06804685294628143,
+        "measured_tcp_rise_max_m": 0.05244045574931311,
+        "chicken_rise_max_m": 0.05230468511581421,
+        "frame": "robot_base_for_TCP_world_for_chicken",
+        "acceptance_authority": false
+      }
+    },
+    {
+      "allocation": "HC01_R2",
+      "position": {
+        "position_id": "HC01",
+        "draw_index_zero_based": 2,
+        "authored_xy_m": [
+          0.6694885857605405,
+          0.054859911649051615
+        ],
+        "authored_world_xyz_m": [
+          0.6694885857605405,
+          0.054859911649051615,
+          0.8155
+        ],
+        "rotation_wxyz": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "nearest_training_id": "R000054",
+        "nearest_training_distance_m": 0.01411288164485166,
+        "nearest_H_id": "H05",
+        "nearest_H_distance_m": 0.028552622643037363,
+        "nearest_HB_id": "HB07",
+        "nearest_HB_distance_m": 0.016433840882267445,
+        "rectangle_check": "PASS",
+        "known_prior_attempt_exact_match": false
+      },
+      "round": 2,
+      "base_diffusion_seed": 17345,
+      "environment_seed": 42,
+      "executed_commit": "3d98c85228821d955479730292d2b026fd1d63ed",
+      "first_accepted_close": {
+        "LEFT": {
+          "action": 120,
+          "chunk": 5,
+          "full_slot": 11
+        },
+        "RIGHT": {
+          "action": 120,
+          "chunk": 5,
+          "full_slot": 11
+        },
+        "BOTH": {
+          "action": 120,
+          "chunk": 5,
+          "full_slot": 11
+        }
+      },
+      "event_schedule": {
+        "close_action": 120,
+        "anchor": 1440,
+        "admission_start": 1549,
+        "decision": 1609,
+        "confirmation": 1610,
+        "rise_end": 2159,
+        "room_reference": 2159,
+        "room_start": 2160,
+        "score_end": 2399,
+        "total_actions": 200,
+        "admission_count": 61,
+        "rise_count": 550,
+        "room_count": 240,
+        "tail_count": 0
+      },
+      "V3C_VERDICT": "PASS",
+      "FIRST_V3C_FAILURE_GATE": null,
+      "SCORE_EVIDENCE_STATUS": "ESTABLISHED",
+      "PRIMARY_VERDICT_ESTABLISHED": true,
+      "PROCESS_COMPLETION": "COMPLETE",
+      "CLEANUP_STATUS": "CLEAN",
+      "rise": {
+        "status": "PASS",
+        "maximum_m": 0.07716333866119385,
+        "baseline_world_z_m": 0.8064597249031067,
+        "maximum_sample": [
+          1079,
+          1
+        ]
+      },
+      "world_room": {
+        "status": "PASS",
+        "reference": [
+          1079,
+          1
+        ],
+        "required_samples": 240,
+        "samples": 240,
+        "maximum_displacement_m": 0.0034766551831218896,
+        "maximum_rotation_deg": 0.25392328608492415,
+        "limits": {
+          "displacement_m": 0.01,
+          "rotation_deg": 5
+        },
+        "reference_world_wxyz": [
+          0.6606525778770447,
+          0.07322157174348831,
+          0.8836230635643005,
+          0.9994781017303467,
+          -0.019686639308929443,
+          0.01716308481991291,
+          -0.019007667899131775
+        ],
+        "maximum_displacement_sample": [
+          1184,
+          1
+        ],
+        "maximum_rotation_sample": [
+          1167,
+          1
+        ]
+      },
+      "separate_motion": {
+        "requested_tcp_rise_max_m": 0.09372207522392273,
+        "measured_tcp_rise_max_m": 0.07710441050387817,
+        "chicken_rise_max_m": 0.07716333866119385,
+        "frame": "robot_base_for_TCP_world_for_chicken",
+        "acceptance_authority": false
+      }
+    },
+    {
+      "allocation": "HC02_R2",
+      "position": {
+        "position_id": "HC02",
+        "draw_index_zero_based": 6,
+        "authored_xy_m": [
+          0.6931872929281494,
+          -0.00767338821993384
+        ],
+        "authored_world_xyz_m": [
+          0.6931872929281494,
+          -0.00767338821993384,
+          0.8155
+        ],
+        "rotation_wxyz": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "nearest_training_id": "R000062",
+        "nearest_training_distance_m": 0.04186610161772471,
+        "nearest_H_id": "H03",
+        "nearest_H_distance_m": 0.026206189609996274,
+        "nearest_HB_id": "HB07",
+        "nearest_HB_distance_m": 0.05471452446913196,
+        "rectangle_check": "PASS",
+        "known_prior_attempt_exact_match": false
+      },
+      "round": 2,
+      "base_diffusion_seed": 17345,
+      "environment_seed": 42,
+      "executed_commit": "3d98c85228821d955479730292d2b026fd1d63ed",
+      "first_accepted_close": {
+        "LEFT": {
+          "action": 132,
+          "chunk": 6,
+          "full_slot": 11
+        },
+        "RIGHT": {
+          "action": 132,
+          "chunk": 6,
+          "full_slot": 11
+        },
+        "BOTH": {
+          "action": 132,
+          "chunk": 6,
+          "full_slot": 11
+        }
+      },
+      "event_schedule": {
+        "close_action": 132,
+        "anchor": 1584,
+        "admission_start": 1693,
+        "decision": 1753,
+        "confirmation": 1754,
+        "rise_end": 2303,
+        "room_reference": 2303,
+        "room_start": 2304,
+        "score_end": 2543,
+        "total_actions": 212,
+        "admission_count": 61,
+        "rise_count": 550,
+        "room_count": 240,
+        "tail_count": 0
+      },
+      "V3C_VERDICT": "FAIL",
+      "FIRST_V3C_FAILURE_GATE": "ADMISSION",
+      "SCORE_EVIDENCE_STATUS": "ESTABLISHED",
+      "PRIMARY_VERDICT_ESTABLISHED": true,
+      "PROCESS_COMPLETION": "STOPPED",
+      "CLEANUP_STATUS": "CLEAN",
+      "rise": {
+        "status": "NOT_EVALUABLE",
+        "maximum_m": null
+      },
+      "world_room": {
+        "status": "NOT_EVALUABLE",
+        "reference": [
+          1151,
+          1
+        ],
+        "required_samples": 240,
+        "samples": 0,
+        "maximum_displacement_m": null,
+        "maximum_rotation_deg": null,
+        "limits": {
+          "displacement_m": 0.01,
+          "rotation_deg": 5
+        }
+      },
+      "separate_motion": {
+        "requested_tcp_rise_max_m": 0.0,
+        "measured_tcp_rise_max_m": null,
+        "chicken_rise_max_m": null,
+        "frame": "robot_base_for_TCP_world_for_chicken",
+        "acceptance_authority": false
+      }
+    },
+    {
+      "allocation": "HC03_R2",
+      "position": {
+        "position_id": "HC03",
+        "draw_index_zero_based": 7,
+        "authored_xy_m": [
+          0.6801895917302738,
+          0.19405871339582204
+        ],
+        "authored_world_xyz_m": [
+          0.6801895917302738,
+          0.19405871339582204,
+          0.8155
+        ],
+        "rotation_wxyz": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "nearest_training_id": "R000028",
+        "nearest_training_distance_m": 0.011100771776918943,
+        "nearest_H_id": "H02",
+        "nearest_H_distance_m": 0.02859949078264894,
+        "nearest_HB_id": "HB01",
+        "nearest_HB_distance_m": 0.010169950167503784,
+        "rectangle_check": "PASS",
+        "known_prior_attempt_exact_match": false
+      },
+      "round": 2,
+      "base_diffusion_seed": 17345,
+      "environment_seed": 42,
+      "executed_commit": "3d98c85228821d955479730292d2b026fd1d63ed",
+      "first_accepted_close": {
+        "LEFT": {
+          "action": 120,
+          "chunk": 5,
+          "full_slot": 11
+        },
+        "RIGHT": {
+          "action": 120,
+          "chunk": 5,
+          "full_slot": 11
+        },
+        "BOTH": {
+          "action": 120,
+          "chunk": 5,
+          "full_slot": 11
+        }
+      },
+      "event_schedule": {
+        "close_action": 120,
+        "anchor": 1440,
+        "admission_start": 1549,
+        "decision": 1609,
+        "confirmation": 1610,
+        "rise_end": 2159,
+        "room_reference": 2159,
+        "room_start": 2160,
+        "score_end": 2399,
+        "total_actions": 200,
+        "admission_count": 61,
+        "rise_count": 550,
+        "room_count": 240,
+        "tail_count": 0
+      },
+      "V3C_VERDICT": "PASS",
+      "FIRST_V3C_FAILURE_GATE": null,
+      "SCORE_EVIDENCE_STATUS": "ESTABLISHED",
+      "PRIMARY_VERDICT_ESTABLISHED": true,
+      "PROCESS_COMPLETION": "COMPLETE",
+      "CLEANUP_STATUS": "CLEAN",
+      "rise": {
+        "status": "PASS",
+        "maximum_m": 0.07346558570861816,
+        "baseline_world_z_m": 0.8059057593345642,
+        "maximum_sample": [
+          1079,
+          1
+        ]
+      },
+      "world_room": {
+        "status": "PASS",
+        "reference": [
+          1079,
+          1
+        ],
+        "required_samples": 240,
+        "samples": 240,
+        "maximum_displacement_m": 0.002494490896991244,
+        "maximum_rotation_deg": 0.12158816566066787,
+        "limits": {
+          "displacement_m": 0.01,
+          "rotation_deg": 5
+        },
+        "reference_world_wxyz": [
+          0.6575281620025635,
+          0.20703290402889252,
+          0.8793713450431824,
+          0.9991378784179688,
+          -0.003712977049872279,
+          0.026328621432185173,
+          0.031881704926490784
+        ],
+        "maximum_displacement_sample": [
+          1199,
+          1
+        ],
+        "maximum_rotation_sample": [
+          1169,
+          0
+        ]
+      },
+      "separate_motion": {
+        "requested_tcp_rise_max_m": 0.09265130758285522,
+        "measured_tcp_rise_max_m": 0.07328506661771694,
+        "chicken_rise_max_m": 0.07346558570861816,
+        "frame": "robot_base_for_TCP_world_for_chicken",
+        "acceptance_authority": false
+      }
+    },
+    {
+      "allocation": "HC04_R2",
+      "position": {
+        "position_id": "HC04",
+        "draw_index_zero_based": 9,
+        "authored_xy_m": [
+          0.6872869716228535,
+          0.16741404819251376
+        ],
+        "authored_world_xyz_m": [
+          0.6872869716228535,
+          0.16741404819251376,
+          0.8155
+        ],
+        "rotation_wxyz": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "nearest_training_id": "R000020",
+        "nearest_training_distance_m": 0.012107180110178967,
+        "nearest_H_id": "H02",
+        "nearest_H_distance_m": 0.02642803403598896,
+        "nearest_HB_id": "HB01",
+        "nearest_HB_distance_m": 0.03327219548563996,
+        "rectangle_check": "PASS",
+        "known_prior_attempt_exact_match": false
+      },
+      "round": 2,
+      "base_diffusion_seed": 17345,
+      "environment_seed": 42,
+      "executed_commit": "3d98c85228821d955479730292d2b026fd1d63ed",
+      "first_accepted_close": {
+        "LEFT": {
+          "action": 144,
+          "chunk": 7,
+          "full_slot": 11
+        },
+        "RIGHT": {
+          "action": 144,
+          "chunk": 7,
+          "full_slot": 11
+        },
+        "BOTH": {
+          "action": 144,
+          "chunk": 7,
+          "full_slot": 11
+        }
+      },
+      "event_schedule": {
+        "close_action": 144,
+        "anchor": 1728,
+        "admission_start": 1837,
+        "decision": 1897,
+        "confirmation": 1898,
+        "rise_end": 2447,
+        "room_reference": 2447,
+        "room_start": 2448,
+        "score_end": 2687,
+        "total_actions": 224,
+        "admission_count": 61,
+        "rise_count": 550,
+        "room_count": 240,
+        "tail_count": 0
+      },
+      "V3C_VERDICT": "PASS",
+      "FIRST_V3C_FAILURE_GATE": null,
+      "SCORE_EVIDENCE_STATUS": "ESTABLISHED",
+      "PRIMARY_VERDICT_ESTABLISHED": true,
+      "PROCESS_COMPLETION": "COMPLETE",
+      "CLEANUP_STATUS": "CLEAN",
+      "rise": {
+        "status": "PASS",
+        "maximum_m": 0.05891120433807373,
+        "baseline_world_z_m": 0.8169013857841492,
+        "maximum_sample": [
+          1189,
+          0
+        ]
+      },
+      "world_room": {
+        "status": "PASS",
+        "reference": [
+          1223,
+          1
+        ],
+        "required_samples": 240,
+        "samples": 240,
+        "maximum_displacement_m": 0.002573861548413581,
+        "maximum_rotation_deg": 0.09990178068797001,
+        "limits": {
+          "displacement_m": 0.01,
+          "rotation_deg": 5
+        },
+        "reference_world_wxyz": [
+          0.673260509967804,
+          0.19130903482437134,
+          0.875500500202179,
+          0.9989317655563354,
+          -0.03860245645046234,
+          0.025277871638536453,
+          0.002479112008586526
+        ],
+        "maximum_displacement_sample": [
+          1329,
+          0
+        ],
+        "maximum_rotation_sample": [
+          1239,
+          0
+        ]
+      },
+      "separate_motion": {
+        "requested_tcp_rise_max_m": 0.05784130096435547,
+        "measured_tcp_rise_max_m": 0.058830120184230394,
+        "chicken_rise_max_m": 0.05891120433807373,
+        "frame": "robot_base_for_TCP_world_for_chicken",
+        "acceptance_authority": false
+      }
+    },
+    {
+      "allocation": "HC05_R2",
+      "position": {
+        "position_id": "HC05",
+        "draw_index_zero_based": 16,
+        "authored_xy_m": [
+          0.6550067125612443,
+          0.009531440134910783
+        ],
+        "authored_world_xyz_m": [
+          0.6550067125612443,
+          0.009531440134910783,
+          0.8155
+        ],
+        "rotation_wxyz": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "nearest_training_id": "R000062",
+        "nearest_training_distance_m": 0.015536474533094393,
+        "nearest_H_id": "H03",
+        "nearest_H_distance_m": 0.016254449244906426,
+        "nearest_HB_id": "HB07",
+        "nearest_HB_distance_m": 0.03115708652569956,
+        "rectangle_check": "PASS",
+        "known_prior_attempt_exact_match": false
+      },
+      "round": 2,
+      "base_diffusion_seed": 17345,
+      "environment_seed": 42,
+      "executed_commit": "3d98c85228821d955479730292d2b026fd1d63ed",
+      "first_accepted_close": {
+        "LEFT": {
+          "action": 108,
+          "chunk": 4,
+          "full_slot": 11
+        },
+        "RIGHT": {
+          "action": 108,
+          "chunk": 4,
+          "full_slot": 11
+        },
+        "BOTH": {
+          "action": 108,
+          "chunk": 4,
+          "full_slot": 11
+        }
+      },
+      "event_schedule": {
+        "close_action": 108,
+        "anchor": 1296,
+        "admission_start": 1405,
+        "decision": 1465,
+        "confirmation": 1466,
+        "rise_end": 2015,
+        "room_reference": 2015,
+        "room_start": 2016,
+        "score_end": 2255,
+        "total_actions": 200,
+        "admission_count": 61,
+        "rise_count": 550,
+        "room_count": 240,
+        "tail_count": 144
+      },
+      "V3C_VERDICT": "PASS",
+      "FIRST_V3C_FAILURE_GATE": null,
+      "SCORE_EVIDENCE_STATUS": "ESTABLISHED",
+      "PRIMARY_VERDICT_ESTABLISHED": true,
+      "PROCESS_COMPLETION": "COMPLETE",
+      "CLEANUP_STATUS": "CLEAN",
+      "rise": {
+        "status": "PASS",
+        "maximum_m": 0.07843887805938721,
+        "baseline_world_z_m": 0.8055158853530884,
+        "maximum_sample": [
+          1007,
+          1
+        ]
+      },
+      "world_room": {
+        "status": "PASS",
+        "reference": [
+          1007,
+          1
+        ],
+        "required_samples": 240,
+        "samples": 240,
+        "maximum_displacement_m": 0.0025659126935545905,
+        "maximum_rotation_deg": 0.051004540117820754,
+        "limits": {
+          "displacement_m": 0.01,
+          "rotation_deg": 5
+        },
+        "reference_world_wxyz": [
+          0.6471601128578186,
+          0.0166959036141634,
+          0.8839547634124756,
+          0.999675989151001,
+          1.4097037819738034e-05,
+          0.01970595307648182,
+          -0.01611241139471531
+        ],
+        "maximum_displacement_sample": [
+          1124,
+          1
+        ],
+        "maximum_rotation_sample": [
+          1095,
+          0
+        ]
+      },
+      "separate_motion": {
+        "requested_tcp_rise_max_m": 0.08196356147527695,
+        "measured_tcp_rise_max_m": 0.07711857984656623,
+        "chicken_rise_max_m": 0.07843887805938721,
+        "frame": "robot_base_for_TCP_world_for_chicken",
+        "acceptance_authority": false
+      }
+    },
+    {
+      "allocation": "HC06_R2",
+      "position": {
+        "position_id": "HC06",
+        "draw_index_zero_based": 19,
+        "authored_xy_m": [
+          0.6608007853866696,
+          0.2914155397573648
+        ],
+        "authored_world_xyz_m": [
+          0.6608007853866696,
+          0.2914155397573648,
+          0.8155
+        ],
+        "rotation_wxyz": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "nearest_training_id": "R000045",
+        "nearest_training_distance_m": 0.017491104539272884,
+        "nearest_H_id": "H10",
+        "nearest_H_distance_m": 0.04200050419589271,
+        "nearest_HB_id": "HB04",
+        "nearest_HB_distance_m": 0.03534862564511321,
+        "rectangle_check": "PASS",
+        "known_prior_attempt_exact_match": false
+      },
+      "round": 2,
+      "base_diffusion_seed": 17345,
+      "environment_seed": 42,
+      "executed_commit": "3d98c85228821d955479730292d2b026fd1d63ed",
+      "first_accepted_close": {
+        "LEFT": null,
+        "RIGHT": null,
+        "BOTH": null
+      },
+      "event_schedule": null,
+      "V3C_VERDICT": "FAIL",
+      "FIRST_V3C_FAILURE_GATE": "ADMISSION_NO_ANCHOR",
+      "SCORE_EVIDENCE_STATUS": "ESTABLISHED",
+      "PRIMARY_VERDICT_ESTABLISHED": true,
+      "PROCESS_COMPLETION": "COMPLETE",
+      "CLEANUP_STATUS": "CLEAN",
+      "rise": {},
+      "world_room": {},
+      "separate_motion": {
+        "requested_tcp_rise_max_m": null,
+        "measured_tcp_rise_max_m": null,
+        "chicken_rise_max_m": null,
+        "frame": "robot_base_for_TCP_world_for_chicken",
+        "acceptance_authority": false
+      }
+    },
+    {
+      "allocation": "HC07_R2",
+      "position": {
+        "position_id": "HC07",
+        "draw_index_zero_based": 28,
+        "authored_xy_m": [
+          0.6586981621724224,
+          0.00984905763558629
+        ],
+        "authored_world_xyz_m": [
+          0.6586981621724224,
+          0.00984905763558629,
+          0.8155
+        ],
+        "rotation_wxyz": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "nearest_training_id": "R000062",
+        "nearest_training_distance_m": 0.017074148033379453,
+        "nearest_H_id": "H03",
+        "nearest_H_distance_m": 0.01275935822740417,
+        "nearest_HB_id": "HB07",
+        "nearest_HB_distance_m": 0.02988871846565626,
+        "rectangle_check": "PASS",
+        "known_prior_attempt_exact_match": false
+      },
+      "round": 2,
+      "base_diffusion_seed": 17345,
+      "environment_seed": 42,
+      "executed_commit": "3d98c85228821d955479730292d2b026fd1d63ed",
+      "first_accepted_close": {
+        "LEFT": {
+          "action": 120,
+          "chunk": 5,
+          "full_slot": 11
+        },
+        "RIGHT": {
+          "action": 120,
+          "chunk": 5,
+          "full_slot": 11
+        },
+        "BOTH": {
+          "action": 120,
+          "chunk": 5,
+          "full_slot": 11
+        }
+      },
+      "event_schedule": {
+        "close_action": 120,
+        "anchor": 1440,
+        "admission_start": 1549,
+        "decision": 1609,
+        "confirmation": 1610,
+        "rise_end": 2159,
+        "room_reference": 2159,
+        "room_start": 2160,
+        "score_end": 2399,
+        "total_actions": 200,
+        "admission_count": 61,
+        "rise_count": 550,
+        "room_count": 240,
+        "tail_count": 0
+      },
+      "V3C_VERDICT": "PASS",
+      "FIRST_V3C_FAILURE_GATE": null,
+      "SCORE_EVIDENCE_STATUS": "ESTABLISHED",
+      "PRIMARY_VERDICT_ESTABLISHED": true,
+      "PROCESS_COMPLETION": "COMPLETE",
+      "CLEANUP_STATUS": "CLEAN",
+      "rise": {
+        "status": "PASS",
+        "maximum_m": 0.07835185527801514,
+        "baseline_world_z_m": 0.8071637153625488,
+        "maximum_sample": [
+          1051,
+          1
+        ]
+      },
+      "world_room": {
+        "status": "PASS",
+        "reference": [
+          1079,
+          1
+        ],
+        "required_samples": 240,
+        "samples": 240,
+        "maximum_displacement_m": 0.003475052972787117,
+        "maximum_rotation_deg": 0.09123017857405692,
+        "limits": {
+          "displacement_m": 0.01,
+          "rotation_deg": 5
+        },
+        "reference_world_wxyz": [
+          0.6477070450782776,
+          0.0346069261431694,
+          0.8850740194320679,
+          0.9992038607597351,
+          -0.0263188648968935,
+          0.015048990026116371,
+          0.025932583957910538
+        ],
+        "maximum_displacement_sample": [
+          1186,
+          0
+        ],
+        "maximum_rotation_sample": [
+          1114,
+          1
+        ]
+      },
+      "separate_motion": {
+        "requested_tcp_rise_max_m": 0.08070285618305206,
+        "measured_tcp_rise_max_m": 0.07806013166192793,
+        "chicken_rise_max_m": 0.07835185527801514,
+        "frame": "robot_base_for_TCP_world_for_chicken",
+        "acceptance_authority": false
+      }
+    },
+    {
+      "allocation": "HC08_R2",
+      "position": {
+        "position_id": "HC08",
+        "draw_index_zero_based": 30,
+        "authored_xy_m": [
+          0.6732028231159473,
+          0.08678128744154463
+        ],
+        "authored_world_xyz_m": [
+          0.6732028231159473,
+          0.08678128744154463,
+          0.8155
+        ],
+        "rotation_wxyz": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "nearest_training_id": "R000067",
+        "nearest_training_distance_m": 0.017570604239091056,
+        "nearest_H_id": "H06",
+        "nearest_H_distance_m": 0.018414805053139114,
+        "nearest_HB_id": "HB10",
+        "nearest_HB_distance_m": 0.013135063314468962,
+        "rectangle_check": "PASS",
+        "known_prior_attempt_exact_match": false
+      },
+      "round": 2,
+      "base_diffusion_seed": 17345,
+      "environment_seed": 42,
+      "executed_commit": "3d98c85228821d955479730292d2b026fd1d63ed",
+      "first_accepted_close": {
+        "LEFT": {
+          "action": 120,
+          "chunk": 5,
+          "full_slot": 11
+        },
+        "RIGHT": {
+          "action": 120,
+          "chunk": 5,
+          "full_slot": 11
+        },
+        "BOTH": {
+          "action": 120,
+          "chunk": 5,
+          "full_slot": 11
+        }
+      },
+      "event_schedule": {
+        "close_action": 120,
+        "anchor": 1440,
+        "admission_start": 1549,
+        "decision": 1609,
+        "confirmation": 1610,
+        "rise_end": 2159,
+        "room_reference": 2159,
+        "room_start": 2160,
+        "score_end": 2399,
+        "total_actions": 200,
+        "admission_count": 61,
+        "rise_count": 550,
+        "room_count": 240,
+        "tail_count": 0
+      },
+      "V3C_VERDICT": "FAIL",
+      "FIRST_V3C_FAILURE_GATE": "RISE",
+      "SCORE_EVIDENCE_STATUS": "ESTABLISHED",
+      "PRIMARY_VERDICT_ESTABLISHED": true,
+      "PROCESS_COMPLETION": "COMPLETE",
+      "CLEANUP_STATUS": "CLEAN",
+      "rise": {
+        "status": "FAIL",
+        "maximum_m": 0.021084129810333252,
+        "baseline_world_z_m": 0.8068687915802002,
+        "maximum_sample": [
+          1079,
+          1
+        ]
+      },
+      "world_room": {
+        "status": "FAIL",
+        "reference": [
+          1079,
+          1
+        ],
+        "required_samples": 240,
+        "samples": 240,
+        "maximum_displacement_m": 0.046961649388157584,
+        "maximum_rotation_deg": 0.07974672967264369,
+        "limits": {
+          "displacement_m": 0.01,
+          "rotation_deg": 5
+        },
+        "reference_world_wxyz": [
+          0.6569740772247314,
+          0.1022237092256546,
+          0.8279529213905334,
+          0.9995025992393494,
+          -0.02531476877629757,
+          0.01814192533493042,
+          0.0049591585993766785
+        ],
+        "maximum_displacement_sample": [
+          1199,
+          1
+        ],
+        "maximum_rotation_sample": [
+          1172,
+          1
+        ]
+      },
+      "separate_motion": {
+        "requested_tcp_rise_max_m": 0.03779573738574982,
+        "measured_tcp_rise_max_m": 0.02111592092081649,
+        "chicken_rise_max_m": 0.021084129810333252,
+        "frame": "robot_base_for_TCP_world_for_chicken",
+        "acceptance_authority": false
+      }
+    },
+    {
+      "allocation": "HC09_R2",
+      "position": {
+        "position_id": "HC09",
+        "draw_index_zero_based": 34,
+        "authored_xy_m": [
+          0.6696524297800783,
+          0.09606626723803434
+        ],
+        "authored_world_xyz_m": [
+          0.6696524297800783,
+          0.09606626723803434,
+          0.8155
+        ],
+        "rotation_wxyz": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "nearest_training_id": "R000047",
+        "nearest_training_distance_m": 0.016363697396237376,
+        "nearest_H_id": "H06",
+        "nearest_H_distance_m": 0.01508286637266647,
+        "nearest_HB_id": "HB09",
+        "nearest_HB_distance_m": 0.014704357509744687,
+        "rectangle_check": "PASS",
+        "known_prior_attempt_exact_match": false
+      },
+      "round": 2,
+      "base_diffusion_seed": 17345,
+      "environment_seed": 42,
+      "executed_commit": "3d98c85228821d955479730292d2b026fd1d63ed",
+      "first_accepted_close": {
+        "LEFT": {
+          "action": 120,
+          "chunk": 5,
+          "full_slot": 11
+        },
+        "RIGHT": {
+          "action": 120,
+          "chunk": 5,
+          "full_slot": 11
+        },
+        "BOTH": {
+          "action": 120,
+          "chunk": 5,
+          "full_slot": 11
+        }
+      },
+      "event_schedule": {
+        "close_action": 120,
+        "anchor": 1440,
+        "admission_start": 1549,
+        "decision": 1609,
+        "confirmation": 1610,
+        "rise_end": 2159,
+        "room_reference": 2159,
+        "room_start": 2160,
+        "score_end": 2399,
+        "total_actions": 200,
+        "admission_count": 61,
+        "rise_count": 550,
+        "room_count": 240,
+        "tail_count": 0
+      },
+      "V3C_VERDICT": "FAIL",
+      "FIRST_V3C_FAILURE_GATE": "ADMISSION",
+      "SCORE_EVIDENCE_STATUS": "ESTABLISHED",
+      "PRIMARY_VERDICT_ESTABLISHED": true,
+      "PROCESS_COMPLETION": "STOPPED",
+      "CLEANUP_STATUS": "CLEAN",
+      "rise": {
+        "status": "NOT_EVALUABLE",
+        "maximum_m": null
+      },
+      "world_room": {
+        "status": "NOT_EVALUABLE",
+        "reference": [
+          1079,
+          1
+        ],
+        "required_samples": 240,
+        "samples": 0,
+        "maximum_displacement_m": null,
+        "maximum_rotation_deg": null,
+        "limits": {
+          "displacement_m": 0.01,
+          "rotation_deg": 5
+        }
+      },
+      "separate_motion": {
+        "requested_tcp_rise_max_m": 0.0,
+        "measured_tcp_rise_max_m": null,
+        "chicken_rise_max_m": null,
+        "frame": "robot_base_for_TCP_world_for_chicken",
+        "acceptance_authority": false
+      }
+    },
+    {
+      "allocation": "HC10_R2",
+      "position": {
+        "position_id": "HC10",
+        "draw_index_zero_based": 36,
+        "authored_xy_m": [
+          0.6664625241370362,
+          0.09921277183544311
+        ],
+        "authored_world_xyz_m": [
+          0.6664625241370362,
+          0.09921277183544311,
+          0.8155
+        ],
+        "rotation_wxyz": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "nearest_training_id": "R000002",
+        "nearest_training_distance_m": 0.016256304351815146,
+        "nearest_H_id": "H06",
+        "nearest_H_distance_m": 0.013652522873697176,
+        "nearest_HB_id": "HB09",
+        "nearest_HB_distance_m": 0.012557998417471827,
+        "rectangle_check": "PASS",
+        "known_prior_attempt_exact_match": false
+      },
+      "round": 2,
+      "base_diffusion_seed": 17345,
+      "environment_seed": 42,
+      "executed_commit": "3d98c85228821d955479730292d2b026fd1d63ed",
+      "first_accepted_close": {
+        "LEFT": {
+          "action": 144,
+          "chunk": 7,
+          "full_slot": 11
+        },
+        "RIGHT": {
+          "action": 144,
+          "chunk": 7,
+          "full_slot": 11
+        },
+        "BOTH": {
+          "action": 144,
+          "chunk": 7,
+          "full_slot": 11
+        }
+      },
+      "event_schedule": {
+        "close_action": 144,
+        "anchor": 1728,
+        "admission_start": 1837,
+        "decision": 1897,
+        "confirmation": 1898,
+        "rise_end": 2447,
+        "room_reference": 2447,
+        "room_start": 2448,
+        "score_end": 2687,
+        "total_actions": 224,
+        "admission_count": 61,
+        "rise_count": 550,
+        "room_count": 240,
+        "tail_count": 0
+      },
+      "V3C_VERDICT": "PASS",
+      "FIRST_V3C_FAILURE_GATE": null,
+      "SCORE_EVIDENCE_STATUS": "ESTABLISHED",
+      "PRIMARY_VERDICT_ESTABLISHED": true,
+      "PROCESS_COMPLETION": "COMPLETE",
+      "CLEANUP_STATUS": "CLEAN",
+      "rise": {
+        "status": "PASS",
+        "maximum_m": 0.08001828193664551,
+        "baseline_world_z_m": 0.8062429428100586,
+        "maximum_sample": [
+          1197,
+          1
+        ]
+      },
+      "world_room": {
+        "status": "PASS",
+        "reference": [
+          1223,
+          1
+        ],
+        "required_samples": 240,
+        "samples": 240,
+        "maximum_displacement_m": 0.002533007379769419,
+        "maximum_rotation_deg": 0.09325661510934605,
+        "limits": {
+          "displacement_m": 0.01,
+          "rotation_deg": 5
+        },
+        "reference_world_wxyz": [
+          0.6526604294776917,
+          0.13154184818267822,
+          0.8858301639556885,
+          0.9996926188468933,
+          -0.012868573889136314,
+          0.01750812865793705,
+          0.0119352200999856
+        ],
+        "maximum_displacement_sample": [
+          1327,
+          0
+        ],
+        "maximum_rotation_sample": [
+          1238,
+          1
+        ]
+      },
+      "separate_motion": {
+        "requested_tcp_rise_max_m": 0.08136546611785889,
+        "measured_tcp_rise_max_m": 0.07991301384456762,
+        "chicken_rise_max_m": 0.08001828193664551,
+        "frame": "robot_base_for_TCP_world_for_chicken",
+        "acceptance_authority": false
+      }
+    }
+  ],
+  "readout_method": "Selected fields copied from the saved RESULT.json; no new scoring or runtime."
+}

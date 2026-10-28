@@ -25,7 +25,7 @@ Please refer to the [end-to-end tutorial](docs/TUTORIAL.md).
 
 The policy achieved a **60% success rate on positions excluded from training**,
 with each position evaluated using three diffusion seeds. This is a simulator
-learning-pipeline result, not an unassisted physical grasp or a hardware result.
+learning-pipeline result, not a hardware result.
 
 ### Demonstration videos
 
@@ -58,6 +58,12 @@ Each video shows LEFT, HAND and RIGHT views, in that order.
 - **Actions:** A target tool position `(x, y, z)` in the robot's base frame and independent open/close commands for the two jaws. Wrist orientation stays fixed.
 - **Camera views:** LEFT_HD and RIGHT_HD record the two fixed views at 1280 × 960. HAND moves with the gripper and is used only for video, not as a policy input.
 
+## Assets
+
+- Chicken: Bidhan Ghimire.
+- Gripper design CAD: [ChicGrasp](https://github.com/AmirrezaDavar/ChicGrasp).
+- UR10e robot and ground assets: [NVIDIA Isaac Sim](https://docs.isaacsim.omniverse.nvidia.com/5.1.0/assets/usd_assets_overview.html).
+
 ## Citation
 
 This simulation work is by **Bidhan Ghimire**. Please cite the original ChicGrasp
@@ -67,8 +73,4 @@ Amirreza Davar, Zhengtong Xu, Siavash Mahmoudi, Pouya Sohrabipour, Chaitanya Pal
 Yu She, Wan Shou, Philip Glen Crandall, Dongyi Wang, *Advanced Robotics Research*
 2026, 0, e202500149. [https://doi.org/10.1002/adrr.202500149](https://doi.org/10.1002/adrr.202500149)
 
-## Assets
 
-- Chicken: Bidhan Ghimire.
-- Gripper design CAD: [ChicGrasp](https://github.com/AmirrezaDavar/ChicGrasp).
-- UR10e robot and ground assets: [NVIDIA Isaac Sim](https://docs.isaacsim.omniverse.nvidia.com/5.1.0/assets/usd_assets_overview.html).

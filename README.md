@@ -31,13 +31,13 @@ learning-pipeline result, not a hardware result.
 
 Each video shows LEFT, HAND and RIGHT views, in that order.
 
-[![HC01_R1 demonstration](docs/media/HC01_R1_poster.jpg)](docs/media/HC01_R1.mp4)
+**HC01_R1 (21.2 seconds)**
 
-[Watch HC01_R1 (21.2 seconds)](docs/media/HC01_R1.mp4)
+https://github.com/user-attachments/assets/8142012d-23fd-41cc-8225-2cea0b9218c3
 
-[![HC04_R1 demonstration](docs/media/HC04_R1_poster.jpg)](docs/media/HC04_R1.mp4)
+**HC04_R1 (20 seconds)**
 
-[Watch HC04_R1 (20 seconds)](docs/media/HC04_R1.mp4)
+https://github.com/user-attachments/assets/f7c12254-0173-474b-b048-ee52ea79a2a6
 
 ## Main files
 
